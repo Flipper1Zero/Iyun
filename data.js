@@ -1,4 +1,4 @@
-// Iyun Markup — sample text data
+// Sample text data for the markup demo page (markup.html).
 // Bereishit (Genesis) 1:1–5. Each word is a token so it can be individually marked.
 // `h` = pointed Hebrew (nikud shown/stripped via the Control Center), `en` = gloss.
 

@@ -71,7 +71,7 @@ To deploy from your own machine:
 
 For the optional AI, run `npx wrangler secret put OPENAI_API_KEY`. For moderation, set the secret `ADMIN_KEY`. Then call `GET /api/admin/reports` with `Authorization: Bearer <key>`.
 
-`.github/workflows/ci.yml` runs the checks above. `deploy.yml` builds the library, verifies it, deploys the Worker, uploads the site, and checks the live host. It needs the repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The text library is never committed, so each deploy rebuilds it and picks up new titles on its own.
+`.github/workflows/ci.yml` runs the checks above. `deploy.yml` builds the library, verifies it, deploys the Worker, uploads the site, and checks the live host. It only runs when you start it by hand from the Actions tab. It needs the repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The text library is never committed, so each deploy rebuilds it and picks up new titles on its own.
 
 Cloudflare may add its own Web Analytics beacon if you switch it on for your zone. That is not part of our code. The free tiers apply, and this build is about 300 MB compressed in R2. Presence on Workers is best-effort. A closed tab can look online until the next keep-alive.
 

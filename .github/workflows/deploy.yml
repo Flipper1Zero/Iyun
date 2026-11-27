@@ -1,12 +1,11 @@
 name: Deploy
 
-# Builds the text library and deploys the Worker and site to Cloudflare on every push to main.
+# Builds the text library and deploys the Worker and site to Cloudflare. It only runs when
+# someone starts it by hand (Actions tab, then Deploy, then Run workflow), never on a push.
 # Repository secrets: CLOUDFLARE_API_TOKEN (needs edit rights for Workers, D1 and R2)
 # and CLOUDFLARE_ACCOUNT_ID.
 # Optional repository variable: SITE_URL (defaults to https://orbitdodge.com).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 concurrency:
@@ -62,6 +61,6 @@ jobs:
           UPLOAD_KEY="$KEY" npm run upload
       - name: Close the upload route again
         if: always()
-        run: npx wrangler secret delete UPLOAD_KEY --force || true
+        run: echo y | npx wrangler secret delete UPLOAD_KEY || true
       - name: Verify the deployed host serves every file
         run: node scripts/verify-library.mjs --base="$SITE_URL"
