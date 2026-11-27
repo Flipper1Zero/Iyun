@@ -1,0 +1,13 @@
+annotations/
+vendor/
+fonts/
+texts/
+dist/
+docs/screenshots/
+node_modules/
+package-lock.json
+daf-data.js
+catalog.js
+catalog-directories.js
+sitemap.xml
+*.svg

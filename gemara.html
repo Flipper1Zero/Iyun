@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daf reader · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="Every Bavli tractate in the traditional Vilna page layout: Gemara with Rashi and Tosafot, synced English where available, search, bookmarks and notes. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/gemara.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Daf reader · Iyun" />
+    <meta
+      property="og:description"
+      content="Every Bavli tractate in the traditional Vilna page layout: Gemara with Rashi and Tosafot, synced English where available, search, bookmarks and notes. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/gemara.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daf reader · Iyun" />
+    <meta
+      name="twitter:description"
+      content="Every Bavli tractate in the traditional Vilna page layout: Gemara with Rashi and Tosafot, synced English where available, search, bookmarks and notes. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="gemara.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="reader-library.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#dafGrid">Skip to the daf</a>
+    <!-- App chrome: white bar, centered wordmark -->
+    <header class="topbar">
+      <button
+        class="logo"
+        id="readerMenuToggle"
+        type="button"
+        aria-label="Open book browser"
+        aria-expanded="false"
+      >
+        <svg class="logo-mark" viewBox="0 0 28 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <line x1="3" y1="4" x2="3" y2="20" />
+            <line x1="9" y1="4" x2="9" y2="20" />
+            <line x1="15" y1="4" x2="15" y2="20" />
+            <line x1="20" y1="4" x2="26" y2="20" />
+          </g>
+        </svg>
+      </button>
+      <a class="wordmark" href="index.html">Iyun</a>
+      <div class="top-right">
+        <a
+          class="reader-account"
+          href="index.html#signin"
+          data-account-link
+          data-cloud-only
+          data-i18n="nav.signin"
+          >Sign in</a
+        ><span class="reader-divider" data-cloud-only>|</span
+        ><a class="reader-account" href="index.html#signup" data-cloud-only data-i18n="nav.signup"
+          >Sign up</a
+        >
+        <button
+          class="top-ico"
+          id="searchBtn"
+          title="Search the tractate (⌘/Ctrl-K)"
+          aria-label="Search"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <line x1="21" y1="21" x2="16.5" y2="16.5" />
+          </svg>
+        </button>
+        <button class="top-ico" id="bookmarkBtn" title="Bookmark this daf" aria-label="Bookmark">
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M6 3h12v18l-6-4-6 4z" />
+          </svg>
+        </button>
+        <button
+          class="top-ico"
+          id="shareDaf"
+          title="Copy a link to this daf"
+          aria-label="Copy a link to this daf"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M12 3v12M7 8l5-5 5 5M5 14v6h14v-6" />
+          </svg>
+        </button>
+        <button
+          class="reader-globe"
+          data-lang-toggle
+          data-lang-icon
+          id="langToggle"
+          type="button"
+          title="עברית / English"
+          aria-label="Switch interface language"
+        >
+          ◎
+        </button>
+        <button
+          class="icon-btn"
+          id="controlToggle"
+          aria-expanded="false"
+          aria-controls="controlCenter"
+          title="Control Center"
+        >
+          ⚙
+        </button>
+      </div>
+    </header>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay" hidden>
+      <div class="search-box">
+        <div class="search-top">
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <line x1="21" y1="21" x2="16.5" y2="16.5" />
+          </svg>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search Berakhot: Gemara, Rashi, Tosafot…"
+            autocomplete="off"
+          />
+          <button class="search-close" id="searchClose" aria-label="Close">Esc</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <main class="reader">
+        <!-- page nav rail -->
+        <div class="page-rail">
+          <button class="rail-chev" id="railPrev" title="Previous amud">▲</button>
+          <span class="rail-daf" id="railDaf">2a</span>
+          <button class="rail-chev" id="railNext" title="Next amud">▼</button>
+        </div>
+
+        <div class="daf" id="daf">
+          <div class="daf-head">
+            <span class="dh-side dh-amud" id="headAmud"></span>
+            <span class="dh-running" id="headRunning"></span>
+            <span class="dh-side" id="headDaf"></span>
+          </div>
+
+          <div class="daf-grid" id="dafGrid">
+            <aside
+              class="col col-margin col-masoret"
+              id="colMasoret"
+              aria-label="Masoret HaShas"
+            ></aside>
+            <section class="col col-commentary" id="colRashi" aria-label="Rashi"></section>
+            <section class="col col-main" id="colMain" aria-label="Gemara"></section>
+            <section class="col col-commentary" id="colTosafot" aria-label="Tosafot"></section>
+            <aside class="col col-margin col-ein" id="colEin" aria-label="Ein Mishpat"></aside>
+          </div>
+
+          <div class="daf-bottom" id="dafBottom" dir="rtl"></div>
+        </div>
+
+        <!-- floating annotate button -->
+        <button class="fab-annotate" id="fabAnnotate" title="Markup">A</button>
+        <button class="golem-fab" id="golemFab" type="button" title="Golem" aria-label="Golem">
+          <svg
+            viewBox="0 0 28 28"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            aria-hidden="true"
+          >
+            <circle cx="14" cy="14" r="11" />
+            <path d="M8 20 14 6l6 14M10.5 16h7" />
+          </svg>
+        </button>
+        <button
+          class="fab-apps"
+          id="appsToggle"
+          title="Apps"
+          aria-label="Apps"
+          aria-expanded="false"
+          aria-controls="appsDrawer"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <rect x="3" y="3" width="7" height="7" rx="1.5" />
+            <rect x="14" y="3" width="7" height="7" rx="1.5" />
+            <rect x="3" y="14" width="7" height="7" rx="1.5" />
+            <rect x="14" y="14" width="7" height="7" rx="1.5" />
+          </svg>
+        </button>
+      </main>
+
+      <!-- Control Center (hidden by default, opened with the gear) -->
+      <aside class="control" id="controlCenter" aria-label="Control Center">
+        <section class="ctl-block">
+          <h2 class="ctl-title">Daf</h2>
+          <select
+            id="tractatePicker"
+            aria-label="Choose tractate"
+            style="width: 100%; margin-bottom: 8px"
+          ></select>
+          <div class="daf-nav">
+            <button class="nav-btn" id="navPrev" title="Previous">‹ Prev</button>
+            <select id="dafPicker" aria-label="Choose daf"></select>
+            <button class="nav-btn" id="navNext" title="Next">Next ›</button>
+          </div>
+          <p class="hint" id="dafHint">Berakhot: more dapim load from the same open source.</p>
+          <p class="hint" id="annotationHint" aria-live="polite"></p>
+          <button class="nav-btn" id="exportMarkup" type="button">
+            Download this daf’s markup draft
+          </button>
+        </section>
+        <section class="ctl-block">
+          <h2 class="ctl-title">Commentaries</h2>
+          <label class="row switch-row"
+            ><span>Rashi</span><input type="checkbox" id="showRashi" checked
+          /></label>
+          <label class="row switch-row"
+            ><span>Tosafot</span><input type="checkbox" id="showTosafot" checked
+          /></label>
+          <p class="hint">Click a Rashi or Tosafot comment to see its translation.</p>
+        </section>
+        <section class="ctl-block">
+          <h2 class="ctl-title">Text</h2>
+          <label class="row switch-row"
+            ><span>Nikud on main text</span><input type="checkbox" id="nikud" checked
+          /></label>
+          <label class="row"
+            ><span>Main size</span
+            ><input type="range" id="mainSize" min="18" max="34" step="1" value="24"
+          /></label>
+          <label class="row"
+            ><span>Commentary size</span
+            ><input type="range" id="commSize" min="12" max="22" step="1" value="15"
+          /></label>
+          <label class="row"
+            ><span>Theme</span>
+            <select id="theme">
+              <option value="light">Day</option>
+              <option value="sepia">Sepia</option>
+              <option value="night">Night</option>
+            </select>
+          </label>
+        </section>
+        <section class="ctl-block">
+          <h2 class="ctl-title">Bookmarks</h2>
+          <div class="bm-list" id="bmList"></div>
+        </section>
+        <section class="ctl-block">
+          <h2 class="ctl-title">Notes (this daf)</h2>
+          <textarea
+            id="notes"
+            class="notes"
+            rows="4"
+            placeholder="Your private notes on this daf…"
+          ></textarea>
+        </section>
+        <section class="ctl-block ctl-note">
+          <p>
+            <strong>Shortcuts:</strong> <kbd>←</kbd>/<kbd>→</kbd> step translation ·
+            <kbd>[</kbd>/<kbd>]</kbd> prev/next daf · <kbd>/</kbd> search · <kbd>b</kbd> bookmark
+          </p>
+        </section>
+      </aside>
+    </div>
+
+    <!-- Phrase translation strip -->
+    <div class="xlation" id="xlation">
+      <button class="xl-chev" id="xlPrev" aria-label="Previous phrase">‹</button>
+      <div class="xl-text" id="xlText"></div>
+      <button
+        class="xl-expand"
+        id="xlExpand"
+        type="button"
+        aria-label="Expand translation"
+        aria-expanded="false"
+        hidden
+      >
+        Expand
+      </button>
+      <button class="xl-chev" id="xlNext" aria-label="Next phrase">›</button>
+    </div>
+
+    <!-- Markup toolbar (Shakla v'Tarya) -->
+    <div class="markbar" id="markbar">
+      <div class="mb-modes" id="mbModes" role="group" aria-label="Scope">
+        <button data-mode="all" class="active">All</button>
+        <button data-mode="single">Single</button>
+        <button data-mode="multiple">Multiple</button>
+        <button class="mb-clear" id="mbClear" type="button" hidden>Clear</button>
+      </div>
+      <div class="mb-cats" id="mbCats"></div>
+      <div class="mb-right">
+        <span class="mb-name" id="mbName"></span>
+        <button class="mb-close" id="mbClose" title="Close">✕</button>
+      </div>
+    </div>
+
+    <!-- The live reader's compact settings tray and app launcher. -->
+    <button
+      class="quick-toggle"
+      id="quickToggle"
+      aria-label="Quick settings"
+      aria-expanded="false"
+      aria-controls="quickSettings"
+    >
+      ⌃
+    </button>
+    <div class="quick-settings" id="quickSettings" hidden>
+      <div class="qs-group">
+        <span>Page Display</span>
+        <div>
+          <button id="qsSmaller" title="Decrease page size">−</button
+          ><button id="qsLarger" title="Increase page size">+</button>
+          <button id="qsDafView" class="active">Daf</button><button id="qsFullView">Full</button>
+        </div>
+      </div>
+      <div class="qs-group">
+        <span>Translation &amp; Explanation</span>
+        <div>
+          <button id="qsTextSmaller" title="Decrease translation size">A−</button
+          ><button id="qsTextLarger" title="Increase translation size">A+</button>
+          <button id="qsEnglish" class="active">En</button><button id="qsHebrew">He</button>
+        </div>
+      </div>
+      <div class="qs-group">
+        <span>Navigation</span>
+        <div>
+          <button id="qsWords">Words</button><button id="qsPhrases" class="active">Phrases</button
+          ><button id="qsMarkup">Markup</button>
+        </div>
+      </div>
+      <div class="qs-group">
+        <span>Fonts &amp; Symbols</span>
+        <div>
+          <button id="qsRashi" class="active">Rashi</button><button id="qsVowels">Nikud</button>
+        </div>
+      </div>
+      <div class="qs-group qs-more">
+        <span>More</span>
+        <div>
+          <button id="qsBookmark">Bookmark</button><button id="qsShare">Share</button
+          ><button id="qsControl">Controls</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="apps-shade" id="appsShade" hidden></div>
+    <aside class="apps-drawer" id="appsDrawer" aria-label="Apps" hidden>
+      <h2>Apps <button id="appsClose" aria-label="Close apps">✕</button></h2>
+      <div id="appsList"></div>
+    </aside>
+    <aside class="tool-panel" id="toolPanel" aria-label="Study tool" hidden>
+      <h2><span id="toolTitle"></span><button id="toolClose" aria-label="Close tool">✕</button></h2>
+      <div id="toolContent"></div>
+    </aside>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <footer class="site-footer">
+      <span
+        >Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open
+        sources.</span
+      >
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <script src="catalog.js"></script>
+    <script src="catalog-directories.js"></script>
+    <script src="library.js"></script>
+    <script src="i18n.js"></script>
+    <script src="reader-library.js"></script>
+    <script src="cloud.js"></script>
+    <script src="daf-loader.js"></script>
+    <script src="pwa.js"></script>
+    <script>
+      // Copy a link to the current daf (works for every tractate).
+      document.getElementById('shareDaf').addEventListener('click', function () {
+        var d = window.IYUN_DAF_NOW && window.IYUN_DAF_NOW();
+        var u = new URL(location.href);
+        u.search = '';
+        if (d) {
+          u.searchParams.set('tractate', d.name);
+          u.searchParams.set('daf', d.daf);
+        }
+        var link = u.toString(),
+          t = document.getElementById('toast');
+        function say(m) {
+          t.textContent = m;
+          t.classList.add('show');
+          setTimeout(function () {
+            t.classList.remove('show');
+          }, 2200);
+        }
+        (navigator.clipboard ? navigator.clipboard.writeText(link) : Promise.reject()).then(
+          function () {
+            say('Link copied');
+          },
+          function () {
+            say(link);
+          }
+        );
+      });
+      document.getElementById('qsShare').addEventListener('click', function () {
+        document.getElementById('shareDaf').click();
+      });
+    </script>
+  </body>
+</html>

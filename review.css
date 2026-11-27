@@ -1,0 +1,141 @@
+/* Styles for review.html, the review page for daf translations. Builds on pages.css. */
+.review-main {
+  max-width: 980px;
+}
+.review-main .lead {
+  font-size: 18px;
+  color: var(--pg-muted);
+}
+/* Toolbar at the top */
+.review-bar {
+  display: flex;
+  height: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff1a;
+  border: 1px solid var(--pg-line);
+}
+.review-bar i {
+  display: block;
+  height: 100%;
+}
+.review-bar .r {
+  background: #4ec27a;
+}
+.review-bar .d {
+  background: #e8b84a;
+}
+.review-bar .m {
+  background: #ffffff26;
+}
+/* Status chips: reviewed, draft, missing */
+.chip {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-right: 6px;
+  border: 1px solid var(--pg-line);
+}
+.chip.reviewed {
+  background: #4ec27a33;
+  color: #a8f0c4;
+}
+.chip.draft {
+  background: #e8b84a33;
+  color: #ffe29a;
+}
+.chip.missing {
+  background: #ffffff14;
+  color: var(--pg-muted);
+}
+/* List of items to review */
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.review-list button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px 12px;
+  border: 1px solid var(--pg-line);
+  border-radius: 10px;
+  background: var(--pg-card);
+  display: block;
+}
+.review-list button:hover,
+.review-list button[aria-expanded='true'] {
+  border-color: var(--pg-accent);
+}
+.review-list button:focus-visible {
+  outline: 2px solid var(--pg-accent);
+  outline-offset: 2px;
+}
+.review-list strong {
+  display: block;
+  font-weight: 600;
+}
+.review-list .review-bar {
+  height: 8px;
+  margin: 6px 0 4px;
+}
+/* Daf picker */
+.review-dapim {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid var(--pg-line);
+  border-radius: 12px;
+  background: #0b145099;
+}
+.review-dapim h3 {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+.review-dapim a {
+  display: inline-block;
+  margin: 3px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-decoration: none;
+  border: 1px solid var(--pg-line);
+}
+.review-dapim a.r {
+  background: #4ec27a33;
+  color: #a8f0c4;
+}
+.review-dapim a.d {
+  background: #e8b84a33;
+  color: #ffe29a;
+}
+.review-dapim a.m {
+  color: var(--pg-muted);
+}
+/* Review form */
+.review-form {
+  display: grid;
+  gap: 12px;
+  max-width: 520px;
+  margin-top: 10px;
+}
+.review-form label {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+}
+.review-form label.check {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.review-form input:not([type='checkbox']) {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--pg-line);
+  background: #050a31;
+  color: var(--pg-ink);
+  font: inherit;
+}

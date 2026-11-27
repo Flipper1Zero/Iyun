@@ -1,0 +1,73 @@
+name: CI
+
+# Builds the text library from the open dataset, checks every catalog title opens (or is
+# marked unavailable), then runs the API, accessibility and browser smoke tests.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Cache downloaded source files
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: library-${{ hashFiles('scripts/build-*.mjs', 'catalog*.js') }}-${{ github.run_id }}
+          restore-keys: |
+            library-${{ hashFiles('scripts/build-*.mjs', 'catalog*.js') }}-
+            library-
+      # Cheap early failure for a typo, before the slow library build.
+      - name: Syntax check
+        run: |
+          for f in worker/index.js server.js *.js scripts/*.mjs; do node --check "$f"; done
+      - name: Build text library (books, daf layouts, calendar)
+        timeout-minutes: 60
+        run: npm run build:texts && npm run build:dapim && npm run build:titles && npm run build:review-index && node scripts/build-calendar.mjs --snapshot
+      # Saved even on failure so a retry doesn't re-download everything.
+      - name: Save downloaded source files (even if a later step fails)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: library-${{ hashFiles('scripts/build-*.mjs', 'catalog*.js') }}-${{ github.run_id }}
+      - name: Verify every catalog title opens or is marked unavailable
+        run: npm run verify
+      - name: Verify Shakla v'Tarya annotations
+        run: npm run verify:annotations
+      - name: Page metadata is in sync
+        run: npm run meta:check
+      - name: API tests (accounts, sheets, moderation, groups, live events)
+        run: npm run test:api
+      - name: Assemble the deployable site
+        run: npm run build:site
+      # Playwright isn't in package.json, so it is installed only here.
+      - name: Install browser for smoke tests
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Accessibility (axe-core, serious and critical issues fail)
+        run: npm run test:a11y
+      - name: Smoke tests
+        run: npm run smoke
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-screenshots
+          path: .smoke/
+          if-no-files-found: ignore

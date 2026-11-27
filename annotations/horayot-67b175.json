@@ -1,0 +1,5198 @@
+{
+  "schema": 1,
+  "tractate": "Horayot",
+  "dapim": {
+    "2a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "a02220c5",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m30",
+          "en": "Mishna case one: a court's erroneous ruling exempts an individual who acted unwittingly on it, whether the judges acted with, after, or without him."
+        },
+        {
+          "cat": "statement",
+          "start": "m31",
+          "end": "m65",
+          "en": "Mishna case two: a judge who knew the court erred, or a qualified student, is liable because he did not rely on the court's ruling."
+        },
+        {
+          "cat": "statement",
+          "start": "m66",
+          "end": "m72",
+          "en": "The mishna's principle: one who relies on himself is liable, one who relies on the court is exempt."
+        },
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g10",
+          "en": "Shmuel: judges are liable for an erroneous ruling only after telling the petitioners the action is permitted for them."
+        },
+        {
+          "cat": "statement",
+          "start": "g11",
+          "end": "g20",
+          "en": "Rav Dimi of Neharde'a: liability requires that the judges tell the petitioners to perform the action, not merely that it is permitted."
+        },
+        {
+          "cat": "question",
+          "start": "g21",
+          "end": "g21",
+          "en": "Why does Rav Dimi require the instruction to perform the action rather than mere permission?"
+        },
+        {
+          "cat": "answer",
+          "start": "g22",
+          "end": "g25",
+          "en": "A ruling is incomplete if it only says permitted, since the judges may have been stating a theoretical opinion."
+        },
+        {
+          "cat": "statement",
+          "start": "g26",
+          "end": "g31",
+          "en": "Abaye says a mishna also supports Rav Dimi's position."
+        },
+        {
+          "cat": "proof",
+          "start": "g32",
+          "end": "g41",
+          "en": "Mishna on a rebellious elder: if he taught as before he is exempt, but if he instructed others to act he is liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g42",
+          "end": "g46",
+          "en": "Rabbi Abba adds that another mishna supports Rav Dimi."
+        },
+        {
+          "cat": "proof",
+          "start": "g47",
+          "end": "g60",
+          "en": "Mishna on a court that instructed a woman to marry: she is liable for promiscuity because permission extended only to marriage."
+        },
+        {
+          "cat": "statement",
+          "start": "g61",
+          "end": "g66",
+          "en": "Ravina cites the mishna here as further support for Rav Dimi."
+        },
+        {
+          "cat": "proof",
+          "start": "g67",
+          "end": "g78",
+          "en": "The mishna's wording to violate a mitzva implies that the ruling must include an instruction to act, so nothing more need be said."
+        },
+        {
+          "cat": "statement",
+          "start": "g79",
+          "end": "g81",
+          "en": "Some report a version of the amoraic dispute in which the positions are reversed."
+        },
+        {
+          "cat": "statement",
+          "start": "g82",
+          "end": "g91",
+          "en": "In the reversed version, Shmuel holds the judges are liable only if they say the action is permitted for them to perform."
+        },
+        {
+          "cat": "statement",
+          "start": "g92",
+          "end": "g100",
+          "en": "In the reversed version, Rav Dimi holds that saying permitted alone completes the ruling and creates liability."
+        },
+        {
+          "cat": "attack",
+          "start": "g101",
+          "end": "g105",
+          "en": "Abaye objects: we did not learn Rav Dimi's view in the rebellious elder mishna."
+        },
+        {
+          "cat": "proof",
+          "start": "g106",
+          "end": "g117",
+          "en": "Text of the rebellious elder mishna cited against the reversed version."
+        },
+        {
+          "cat": "attack",
+          "start": "g118",
+          "end": "g124",
+          "en": "Rabbi Abba objects: we did not learn that view in the mishna about the woman who was told to marry."
+        },
+        {
+          "cat": "proof",
+          "start": "g125",
+          "end": "g137",
+          "en": "Text of the mishna about the woman instructed to marry, cited in the objection."
+        },
+        {
+          "cat": "attack",
+          "start": "g138",
+          "end": "g143",
+          "en": "Ravina objects: the mishna about a court ruling to violate a mitzva also does not follow Rav Dimi."
+        },
+        {
+          "cat": "proof",
+          "start": "g144",
+          "end": "g155",
+          "en": "Text of the mishna on a court ruling to violate a mitzva, cited in the objection."
+        },
+        {
+          "cat": "statement",
+          "start": "g156",
+          "end": "g161",
+          "en": "Quoted mishna: an individual who acted unwittingly on the basis of their ruling."
+        },
+        {
+          "cat": "question",
+          "start": "g162",
+          "end": "g168",
+          "en": "If the mishna already says on the basis of their ruling, why does it also need the word unwittingly?"
+        },
+        {
+          "cat": "answer",
+          "start": "g169",
+          "end": "g182",
+          "en": "Rava: unwittingly includes confusing forbidden fat with permitted fat under a permissive ruling, which is exempt."
+        },
+        {
+          "cat": "answer",
+          "start": "g183",
+          "end": "g187",
+          "en": "On their basis means the individual actually acted according to the ruling itself."
+        },
+        {
+          "cat": "statement",
+          "start": "g188",
+          "end": "g203",
+          "en": "Another version of Rava: exempt only when acting on the ruling itself, but liable for confusing fats."
+        },
+        {
+          "cat": "statement",
+          "start": "g204",
+          "end": "g216",
+          "en": "The Gemara notes that Rava's point was a question posed to Rami bar Ḥama."
+        },
+        {
+          "cat": "question",
+          "start": "g217",
+          "end": "g225",
+          "en": "Rami bar Ḥama asks: if the court permitted fat, and he confused it and ate forbidden fat, what is the law?"
+        },
+        {
+          "cat": "proof",
+          "start": "g226",
+          "end": "g229",
+          "en": "Rava says to bring proof from the mishna."
+        },
+        {
+          "cat": "proof",
+          "start": "g230",
+          "end": "g243",
+          "en": "Quoted mishna: why the redundant words unwittingly on the basis of the ruling, if not to include the confusion case?"
+        },
+        {
+          "cat": "answer",
+          "start": "g244",
+          "end": "g266",
+          "en": "Rejoinder: the mishna may mean only the unwitting-on-the-basis case is exempt, while confused fats are liable."
+        },
+        {
+          "cat": "proof",
+          "start": "g267",
+          "end": "g271",
+          "en": "Some report that Rava brought another proof from the mishna."
+        },
+        {
+          "cat": "proof",
+          "start": "g272",
+          "end": "g291",
+          "en": "Quoted mishna read as implying the confused-fat case is liable, since the exemption applies only to acting on the ruling."
+        },
+        {
+          "cat": "answer",
+          "start": "g292",
+          "end": "g298",
+          "en": "Rejoinder: the mishna may intend either unwitting or on-the-basis, so it reflects the amoraic dispute."
+        },
+        {
+          "cat": "statement",
+          "start": "g299",
+          "end": "g314",
+          "en": "Rav holds the individual is exempt, while Rabbi Yoḥanan holds he is liable, in the case of confused fat under a ruling."
+        },
+        {
+          "cat": "attack",
+          "start": "g315",
+          "end": "g323",
+          "en": "Objection from a baraita: the verse about the common people excludes an apostate, who is exempt even if he repents."
+        },
+        {
+          "cat": "proof",
+          "start": "g324",
+          "end": "g359",
+          "en": "Rabbi Shimon ben Yosei, in Rabbi Shimon's name, derives from the phrase be known to him that only one who repents brings an offering."
+        },
+        {
+          "cat": "attack",
+          "start": "g360",
+          "end": "g366",
+          "en": "If so, the one who did not repent is exempt, and the case of confused fat would contradict Rabbi Yoḥanan."
+        },
+        {
+          "cat": "defense",
+          "start": "g367",
+          "end": "g388",
+          "en": "Rav Pappa defends Rabbi Yoḥanan: once the court learns of its error it retracts, so the individual also repents and is liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g389",
+          "end": "g396",
+          "en": "Rava: Rav concedes that one who does not complete a majority of the congregation is not liable."
+        },
+        {
+          "cat": "answer",
+          "start": "g397",
+          "end": "g405",
+          "en": "The verse for all the people in unwitting error shows liability requires that all err in one and the same manner."
+        },
+        {
+          "cat": "statement",
+          "start": "g406",
+          "end": "g410",
+          "en": "Quoted mishna continuation: whether the judges acted with him, after him, or not at all."
+        },
+        {
+          "cat": "question",
+          "start": "g411",
+          "end": "g415",
+          "en": "Why did the tanna need to list all these cases?"
+        },
+        {
+          "cat": "answer",
+          "start": "g416",
+          "end": "g422",
+          "en": "The first clause uses the style of not only this but also that, so the list is natural there."
+        },
+        {
+          "cat": "attack",
+          "start": "g423",
+          "end": "g428",
+          "en": "Objection: the latter clause on liability should have listed the opposite case first, where liability is most likely."
+        }
+      ]
+    },
+    "2b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "1e082051",
+      "ranges": [
+        {
+          "cat": "answer",
+          "start": "g0",
+          "end": "g5",
+          "en": "The latter clause uses the style of this, and it is unnecessary to say that, so each case is more obvious than the last."
+        },
+        {
+          "cat": "statement",
+          "start": "g6",
+          "end": "g13",
+          "en": "Quoted mishna: a judge who knew they erred, or a student fit to issue rulings, is liable when he acts on the ruling."
+        },
+        {
+          "cat": "question",
+          "start": "g14",
+          "end": "g16",
+          "en": "Why does the mishna need both a judge and a qualified student if they are equivalent?"
+        },
+        {
+          "cat": "answer",
+          "start": "g17",
+          "end": "g31",
+          "en": "Rava: both are stated because a learned but non-analytical student must also be liable."
+        },
+        {
+          "cat": "attack",
+          "start": "g32",
+          "end": "g38",
+          "en": "Abaye objects that qualified to issue rulings implies one who is both learned and analytical."
+        },
+        {
+          "cat": "defense",
+          "start": "g39",
+          "end": "g67",
+          "en": "Rava replies that without the extra case one might limit liability to analytical scholars, so the student case widens it."
+        },
+        {
+          "cat": "statement",
+          "start": "g68",
+          "end": "g70",
+          "en": "Quoted mishna continuation: the one who is fit to issue rulings."
+        },
+        {
+          "cat": "question",
+          "start": "g71",
+          "end": "g72",
+          "en": "Who is an example of one fit to issue rulings?"
+        },
+        {
+          "cat": "answer",
+          "start": "g73",
+          "end": "g81",
+          "en": "Rava: someone like Shimon ben Azzai or Shimon ben Zoma, outstanding scholars who were never ordained."
+        },
+        {
+          "cat": "attack",
+          "start": "g82",
+          "end": "g88",
+          "en": "Abaye replies that such a scholar would not err, so his ruling shows intent, making him a deliberate sinner."
+        },
+        {
+          "cat": "attack",
+          "start": "g89",
+          "end": "g91",
+          "en": "Rava counters that by Abaye's reasoning, a baraita on this topic would be contradicted."
+        },
+        {
+          "cat": "proof",
+          "start": "g92",
+          "end": "g104",
+          "en": "Baraita citing the verse in performing one: a self-directed sinner is liable, but one acting on a court ruling is exempt."
+        },
+        {
+          "cat": "proof",
+          "start": "g105",
+          "end": "g138",
+          "en": "Baraita working through cases of a judge or student who learns of the error, showing the verse excludes them from liability."
+        },
+        {
+          "cat": "question",
+          "start": "g139",
+          "end": "g142",
+          "en": "Rava asks how such a case of an unwitting judge or scholar can even be found."
+        },
+        {
+          "cat": "answer",
+          "start": "g143",
+          "end": "g158",
+          "en": "The Gemara explains the scholar erred about the duty to heed the Sages, which also makes him liable like Shimon ben Azzai."
+        },
+        {
+          "cat": "statement",
+          "start": "g159",
+          "end": "g163",
+          "en": "Quoted mishna: this is the principle that one who associates his action with himself is liable."
+        },
+        {
+          "cat": "question",
+          "start": "g164",
+          "end": "g166",
+          "en": "What does this principle serve to include that was not already in the mishna?"
+        },
+        {
+          "cat": "answer",
+          "start": "g167",
+          "end": "g168",
+          "en": "It includes one who scorns rulings in general and relies only on his own understanding."
+        },
+        {
+          "cat": "statement",
+          "start": "g169",
+          "end": "g171",
+          "en": "Quoted mishna continuation: one who associates his action with the court's ruling is exempt."
+        },
+        {
+          "cat": "answer",
+          "start": "g172",
+          "end": "g177",
+          "en": "This includes a case where the court reversed its ruling and the individual acted on the original, now-retracted ruling."
+        },
+        {
+          "cat": "question",
+          "start": "g178",
+          "end": "g182",
+          "en": "Why allude to this case if the tanna teaches it explicitly in the next mishna?"
+        },
+        {
+          "cat": "answer",
+          "start": "g183",
+          "end": "g184",
+          "en": "The tanna first teaches it by allusion and then explains it directly."
+        },
+        {
+          "cat": "statement",
+          "start": "g185",
+          "end": "g201",
+          "en": "Rav Yehuda says Shmuel holds that the exemption is Rabbi Yehuda's view, while the Rabbis hold that acting on a court ruling is liable."
+        },
+        {
+          "cat": "question",
+          "start": "g202",
+          "end": "g204",
+          "en": "What is the source of Rabbi Yehuda's opinion?"
+        },
+        {
+          "cat": "proof",
+          "start": "g205",
+          "end": "g222",
+          "en": "Baraita: the three exclusionary words in the verse teach that acting on one's own is liable, but acting on a court ruling is exempt."
+        },
+        {
+          "cat": "question",
+          "start": "g223",
+          "end": "g225",
+          "en": "What is the source of the Rabbis' opinion?"
+        },
+        {
+          "cat": "proof",
+          "start": "g226",
+          "end": "g257",
+          "en": "Baraita: a minority acting on a court ruling is liable, and the verse from among the common people includes even a majority."
+        },
+        {
+          "cat": "question",
+          "start": "g258",
+          "end": "g279",
+          "en": "In what case did the majority sin, given that a court bringing an offering for a communal sin requires a ruling it actually issued?"
+        },
+        {
+          "cat": "attack",
+          "start": "g280",
+          "end": "g288",
+          "en": "But the verse from among the common people is written about unwitting action, not about a ruling."
+        },
+        {
+          "cat": "answer",
+          "start": "g289",
+          "end": "g292",
+          "en": "Rather, the baraita should be read as stating the case of unwitting action, not of a ruling."
+        },
+        {
+          "cat": "statement",
+          "start": "g293",
+          "end": "g308",
+          "en": "Reinterpreted baraita: a minority acting unwittingly is liable, while a ruling-based minority is also liable under the court's sin-offering rule."
+        },
+        {
+          "cat": "proof",
+          "start": "g309",
+          "end": "g327",
+          "en": "Baraita continued: a majority acting unwittingly is liable, since the verse says from among the common people, even the majority."
+        },
+        {
+          "cat": "attack",
+          "start": "g328",
+          "end": "g335",
+          "en": "Rav Pappa objects: from where do we conclude this, since perhaps neither the individuals nor the court are liable."
+        },
+        {
+          "cat": "attack",
+          "start": "g336",
+          "end": "g366",
+          "en": "If so, why does the tanna specifically seek proof about the majority, rather than the minority, for liability?"
+        },
+        {
+          "cat": "proof",
+          "start": "g367",
+          "end": "g381",
+          "en": "Inference: the tanna's order shows that a minority acting on a ruling and a minority acting unwittingly are both liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g382",
+          "end": "g393",
+          "en": "Conclusion: a minority acting on a ruling is liable, as are the female lamb and goat for unwitting action, and so on."
+        },
+        {
+          "cat": "question",
+          "start": "g394",
+          "end": "g399",
+          "en": "Both baraitot are anonymous, so how do we know which tanna is Rabbi Yehuda and which the Rabbis?"
+        },
+        {
+          "cat": "attack",
+          "start": "g400",
+          "end": "g405",
+          "en": "Objection: perhaps the first is the Rabbis and the latter is Rabbi Yehuda, so say the opposite."
+        },
+        {
+          "cat": "answer",
+          "start": "g406",
+          "end": "g420",
+          "en": "Rabbi Yehuda is the one who interprets exclusionary terms this way, as a baraita attributes to him."
+        }
+      ]
+    },
+    "3a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "c5cfbf6d",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g10",
+          "en": "Verse this is the law of the burnt-offering read as three exclusions, which shows Rabbi Yehuda interprets multiple exclusionary terms."
+        },
+        {
+          "cat": "attack",
+          "start": "g11",
+          "end": "g31",
+          "en": "Objection: the second baraita cannot be read as Rabbi Yehuda's view, since it treats the court as bringing the bull."
+        },
+        {
+          "cat": "proof",
+          "start": "g32",
+          "end": "g49",
+          "en": "Rejoinder: Rabbi Yehuda holds the congregation brings the offering, as seen in the case of seven tribes bringing seven bulls."
+        },
+        {
+          "cat": "statement",
+          "start": "g50",
+          "end": "g64",
+          "en": "Rav Naḥman, citing Shmuel: the mishna is Rabbi Meir's view, while the Rabbis hold an individual acting on a court ruling is liable."
+        },
+        {
+          "cat": "question",
+          "start": "g65",
+          "end": "g68",
+          "en": "What are the opinions of Rabbi Meir and of the Rabbis?"
+        },
+        {
+          "cat": "proof",
+          "start": "g69",
+          "end": "g76",
+          "en": "Baraita: if the court rules and its judges transgress, Rabbi Meir exempts them while the Rabbis hold them liable."
+        },
+        {
+          "cat": "question",
+          "start": "g77",
+          "end": "g83",
+          "en": "Who performed the transgression, and what is the Rabbis' reasoning for liability if the judges themselves sinned?"
+        },
+        {
+          "cat": "attack",
+          "start": "g84",
+          "end": "g100",
+          "en": "A baraita answers that the action depends on the congregation while the ruling depends on the court, so judges are not liable."
+        },
+        {
+          "cat": "answer",
+          "start": "g101",
+          "end": "g121",
+          "en": "Rather, the case must be a majority or minority of the congregation acting on the ruling, which is where the tanna'im disagree."
+        },
+        {
+          "cat": "statement",
+          "start": "g122",
+          "end": "g136",
+          "en": "One view holds an individual acting on a court ruling is exempt, while the opposing view holds he is liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g137",
+          "end": "g146",
+          "en": "Rav Pappa: everyone agrees an individual acting on a court ruling is exempt, so the dispute is about the court's own liability."
+        },
+        {
+          "cat": "statement",
+          "start": "g147",
+          "end": "g163",
+          "en": "The dispute is whether the court combines with the congregation to form a majority, with Rabbi Meir denying the combination."
+        },
+        {
+          "cat": "statement",
+          "start": "g164",
+          "end": "g181",
+          "en": "Alternatively, the dispute concerns a majority of the congregation sinning on a ruling, where Rabbi Shimon holds both congregation and court bring offerings."
+        },
+        {
+          "cat": "statement",
+          "start": "g182",
+          "end": "g202",
+          "en": "Alternatively, the dispute concerns a tribe acting on its tribal court ruling, with Rabbi Yehuda holding that tribe liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g203",
+          "end": "g218",
+          "en": "Alternatively, six tribes constitute a majority of the population, or seven tribes constitute a majority of the tribes."
+        },
+        {
+          "cat": "answer",
+          "start": "g219",
+          "end": "g225",
+          "en": "Identifying the view: this is the opinion of Rabbi Shimon ben Elazar."
+        },
+        {
+          "cat": "proof",
+          "start": "g226",
+          "end": "g245",
+          "en": "Baraita in Rabbi Shimon ben Elazar's name: six tribes that form a population majority, or seven tribes, are liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g246",
+          "end": "g255",
+          "en": "Rav Asi: for the majority that establishes liability on a court ruling, follow the majority of residents of Eretz Yisrael."
+        },
+        {
+          "cat": "proof",
+          "start": "g256",
+          "end": "g286",
+          "en": "The verse in Kings describing the great congregation from Hamath to the Brook of Egypt is cited as support."
+        },
+        {
+          "cat": "question",
+          "start": "g287",
+          "end": "g300",
+          "en": "Since the verse already says all Israel with him, why is the extra phrase about a great congregation needed?"
+        },
+        {
+          "cat": "answer",
+          "start": "g301",
+          "end": "g312",
+          "en": "The extra phrase shows that only residents of Eretz Yisrael are called a congregation, which is obvious."
+        },
+        {
+          "cat": "statement",
+          "start": "g313",
+          "end": "g321",
+          "en": "The case is where the sinners were a majority and their number diminished, which is the dispute of Rabbi Shimon and the Rabbis."
+        },
+        {
+          "cat": "question",
+          "start": "g322",
+          "end": "g327",
+          "en": "Do Rabbi Shimon and the Rabbis disagree when a minority becomes a majority?"
+        },
+        {
+          "cat": "statement",
+          "start": "g328",
+          "end": "g337",
+          "en": "Rabbi Shimon follows the status at awareness, while the Rabbis follow the status at the time of the sin."
+        },
+        {
+          "cat": "question",
+          "start": "g338",
+          "end": "g340",
+          "en": "Or do they not disagree, and what is the conclusion?"
+        },
+        {
+          "cat": "attack",
+          "start": "g341",
+          "end": "g369",
+          "en": "Refutation: Rabbi Shimon would not hold that awareness alone determines liability, so he requires both sin and awareness in a liable period."
+        },
+        {
+          "cat": "question",
+          "start": "g370",
+          "end": "g400",
+          "en": "If a court permitted fat and two different minorities sinned after two rulings, do the two minorities combine to form a majority?"
+        },
+        {
+          "cat": "statement",
+          "start": "g401",
+          "end": "g409",
+          "en": "If you say the two minorities combine because both transgressions are the same fat, then a further dilemma arises."
+        },
+        {
+          "cat": "question",
+          "start": "g410",
+          "end": "g436",
+          "en": "Dilemma: do minorities of fat on the maw and fat on the small intestine combine, since they come from different verses?"
+        },
+        {
+          "cat": "statement",
+          "start": "g437",
+          "end": "g441",
+          "en": "If the fat is the same substance and the minorities combine, then a related dilemma about fat and blood arises."
+        },
+        {
+          "cat": "question",
+          "start": "g442",
+          "end": "g466",
+          "en": "Dilemma: do minorities who sinned in fat and in blood combine, given that they are distinct prohibitions with identical offerings?"
+        },
+        {
+          "cat": "statement",
+          "start": "g467",
+          "end": "g473",
+          "en": "If the offerings are identical, the minorities combine, which leads to a dilemma about fat and idolatry."
+        },
+        {
+          "cat": "question",
+          "start": "g474",
+          "end": "g496",
+          "en": "Dilemma: do minorities who sinned in fat and in idolatry combine, given differing prohibitions and offerings but shared karet liability? It remains unresolved."
+        },
+        {
+          "cat": "question",
+          "start": "g497",
+          "end": "g520",
+          "en": "Dilemma: if a court permitted fat, died, and a new court issued the same ruling, do the two minorities who sinned combine?"
+        },
+        {
+          "cat": "answer",
+          "start": "g521",
+          "end": "g537",
+          "en": "The dilemma applies only on the view that the congregation brings the offering, since the original court is no longer alive."
+        }
+      ]
+    },
+    "3b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9a8bbeec",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g7",
+          "en": "Alternative for the unresolved dilemma: perhaps liability requires awareness from the same court, which no longer exists, so it remains unresolved."
+        },
+        {
+          "cat": "statement",
+          "start": "g8",
+          "end": "g36",
+          "en": "Rabbi Yonatan: even a hundred judges are not liable unless all of them err, as the verse says the entire assembly."
+        },
+        {
+          "cat": "proof",
+          "start": "g37",
+          "end": "g60",
+          "en": "Rav Huna son of Rav Hoshaya: the majority counts as the whole, and the verse says the entire assembly, so a majority is insufficient."
+        },
+        {
+          "cat": "statement",
+          "start": "g61",
+          "end": "g92",
+          "en": "Quoted mishna: a dissenting judge who knew of the error and a student who acts on the ruling are liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g93",
+          "end": "g99",
+          "en": "Inference from the mishna: the dissenter is liable, but another who acts on the ruling is exempt."
+        },
+        {
+          "cat": "question",
+          "start": "g100",
+          "end": "g106",
+          "en": "Why would the other be exempt, since the ruling is not complete without unanimity? What case is this?"
+        },
+        {
+          "cat": "answer",
+          "start": "g107",
+          "end": "g113",
+          "en": "The case is where the dissenting judge bowed his head, signaling agreement with the rest of the court."
+        },
+        {
+          "cat": "proof",
+          "start": "g114",
+          "end": "g140",
+          "en": "Proof from a mishna: if one judge said you are mistaken, they are exempt, but if he was silent the ruling is complete and they are liable."
+        },
+        {
+          "cat": "question",
+          "start": "g141",
+          "end": "g144",
+          "en": "But why would they be liable under Rabbi Yonatan, since not all of them issued the ruling?"
+        },
+        {
+          "cat": "answer",
+          "start": "g145",
+          "end": "g150",
+          "en": "They all agreed in that the dissenter bowed his head, so the case is like that."
+        },
+        {
+          "cat": "attack",
+          "start": "g151",
+          "end": "g177",
+          "en": "Rav Mesharshiyya objects to Rabbi Yonatan from a baraita relying on the majority principle for decrees on the congregation."
+        },
+        {
+          "cat": "statement",
+          "start": "g178",
+          "end": "g182",
+          "en": "Rav Adda bar Abba explains that the majority principle has a scriptural basis."
+        },
+        {
+          "cat": "question",
+          "start": "g183",
+          "end": "g184",
+          "en": "What is the verse from which this principle is derived?"
+        },
+        {
+          "cat": "proof",
+          "start": "g185",
+          "end": "g203",
+          "en": "Malachi 3:9 uses the entire nation, so the majority of an entity counts as the entity, and the court may decree with a majority."
+        },
+        {
+          "cat": "statement",
+          "start": "g204",
+          "end": "g208",
+          "en": "The refutation of Rabbi Yonatan's opinion is conclusive."
+        },
+        {
+          "cat": "question",
+          "start": "g209",
+          "end": "g215",
+          "en": "If the phrase the entire assembly is not about unanimity, what does the Merciful One mean by the entire assembly?"
+        },
+        {
+          "cat": "answer",
+          "start": "g216",
+          "end": "g225",
+          "en": "If all the judges are present and rule, it is a ruling; if not, it is not a ruling."
+        },
+        {
+          "cat": "statement",
+          "start": "g226",
+          "end": "g236",
+          "en": "Rabbi Yehoshua: when ten judges sit in judgment, the chain is suspended around the necks of all of them."
+        },
+        {
+          "cat": "answer",
+          "start": "g237",
+          "end": "g242",
+          "en": "Even a student before his teacher must not stay silent, since he too bears responsibility for an erroneous ruling."
+        },
+        {
+          "cat": "statement",
+          "start": "g243",
+          "end": "g280",
+          "en": "Rav Huna and Rav Ashi each brought a group of assessors to share the responsibility for judgments, like a splinter from the beam."
+        },
+        {
+          "cat": "statement",
+          "start": "g281",
+          "end": "g317",
+          "en": "Mishna: when a court reverses an erroneous ruling, Rabbi Shimon exempts one who acted on the first ruling, while Rabbi Elazar deems him uncertain and liable to a provisional guilt-offering."
+        },
+        {
+          "cat": "statement",
+          "start": "g318",
+          "end": "g328",
+          "en": "Rabbi Akiva concedes that the one who went overseas is closer to exemption than to liability."
+        },
+        {
+          "cat": "question",
+          "start": "g329",
+          "end": "g334",
+          "en": "Ben Azzai asks: why is the one who went overseas different from one who sits at home?"
+        },
+        {
+          "cat": "answer",
+          "start": "g335",
+          "end": "g350",
+          "en": "Rabbi Akiva: the one at home could have heard of the reversal, while the one overseas could not have heard of it."
+        },
+        {
+          "cat": "statement",
+          "start": "g351",
+          "end": "g378",
+          "en": "Mishna: the court is liable only if it nullifies part of a mitzva and keeps part, not if it nullifies the whole essence."
+        },
+        {
+          "cat": "statement",
+          "start": "g379",
+          "end": "g391",
+          "en": "Example: the court said intercourse with a woman on a clean day is permitted, which is an erroneous ruling about part of a mitzva."
+        },
+        {
+          "cat": "statement",
+          "start": "g392",
+          "end": "g399",
+          "en": "Example: the court said carrying from a private to a public domain is exempt, which is an erroneous partial ruling on Shabbat."
+        },
+        {
+          "cat": "statement",
+          "start": "g400",
+          "end": "g409",
+          "en": "Example: the court said bowing to idols without sacrifice is exempt, which is an erroneous partial ruling on idolatry."
+        },
+        {
+          "cat": "proof",
+          "start": "g410",
+          "end": "g419",
+          "en": "The verse and the matter is hidden shows liability only for a detail hidden, not the whole essence of a mitzva."
+        },
+        {
+          "cat": "statement",
+          "start": "g420",
+          "end": "g424",
+          "en": "Rav Yehuda cites Rav: the reason for Rabbi Shimon's exemption is that the individual acted with the court's permission."
+        },
+        {
+          "cat": "question",
+          "start": "g425",
+          "end": "g426",
+          "en": "What is the reason for Rabbi Shimon's view?"
+        },
+        {
+          "cat": "answer",
+          "start": "g427",
+          "end": "g459",
+          "en": "A different version: a ruling disseminated to the majority is given only to distinguish unwitting from intentional acts, so the actor is unwitting and exempt."
+        },
+        {
+          "cat": "attack",
+          "start": "g460",
+          "end": "g473",
+          "en": "Objection from a baraita: the Temple treasury collects specific funds for communal and idolatry offerings, according to Rabbi Shimon."
+        },
+        {
+          "cat": "statement",
+          "start": "g474",
+          "end": "g480",
+          "en": "Rabbi Yehuda says the offerings are paid from the general Temple chamber funds, like all other communal offerings."
+        },
+        {
+          "cat": "question",
+          "start": "g481",
+          "end": "g487",
+          "en": "According to Rabbi Shimon, why is the person exempt, since the specific collection made the transgression known to him?"
+        },
+        {
+          "cat": "answer",
+          "start": "g488",
+          "end": "g498",
+          "en": "If the collection was unspecified, or the person was not in the city, he was unaware of the reversal."
+        },
+        {
+          "cat": "answer",
+          "start": "g499",
+          "end": "g518",
+          "en": "Alternatively, Rav follows another tanna who reverses the attributions, so Rabbi Shimon's view allows the transgressor to be unaware of the reversal."
+        },
+        {
+          "cat": "statement",
+          "start": "g519",
+          "end": "g537",
+          "en": "Baraita: Rabbi Meir deems him liable and Rabbi Shimon exempt, Rabbi Elazar says uncertain, and the Sages say suspended, with a practical difference about the provisional guilt-offering."
+        },
+        {
+          "cat": "answer",
+          "start": "g538",
+          "end": "g554",
+          "en": "Rabbi Zeira's analogy: one who ate fat of uncertain status is like the person under the uncertainty of whether he associated his action with the court or with himself."
+        }
+      ]
+    },
+    "4a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "e2120745",
+      "ranges": [
+        {
+          "cat": "answer",
+          "start": "g0",
+          "end": "g20",
+          "en": "Explains why the case needs stating even on the view that the congregation brings the offering, since the reversal may be publicized."
+        },
+        {
+          "cat": "statement",
+          "start": "g21",
+          "end": "g52",
+          "en": "Rabbi Yosei bar Avin, or Rabbi Yosei bar Zevida, offers Sumakhos's analogy of a twilight atonement that is an unresolvable uncertainty, so no provisional offering is brought."
+        },
+        {
+          "cat": "answer",
+          "start": "g53",
+          "end": "g82",
+          "en": "Explains the analogy's application: unlike the public-knowledge case, here one would find no one to ask about the reversal."
+        },
+        {
+          "cat": "question",
+          "start": "g83",
+          "end": "g97",
+          "en": "Ben Azzai asks what distinguishes the one who went overseas from one who sits at home, and Rabbi Akiva's answer seems clear."
+        },
+        {
+          "cat": "answer",
+          "start": "g98",
+          "end": "g114",
+          "en": "Rava: the case is one who set out on the road but has not yet left his city, so he counts as already traveling."
+        },
+        {
+          "cat": "statement",
+          "start": "g115",
+          "end": "g121",
+          "en": "Mishna: a ruling to abolish the entire essence of a mitzva is not a valid ruling, so the court is exempt."
+        },
+        {
+          "cat": "proof",
+          "start": "g122",
+          "end": "g196",
+          "en": "Baraita: the verse and the matter is hidden shows liability only for a single detail, not for abolishing a whole mitzva, with examples."
+        },
+        {
+          "cat": "question",
+          "start": "g197",
+          "end": "g213",
+          "en": "If the judges who abolish the whole mitzva are exempt, in what case would they be liable?"
+        },
+        {
+          "cat": "answer",
+          "start": "g214",
+          "end": "g226",
+          "en": "The tanna's wording is difficult; the term matter could mean the entire matter, but the verse's phrase venelam davar limits liability."
+        },
+        {
+          "cat": "question",
+          "start": "g227",
+          "end": "g228",
+          "en": "From where is this inferred?"
+        },
+        {
+          "cat": "answer",
+          "start": "g229",
+          "end": "g234",
+          "en": "Ulla reads the mem of venelam as attached to davar, yielding part of the matter is hidden."
+        },
+        {
+          "cat": "proof",
+          "start": "g235",
+          "end": "g253",
+          "en": "Ḥizkiyya: the verse and they performed one of all the mitzvot implies liability for nullifying part of the mitzvot."
+        },
+        {
+          "cat": "answer",
+          "start": "g254",
+          "end": "g259",
+          "en": "Rav Naḥman bar Yitzḥak: the word mitzvat is written without a second vav, so it reads as singular."
+        },
+        {
+          "cat": "proof",
+          "start": "g260",
+          "end": "g300",
+          "en": "Rav Ashi: a verbal analogy between the word matter in the rebellious elder passage and in the erroneous ruling passage shows liability only for part of a matter."
+        },
+        {
+          "cat": "statement",
+          "start": "g301",
+          "end": "g321",
+          "en": "Rav Yehuda cites Shmuel: a court is liable only for an erroneous ruling on a matter the Sadducees dispute, not on one they accept."
+        },
+        {
+          "cat": "question",
+          "start": "g322",
+          "end": "g323",
+          "en": "What is the reasoning for that exemption?"
+        },
+        {
+          "cat": "answer",
+          "start": "g324",
+          "end": "g328",
+          "en": "Dismissive reply: go read it in the school of Rav, since this is obvious."
+        },
+        {
+          "cat": "proof",
+          "start": "g329",
+          "end": "g340",
+          "en": "Mishna: the judges are liable if they ruled that intercourse with a menstruating woman is prohibited, but counting a clean day for a discharge day is exempt."
+        },
+        {
+          "cat": "question",
+          "start": "g341",
+          "end": "g353",
+          "en": "Why should they be liable in that case, since the halakha of counting a clean day for a discharge day is written in the Torah?"
+        },
+        {
+          "cat": "answer",
+          "start": "g354",
+          "end": "g366",
+          "en": "Judges may have ruled that the initial stage of intercourse is permitted, but the verse he has uncovered her fount also prohibits it."
+        },
+        {
+          "cat": "answer",
+          "start": "g367",
+          "end": "g376",
+          "en": "Alternatively, they ruled that atypical intercourse is permitted, but the plural manners of lying with a woman includes it too."
+        },
+        {
+          "cat": "answer",
+          "start": "g377",
+          "end": "g395",
+          "en": "Alternatively, typical intercourse is fully forbidden while atypical initial stage is permitted, yet the question of why the mishna chooses this case remains."
+        },
+        {
+          "cat": "answer",
+          "start": "g396",
+          "end": "g416",
+          "en": "Actually the ruling concerned typical initial intercourse with an afflicted woman, or a zava counted only by day."
+        },
+        {
+          "cat": "proof",
+          "start": "g417",
+          "end": "g425",
+          "en": "Mishna: the judges are liable for ruling that carrying on Shabbat is prohibited, but carrying from a private to a public domain is exempt."
+        },
+        {
+          "cat": "question",
+          "start": "g426",
+          "end": "g433",
+          "en": "Why should they be liable there, since carrying out is written in the verse, which the Sadducees also accept?"
+        },
+        {
+          "cat": "answer",
+          "start": "g434",
+          "end": "g449",
+          "en": "Judges may have ruled that only carrying out is prohibited, or that carrying out and in is prohibited but passing or throwing is permitted."
+        },
+        {
+          "cat": "statement",
+          "start": "g450",
+          "end": "g457",
+          "en": "Mishna: the judges are liable for ruling that idol worship is prohibited, but bowing without sacrifice is exempt."
+        },
+        {
+          "cat": "question",
+          "start": "g458",
+          "end": "g466",
+          "en": "Why should they be liable there, since bowing to another god is written in the Torah?"
+        },
+        {
+          "cat": "answer",
+          "start": "g467",
+          "end": "g495",
+          "en": "Bowing is prohibited only in its typical idolatrous manner, namely with the extension of arms and legs, while other bowing is permitted."
+        }
+      ]
+    },
+    "4b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "e5f6770b",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g30",
+          "en": "Rav Yosef's dilemma: if a court ruled that plowing on Shabbat is permitted, is that partial nullification or abolition of the whole category?"
+        },
+        {
+          "cat": "proof",
+          "start": "g31",
+          "end": "g51",
+          "en": "Attempted resolution from the mishna's example of intercourse with a menstruating woman, where the court would be liable only if abolishing one halakha were abolition of the whole mitzva."
+        },
+        {
+          "cat": "answer",
+          "start": "g52",
+          "end": "g59",
+          "en": "Rav Yosef replies that the ruling concerned only permitting the initial stage of intercourse, not abolishing the whole halakha."
+        },
+        {
+          "cat": "proof",
+          "start": "g60",
+          "end": "g74",
+          "en": "Second attempt from the mishna's carrying-out example, which seems to abolish the principal category of carrying out."
+        },
+        {
+          "cat": "answer",
+          "start": "g75",
+          "end": "g77",
+          "en": "Carrying-out is similar: the court nullified only part of the labor, such as throwing or passing between domains."
+        },
+        {
+          "cat": "proof",
+          "start": "g78",
+          "end": "g91",
+          "en": "Third attempt from the mishna's idol-worship example, where the bowing ruling seems to abolish bowing entirely."
+        },
+        {
+          "cat": "answer",
+          "start": "g92",
+          "end": "g95",
+          "en": "Bowing is similar: the court nullified only an aspect of bowing, not the whole prohibition."
+        },
+        {
+          "cat": "question",
+          "start": "g96",
+          "end": "g104",
+          "en": "Rabbi Zeira's dilemma: if the court ruled Shabbat labor is permitted in the Sabbatical Year, what is the halakha, and what error led to it?"
+        },
+        {
+          "cat": "statement",
+          "start": "g105",
+          "end": "g122",
+          "en": "The judges erred by reading the verse about plowing and harvest as applying Shabbat only when plowing is done, which excludes the Sabbatical Year."
+        },
+        {
+          "cat": "question",
+          "start": "g123",
+          "end": "g145",
+          "en": "Is the Sabbatical Year ruling partial nullification, since Shabbat is kept in other years, or abolition of Shabbat's essence in that year?"
+        },
+        {
+          "cat": "proof",
+          "start": "g146",
+          "end": "g172",
+          "en": "Ravina: a baraita on a prophet who prophesies to nullify part of the Torah is a false prophet only if abolishing the whole, which implies partial nullification is not abolition."
+        },
+        {
+          "cat": "answer",
+          "start": "g173",
+          "end": "g184",
+          "en": "Conclusion: the baraita teaches that a ruling permitting labor in the Sabbatical Year counts as partial nullification."
+        },
+        {
+          "cat": "statement",
+          "start": "g185",
+          "end": "g218",
+          "en": "Mishna: a court is exempt if one judge said they erred, if the most distinguished member was absent, or if a judge was disqualified."
+        },
+        {
+          "cat": "proof",
+          "start": "g219",
+          "end": "g240",
+          "en": "Verbal analogy from the word assembly applied to unwitting murder shows all judges must be qualified for the court to be liable."
+        },
+        {
+          "cat": "question",
+          "start": "g241",
+          "end": "g248",
+          "en": "From where do we derive that an absence of the most distinguished member also exempts the court?"
+        },
+        {
+          "cat": "answer",
+          "start": "g249",
+          "end": "g285",
+          "en": "Rav Sheshet, citing the school of Rabbi Yishmael: the court is exempt because it was incumbent on them to learn and they did not."
+        },
+        {
+          "cat": "statement",
+          "start": "g286",
+          "end": "g296",
+          "en": "The mishna relies on the word assembly used in both places to require that all judges be fit to issue rulings."
+        },
+        {
+          "cat": "question",
+          "start": "g297",
+          "end": "g298",
+          "en": "From where do we derive that all judges must be fit in the Numbers passage?"
+        },
+        {
+          "cat": "answer",
+          "start": "g299",
+          "end": "g327",
+          "en": "Rav Ḥisda reads with you as meaning similar to you, i.e. fit to rule; Rav Naḥman bar Yitzḥak derives the same from Exodus 18:22."
+        },
+        {
+          "cat": "statement",
+          "start": "g328",
+          "end": "g355",
+          "en": "Mishna: if the court erred unwittingly and the congregation acted unwittingly, the court brings a bull; if the congregation acted intentionally, they are exempt."
+        },
+        {
+          "cat": "statement",
+          "start": "g356",
+          "end": "g360",
+          "en": "Inference: an unwitting transgression resembling an intentional one makes the court liable."
+        },
+        {
+          "cat": "question",
+          "start": "g361",
+          "end": "g371",
+          "en": "What is the case where the court's ruling permitted fat and the individual unwittingly ate forbidden fat?"
+        },
+        {
+          "cat": "question",
+          "start": "g372",
+          "end": "g378",
+          "en": "Let us resolve Rami bar Ḥama's dilemma from this inference."
+        },
+        {
+          "cat": "answer",
+          "start": "g379",
+          "end": "g391",
+          "en": "Rami bar Ḥama could reply that the tanna's latter clause follows the style of the first, so the inference does not resolve the dilemma."
+        },
+        {
+          "cat": "statement",
+          "start": "g392",
+          "end": "g426",
+          "en": "Mishna: if the entire congregation or a majority acted on an erroneous ruling, the court brings a bull; Rabbi Yehuda says the tribes each bring an offering."
+        }
+      ]
+    },
+    "5a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "610a226b",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g19",
+          "en": "Rabbi Shimon: thirteen bulls and goats, one pair for each tribe and one for the court"
+        },
+        {
+          "cat": "statement",
+          "start": "g20",
+          "end": "g37",
+          "en": "If the court ruled and seven tribes or most of them acted on it, the court brings a bull and goat; Rabbi Meir"
+        },
+        {
+          "cat": "statement",
+          "start": "g38",
+          "end": "g61",
+          "en": "Rabbi Yehuda: the seven sinning tribes each bring a bull, and the other tribes bring through them"
+        },
+        {
+          "cat": "statement",
+          "start": "g62",
+          "end": "g98",
+          "en": "Rabbi Shimon: eight bulls for seven sinning tribes plus court; if one tribe's court ruled, only that tribe is liable"
+        },
+        {
+          "cat": "statement",
+          "start": "g99",
+          "end": "g103",
+          "en": "Introduces the opposing views of Rabbi Yehuda and the Sages"
+        },
+        {
+          "cat": "statement",
+          "start": "g104",
+          "end": "g112",
+          "en": "The Sages: liability for unwitting communal sin arises only from rulings of the High Court"
+        },
+        {
+          "cat": "proof",
+          "start": "g113",
+          "end": "g125",
+          "en": "Verse of the entire congregation erring is cited to support the Sages' position"
+        },
+        {
+          "cat": "statement",
+          "start": "g126",
+          "end": "g134",
+          "en": "Baraita: if judges knew they erred but not which ruling, one might think they are liable"
+        },
+        {
+          "cat": "proof",
+          "start": "g135",
+          "end": "g143",
+          "en": "Verse that the sin became known is cited to limit liability to the court's known sin"
+        },
+        {
+          "cat": "proof",
+          "start": "g144",
+          "end": "g155",
+          "en": "Verse that they sinned yields two tribes bring two bulls, three tribes bring three"
+        },
+        {
+          "cat": "question",
+          "start": "g156",
+          "end": "g169",
+          "en": "Or perhaps the verse refers only to two or three individuals, not tribes"
+        },
+        {
+          "cat": "answer",
+          "start": "g170",
+          "end": "g173",
+          "en": "The repeated word congregation shows that the congregation as a whole is liable"
+        },
+        {
+          "cat": "answer",
+          "start": "g174",
+          "end": "g185",
+          "en": "Each and every congregation is liable; for example, two sinning tribes bring two bulls"
+        },
+        {
+          "cat": "statement",
+          "start": "g186",
+          "end": "g196",
+          "en": "Seven sinning tribes bring seven bulls, and the other tribes bring through their representatives"
+        },
+        {
+          "cat": "answer",
+          "start": "g197",
+          "end": "g212",
+          "en": "Non-sinning tribes bring through the sinners, and the word congregation makes each congregation liable"
+        },
+        {
+          "cat": "statement",
+          "start": "g213",
+          "end": "g216",
+          "en": "This is Rabbi Yehuda's view, set against Rabbi Shimon's"
+        },
+        {
+          "cat": "statement",
+          "start": "g217",
+          "end": "g223",
+          "en": "Rabbi Shimon: seven sinning tribes bring seven bulls"
+        },
+        {
+          "cat": "statement",
+          "start": "g224",
+          "end": "g229",
+          "en": "The court brings a bull on behalf of the sinning tribes"
+        },
+        {
+          "cat": "proof",
+          "start": "g230",
+          "end": "g249",
+          "en": "Verse analogy: congregation stated below and above, so the court is with the congregation"
+        },
+        {
+          "cat": "statement",
+          "start": "g250",
+          "end": "g263",
+          "en": "Rabbi Meir: the court brings a bull on behalf of the sinners, and the tribes are exempt"
+        },
+        {
+          "cat": "proof",
+          "start": "g264",
+          "end": "g282",
+          "en": "Verse analogy: congregation above refers to court not public, so the same below"
+        },
+        {
+          "cat": "statement",
+          "start": "g283",
+          "end": "g304",
+          "en": "Rabbi Shimon ben Elazar in Rabbi Meir's name: six tribes forming a majority of the congregation, or seven tribes, suffice"
+        },
+        {
+          "cat": "question",
+          "start": "g305",
+          "end": "g313",
+          "en": "Asks who is the tanna whose view the baraita expresses"
+        },
+        {
+          "cat": "answer",
+          "start": "g314",
+          "end": "g324",
+          "en": "Rav Yehuda, or Rava, said the baraita is not in accordance with Rabbi Eliezer, as taught"
+        },
+        {
+          "cat": "statement",
+          "start": "g325",
+          "end": "g336",
+          "en": "Rabbi Eliezer's view: one who ate one of two doubtful pieces is liable either way"
+        },
+        {
+          "cat": "answer",
+          "start": "g337",
+          "end": "g349",
+          "en": "Rav Ashi: even if the baraita follows Rabbi Eliezer, here the verse wording on the known sin differs"
+        },
+        {
+          "cat": "question",
+          "start": "g350",
+          "end": "g355",
+          "en": "Asks whether the same wording appears there too, in the individual sin-offering"
+        },
+        {
+          "cat": "answer",
+          "start": "g356",
+          "end": "g360",
+          "en": "That wording is needed to exclude one who acts by mistake, who is not liable"
+        },
+        {
+          "cat": "question",
+          "start": "g361",
+          "end": "g363",
+          "en": "Asks the reasoning of Rabbi Yehuda"
+        },
+        {
+          "cat": "answer",
+          "start": "g364",
+          "end": "g391",
+          "en": "Rabbi Yehuda reads four mentions of congregation, each serving a separate derivation"
+        },
+        {
+          "cat": "answer",
+          "start": "g392",
+          "end": "g407",
+          "en": "Rabbi Shimon reads three mentions, with the third being an idiom and not a separate halakha"
+        },
+        {
+          "cat": "answer",
+          "start": "g408",
+          "end": "g431",
+          "en": "Rabbi Shimon's three mentions: one for liability, two for a verbal analogy"
+        },
+        {
+          "cat": "answer",
+          "start": "g432",
+          "end": "g458",
+          "en": "Rabbi Meir does not expound the definite article, so two mentions yield the analogy"
+        },
+        {
+          "cat": "question",
+          "start": "g459",
+          "end": "g460",
+          "en": "Asks the reasoning of Rabbi Shimon ben Elazar"
+        },
+        {
+          "cat": "proof",
+          "start": "g461",
+          "end": "g469",
+          "en": "Verse from the eyes of the congregation implies a minority of the people"
+        },
+        {
+          "cat": "proof",
+          "start": "g470",
+          "end": "g476",
+          "en": "Verse as for all the people implies that a majority counts as the whole"
+        },
+        {
+          "cat": "answer",
+          "start": "g477",
+          "end": "g480",
+          "en": "So a minority sinning does not make the court liable"
+        },
+        {
+          "cat": "answer",
+          "start": "g481",
+          "end": "g495",
+          "en": "Resolution: six tribes forming a majority, or seven tribes, make the court liable even without a majority"
+        }
+      ]
+    },
+    "5b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "0509d631",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g12",
+          "en": "Asks from where Rabbi Shimon and Rabbi Meir derive that the ruling depends on the court"
+        },
+        {
+          "cat": "proof",
+          "start": "g13",
+          "end": "g25",
+          "en": "Abaye: the verse hidden from the eyes of the congregation shows the action follows the court's ruling"
+        },
+        {
+          "cat": "proof",
+          "start": "g26",
+          "end": "g33",
+          "en": "Rava: the verse for all the people unwittingly shows the sin is common to court and people"
+        },
+        {
+          "cat": "answer",
+          "start": "g34",
+          "end": "g66",
+          "en": "Both verses are needed: each alone would imply either a minority suffices or the court must join the majority"
+        },
+        {
+          "cat": "proof",
+          "start": "g67",
+          "end": "g73",
+          "en": "Restates the verse hidden from the eyes of the congregation as the basis for the court's role"
+        },
+        {
+          "cat": "attack",
+          "start": "g74",
+          "end": "g82",
+          "en": "These verses were written about idol worship, so they cannot be applied to other transgressions"
+        },
+        {
+          "cat": "defense",
+          "start": "g83",
+          "end": "g85",
+          "en": "Derived by verbal analogy between the phrase from the eyes of the congregation in both contexts"
+        },
+        {
+          "cat": "statement",
+          "start": "g86",
+          "end": "g90",
+          "en": "Mishnah: if one tribe's court ruled and its majority sinned, only that tribe is liable"
+        },
+        {
+          "cat": "question",
+          "start": "g91",
+          "end": "g126",
+          "en": "Dilemma: per Rabbi Yehuda, are other tribes liable when only one tribe sinned on a High Court ruling"
+        },
+        {
+          "cat": "proof",
+          "start": "g127",
+          "end": "g129",
+          "en": "Proposes resolving the dilemma from a baraita"
+        },
+        {
+          "cat": "statement",
+          "start": "g130",
+          "end": "g139",
+          "en": "Baraita: they bring one bull; Rabbi Shimon says two bulls"
+        },
+        {
+          "cat": "question",
+          "start": "g140",
+          "end": "g141",
+          "en": "Asks what case the baraita refers to"
+        },
+        {
+          "cat": "attack",
+          "start": "g142",
+          "end": "g147",
+          "en": "If seven tribes sinned, Rabbi Shimon would require eight bulls, not two"
+        },
+        {
+          "cat": "answer",
+          "start": "g148",
+          "end": "g166",
+          "en": "So the case is one tribe; Rabbi Shimon would not accept a tribal court ruling, so it must be High Court"
+        },
+        {
+          "cat": "question",
+          "start": "g167",
+          "end": "g169",
+          "en": "Asks who the first tanna is who says one bull"
+        },
+        {
+          "cat": "attack",
+          "start": "g170",
+          "end": "g176",
+          "en": "If Rabbi Meir, it is difficult since he requires a majority to sin, not one tribe"
+        },
+        {
+          "cat": "answer",
+          "start": "g177",
+          "end": "g184",
+          "en": "Rather, the first tanna is Rabbi Yehuda, and the case is one tribe sinning"
+        },
+        {
+          "cat": "answer",
+          "start": "g185",
+          "end": "g201",
+          "en": "Instead the case is six tribes forming a majority, with Rabbi Shimon ben Elazar as the tanna"
+        },
+        {
+          "cat": "proof",
+          "start": "g202",
+          "end": "g224",
+          "en": "Cites a baraita: Rabbi Shimon ben Elazar in Rabbi Meir's name on six tribes or seven"
+        },
+        {
+          "cat": "proof",
+          "start": "g225",
+          "end": "g248",
+          "en": "Cites a baraita of Rabbi Yehuda: a tribal court ruling exempts others, a High Court ruling does not"
+        },
+        {
+          "cat": "answer",
+          "start": "g249",
+          "end": "g250",
+          "en": "Conclusion: Rabbi Yehuda holds other tribes are liable when one tribe sins on a High Court ruling"
+        },
+        {
+          "cat": "proof",
+          "start": "g251",
+          "end": "g269",
+          "en": "Rav Ashi cites the mishnah's wording as support for this reading"
+        },
+        {
+          "cat": "question",
+          "start": "g270",
+          "end": "g275",
+          "en": "Why does the mishnah need to say the rest of the tribes are exempt if it already said liable"
+        },
+        {
+          "cat": "answer",
+          "start": "g276",
+          "end": "g311",
+          "en": "The clause teaches that exemption applies only to tribal court rulings; High Court rulings make all liable"
+        },
+        {
+          "cat": "question",
+          "start": "g312",
+          "end": "g326",
+          "en": "Dilemma: per Rabbi Shimon, is one tribe that sinned on a High Court ruling liable"
+        },
+        {
+          "cat": "proof",
+          "start": "g327",
+          "end": "g332",
+          "en": "Cites the baraita: they bring one bull"
+        },
+        {
+          "cat": "statement",
+          "start": "g333",
+          "end": "g338",
+          "en": "Rabbi Shimon says two bulls"
+        },
+        {
+          "cat": "question",
+          "start": "g339",
+          "end": "g341",
+          "en": "Asks in what case the baraita speaks"
+        },
+        {
+          "cat": "attack",
+          "start": "g342",
+          "end": "g348",
+          "en": "If seven tribes sinned, two bulls is wrong because Rabbi Shimon requires eight"
+        },
+        {
+          "cat": "answer",
+          "start": "g349",
+          "end": "g366",
+          "en": "Rather one tribe sinned on a High Court ruling, so even Rabbi Shimon makes one tribe liable"
+        },
+        {
+          "cat": "question",
+          "start": "g367",
+          "end": "g371",
+          "en": "Asks again who the first tanna is, if the baraita is not Rabbi Meir"
+        },
+        {
+          "cat": "attack",
+          "start": "g372",
+          "end": "g383",
+          "en": "If Rabbi Meir or Rabbi Yehuda, the baraita does not fit their views on the majority"
+        },
+        {
+          "cat": "answer",
+          "start": "g384",
+          "end": "g391",
+          "en": "The first tanna is Rabbi Shimon ben Elazar, in a case of six tribes forming a majority"
+        },
+        {
+          "cat": "proof",
+          "start": "g392",
+          "end": "g405",
+          "en": "Cites a baraita: the Sages say one is liable only for a High Court ruling"
+        },
+        {
+          "cat": "question",
+          "start": "g406",
+          "end": "g407",
+          "en": "Asks who the Sages are in the baraita"
+        },
+        {
+          "cat": "attack",
+          "start": "g408",
+          "end": "g412",
+          "en": "If the Sages are Rabbi Meir, he requires a majority, which does not fit one tribe"
+        },
+        {
+          "cat": "answer",
+          "start": "g413",
+          "end": "g419",
+          "en": "So the Sages are Rabbi Shimon, who holds one tribe is liable on a High Court ruling"
+        },
+        {
+          "cat": "question",
+          "start": "g420",
+          "end": "g429",
+          "en": "Asks from where Rabbi Yehuda and Rabbi Shimon derive that one tribe is called a congregation"
+        },
+        {
+          "cat": "proof",
+          "start": "g430",
+          "end": "g445",
+          "en": "Cites the verse Jehoshaphat stood in the congregation of Judah and Jerusalem before the new courtyard"
+        },
+        {
+          "cat": "question",
+          "start": "g446",
+          "end": "g447",
+          "en": "Asks what the word new in that verse means"
+        },
+        {
+          "cat": "answer",
+          "start": "g448",
+          "end": "g458",
+          "en": "Rabbi Yohanan: they introduced new rulings, including that the ritually impure may not enter the Levite camp"
+        },
+        {
+          "cat": "attack",
+          "start": "g459",
+          "end": "g471",
+          "en": "Perhaps Jerusalem is different, since it was also in the tribal land of Benjamin, shared by two tribes"
+        },
+        {
+          "cat": "defense",
+          "start": "g472",
+          "end": "g487",
+          "en": "Rav Aha bar Yaakov cites Genesis 48:4, a congregation of peoples, as proof one tribe is a congregation"
+        },
+        {
+          "cat": "question",
+          "start": "g488",
+          "end": "g493",
+          "en": "Asks who was born to Jacob at that time, and answers it was Benjamin"
+        },
+        {
+          "cat": "answer",
+          "start": "g494",
+          "end": "g501",
+          "en": "So the verse means another congregation is born to you now, i.e. one tribe is a congregation"
+        },
+        {
+          "cat": "attack",
+          "start": "g502",
+          "end": "g513",
+          "en": "Perhaps the verse means that twelve tribes together are a congregation, after Benjamin is born"
+        },
+        {
+          "cat": "defense",
+          "start": "g514",
+          "end": "g533",
+          "en": "Rav Kahana: two tribes already count as a congregation, so the verse shows even one tribe counts"
+        },
+        {
+          "cat": "statement",
+          "start": "g534",
+          "end": "g536",
+          "en": "Baraita: Rabbi Shimon says, on the phrase second young bull for the Levites"
+        },
+        {
+          "cat": "question",
+          "start": "g537",
+          "end": "g549",
+          "en": "Asks why the verse says second if it only teaches that there are two bulls"
+        },
+        {
+          "cat": "attack",
+          "start": "g550",
+          "end": "g560",
+          "en": "This is already stated: one bull for sin-offering and one for burnt-offering"
+        },
+        {
+          "cat": "answer",
+          "start": "g561",
+          "end": "g566",
+          "en": "One might think the Levites sin-offering should be eaten like other sin-offerings"
+        },
+        {
+          "cat": "proof",
+          "start": "g567",
+          "end": "g575",
+          "en": "The verse second bull makes it like the burnt-offering, which is not eaten"
+        }
+      ]
+    },
+    "6a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "63bca1bf",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g5",
+          "en": "Concluding point: a sin-offering is likewise not eaten"
+        },
+        {
+          "cat": "proof",
+          "start": "g6",
+          "end": "g14",
+          "en": "Rabbi Yosei cites Ezra 8:35 on those who returned from captivity and brought offerings"
+        },
+        {
+          "cat": "proof",
+          "start": "g15",
+          "end": "g26",
+          "en": "The verse says all of it was a burnt-offering, which is the basis of the claim"
+        },
+        {
+          "cat": "question",
+          "start": "g27",
+          "end": "g31",
+          "en": "Could it enter your mind that a sin-offering is a burnt-offering"
+        },
+        {
+          "cat": "answer",
+          "start": "g32",
+          "end": "g34",
+          "en": "Rather, all of it was like a burnt-offering, not that the sin-offering was one"
+        },
+        {
+          "cat": "answer",
+          "start": "g35",
+          "end": "g42",
+          "en": "Just as a burnt-offering is not eaten, so too this sin-offering is not eaten"
+        },
+        {
+          "cat": "proof",
+          "start": "g43",
+          "end": "g50",
+          "en": "Baraita: Rabbi Yehuda says they brought them as atonement for idol worship"
+        },
+        {
+          "cat": "proof",
+          "start": "g51",
+          "end": "g61",
+          "en": "Rav Yehuda cites Shmuel that the offerings atoned for idol worship in Zedekiah's days"
+        },
+        {
+          "cat": "answer",
+          "start": "g62",
+          "end": "g87",
+          "en": "Per Rabbi Yehuda, the twelve offerings fit twelve tribes sinning, or seven tribes with the rest drawn after"
+        },
+        {
+          "cat": "answer",
+          "start": "g88",
+          "end": "g103",
+          "en": "Per Rabbi Shimon, they fit eleven tribes sinning, with the court bringing the twelfth goat"
+        },
+        {
+          "cat": "question",
+          "start": "g104",
+          "end": "g116",
+          "en": "But per Rabbi Meir, who has the court alone bring, how can there be twelve offerings"
+        },
+        {
+          "cat": "answer",
+          "start": "g117",
+          "end": "g126",
+          "en": "They sinned repeatedly, then sinned again, until twelve sins occurred"
+        },
+        {
+          "cat": "question",
+          "start": "g127",
+          "end": "g131",
+          "en": "But the sinners died long ago, so how can their descendants bring the offerings"
+        },
+        {
+          "cat": "answer",
+          "start": "g132",
+          "end": "g150",
+          "en": "Rav Pappa: the dead-owner rule applies to individuals, not to a congregation, which does not die"
+        },
+        {
+          "cat": "question",
+          "start": "g151",
+          "end": "g155",
+          "en": "From where does Rav Pappa derive this"
+        },
+        {
+          "cat": "proof",
+          "start": "g156",
+          "end": "g165",
+          "en": "Proposed proof: the verse instead of your fathers shall be your sons"
+        },
+        {
+          "cat": "attack",
+          "start": "g166",
+          "end": "g169",
+          "en": "If so, the sons could offer for individuals' dead fathers too"
+        },
+        {
+          "cat": "answer",
+          "start": "g170",
+          "end": "g181",
+          "en": "Rather, Rav Pappa's inference is from the New Moon goat, funded from the Temple treasury"
+        },
+        {
+          "cat": "question",
+          "start": "g182",
+          "end": "g189",
+          "en": "But some of the people died since Adar, so how could they bring it"
+        },
+        {
+          "cat": "answer",
+          "start": "g190",
+          "end": "g197",
+          "en": "So learn that a sin-offering whose owners died is sacrificed when it is communal"
+        },
+        {
+          "cat": "question",
+          "start": "g198",
+          "end": "g209",
+          "en": "Are these comparable, since in the New Moon case no one may have died, but here they surely did"
+        },
+        {
+          "cat": "answer",
+          "start": "g210",
+          "end": "g214",
+          "en": "Rather, Rav Pappa's reasoning comes from a different verse"
+        },
+        {
+          "cat": "proof",
+          "start": "g215",
+          "end": "g234",
+          "en": "Deuteronomy 21:8: atone for your people Israel whom you redeemed, applying to those long dead"
+        },
+        {
+          "cat": "question",
+          "start": "g235",
+          "end": "g250",
+          "en": "Are these comparable, since the heifer rite atones for living participants, while here are any of them alive"
+        },
+        {
+          "cat": "answer",
+          "start": "g251",
+          "end": "g253",
+          "en": "Yes, indeed, some of that generation were still alive"
+        },
+        {
+          "cat": "proof",
+          "start": "g254",
+          "end": "g263",
+          "en": "Ezra 3:12 describes elders who saw the first house and wept"
+        },
+        {
+          "cat": "attack",
+          "start": "g264",
+          "end": "g269",
+          "en": "Perhaps those elders were few, and most present were not alive in Zedekiah's time"
+        },
+        {
+          "cat": "defense",
+          "start": "g270",
+          "end": "g290",
+          "en": "Ezra 3:13 shows the weeping elders outnumbered the younger people"
+        },
+        {
+          "cat": "question",
+          "start": "g291",
+          "end": "g293",
+          "en": "But those who worshipped in Zedekiah's time did so intentionally, and sin-offerings are for unwitting sins"
+        },
+        {
+          "cat": "answer",
+          "start": "g294",
+          "end": "g299",
+          "en": "It was a provisional edict in exigent circumstances, enabling a sin-offering for intentional sins"
+        },
+        {
+          "cat": "proof",
+          "start": "g300",
+          "end": "g314",
+          "en": "If not so, what do the ninety-six rams and seventy-seven lambs of Ezra 8:35 correspond to"
+        },
+        {
+          "cat": "answer",
+          "start": "g315",
+          "end": "g323",
+          "en": "Rather, that too was a provisional edict, and so is this sin-offering"
+        },
+        {
+          "cat": "statement",
+          "start": "g324",
+          "end": "g333",
+          "en": "Baraita: if one member of the public died, they are liable; if one of the court died, they are exempt"
+        },
+        {
+          "cat": "question",
+          "start": "g334",
+          "end": "g336",
+          "en": "Who is the tanna of this halakha"
+        },
+        {
+          "cat": "answer",
+          "start": "g337",
+          "end": "g349",
+          "en": "Rav Hisda, citing Rabbi Zeira, Rav Yirmeya, and Rav: it is Rabbi Meir"
+        },
+        {
+          "cat": "statement",
+          "start": "g350",
+          "end": "g355",
+          "en": "Rabbi Meir's reasoning: the court brings the offering, not the public"
+        },
+        {
+          "cat": "statement",
+          "start": "g356",
+          "end": "g365",
+          "en": "If a public member died, the court is still liable since the whole court remains"
+        },
+        {
+          "cat": "statement",
+          "start": "g366",
+          "end": "g380",
+          "en": "If a court member died, the court is exempt since it is a sin-offering of partners"
+        },
+        {
+          "cat": "attack",
+          "start": "g381",
+          "end": "g409",
+          "en": "Rav Yosef objects: establish it per Rabbi Shimon, where the court and public bring together"
+        },
+        {
+          "cat": "proof",
+          "start": "g410",
+          "end": "g420",
+          "en": "Abaye cites a baraita: according to Rabbi Shimon a partners' sin-offering is not left to die"
+        },
+        {
+          "cat": "statement",
+          "start": "g421",
+          "end": "g443",
+          "en": "Baraita: the Yom Kippur bull and goat that were lost are left to die, per Rabbi Yehuda; Rabbi Shimon disagrees"
+        },
+        {
+          "cat": "attack",
+          "start": "g444",
+          "end": "g446",
+          "en": "Rav Yosef responds to Abaye: priests are different"
+        },
+        {
+          "cat": "proof",
+          "start": "g447",
+          "end": "g464",
+          "en": "Priests are a congregation in themselves, as Leviticus 16:33 shows"
+        }
+      ]
+    },
+    "6b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "229b218d",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g11",
+          "en": "If priests are a congregation, they should bring a bull, but then there would be thirteen tribes"
+        },
+        {
+          "cat": "answer",
+          "start": "g12",
+          "end": "g47",
+          "en": "Rav Aha bar Yaakov: the tribe of Levi is not a congregation, since only tribes with inheritance count"
+        },
+        {
+          "cat": "attack",
+          "start": "g48",
+          "end": "g52",
+          "en": "Then only eleven tribes remain, so the twelve-tribe count is lacking"
+        },
+        {
+          "cat": "answer",
+          "start": "g53",
+          "end": "g63",
+          "en": "Abaye: Ephraim and Manasseh are counted as two tribes like Reuben and Simeon"
+        },
+        {
+          "cat": "attack",
+          "start": "g64",
+          "end": "g81",
+          "en": "Rava objects: the verse limits this to inheritance, and tribes are separate in banners too"
+        },
+        {
+          "cat": "answer",
+          "start": "g82",
+          "end": "g88",
+          "en": "Banners were arranged by inheritance, to honor the banners with three tribes each"
+        },
+        {
+          "cat": "question",
+          "start": "g89",
+          "end": "g91",
+          "en": "But the tribes were also separate regarding princes"
+        },
+        {
+          "cat": "answer",
+          "start": "g92",
+          "end": "g95",
+          "en": "That was to honor the princes, not to show they are separate tribes in other matters"
+        },
+        {
+          "cat": "proof",
+          "start": "g96",
+          "end": "g113",
+          "en": "Baraita: Solomon's seven days and Moses' twelve days of dedication honored each tribal prince"
+        },
+        {
+          "cat": "question",
+          "start": "g114",
+          "end": "g116",
+          "en": "What conclusion was reached about Rabbi Shimon's view on partners' sin-offerings"
+        },
+        {
+          "cat": "proof",
+          "start": "g117",
+          "end": "g136",
+          "en": "Baraita: Rabbi Shimon lists five sin-offerings that are left to die, including an offspring and a substitute"
+        },
+        {
+          "cat": "proof",
+          "start": "g137",
+          "end": "g157",
+          "en": "Baraita: the offspring and substitute cases cannot apply to a communal sin-offering"
+        },
+        {
+          "cat": "proof",
+          "start": "g158",
+          "end": "g173",
+          "en": "Baraita: the sin atoned or expired and dead-owner cases do not apply to communal offerings either"
+        },
+        {
+          "cat": "answer",
+          "start": "g174",
+          "end": "g181",
+          "en": "Learn the vague from the explicit: these cases do not apply to communal offerings"
+        },
+        {
+          "cat": "proof",
+          "start": "g182",
+          "end": "g204",
+          "en": "Those explicit cases apply only to individuals, so an individual's offering is left to die, not a partners' one"
+        },
+        {
+          "cat": "question",
+          "start": "g205",
+          "end": "g209",
+          "en": "Can one derive a halakha from cases that are impossible for communal offerings"
+        },
+        {
+          "cat": "answer",
+          "start": "g210",
+          "end": "g213",
+          "en": "Rabbi Shimon learns all these categories as one tradition, so none applies if not all do"
+        },
+        {
+          "cat": "statement",
+          "start": "g214",
+          "end": "g219",
+          "en": "Chapter closing formula, introducing the next mishnah on the High Priest's ruling for himself"
+        },
+        {
+          "cat": "statement",
+          "start": "g220",
+          "end": "g242",
+          "en": "Mishnah: a High Priest's unwitting ruling for himself, followed by unwitting action, makes him liable for a bull"
+        },
+        {
+          "cat": "question",
+          "start": "g243",
+          "end": "g248",
+          "en": "Asks whether the case of unwitting ruling and unwitting action is obvious and needs teaching"
+        },
+        {
+          "cat": "answer",
+          "start": "g249",
+          "end": "g281",
+          "en": "Abaye: it is a case where he forgot the basis of his ruling and still acted in its name, which is unwitting"
+        },
+        {
+          "cat": "statement",
+          "start": "g282",
+          "end": "g285",
+          "en": "Mishnah: if one error was unwitting and the other intentional, he is exempt"
+        },
+        {
+          "cat": "question",
+          "start": "g286",
+          "end": "g289",
+          "en": "From where are these halakhot derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g290",
+          "end": "g297",
+          "en": "Leviticus 4:3: if the anointed priest sins so as to bring guilt upon the people, he is like the public"
+        },
+        {
+          "cat": "attack",
+          "start": "g298",
+          "end": "g301",
+          "en": "One might think the verse is superfluous, since this could be derived by logical inference"
+        }
+      ]
+    },
+    "7a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9cd8e6d9",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g30",
+          "en": "Analogy: the public and the priest are both removed from the individual category, so the priest is liable like the public"
+        },
+        {
+          "cat": "proof",
+          "start": "g31",
+          "end": "g58",
+          "en": "Alternative analogy: the king and the priest are both removed from the individual, so the priest brings for unwitting action alone"
+        },
+        {
+          "cat": "question",
+          "start": "g59",
+          "end": "g61",
+          "en": "Asks to which of the two the anointed priest is more similar"
+        },
+        {
+          "cat": "proof",
+          "start": "g62",
+          "end": "g96",
+          "en": "The priest brings a bull and no provisional guilt-offering, like the public, so he is liable only as the public is"
+        },
+        {
+          "cat": "proof",
+          "start": "g97",
+          "end": "g116",
+          "en": "The king and priest both bring a goat for idol worship and a definite guilt-offering, unlike the public"
+        },
+        {
+          "cat": "statement",
+          "start": "g117",
+          "end": "g126",
+          "en": "Both analogies lead to the conclusion that the priest is like the king in bringing for unwitting action"
+        },
+        {
+          "cat": "proof",
+          "start": "g127",
+          "end": "g136",
+          "en": "Leviticus 4:3: to bring guilt upon the people shows the priest is like the public"
+        },
+        {
+          "cat": "statement",
+          "start": "g137",
+          "end": "g158",
+          "en": "So the priest, like the public, brings only for absence of awareness plus unwitting action"
+        },
+        {
+          "cat": "attack",
+          "start": "g159",
+          "end": "g174",
+          "en": "Why not say that if the priest rules and the public acts on it, he is liable as the court would be"
+        },
+        {
+          "cat": "defense",
+          "start": "g175",
+          "end": "g194",
+          "en": "Leviticus 4:3 then offer for his sin: he brings for his own sin, not for the sins others committed on his ruling"
+        },
+        {
+          "cat": "statement",
+          "start": "g195",
+          "end": "g202",
+          "en": "The Master's statement: the priest brings a bull and no provisional guilt-offering"
+        },
+        {
+          "cat": "question",
+          "start": "g203",
+          "end": "g208",
+          "en": "From where is it derived that the priest does not bring a provisional guilt-offering"
+        },
+        {
+          "cat": "proof",
+          "start": "g209",
+          "end": "g219",
+          "en": "Leviticus 5:18: the priest atones for his unwitting act, applying only where sin and unwitting act coincide"
+        },
+        {
+          "cat": "answer",
+          "start": "g220",
+          "end": "g246",
+          "en": "This excludes the priest, whose unwitting act is a ruling; he is like the public per Leviticus 4:3"
+        },
+        {
+          "cat": "statement",
+          "start": "g247",
+          "end": "g257",
+          "en": "Mishnah: if the priest ruled and sinned on his own, he atones by himself with a bull"
+        },
+        {
+          "cat": "statement",
+          "start": "g258",
+          "end": "g267",
+          "en": "Mishnah: if he ruled and sinned with the public, he atones together with the public"
+        },
+        {
+          "cat": "statement",
+          "start": "g268",
+          "end": "g287",
+          "en": "Mishnah: a court or priest is liable only if the ruling nullifies part of a commandment and sustains part"
+        },
+        {
+          "cat": "question",
+          "start": "g288",
+          "end": "g290",
+          "en": "From where is this distinction derived"
+        },
+        {
+          "cat": "statement",
+          "start": "g291",
+          "end": "g300",
+          "en": "Baraita: if he ruled and sinned with the public, one might think he brings a bull for himself"
+        },
+        {
+          "cat": "proof",
+          "start": "g301",
+          "end": "g310",
+          "en": "Logical inference: the king and the priest are both removed from the individual category"
+        },
+        {
+          "cat": "statement",
+          "start": "g311",
+          "end": "g340",
+          "en": "Baraita: the king atones with the public when he sinned with them, so the priest too, by parity"
+        },
+        {
+          "cat": "attack",
+          "start": "g341",
+          "end": "g368",
+          "en": "The king atones with the public on Yom Kippur, but the priest does not, so the analogy fails"
+        },
+        {
+          "cat": "proof",
+          "start": "g369",
+          "end": "g377",
+          "en": "One might think he brings his own bull; the verse on his sin shows otherwise"
+        },
+        {
+          "cat": "answer",
+          "start": "g378",
+          "end": "g392",
+          "en": "How so: if he sinned alone he brings alone; if with the public he atones with the public"
+        },
+        {
+          "cat": "question",
+          "start": "g393",
+          "end": "g394",
+          "en": "What are the circumstances of the priest ruling for himself"
+        },
+        {
+          "cat": "answer",
+          "start": "g395",
+          "end": "g417",
+          "en": "If he is a distinguished scholar and the court is not, he atones alone and each sinner brings an individual offering"
+        },
+        {
+          "cat": "attack",
+          "start": "g418",
+          "end": "g434",
+          "en": "If the court is distinguished and he is not, why does he atone alone, since his ruling is nothing"
+        }
+      ]
+    },
+    "7b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "2b33b9e7",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g6",
+          "en": "Rav Pappa: the case is where both the priest and the court are distinguished scholars issuing rulings"
+        },
+        {
+          "cat": "answer",
+          "start": "g7",
+          "end": "g24",
+          "en": "Abaye: the case is the priest and court ruling in two places on two different prohibitions"
+        },
+        {
+          "cat": "attack",
+          "start": "g25",
+          "end": "g45",
+          "en": "Rava objects: two places do not determine it; one place with two prohibitions suffices"
+        },
+        {
+          "cat": "answer",
+          "start": "g46",
+          "end": "g87",
+          "en": "Obviously it is the priest's own sin if the rulings differ in source and offering, like fat versus idol worship"
+        },
+        {
+          "cat": "question",
+          "start": "g88",
+          "end": "g144",
+          "en": "Dilemma: if priest and court rule on different fats, or on fat versus blood, are the rulings distinct or one"
+        },
+        {
+          "cat": "statement",
+          "start": "g145",
+          "end": "g155",
+          "en": "Mishnah: the court is liable only if the ruling nullifies part of a commandment and sustains part"
+        },
+        {
+          "cat": "question",
+          "start": "g156",
+          "end": "g158",
+          "en": "From where do we derive this requirement"
+        },
+        {
+          "cat": "answer",
+          "start": "g159",
+          "end": "g171",
+          "en": "From the other chapter: liability for a hidden matter, a detail, but not for the entire essence of a commandment"
+        },
+        {
+          "cat": "question",
+          "start": "g172",
+          "end": "g174",
+          "en": "From where is the same rule derived for the anointed priest"
+        },
+        {
+          "cat": "proof",
+          "start": "g175",
+          "end": "g183",
+          "en": "Leviticus 4:3: to bring guilt upon the people shows the priest is like the public"
+        },
+        {
+          "cat": "statement",
+          "start": "g184",
+          "end": "g187",
+          "en": "Mishnah: the court and priest are not liable for idol-worship rulings unless partial nullification"
+        },
+        {
+          "cat": "question",
+          "start": "g188",
+          "end": "g190",
+          "en": "From where do we derive this halakha, per the Sages' baraita"
+        },
+        {
+          "cat": "statement",
+          "start": "g191",
+          "end": "g203",
+          "en": "Baraita: idol worship is discussed separately, so one might think they are liable for nullifying the whole commandment"
+        },
+        {
+          "cat": "proof",
+          "start": "g204",
+          "end": "g229",
+          "en": "Numbers 15:24 and Leviticus 4:13 both say from the eyes of, so the two cases match: matter, not entire essence"
+        },
+        {
+          "cat": "statement",
+          "start": "g230",
+          "end": "g253",
+          "en": "Mishnah: the court and the priest are liable only for absence of awareness of the matter with unwitting action"
+        },
+        {
+          "cat": "question",
+          "start": "g254",
+          "end": "g256",
+          "en": "From where do we derive that the court is liable only for absence of awareness with unwitting action"
+        },
+        {
+          "cat": "statement",
+          "start": "g257",
+          "end": "g263",
+          "en": "Baraita: one might think they are liable for mere unwitting action, as in the verse and congregation"
+        },
+        {
+          "cat": "proof",
+          "start": "g264",
+          "end": "g276",
+          "en": "Leviticus 4:13: shall act unwittingly and the matter was hidden limits liability to hidden matter plus unwitting act"
+        },
+        {
+          "cat": "question",
+          "start": "g277",
+          "end": "g279",
+          "en": "Likewise for the anointed priest; from where is this derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g280",
+          "end": "g285",
+          "en": "Leviticus 4:3: the priest is like the public, so he too is liable only as the public is"
+        },
+        {
+          "cat": "statement",
+          "start": "g286",
+          "end": "g295",
+          "en": "Mishnah: idol-worship rulings make the court and priest liable only for hidden matter plus unwitting act"
+        },
+        {
+          "cat": "question",
+          "start": "g296",
+          "end": "g297",
+          "en": "From where is this derived"
+        },
+        {
+          "cat": "answer",
+          "start": "g298",
+          "end": "g337",
+          "en": "Baraita: Numbers 15:24 and Leviticus 4:13 use from the eyes of, so idol worship matches the other commandments"
+        },
+        {
+          "cat": "statement",
+          "start": "g338",
+          "end": "g343",
+          "en": "The Gemara observes that the mishna does not teach the halakha of a priest's idol-worship ruling"
+        },
+        {
+          "cat": "question",
+          "start": "g344",
+          "end": "g347",
+          "en": "Whose opinion does the mishna then express"
+        },
+        {
+          "cat": "answer",
+          "start": "g348",
+          "end": "g366",
+          "en": "Per a baraita: Rabbi Yehuda HaNasi holds the priest brings for mere unwitting action; the Rabbis differ"
+        },
+        {
+          "cat": "attack",
+          "start": "g367",
+          "end": "g373",
+          "en": "If so, the mishna would teach liability for excision and sin-offering in its latter clause, which it does not"
+        },
+        {
+          "cat": "answer",
+          "start": "g374",
+          "end": "g385",
+          "en": "The tanna teaches the priest like the court in the first clause, and likewise in the latter, so no proof against the Rabbis"
+        },
+        {
+          "cat": "question",
+          "start": "g386",
+          "end": "g387",
+          "en": "What is the reason for Rabbi Yehuda HaNasi's opinion"
+        },
+        {
+          "cat": "proof",
+          "start": "g388",
+          "end": "g410",
+          "en": "Numbers 15:28: the soul is the priest, the unwitting one is the king, and when he sins unwittingly means unwitting action"
+        },
+        {
+          "cat": "answer",
+          "start": "g411",
+          "end": "g423",
+          "en": "The Rabbis read the phrase as excluding the priest, whose liability is for absence of awareness"
+        },
+        {
+          "cat": "statement",
+          "start": "g424",
+          "end": "g426",
+          "en": "They agree the priest brings a female goat, like an ordinary individual"
+        },
+        {
+          "cat": "question",
+          "start": "g427",
+          "end": "g428",
+          "en": "From where is that derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g429",
+          "end": "g443",
+          "en": "Numbers 15:27: if one soul sins unwittingly, the individual, king, and priest are all included in one soul"
+        }
+      ]
+    },
+    "8a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "ed96cd3a",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g4",
+          "en": "Baraita: they agree the anointed priest does not bring a provisional guilt-offering"
+        },
+        {
+          "cat": "question",
+          "start": "g5",
+          "end": "g6",
+          "en": "From where is this halakha derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g7",
+          "end": "g31",
+          "en": "Leviticus 5:18: Rabbi Yehuda HaNasi reads it as excluding a priest whose sin is not wholly unwitting"
+        },
+        {
+          "cat": "question",
+          "start": "g32",
+          "end": "g34",
+          "en": "Is the word all written in the verse"
+        },
+        {
+          "cat": "answer",
+          "start": "g35",
+          "end": "g69",
+          "en": "No, but the phrase that he performed unwittingly is needed to limit liability to unwitting acts only"
+        },
+        {
+          "cat": "answer",
+          "start": "g70",
+          "end": "g90",
+          "en": "The Rabbis read the verse as excluding a priest who is not liable for unwitting acts alone, in any case"
+        },
+        {
+          "cat": "statement",
+          "start": "g91",
+          "end": "g115",
+          "en": "Mishnah: the court and priest are liable only for rulings whose intentional violation incurs karet and unwitting violation a sin-offering"
+        },
+        {
+          "cat": "question",
+          "start": "g116",
+          "end": "g116",
+          "en": "From where is this derived"
+        },
+        {
+          "cat": "answer",
+          "start": "g117",
+          "end": "g145",
+          "en": "Baraita: the word that in Leviticus 4:14 is linked to a verse on sisters, so the rule applies to karet and sin-offering cases"
+        },
+        {
+          "cat": "question",
+          "start": "g146",
+          "end": "g149",
+          "en": "From where is the same halakha derived for the anointed priest"
+        },
+        {
+          "cat": "proof",
+          "start": "g150",
+          "end": "g154",
+          "en": "Leviticus 4:3: the anointed priest is like the transgression of the general public"
+        },
+        {
+          "cat": "question",
+          "start": "g155",
+          "end": "g158",
+          "en": "From where is the same halakha derived for the king"
+        },
+        {
+          "cat": "proof",
+          "start": "g159",
+          "end": "g192",
+          "en": "Verbal analogy of the term commandments in the verses on the king and the public, so the king is like the public"
+        },
+        {
+          "cat": "proof",
+          "start": "g193",
+          "end": "g203",
+          "en": "Leviticus 4:27 with the conjunction vav: the individual's verse is derived from the upper verses"
+        },
+        {
+          "cat": "statement",
+          "start": "g204",
+          "end": "g208",
+          "en": "Mishnah: the court is not liable for idol worship unless the ruling meets the karet and sin-offering condition"
+        },
+        {
+          "cat": "question",
+          "start": "g209",
+          "end": "g212",
+          "en": "From where is this derived for idol worship"
+        },
+        {
+          "cat": "statement",
+          "start": "g213",
+          "end": "g229",
+          "en": "Baraita: idol worship is set apart, so one might think they are liable even without the karet condition"
+        },
+        {
+          "cat": "proof",
+          "start": "g230",
+          "end": "g249",
+          "en": "Numbers 15:24 and Leviticus 4:13 both read from the eyes of, so idol worship matches the other commandments"
+        },
+        {
+          "cat": "question",
+          "start": "g250",
+          "end": "g255",
+          "en": "From where is the halakha derived for the individual, king, and priest in idol worship"
+        },
+        {
+          "cat": "proof",
+          "start": "g256",
+          "end": "g278",
+          "en": "Numbers 15:27: one soul includes individual, king, and priest, and the lower verse is derived from the upper"
+        },
+        {
+          "cat": "attack",
+          "start": "g279",
+          "end": "g297",
+          "en": "Works for the view reading that as a verbal analogy, but not for the Rabbis who use it for forbidden relations"
+        },
+        {
+          "cat": "question",
+          "start": "g298",
+          "end": "g301",
+          "en": "From where do the Rabbis derive the karet-and-sin-offering condition for the general public"
+        },
+        {
+          "cat": "answer",
+          "start": "g302",
+          "end": "g348",
+          "en": "Rabbi Yehoshua ben Levi taught his son: one Torah for the unwitting, with idol worship juxtaposed to the whole Torah"
+        },
+        {
+          "cat": "attack",
+          "start": "g349",
+          "end": "g363",
+          "en": "Individual, king, and priest are covered for idol worship and other mitzvot, but not the general public"
+        },
+        {
+          "cat": "question",
+          "start": "g364",
+          "end": "g370",
+          "en": "What does Rabbi Yehuda HaNasi do with that verse, which he derives from that word"
+        },
+        {
+          "cat": "answer",
+          "start": "g371",
+          "end": "g398",
+          "en": "He uses the verse to show that the public and individuals are not distinguished in their offerings for unwitting idol worship"
+        },
+        {
+          "cat": "attack",
+          "start": "g399",
+          "end": "g414",
+          "en": "Rav Hilkiya of Hagronya objects: had the verse distinguished, what different offering would the public bring"
+        },
+        {
+          "cat": "attack",
+          "start": "g415",
+          "end": "g444",
+          "en": "Proposed offerings for the public are each rejected as already assigned to other cases"
+        },
+        {
+          "cat": "defense",
+          "start": "g445",
+          "end": "g468",
+          "en": "The verse is needed, since otherwise one might reverse the offerings, or the majority would have no remedy"
+        },
+        {
+          "cat": "question",
+          "start": "g469",
+          "end": "g480",
+          "en": "From where is it inferred that these verses are written with regard to idol worship"
+        },
+        {
+          "cat": "answer",
+          "start": "g481",
+          "end": "g516",
+          "en": "Rava, or Rabbi Yehoshua ben Levi: the verse on all these commandments refers to idol worship"
+        },
+        {
+          "cat": "proof",
+          "start": "g517",
+          "end": "g555",
+          "en": "School of Rabbi Yehuda HaNasi: the verses that the Lord spoke and commanded by Moses point to idol worship"
+        },
+        {
+          "cat": "proof",
+          "start": "g556",
+          "end": "g575",
+          "en": "School of Rabbi Yishmael: the first two commandments heard from the mouth of the Almighty show idol worship"
+        }
+      ]
+    },
+    "8b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "fd50c371",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g20",
+          "en": "Numbers 15:23: the mitzva stated at the beginning of all commandments is idol worship"
+        },
+        {
+          "cat": "attack",
+          "start": "g21",
+          "end": "g39",
+          "en": "But the Master taught that ten mitzvot were commanded at Marah, before idol worship was prohibited"
+        },
+        {
+          "cat": "answer",
+          "start": "g40",
+          "end": "g43",
+          "en": "Rather, it is clear as we answered at the outset"
+        },
+        {
+          "cat": "statement",
+          "start": "g44",
+          "end": "g62",
+          "en": "Mishnah: no liability for a positive or negative mitzva of the Temple's defilement, and no provisional guilt-offering"
+        },
+        {
+          "cat": "statement",
+          "start": "g63",
+          "end": "g94",
+          "en": "Mishnah: liability and a provisional guilt-offering apply to the positive and negative mitzvot concerning menstruation"
+        },
+        {
+          "cat": "question",
+          "start": "g95",
+          "end": "g107",
+          "en": "From where are these halakhot derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g108",
+          "end": "g130",
+          "en": "Rav Yitzhak bar Avdimi: the phrase and he is guilty applies only where a fixed sin-offering is liable"
+        },
+        {
+          "cat": "answer",
+          "start": "g131",
+          "end": "g145",
+          "en": "So a provisional guilt-offering comes only for doubt about a transgression that requires a fixed sin-offering"
+        },
+        {
+          "cat": "attack",
+          "start": "g146",
+          "end": "g174",
+          "en": "If so, the sliding-scale offering should also be derived from and he shall be guilty of one of these matters"
+        },
+        {
+          "cat": "question",
+          "start": "g175",
+          "end": "g176",
+          "en": "What is the difference between the verb conjugations"
+        },
+        {
+          "cat": "attack",
+          "start": "g177",
+          "end": "g208",
+          "en": "The school of Rabbi Yishmael uses verbal analogy on returning and coming, so the same can be derived here"
+        },
+        {
+          "cat": "proof",
+          "start": "g209",
+          "end": "g219",
+          "en": "Rav Pappa derives the terms from the unwitting communal sin-offering verse, which lacks the sliding scale"
+        },
+        {
+          "cat": "attack",
+          "start": "g220",
+          "end": "g234",
+          "en": "Rav Shimi bar Ashi objects: then derive from the same term in Leviticus 5:17 itself"
+        },
+        {
+          "cat": "proof",
+          "start": "g235",
+          "end": "g270",
+          "en": "Rav Naḥman bar Yitzḥak: derive from the fixed sin-offering verse, since the sliding-scale cases lack these terms"
+        },
+        {
+          "cat": "statement",
+          "start": "g271",
+          "end": "g309",
+          "en": "Mishnah: no liability for hearing a voice, utterance, or Temple defilement; Rabbi Yosei HaGelili says the king is exempt in these; Rabbi Akiva says liable"
+        },
+        {
+          "cat": "answer",
+          "start": "g310",
+          "end": "g333",
+          "en": "Ulla: Rabbi Yosei's reason is Leviticus 5:5: liability in all cases of the sliding scale or none"
+        },
+        {
+          "cat": "question",
+          "start": "g334",
+          "end": "g343",
+          "en": "Why say this, when the verse could mean liability in any one case"
+        },
+        {
+          "cat": "answer",
+          "start": "g344",
+          "end": "g353",
+          "en": "Rather, Rabbi Yosei HaGelili's reason is a baraita on the verse with the word stated"
+        }
+      ]
+    },
+    "9a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "3510ef28",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g24",
+          "en": "Leviticus 5:7 and 5:11: the sliding-scale offering applies only to one who can become poor or rich, excluding king and priest"
+        },
+        {
+          "cat": "proof",
+          "start": "g25",
+          "end": "g58",
+          "en": "The king cannot become poor, as he has only God above him; the High Priest is greatest among his brethren in all things"
+        },
+        {
+          "cat": "proof",
+          "start": "g59",
+          "end": "g76",
+          "en": "Others derive from Leviticus 21:10 that the High Priest without wealth is made great from his brethren's property"
+        },
+        {
+          "cat": "question",
+          "start": "g77",
+          "end": "g90",
+          "en": "Ravina asks: is a king with leprosy, while not king, exempt from or liable to the sliding-scale offering"
+        },
+        {
+          "cat": "answer",
+          "start": "g91",
+          "end": "g94",
+          "en": "Rav Naḥman: he would bring from his own treasure, so he remains exempt"
+        },
+        {
+          "cat": "statement",
+          "start": "g95",
+          "end": "g100",
+          "en": "Baraita: Rabbi Akiva says the anointed priest is exempt from all sliding-scale offerings"
+        },
+        {
+          "cat": "proof",
+          "start": "g101",
+          "end": "g122",
+          "en": "Rava: Leviticus 6:13 implies only this tenth-of-an-ephah offering comes as an obligation for the priest"
+        },
+        {
+          "cat": "question",
+          "start": "g123",
+          "end": "g140",
+          "en": "Why not say the exclusion covers only the poverty-level offering, not the dove or sheep"
+        },
+        {
+          "cat": "answer",
+          "start": "g141",
+          "end": "g164",
+          "en": "Rejected: Leviticus 5:13 means one who atones with every type atones with any, and vice versa"
+        },
+        {
+          "cat": "question",
+          "start": "g165",
+          "end": "g196",
+          "en": "If so, Leviticus 5:5 should also imply that, so why does Rabbi Akiva say the king is liable except for hearing a voice"
+        },
+        {
+          "cat": "answer",
+          "start": "g197",
+          "end": "g207",
+          "en": "Abaye and Rava: Rabbi Akiva derives the inference from the term from one in Leviticus 5:13, not of one in 5:5"
+        },
+        {
+          "cat": "question",
+          "start": "g208",
+          "end": "g211",
+          "en": "What is different about the term from one that yields a halakha"
+        },
+        {
+          "cat": "answer",
+          "start": "g212",
+          "end": "g239",
+          "en": "It is written at the end of the sliding-scale passage, so it applies only to the poverty-level offering"
+        },
+        {
+          "cat": "statement",
+          "start": "g240",
+          "end": "g274",
+          "en": "Mishnah: for unwitting violations with karet, the individual brings a ewe or goat, the king a goat, the priest and court a bull"
+        },
+        {
+          "cat": "statement",
+          "start": "g275",
+          "end": "g290",
+          "en": "Mishnah: for the provisional guilt-offering the individual and king are liable; for definite, the priest is also liable"
+        },
+        {
+          "cat": "statement",
+          "start": "g291",
+          "end": "g328",
+          "en": "Mishnah: for voice, utterance, and Temple defilement, the court is exempt; Rabbi Shimon exempts the High Priest from defilement; Rabbi Eliezer says goat"
+        },
+        {
+          "cat": "statement",
+          "start": "g329",
+          "end": "g353",
+          "en": "Baraita: Rabbi Shimon's principle: the king follows the individual, and the priest and court are exempt, for both guilt-offering types"
+        },
+        {
+          "cat": "statement",
+          "start": "g354",
+          "end": "g388",
+          "en": "Baraita continued: the court is exempt for all cases, and the king and priest are liable except king in voice and priest in defilement"
+        },
+        {
+          "cat": "attack",
+          "start": "g389",
+          "end": "g436",
+          "en": "The Gemara finds this baraita difficult: the latter clause implies the priest is exempt from all sliding-scale offerings"
+        }
+      ]
+    },
+    "9b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "91fbe682",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g1",
+          "en": "The two passages contradict one another"
+        },
+        {
+          "cat": "answer",
+          "start": "g2",
+          "end": "g31",
+          "en": "Rav Huna bar Yehoshua: the cases differ, one is poverty-level offerings and one extreme poverty; Rabbi Shimon follows Rabbi Akiva partly"
+        },
+        {
+          "cat": "statement",
+          "start": "g32",
+          "end": "g36",
+          "en": "Mishnah: Rabbi Shimon holds the High Priest is not liable for Temple defilement"
+        },
+        {
+          "cat": "proof",
+          "start": "g37",
+          "end": "g59",
+          "en": "Hizkiyya: Numbers 19:20 excises only one whose offering equals that of the congregation, excluding the High Priest"
+        },
+        {
+          "cat": "question",
+          "start": "g60",
+          "end": "g66",
+          "en": "If so, the king too should be exempt, since his offering does not equal the congregation's"
+        },
+        {
+          "cat": "answer",
+          "start": "g67",
+          "end": "g69",
+          "en": "The king equals the congregation in Yom Kippur atonement, since he atones with the same offerings"
+        },
+        {
+          "cat": "question",
+          "start": "g70",
+          "end": "g79",
+          "en": "If so, priests too should be exempt, since their atonement is through the High Priest's bull"
+        },
+        {
+          "cat": "answer",
+          "start": "g80",
+          "end": "g84",
+          "en": "Priests equal the congregation for the rest of the year's mitzvot"
+        },
+        {
+          "cat": "attack",
+          "start": "g85",
+          "end": "g103",
+          "en": "The anointed priest also equals the congregation there; Rava: the High Priest's offering equals that of individuals, who are the congregation"
+        },
+        {
+          "cat": "statement",
+          "start": "g104",
+          "end": "g109",
+          "en": "Mishnah: Rabbi Eliezer says the king brings a goat, and not a sliding-scale offering"
+        },
+        {
+          "cat": "answer",
+          "start": "g110",
+          "end": "g124",
+          "en": "Rabbi Yoḥanan: Rabbi Eliezer speaks only of Temple defilement, since karet is stated concerning it"
+        },
+        {
+          "cat": "proof",
+          "start": "g125",
+          "end": "g164",
+          "en": "Rav Pappa: if Rabbi Eliezer spoke of all cases, the mishna would teach the priest's bull for voice and utterance; its silence shows otherwise"
+        },
+        {
+          "cat": "attack",
+          "start": "g165",
+          "end": "g184",
+          "en": "Rav Huna bar Natan objects: perhaps Rabbi Eliezer speaks of all cases, and the priest follows Rabbi Akiva's exemption"
+        },
+        {
+          "cat": "defense",
+          "start": "g185",
+          "end": "g193",
+          "en": "Rav Pappa replies: Rabbi Akiva exempts the priest only from the sliding-scale, and the High Priest still brings his own bull"
+        },
+        {
+          "cat": "statement",
+          "start": "g194",
+          "end": "g196",
+          "en": "Rabbi Yoḥanan: Rabbi Eliezer concedes the king does not bring a provisional guilt-offering for Temple defilement"
+        },
+        {
+          "cat": "statement",
+          "start": "g197",
+          "end": "g212",
+          "en": "A baraita taught before Rav Sheshet says a king brings a provisional guilt-offering for Temple defilement"
+        },
+        {
+          "cat": "attack",
+          "start": "g213",
+          "end": "g238",
+          "en": "Rav Sheshet objects: that is Rabbi Eliezer's view only if he holds a king's goat is a fixed offering, which Rabbi Yoḥanan denies"
+        },
+        {
+          "cat": "statement",
+          "start": "g239",
+          "end": "g244",
+          "en": "Chapter closing formula, introducing the next mishnah on a priest or king who changed status before or after sinning"
+        },
+        {
+          "cat": "statement",
+          "start": "g245",
+          "end": "g282",
+          "en": "Mishnah: a priest or king who sinned then lost office, or lost office then sinned, brings the offering of his status at the relevant time"
+        },
+        {
+          "cat": "question",
+          "start": "g283",
+          "end": "g287",
+          "en": "Gemara asks whether the mishna's formulation of a priest who moved on from his anointment can be sustained"
+        }
+      ]
+    },
+    "10a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "b45fd906",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g7",
+          "en": "Mishnah: a priest who sinned and then lost his anointment brings a bull"
+        },
+        {
+          "cat": "question",
+          "start": "g8",
+          "end": "g9",
+          "en": "Does the case of sinning then losing office need to be taught at all"
+        },
+        {
+          "cat": "answer",
+          "start": "g10",
+          "end": "g29",
+          "en": "The tanna teaches the king case first, so the parallel priest case is taught too"
+        },
+        {
+          "cat": "question",
+          "start": "g30",
+          "end": "g33",
+          "en": "From where are these matters derived"
+        },
+        {
+          "cat": "proof",
+          "start": "g34",
+          "end": "g43",
+          "en": "Leviticus 4:3: and he shall sacrifice for his sin teaches he brings it even after losing office"
+        },
+        {
+          "cat": "proof",
+          "start": "g44",
+          "end": "g80",
+          "en": "Kal vachomer on a king's goat after losing office shows the verse is needed for the priest's bull"
+        },
+        {
+          "cat": "question",
+          "start": "g81",
+          "end": "g104",
+          "en": "Let the king too bring a goat after losing office, by a kal vachomer from the priest"
+        },
+        {
+          "cat": "answer",
+          "start": "g105",
+          "end": "g117",
+          "en": "Leviticus 4:22: when a king sins excludes the case of sinning as a commoner"
+        },
+        {
+          "cat": "statement",
+          "start": "g118",
+          "end": "g138",
+          "en": "Mishnah: a king or High Priest who sinned before appointment is a commoner; Rabbi Shimon's distinction on knowledge"
+        },
+        {
+          "cat": "answer",
+          "start": "g139",
+          "end": "g156",
+          "en": "The nasi is a king, per Leviticus 4:22, with none above him but God"
+        },
+        {
+          "cat": "question",
+          "start": "g157",
+          "end": "g159",
+          "en": "From where are these matters derived for sins before appointment"
+        },
+        {
+          "cat": "proof",
+          "start": "g160",
+          "end": "g169",
+          "en": "Leviticus 4:3: the verse excludes prior unwitting transgressions of the priest before his installation"
+        },
+        {
+          "cat": "proof",
+          "start": "g170",
+          "end": "g198",
+          "en": "Kal vachomer: a king's goat does not cover prior sins, so the priest's bull should not either"
+        },
+        {
+          "cat": "answer",
+          "start": "g199",
+          "end": "g231",
+          "en": "Rejected: the priest's bull continues after office, so the verse says if the priest sins, as priest"
+        },
+        {
+          "cat": "statement",
+          "start": "g232",
+          "end": "g244",
+          "en": "Baraita: when a king sins excludes unwitting transgressions before his coronation"
+        },
+        {
+          "cat": "proof",
+          "start": "g245",
+          "end": "g268",
+          "en": "Kal vachomer: since the priest's bull continues after office, the king's goat would not, so no verse is needed"
+        },
+        {
+          "cat": "answer",
+          "start": "g269",
+          "end": "g300",
+          "en": "Rejected: the priest's ruling-based liability is unlike the king's, so the verse teaches sinning while king"
+        },
+        {
+          "cat": "statement",
+          "start": "g301",
+          "end": "g317",
+          "en": "Baraita: the verse is read as a decree, which one might take as a given that the king will sin"
+        },
+        {
+          "cat": "question",
+          "start": "g318",
+          "end": "g324",
+          "en": "From where would a decree be derived"
+        },
+        {
+          "cat": "answer",
+          "start": "g325",
+          "end": "g365",
+          "en": "Sages: such readings exist, as leprosy tidings in Leviticus 14:34; Rabbi Yehuda and Rabbi Shimon differ"
+        },
+        {
+          "cat": "question",
+          "start": "g366",
+          "end": "g400",
+          "en": "Per Rabbi Shimon, do leprous marks from non-divine causes not impart impurity, when a baraita says otherwise"
+        },
+        {
+          "cat": "answer",
+          "start": "g401",
+          "end": "g431",
+          "en": "Rejected: the zav analogy is not parallel; Rava and Rav Pappa exclude leprosy from evil spirits and sorcery"
+        },
+        {
+          "cat": "statement",
+          "start": "g432",
+          "end": "g438",
+          "en": "Baraita: when a king sins excludes a king who is ill"
+        },
+        {
+          "cat": "question",
+          "start": "g439",
+          "end": "g445",
+          "en": "Does illness itself remove a king from his sovereignty"
+        },
+        {
+          "cat": "answer",
+          "start": "g446",
+          "end": "g451",
+          "en": "Rav Avdimi bar Hama: the exclusion is only for a king afflicted with leprosy"
+        },
+        {
+          "cat": "proof",
+          "start": "g452",
+          "end": "g476",
+          "en": "II Kings 15:5: King Azariah was struck with leprosy and dwelt apart, with Jotham judging the people"
+        },
+        {
+          "cat": "answer",
+          "start": "g477",
+          "end": "g483",
+          "en": "From dwelling in an independent house it follows that until then he was in servitude to the people"
+        },
+        {
+          "cat": "proof",
+          "start": "g484",
+          "end": "g539",
+          "en": "Anecdote of Rabban Gamliel and Rabbi Yehoshua on a ship: the flour and the star that misleads sailors"
+        },
+        {
+          "cat": "statement",
+          "start": "g540",
+          "end": "g583",
+          "en": "Rabbi Yehoshua directs Rabban Gamliel to his two students, Rabbi Elazar Hisma and Rabbi Yohanan ben Gudgeda"
+        },
+        {
+          "cat": "statement",
+          "start": "g584",
+          "end": "g599",
+          "en": "Rabban Gamliel summons the two students and offers them seats of authority, which they initially decline"
+        }
+      ]
+    },
+    "10b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "f3c12c42",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g17",
+          "en": "I Kings 12:7: if you will be a servant to this people today, explaining the independent house"
+        },
+        {
+          "cat": "statement",
+          "start": "g18",
+          "end": "g54",
+          "en": "Baraita: Rabbi Yohanan ben Zakkai: happy the generation whose king brings an offering for unwitting sin, and for intentional sin"
+        },
+        {
+          "cat": "attack",
+          "start": "g55",
+          "end": "g90",
+          "en": "Rava bar Rabba objects: by that reading, asher in other verses would also praise, as with Jeroboam"
+        },
+        {
+          "cat": "answer",
+          "start": "g91",
+          "end": "g94",
+          "en": "Here the verse changed its wording, since parallel verses use if, so the case differs"
+        },
+        {
+          "cat": "proof",
+          "start": "g95",
+          "end": "g135",
+          "en": "Rav Naḥman bar Ḥisda's homily on Ecclesiastes 8:14: righteous and wicked fare in this world according to the other's world"
+        },
+        {
+          "cat": "attack",
+          "start": "g136",
+          "end": "g147",
+          "en": "Rava objects: if the righteous enjoyed two worlds, would it be bad for them, so why must they suffer here"
+        },
+        {
+          "cat": "answer",
+          "start": "g148",
+          "end": "g172",
+          "en": "Rava's correction: happy the righteous who enjoy this world as the wicked do; woe to wicked who suffer as righteous"
+        },
+        {
+          "cat": "proof",
+          "start": "g173",
+          "end": "g212",
+          "en": "Rav Pappa and Rav Huna were told by Rava they were wealthy, illustrating the homily's point"
+        },
+        {
+          "cat": "proof",
+          "start": "g213",
+          "end": "g265",
+          "en": "Rabba bar bar Ḥana for Rabbi Yohanan: Hosea 14:10 illustrated by two people who ate the Paschal offering differently"
+        },
+        {
+          "cat": "attack",
+          "start": "g266",
+          "end": "g282",
+          "en": "Reish Lakish objects: the one who ate for excess still fulfilled the mitzva, so why call him a transgressor"
+        },
+        {
+          "cat": "proof",
+          "start": "g283",
+          "end": "g318",
+          "en": "Reish Lakish's parable: two men with wife and sister in a dark house, one with his wife, the other with his sister"
+        },
+        {
+          "cat": "question",
+          "start": "g319",
+          "end": "g328",
+          "en": "Are these comparable, since the verse has one path while the parable has two"
+        },
+        {
+          "cat": "answer",
+          "start": "g329",
+          "end": "g346",
+          "en": "Rather, the parable of Lot and his daughters: the daughters acted for a mitzva, Lot for a transgression"
+        },
+        {
+          "cat": "attack",
+          "start": "g347",
+          "end": "g353",
+          "en": "Perhaps Lot too acted for the sake of a mitzva"
+        },
+        {
+          "cat": "defense",
+          "start": "g354",
+          "end": "g364",
+          "en": "Rabbi Yohanan: the entire verse on Lot's eyes is stated in the context of transgression"
+        },
+        {
+          "cat": "proof",
+          "start": "g365",
+          "end": "g428",
+          "en": "Rabbi Yohanan's allusions: Lot's eyes, Joseph, Samson, Shechem, and Proverbs 6:26 and Hosea 2:7 link the sin to a transgression"
+        },
+        {
+          "cat": "question",
+          "start": "g429",
+          "end": "g431",
+          "en": "But Lot was forced, being drunk and asleep, so why is he accused"
+        },
+        {
+          "cat": "proof",
+          "start": "g432",
+          "end": "g453",
+          "en": "Baraita: the dotted vav in bekumah shows Lot knew when she rose, so his action was partly in his control"
+        },
+        {
+          "cat": "question",
+          "start": "g454",
+          "end": "g459",
+          "en": "What was he to do, since what was done was done"
+        },
+        {
+          "cat": "answer",
+          "start": "g460",
+          "end": "g467",
+          "en": "He should have learned not to drink again the next night; drinking again shows intent"
+        },
+        {
+          "cat": "proof",
+          "start": "g468",
+          "end": "g507",
+          "en": "Rabba on Proverbs 18:19: a brother who betrayed a strong city is Lot, who parted from Abraham"
+        },
+        {
+          "cat": "proof",
+          "start": "g508",
+          "end": "g547",
+          "en": "Rava or Rabbi Yitzhak on Proverbs 18:1: Lot is he who separated, and his shame was revealed in study halls"
+        },
+        {
+          "cat": "statement",
+          "start": "g548",
+          "end": "g565",
+          "en": "Ulla: Tamar engaged in licentiousness with Judah and kings emerged from her; Zimri with Cozbi and many fell"
+        },
+        {
+          "cat": "proof",
+          "start": "g566",
+          "end": "g597",
+          "en": "Rav Naḥman bar Yitzḥak: Judges 5:24 shows Yael, who acted not for its own sake, is blessed above the matriarchs"
+        },
+        {
+          "cat": "question",
+          "start": "g598",
+          "end": "g616",
+          "en": "Does not Rav Yehuda say a person should engage in Torah and mitzvot even not for their own sake"
+        },
+        {
+          "cat": "answer",
+          "start": "g617",
+          "end": "g620",
+          "en": "Rather, the emendation: a transgression for the sake of Heaven is like a mitzva not for its own sake"
+        },
+        {
+          "cat": "statement",
+          "start": "g621",
+          "end": "g640",
+          "en": "Rabbi Yohanan: Sisera engaged in seven acts of intercourse with Yael, per Judges 5:27"
+        },
+        {
+          "cat": "question",
+          "start": "g641",
+          "end": "g644",
+          "en": "But did she not benefit from the transgression, so why does the verse praise her"
+        },
+        {
+          "cat": "answer",
+          "start": "g645",
+          "end": "g660",
+          "en": "Rabbi Yohanan in Rabbi Shimon ben Yohai's name: even the good of the wicked is bad for the righteous"
+        },
+        {
+          "cat": "proof",
+          "start": "g661",
+          "end": "g704",
+          "en": "Rav Yehuda in Rav's name: Balak's offerings, though for cursing, brought forth Ruth, as Rabbi Yosei ben Rabbi Hanina says"
+        },
+        {
+          "cat": "proof",
+          "start": "g705",
+          "end": "g739",
+          "en": "Rabbi Yohanan: the Holy One does not withhold reward even for euphemism, derived from Moab and Deuteronomy 2:9"
+        }
+      ]
+    },
+    "11a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "8f679d68",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g22",
+          "en": "A verse in Deuteronomy is cited to show that even harassing the nations is forbidden."
+        },
+        {
+          "cat": "statement",
+          "start": "g23",
+          "end": "g45",
+          "en": "Rabbi Yehoshua ben Korḥa teaches that one should hasten to perform a mitzva, citing the elder daughter's reward."
+        },
+        {
+          "cat": "statement",
+          "start": "g46",
+          "end": "g48",
+          "en": "The Sages teach a baraita about the verse on the common people sinning unwittingly."
+        },
+        {
+          "cat": "proof",
+          "start": "g49",
+          "end": "g51",
+          "en": "The verse in Leviticus 4:27 is brought as the source for the baraita."
+        },
+        {
+          "cat": "statement",
+          "start": "g52",
+          "end": "g59",
+          "en": "The baraita derives that the anointed priest and the king are excluded from the common-people law."
+        },
+        {
+          "cat": "question",
+          "start": "g60",
+          "end": "g69",
+          "en": "Why derive the exclusions, since priests and kings already have different sin-offerings?"
+        },
+        {
+          "cat": "answer",
+          "start": "g70",
+          "end": "g94",
+          "en": "The baraita explains that without the exclusion a priest might be thought to bring a bull, or a ewe, like others."
+        },
+        {
+          "cat": "attack",
+          "start": "g95",
+          "end": "g102",
+          "en": "The Gemara objects: for a king the derivation seems unnecessary, since he brings a goat for unwitting deeds."
+        },
+        {
+          "cat": "defense",
+          "start": "g103",
+          "end": "g128",
+          "en": "Rav Zevid, in Rava's name, explains the case: the king sinned as a commoner and the verse teaches he brings a goat."
+        },
+        {
+          "cat": "attack",
+          "start": "g129",
+          "end": "g141",
+          "en": "This only works for Rabbi Shimon, who follows the time of awareness; the Rabbis would object."
+        },
+        {
+          "cat": "defense",
+          "start": "g142",
+          "end": "g171",
+          "en": "Rav Zevid, in Rava's name, gives a second case of half an olive-bulk before and after becoming king."
+        },
+        {
+          "cat": "question",
+          "start": "g172",
+          "end": "g215",
+          "en": "Rava asks Rav Naḥman whether kingship interrupts and prevents two halves of a transgression from combining."
+        },
+        {
+          "cat": "proof",
+          "start": "g216",
+          "end": "g245",
+          "en": "The Gemara suggests resolving the dilemma from Ulla's teaching of Rabbi Yoḥanan about an apostate who repents."
+        },
+        {
+          "cat": "question",
+          "start": "g246",
+          "end": "g262",
+          "en": "Rabbi Zeira asks Rav Sheshet about a doubtful forbidden fat eaten as a commoner and known as king."
+        },
+        {
+          "cat": "answer",
+          "start": "g263",
+          "end": "g280",
+          "en": "The Gemara explains the dilemma is framed according to Rabbi Shimon, since the Rabbis would not raise it."
+        },
+        {
+          "cat": "question",
+          "start": "g281",
+          "end": "g302",
+          "en": "Does a status change for a definite transgression also apply to an uncertain one, or not?"
+        },
+        {
+          "cat": "answer",
+          "start": "g303",
+          "end": "g303",
+          "en": "The dilemma is left unresolved."
+        },
+        {
+          "cat": "statement",
+          "start": "g304",
+          "end": "g314",
+          "en": "A baraita teaches that the common-people verse excludes an apostate, and attributes a view to Rabbi Shimon."
+        },
+        {
+          "cat": "proof",
+          "start": "g315",
+          "end": "g336",
+          "en": "Leviticus 4:22 is cited: only one who repents out of awareness brings a sin-offering for unwitting sin."
+        },
+        {
+          "cat": "question",
+          "start": "g337",
+          "end": "g338",
+          "en": "What is the practical difference between the Rabbis and Rabbi Shimon on the apostate?"
+        },
+        {
+          "cat": "answer",
+          "start": "g339",
+          "end": "g364",
+          "en": "Rav Hamnuna explains the disagreement concerns an apostate who ate forbidden fat, and whether it extends to blood."
+        },
+        {
+          "cat": "question",
+          "start": "g365",
+          "end": "g376",
+          "en": "Rava's view seems to conflict: everyone agrees fat-eating does not make one an apostate for blood."
+        },
+        {
+          "cat": "answer",
+          "start": "g377",
+          "end": "g405",
+          "en": "The case is one who eats fat from appetite and mixed-up fat, where the Sages disagree on apostasy."
+        },
+        {
+          "cat": "statement",
+          "start": "g406",
+          "end": "g438",
+          "en": "The Sages teach that eating forbidden fat makes one an apostate, listing others, with Rabbi Yehuda's addition."
+        },
+        {
+          "cat": "question",
+          "start": "g439",
+          "end": "g440",
+          "en": "What is the tanna saying, if he answers and then asks who is an apostate?"
+        },
+        {
+          "cat": "answer",
+          "start": "g441",
+          "end": "g480",
+          "en": "Rabba bar bar Ḥana explains: appetite makes one an apostate, defiance makes one a heretic, as with listed sins."
+        },
+        {
+          "cat": "question",
+          "start": "g481",
+          "end": "g486",
+          "en": "What is the practical difference between the opinions regarding a garment of mixed kinds?"
+        },
+        {
+          "cat": "answer",
+          "start": "g487",
+          "end": "g505",
+          "en": "One view holds Torah-law violation makes one an apostate, while the other holds publicized rabbinic violation does too."
+        },
+        {
+          "cat": "statement",
+          "start": "g506",
+          "end": "g521",
+          "en": "Rav Aḥa and Ravina disagree about whether appetite or defiance matters for the apostate and heretic labels."
+        },
+        {
+          "cat": "question",
+          "start": "g522",
+          "end": "g524",
+          "en": "Then who is a heretic?"
+        },
+        {
+          "cat": "answer",
+          "start": "g525",
+          "end": "g528",
+          "en": "Anyone who worships idols is a heretic."
+        },
+        {
+          "cat": "attack",
+          "start": "g529",
+          "end": "g550",
+          "en": "An objection from a baraita: one who ate a flea or gnat is an apostate, yet this conflicts with the defiance case."
+        },
+        {
+          "cat": "answer",
+          "start": "g551",
+          "end": "g555",
+          "en": "The king is the nasi, as explained in this teaching."
+        },
+        {
+          "cat": "statement",
+          "start": "g556",
+          "end": "g564",
+          "en": "The Sages teach that a nasi might be thought to be any tribal leader, like Naḥshon son of Amminadav."
+        },
+        {
+          "cat": "proof",
+          "start": "g565",
+          "end": "g584",
+          "en": "Leviticus 4:22 and Deuteronomy 17:19 show the nasi is a king, learning to fear God."
+        }
+      ]
+    },
+    "11b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "bfd402c0",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g15",
+          "en": "An analogy: as the king answers only to God, so the nasi answers only to God."
+        },
+        {
+          "cat": "question",
+          "start": "g16",
+          "end": "g24",
+          "en": "Rabbi Yehuda HaNasi asks Rabbi Ḥiyya whether he, as nasi, brings a goat for an unwitting sin."
+        },
+        {
+          "cat": "answer",
+          "start": "g25",
+          "end": "g29",
+          "en": "Rabbi Ḥiyya replies that the Exilarch in Babylonia is as great, so the nasi is not like a king."
+        },
+        {
+          "cat": "attack",
+          "start": "g30",
+          "end": "g41",
+          "en": "A baraita shows that kings who share power still each bring a goat, objecting to Rabbi Ḥiyya's view."
+        },
+        {
+          "cat": "answer",
+          "start": "g42",
+          "end": "g52",
+          "en": "Rabbi Ḥiyya distinguishes: those kings were not subject to one another, while the Exilarch rules over Eretz Yisrael."
+        },
+        {
+          "cat": "statement",
+          "start": "g53",
+          "end": "g56",
+          "en": "Rav Safra introduces a different wording of the same exchange."
+        },
+        {
+          "cat": "question",
+          "start": "g57",
+          "end": "g65",
+          "en": "Rav Safra's version: the same dilemma about whether the nasi brings a goat is put to Rabbi Ḥiyya."
+        },
+        {
+          "cat": "answer",
+          "start": "g66",
+          "end": "g70",
+          "en": "Rabbi Ḥiyya answers that the Exilarch's authority is a scepter, while local authority is only a staff."
+        },
+        {
+          "cat": "proof",
+          "start": "g71",
+          "end": "g101",
+          "en": "Genesis 49:10 is read to identify the Exilarch with the scepter and Hillel's descendants with the staff."
+        },
+        {
+          "cat": "statement",
+          "start": "g102",
+          "end": "g155",
+          "en": "The Mishna defines the anointed priest and the priest who is consecrated by garments, and their differing offerings."
+        },
+        {
+          "cat": "statement",
+          "start": "g156",
+          "end": "g172",
+          "en": "A baraita reports Rabbi Yehuda and Rabbi Yosei on how Moses's anointing oil was prepared."
+        },
+        {
+          "cat": "attack",
+          "start": "g173",
+          "end": "g178",
+          "en": "Rabbi Yosei objects that the oil cannot be enough to boil the spice roots in it."
+        },
+        {
+          "cat": "answer",
+          "start": "g179",
+          "end": "g190",
+          "en": "Rabbi Yosei proposes soaking the roots in water so the oil absorbs only the fragrance."
+        },
+        {
+          "cat": "defense",
+          "start": "g191",
+          "end": "g231",
+          "en": "Rabbi Yehuda replies that the oil's whole existence depends on miracles, so its making was miraculous too."
+        },
+        {
+          "cat": "proof",
+          "start": "g232",
+          "end": "g248",
+          "en": "Leviticus 8:10 is cited in a second baraita to support the miracles associated with the oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g249",
+          "end": "g295",
+          "en": "Rabbi Yehuda lists the continuing miracles of the oil, which served High Priests and kings through the generations."
+        },
+        {
+          "cat": "statement",
+          "start": "g296",
+          "end": "g308",
+          "en": "A High Priest, even a son of a High Priest, must be anointed, but a king, even a son of a king, is not."
+        },
+        {
+          "cat": "question",
+          "start": "g309",
+          "end": "g314",
+          "en": "If that is so, why were Solomon, Joash, and Jehoahaz anointed?"
+        },
+        {
+          "cat": "answer",
+          "start": "g315",
+          "end": "g337",
+          "en": "They were anointed to settle disputes over succession, and the oil remains for the future."
+        },
+        {
+          "cat": "proof",
+          "start": "g338",
+          "end": "g351",
+          "en": "Exodus 30:31 is read as indicating the oil's numerical value is twelve log."
+        },
+        {
+          "cat": "statement",
+          "start": "g352",
+          "end": "g361",
+          "en": "The Gemara restates the Mishna's principle that a High Priest, son of a High Priest, requires anointing."
+        },
+        {
+          "cat": "question",
+          "start": "g362",
+          "end": "g363",
+          "en": "From where do we derive that a High Priest's son requires anointing?"
+        },
+        {
+          "cat": "proof",
+          "start": "g364",
+          "end": "g375",
+          "en": "Leviticus 6:15 is cited for the wording of the anointed priest from among his sons."
+        },
+        {
+          "cat": "question",
+          "start": "g376",
+          "end": "g378",
+          "en": "Why does the verse say the anointed priest rather than just the priest?"
+        },
+        {
+          "cat": "answer",
+          "start": "g379",
+          "end": "g393",
+          "en": "The verse teaches that a son of a High Priest must be anointed to be High Priest, and otherwise is not."
+        },
+        {
+          "cat": "statement",
+          "start": "g394",
+          "end": "g396",
+          "en": "The Gemara quotes the Master: a king, son of a king, is not anointed."
+        },
+        {
+          "cat": "question",
+          "start": "g397",
+          "end": "g401",
+          "en": "From where do we derive that a king, son of a king, is not anointed?"
+        },
+        {
+          "cat": "proof",
+          "start": "g402",
+          "end": "g419",
+          "en": "Rav Aḥa bar Ya'akov derives it from Deuteronomy 17:20 about the kingdom being an inheritance."
+        },
+        {
+          "cat": "question",
+          "start": "g420",
+          "end": "g432",
+          "en": "How do we know anointing is needed only when there is a dispute over succession?"
+        },
+        {
+          "cat": "proof",
+          "start": "g433",
+          "end": "g451",
+          "en": "Rav Pappa derives it from the verse 'he and his sons among Israel', applying in peacetime without anointing."
+        },
+        {
+          "cat": "statement",
+          "start": "g452",
+          "end": "g463",
+          "en": "A baraita teaches that Jehu was anointed only because of Joram's dispute."
+        },
+        {
+          "cat": "question",
+          "start": "g464",
+          "end": "g468",
+          "en": "Why not explain it as Jehu being the first of his dynasty, rather than due to the dispute?"
+        },
+        {
+          "cat": "answer",
+          "start": "g469",
+          "end": "g472",
+          "en": "The baraita is incomplete and its actual teaching is that kings of Judah are anointed and kings of Israel are not."
+        },
+        {
+          "cat": "statement",
+          "start": "g473",
+          "end": "g480",
+          "en": "The rule is restated: kings of the house of David are anointed, while kings of Israel are not."
+        },
+        {
+          "cat": "question",
+          "start": "g481",
+          "end": "g482",
+          "en": "From where do we derive this?"
+        },
+        {
+          "cat": "proof",
+          "start": "g483",
+          "end": "g501",
+          "en": "Rava cites 1 Samuel 16:12, 'arise, anoint him, for this is he', showing only David required anointing."
+        },
+        {
+          "cat": "statement",
+          "start": "g502",
+          "end": "g514",
+          "en": "The Master says Jehu was anointed only due to Joram's dispute."
+        },
+        {
+          "cat": "question",
+          "start": "g515",
+          "end": "g521",
+          "en": "Shall we misuse consecrated anointing oil on a king of Israel who does not require it?"
+        },
+        {
+          "cat": "answer",
+          "start": "g522",
+          "end": "g530",
+          "en": "As Rav Pappa said, they anointed him with pure balsam oil, not with the sacred anointing oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g531",
+          "end": "g539",
+          "en": "Jehoahaz was anointed because of Jehoiakim, who was two years older than him."
+        },
+        {
+          "cat": "question",
+          "start": "g540",
+          "end": "g542",
+          "en": "But was Jehoiakim older than Jehoahaz?"
+        },
+        {
+          "cat": "proof",
+          "start": "g543",
+          "end": "g558",
+          "en": "1 Chronicles 3:15 lists the sons of Josiah in order, with Jehoiakim second and Zedekiah third."
+        },
+        {
+          "cat": "statement",
+          "start": "g559",
+          "end": "g568",
+          "en": "Rabbi Yoḥanan identifies the names: Shallum is Zedekiah, and Johanan is Jehoahaz."
+        },
+        {
+          "cat": "answer",
+          "start": "g569",
+          "end": "g575",
+          "en": "Jehoiakim was in fact older, and firstborn refers to Jehoahaz's status for ascending the throne."
+        },
+        {
+          "cat": "question",
+          "start": "g576",
+          "end": "g580",
+          "en": "Do younger sons rule before elder ones?"
+        },
+        {
+          "cat": "proof",
+          "start": "g581",
+          "end": "g591",
+          "en": "2 Chronicles 21:3 says the kingdom went to Jehoram because he was the firstborn."
+        },
+        {
+          "cat": "answer",
+          "start": "g592",
+          "end": "g605",
+          "en": "Jehoram was suited to his ancestors' role, unlike Jehoiakim, so the younger brother ascended first."
+        },
+        {
+          "cat": "statement",
+          "start": "g606",
+          "end": "g615",
+          "en": "The Master repeats the identifications: Shallum is Zedekiah, Johanan is Jehoahaz."
+        },
+        {
+          "cat": "question",
+          "start": "g616",
+          "end": "g628",
+          "en": "But the verse lists them separately, third and fourth, so they seem to be different people."
+        },
+        {
+          "cat": "answer",
+          "start": "g629",
+          "end": "g645",
+          "en": "Third means among the sons, and fourth means in succession to the throne, in the order of reigns."
+        },
+        {
+          "cat": "statement",
+          "start": "g646",
+          "end": "g650",
+          "en": "A baraita states that Shallum is Zedekiah."
+        },
+        {
+          "cat": "question",
+          "start": "g651",
+          "end": "g657",
+          "en": "Why was he named Shallum?"
+        },
+        {
+          "cat": "answer",
+          "start": "g658",
+          "end": "g665",
+          "en": "Some say the name refers to the Davidic kingdom being completed during his days."
+        },
+        {
+          "cat": "question",
+          "start": "g666",
+          "end": "g667",
+          "en": "What was his actual name?"
+        },
+        {
+          "cat": "answer",
+          "start": "g668",
+          "end": "g669",
+          "en": "His name was Mattaniah."
+        },
+        {
+          "cat": "proof",
+          "start": "g670",
+          "end": "g681",
+          "en": "2 Kings 24:17 is cited: the king of Babylon made Mattaniah king and changed his name to Zedekiah."
+        },
+        {
+          "cat": "statement",
+          "start": "g682",
+          "end": "g694",
+          "en": "Nebuchadnezzar renamed him, saying God would justify judgment against him if he rebelled."
+        },
+        {
+          "cat": "proof",
+          "start": "g695",
+          "end": "g714",
+          "en": "2 Kings 25:7 and 2 Chronicles 36:13 support that he was taken to Babylon after rebelling against the oath."
+        }
+      ]
+    },
+    "12a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "bc375fe8",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g41",
+          "en": "Was there anointing oil in Jehoahaz's time, given a baraita that says it was sequestered with the Ark?"
+        },
+        {
+          "cat": "answer",
+          "start": "g42",
+          "end": "g45",
+          "en": "Josiah sequestered the sacred objects, including the Ark."
+        },
+        {
+          "cat": "proof",
+          "start": "g46",
+          "end": "g57",
+          "en": "Josiah saw in Deuteronomy 28:36 that the Ark would be taken into exile, so he hid it."
+        },
+        {
+          "cat": "proof",
+          "start": "g58",
+          "end": "g96",
+          "en": "Second Chronicles 35:3 is cited, showing that the Levites were told to place the Ark in Solomon's Temple."
+        },
+        {
+          "cat": "proof",
+          "start": "g97",
+          "end": "g108",
+          "en": "Rabbi Elazar uses verbal analogies to show that all these items were sequestered together."
+        },
+        {
+          "cat": "statement",
+          "start": "g109",
+          "end": "g113",
+          "en": "Rav Pappa says they anointed Jehoahaz with pure balsam oil, not the sacred oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g114",
+          "end": "g123",
+          "en": "A baraita describes how kings are anointed, in a crown-like shape, and how priests are anointed."
+        },
+        {
+          "cat": "question",
+          "start": "g124",
+          "end": "g126",
+          "en": "What is meant by the shape being like the Greek letter chi?"
+        },
+        {
+          "cat": "answer",
+          "start": "g127",
+          "end": "g135",
+          "en": "Rav Menashya bar Gadda explains that the shape is like the Greek form of the letter kaf."
+        },
+        {
+          "cat": "statement",
+          "start": "g136",
+          "end": "g174",
+          "en": "Two baraitot disagree on whether anointing or pouring oil comes first; the tanna'im dispute which is preferable."
+        },
+        {
+          "cat": "question",
+          "start": "g175",
+          "end": "g176",
+          "en": "What is the reasoning of the one who holds that pouring is preferable?"
+        },
+        {
+          "cat": "proof",
+          "start": "g177",
+          "end": "g192",
+          "en": "Leviticus 8:12 says he poured the oil on Aaron's head and anointed him, so pouring is cited."
+        },
+        {
+          "cat": "question",
+          "start": "g193",
+          "end": "g197",
+          "en": "What is the reasoning of the one who holds that anointing is preferable?"
+        },
+        {
+          "cat": "answer",
+          "start": "g198",
+          "end": "g204",
+          "en": "Anointing takes precedence, as it is found with the service vessels, which were anointed without pouring."
+        },
+        {
+          "cat": "attack",
+          "start": "g205",
+          "end": "g208",
+          "en": "Isn't it written that he poured and then anointed, which contradicts this view?"
+        },
+        {
+          "cat": "answer",
+          "start": "g209",
+          "end": "g215",
+          "en": "The verse says he poured because he had already anointed them, so anointing is primary."
+        },
+        {
+          "cat": "proof",
+          "start": "g216",
+          "end": "g228",
+          "en": "Psalms 133:2 is cited about the precious oil coming down upon Aaron's beard."
+        },
+        {
+          "cat": "statement",
+          "start": "g229",
+          "end": "g251",
+          "en": "Two drops of oil shaped like pearls hung from Aaron's beard, and Rav Pappa explains they rose back miraculously."
+        },
+        {
+          "cat": "statement",
+          "start": "g252",
+          "end": "g258",
+          "en": "Moses worried that he had misused the consecrated oil, since two drops remained on Aaron's beard."
+        },
+        {
+          "cat": "proof",
+          "start": "g259",
+          "end": "g286",
+          "en": "A Divine Voice answers Moses with Psalms 133, comparing the oil to the dew of Hermon, which is not consecrated."
+        },
+        {
+          "cat": "statement",
+          "start": "g287",
+          "end": "g298",
+          "en": "Aaron, still worried, suspected that he himself had misused the consecrated oil on his beard."
+        },
+        {
+          "cat": "proof",
+          "start": "g299",
+          "end": "g323",
+          "en": "A Divine Voice cites Psalms 133:1 to reassure Aaron that he, like Moses, did not misuse the oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g324",
+          "end": "g335",
+          "en": "A baraita teaches that kings are anointed only at a spring, so that their kingdom will flow on."
+        },
+        {
+          "cat": "proof",
+          "start": "g336",
+          "end": "g352",
+          "en": "First Kings 1:33-34 is cited to show that Solomon was anointed at the spring of Gihon."
+        },
+        {
+          "cat": "statement",
+          "start": "g353",
+          "end": "g400",
+          "en": "Rabbi Ami and others describe omens: a lamp that keeps burning, and a rooster that grows fat, indicate success."
+        },
+        {
+          "cat": "statement",
+          "start": "g401",
+          "end": "g424",
+          "en": "One who wants to travel may test the omen of seeing the shadow of a shadow in a dark house."
+        },
+        {
+          "cat": "attack",
+          "start": "g425",
+          "end": "g432",
+          "en": "The Sages reject this omen as insignificant, since a failed omen might discourage the person."
+        },
+        {
+          "cat": "defense",
+          "start": "g433",
+          "end": "g450",
+          "en": "Abaye replies that omens matter, so one should accustom oneself to seeing good omens on Rosh HaShana."
+        },
+        {
+          "cat": "statement",
+          "start": "g451",
+          "end": "g471",
+          "en": "Rav Mesharshiyya advises his son how to study with his teacher, starting with the baraita and attending closely."
+        },
+        {
+          "cat": "proof",
+          "start": "g472",
+          "end": "g480",
+          "en": "Isaiah 30:20 is cited: your eyes shall see your teacher."
+        },
+        {
+          "cat": "statement",
+          "start": "g481",
+          "end": "g509",
+          "en": "Rav Mesharshiyya advises studying by a river and sitting in the rubbish heaps of Mata Meḥasya."
+        },
+        {
+          "cat": "proof",
+          "start": "g510",
+          "end": "g519",
+          "en": "First Samuel 2:1 is cited: my horn is exalted in my God."
+        },
+        {
+          "cat": "statement",
+          "start": "g520",
+          "end": "g534",
+          "en": "David and Solomon were anointed with a horn and reigned long, while Saul and Jehu were anointed with a jug and did not."
+        },
+        {
+          "cat": "statement",
+          "start": "g535",
+          "end": "g538",
+          "en": "The mishna asks who the anointed priest is: the High Priest anointed with the anointing oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g539",
+          "end": "g558",
+          "en": "A baraita explains that the term anointed excludes the king, the priest consecrated by garments, and the one anointed for war."
+        },
+        {
+          "cat": "proof",
+          "start": "g559",
+          "end": "g564",
+          "en": "The verse Leviticus 6:15 says the anointed priest, which identifies the highest-ranking priest."
+        },
+        {
+          "cat": "question",
+          "start": "g565",
+          "end": "g566",
+          "en": "From where is this inferred?"
+        },
+        {
+          "cat": "answer",
+          "start": "g567",
+          "end": "g576",
+          "en": "As Rava explains about the thigh, the stronger of the thighs, so the anointed refers to the most distinguished."
+        },
+        {
+          "cat": "statement",
+          "start": "g577",
+          "end": "g578",
+          "en": "The Master says the verse says anointed, and one might think it refers to a king."
+        },
+        {
+          "cat": "question",
+          "start": "g579",
+          "end": "g588",
+          "en": "But does a king bring a bull? No, a king brings a male goat, so why is the verse needed?"
+        },
+        {
+          "cat": "answer",
+          "start": "g589",
+          "end": "g602",
+          "en": "The tanna teaches that only the High Priest brings a bull, to exclude the king."
+        },
+        {
+          "cat": "statement",
+          "start": "g603",
+          "end": "g608",
+          "en": "The mishna says the difference between the High Priests is only the bull for any mitzva transgression."
+        },
+        {
+          "cat": "proof",
+          "start": "g609",
+          "end": "g630",
+          "en": "A baraita shows that this mishna does not follow Rabbi Meir, who requires the bull for the garment-consecrated priest."
+        },
+        {
+          "cat": "question",
+          "start": "g631",
+          "end": "g636",
+          "en": "What is the reasoning of Rabbi Meir?"
+        },
+        {
+          "cat": "proof",
+          "start": "g637",
+          "end": "g650",
+          "en": "Leviticus 4:3 is read to include the priest consecrated by garments, since the verse says the anointed priest."
+        },
+        {
+          "cat": "question",
+          "start": "g651",
+          "end": "g653",
+          "en": "So in accordance with which opinion did you explain the mishna?"
+        }
+      ]
+    },
+    "12b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "cc6c64ce",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g16",
+          "en": "The latter clause of the mishna is introduced as reaching the opinion of Rabbi Meir."
+        },
+        {
+          "cat": "statement",
+          "start": "g17",
+          "end": "g52",
+          "en": "A baraita gives Rabbi Meir's view that the first High Priest returns and the second keeps priestly duties, against Rabbi Yosei."
+        },
+        {
+          "cat": "statement",
+          "start": "g53",
+          "end": "g91",
+          "en": "Rabbi Yosei recounts an incident with Yosef ben Eilim, who could serve neither as High Priest nor as ordinary priest, and why."
+        },
+        {
+          "cat": "question",
+          "start": "g92",
+          "end": "g95",
+          "en": "Can the first clause be the Rabbis' view and the latter clause Rabbi Meir's view?"
+        },
+        {
+          "cat": "answer",
+          "start": "g96",
+          "end": "g112",
+          "en": "Rav Ḥisda and Rav Yosef reconcile the mishna by assigning different clauses to different tanna'im."
+        },
+        {
+          "cat": "statement",
+          "start": "g113",
+          "end": "g123",
+          "en": "Rava says the whole mishna is Rabbi Shimon's view, agreeing with Rabbi Meir on one point and not on another."
+        },
+        {
+          "cat": "statement",
+          "start": "g124",
+          "end": "g162",
+          "en": "A baraita lists the differences between a High Priest and an ordinary priest, from the bull offering to marriage rules."
+        },
+        {
+          "cat": "statement",
+          "start": "g163",
+          "end": "g190",
+          "en": "The baraita continues with the High Priest's mourning, his sharing of offerings, his eight garments, and Yom Kippur service."
+        },
+        {
+          "cat": "statement",
+          "start": "g191",
+          "end": "g241",
+          "en": "Rabbi Yehuda and the Sages disagree on which halakhot apply to a priest anointed for war, and on restoring the murderer."
+        },
+        {
+          "cat": "question",
+          "start": "g242",
+          "end": "g245",
+          "en": "From where can we know that the tanna of the baraita is Rabbi Shimon?"
+        },
+        {
+          "cat": "answer",
+          "start": "g246",
+          "end": "g257",
+          "en": "Rav Pappa says the view that a High Priest is exempt from the sliding-scale offering is Rabbi Shimon's."
+        },
+        {
+          "cat": "statement",
+          "start": "g258",
+          "end": "g262",
+          "en": "Everything applies except the five matters stated in the portion of the High Priest's laws."
+        },
+        {
+          "cat": "proof",
+          "start": "g263",
+          "end": "g307",
+          "en": "Leviticus 21:10 is read to show the five matters apply to the High Priest, the anointed-for-war priest, and the garment-consecrated priest."
+        },
+        {
+          "cat": "proof",
+          "start": "g308",
+          "end": "g337",
+          "en": "Leviticus 21:12 and 21:13 are read to limit the anointing-oil rule to the High Priest and to include the anointed-for-war priest."
+        },
+        {
+          "cat": "statement",
+          "start": "g338",
+          "end": "g355",
+          "en": "The verse about marrying a virgin is a tanna'itic dispute, with Rabbi Yishmael's view on the inclusion."
+        },
+        {
+          "cat": "proof",
+          "start": "g356",
+          "end": "g366",
+          "en": "Rabbi Akiva derives from the word 'and he' that a High Priest disqualified by blemishes must marry a virgin."
+        },
+        {
+          "cat": "question",
+          "start": "g367",
+          "end": "g390",
+          "en": "Rava asks Rav Naḥman whether an anointed High Priest with leprosy may marry a widow; Rav Pappa raises the same question."
+        },
+        {
+          "cat": "proof",
+          "start": "g391",
+          "end": "g410",
+          "en": "Huna, son of Rav Naḥman, cites the baraita: 'and he' includes a High Priest disqualified by blemish such as leprosy."
+        },
+        {
+          "cat": "statement",
+          "start": "g411",
+          "end": "g416",
+          "en": "Rav Pappa, pleased with Huna's learning, kisses him and gives him his daughter in marriage."
+        },
+        {
+          "cat": "statement",
+          "start": "g417",
+          "end": "g434",
+          "en": "The mishna says a High Priest rends his garments from below, and an ordinary priest from above."
+        },
+        {
+          "cat": "statement",
+          "start": "g435",
+          "end": "g455",
+          "en": "Rav and Shmuel differ on whether 'from below' and 'from above' mean the hem or the neckline."
+        },
+        {
+          "cat": "attack",
+          "start": "g456",
+          "end": "g485",
+          "en": "A baraita about rending the neckline for a father or mother is cited against Shmuel's view."
+        },
+        {
+          "cat": "answer",
+          "start": "g486",
+          "end": "g502",
+          "en": "Shmuel holds the view of Rabbi Yehuda, that a tear without rending the neckline is gratuitous."
+        },
+        {
+          "cat": "question",
+          "start": "g503",
+          "end": "g509",
+          "en": "Does Rabbi Yehuda hold that a High Priest may rend garments at all?"
+        },
+        {
+          "cat": "attack",
+          "start": "g510",
+          "end": "g560",
+          "en": "A baraita shows Rabbi Yehuda holds the High Priest does not rend his garments, while Rabbi Yishmael disagrees."
+        },
+        {
+          "cat": "answer",
+          "start": "g561",
+          "end": "g568",
+          "en": "Shmuel agrees with Rabbi Yehuda on the manner of rending but disagrees that the High Priest rends at all."
+        },
+        {
+          "cat": "statement",
+          "start": "g569",
+          "end": "g593",
+          "en": "The mishna says a more frequent mitzva precedes another, and a more sanctified person precedes another."
+        },
+        {
+          "cat": "question",
+          "start": "g594",
+          "end": "g596",
+          "en": "From where are these principles derived?"
+        },
+        {
+          "cat": "answer",
+          "start": "g597",
+          "end": "g625",
+          "en": "Abaye derives from Numbers 28:23 that the daily offering is more frequent and so takes precedence."
+        },
+        {
+          "cat": "statement",
+          "start": "g626",
+          "end": "g632",
+          "en": "The mishna restates that anyone more sanctified takes precedence over another."
+        },
+        {
+          "cat": "question",
+          "start": "g633",
+          "end": "g634",
+          "en": "From where do we derive that the more sanctified person takes precedence?"
+        },
+        {
+          "cat": "proof",
+          "start": "g635",
+          "end": "g649",
+          "en": "Leviticus 21:8 is read to grant the priest precedence in opening the Torah, blessing, and taking the portion."
+        }
+      ]
+    },
+    "13a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "91ef9096",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g5",
+          "en": "The mishna asserts that the anointed priest's bull precedes the congregation's bull in all its rites."
+        },
+        {
+          "cat": "question",
+          "start": "g6",
+          "end": "g8",
+          "en": "From where are these precedence rules derived?"
+        },
+        {
+          "cat": "proof",
+          "start": "g9",
+          "end": "g29",
+          "en": "Leviticus 4:21 says 'the first', which teaches that the anointed priest's bull comes first in all rites."
+        },
+        {
+          "cat": "statement",
+          "start": "g30",
+          "end": "g44",
+          "en": "A baraita restates that the anointed priest's bull precedes the congregation's bull in all its actions."
+        },
+        {
+          "cat": "statement",
+          "start": "g45",
+          "end": "g57",
+          "en": "The reasoning: the one who atones should precede the one who receives atonement, as a matter of logic."
+        },
+        {
+          "cat": "proof",
+          "start": "g58",
+          "end": "g68",
+          "en": "Leviticus 16:17 is cited: he atones for himself, his household, and the whole congregation."
+        },
+        {
+          "cat": "statement",
+          "start": "g69",
+          "end": "g78",
+          "en": "A communal bull for an unwitting sin precedes a bull for idol worship, according to a baraita."
+        },
+        {
+          "cat": "question",
+          "start": "g79",
+          "end": "g83",
+          "en": "What is the reason: one is a sin-offering and the other a burnt-offering?"
+        },
+        {
+          "cat": "proof",
+          "start": "g84",
+          "end": "g118",
+          "en": "Leviticus 5:8 and 5:10 establish that every sin-offering precedes the burnt-offering that accompanies it."
+        },
+        {
+          "cat": "statement",
+          "start": "g119",
+          "end": "g125",
+          "en": "Even a bird sin-offering precedes an animal burnt-offering, as the accepted rule holds."
+        },
+        {
+          "cat": "statement",
+          "start": "g126",
+          "end": "g132",
+          "en": "A bull for idol worship brought by the congregation precedes a goat for idol worship."
+        },
+        {
+          "cat": "question",
+          "start": "g133",
+          "end": "g137",
+          "en": "Why should the goat, a sin-offering, be preferred over the bull, a burnt-offering?"
+        },
+        {
+          "cat": "proof",
+          "start": "g138",
+          "end": "g158",
+          "en": "Numbers 15:24 is read: 'leḥattat' lacks an alef, and 'according to the ordinance' fixes the order of the bull first."
+        },
+        {
+          "cat": "statement",
+          "start": "g159",
+          "end": "g179",
+          "en": "A communal goat for idol worship precedes the king's goat, and the king's goat precedes an individual's female goat."
+        },
+        {
+          "cat": "statement",
+          "start": "g180",
+          "end": "g184",
+          "en": "An individual's female goat is preferred over an individual's ewe as a standard sin-offering."
+        },
+        {
+          "cat": "attack",
+          "start": "g185",
+          "end": "g191",
+          "en": "A baraita says the ewe of an individual precedes the female goat, contradicting the previous statement."
+        },
+        {
+          "cat": "answer",
+          "start": "g192",
+          "end": "g212",
+          "en": "Abaye says it is a dispute between tanna'im over whether the goat or the ewe is preferable."
+        },
+        {
+          "cat": "statement",
+          "start": "g213",
+          "end": "g234",
+          "en": "The omer precedes its lamb, the two loaves precede their sheep, and any day-dependent offering precedes a bread-dependent one."
+        },
+        {
+          "cat": "statement",
+          "start": "g235",
+          "end": "g255",
+          "en": "The mishna says a man precedes a woman in rescue or return of lost property, while a woman precedes in clothing and release."
+        },
+        {
+          "cat": "statement",
+          "start": "g256",
+          "end": "g287",
+          "en": "A baraita gives the order of release from captivity, and says a Torah scholar precedes the king of Israel."
+        },
+        {
+          "cat": "proof",
+          "start": "g288",
+          "end": "g308",
+          "en": "First Kings 1:33 is cited: the king said to take the servants of his lord, showing a king precedes a High Priest."
+        },
+        {
+          "cat": "proof",
+          "start": "g309",
+          "end": "g363",
+          "en": "First Kings 1:34 and Zechariah 3:8 show a High Priest precedes a prophet, and a sign means a prophet."
+        },
+        {
+          "cat": "statement",
+          "start": "g364",
+          "end": "g397",
+          "en": "The anointed High Priest precedes other priests, down to the deputy High Priest and the overseer."
+        },
+        {
+          "cat": "question",
+          "start": "g398",
+          "end": "g399",
+          "en": "What is the meaning of amarkal?"
+        },
+        {
+          "cat": "answer",
+          "start": "g400",
+          "end": "g405",
+          "en": "Rav Ḥisda explains amarkal is a contraction of amar kulla, meaning he says it all."
+        },
+        {
+          "cat": "statement",
+          "start": "g406",
+          "end": "g423",
+          "en": "The overseer precedes the treasurer, who precedes the priestly watch head, who precedes the head of a patrilineal family."
+        },
+        {
+          "cat": "question",
+          "start": "g424",
+          "end": "g434",
+          "en": "Regarding impurity, which comes first: the deputy High Priest or the priest anointed for war, when burying a met mitzva?"
+        },
+        {
+          "cat": "proof",
+          "start": "g435",
+          "end": "g468",
+          "en": "Mar Zutra cites a baraita that it is preferable for the priest anointed for war to become impure rather than the deputy."
+        },
+        {
+          "cat": "attack",
+          "start": "g469",
+          "end": "g473",
+          "en": "But a baraita says the priest anointed for war precedes the deputy High Priest, seemingly contradicting this."
+        },
+        {
+          "cat": "answer",
+          "start": "g474",
+          "end": "g479",
+          "en": "Ravina explains the baraita applies to rescuing him from danger, not to ritual impurity."
+        },
+        {
+          "cat": "statement",
+          "start": "g480",
+          "end": "g516",
+          "en": "The mishna lists precedence among priest, Levite, Israelite, mamzer, Gibeonite, convert, and emancipated slave."
+        },
+        {
+          "cat": "proof",
+          "start": "g517",
+          "end": "g554",
+          "en": "First Chronicles 23:13 and Deuteronomy 10:8 are cited to show priest precedes Levite and Levite precedes Israelite."
+        },
+        {
+          "cat": "statement",
+          "start": "g555",
+          "end": "g602",
+          "en": "Reasons are given for each precedence: legitimacy, fit lineage, sanctified upbringing, and being included in the curse."
+        },
+        {
+          "cat": "question",
+          "start": "g603",
+          "end": "g603",
+          "en": "From where are these matters derived?"
+        },
+        {
+          "cat": "proof",
+          "start": "g604",
+          "end": "g620",
+          "en": "Proverbs 3:15 is cited: Torah is more precious than the High Priest entering the Holy of Holies."
+        },
+        {
+          "cat": "statement",
+          "start": "g621",
+          "end": "g648",
+          "en": "Rabbi Shimon bar Yoḥai says an emancipated slave should precede a convert, but the convert precedes due to the curse."
+        },
+        {
+          "cat": "question",
+          "start": "g649",
+          "end": "g666",
+          "en": "Why does everyone run to marry a female convert, but not an emancipated Canaanite maidservant?"
+        },
+        {
+          "cat": "answer",
+          "start": "g667",
+          "end": "g688",
+          "en": "The maidservant was in the category of the curse, and the convert presumably retains chastity."
+        },
+        {
+          "cat": "question",
+          "start": "g689",
+          "end": "g704",
+          "en": "Why does a dog recognize its master, while a cat does not?"
+        },
+        {
+          "cat": "answer",
+          "start": "g705",
+          "end": "g716",
+          "en": "Eating the mouse makes the cat forget even more than eating what a mouse eats, so the cat does not recognize its owner."
+        },
+        {
+          "cat": "question",
+          "start": "g717",
+          "end": "g722",
+          "en": "Why do all predators dominate mice?"
+        },
+        {
+          "cat": "answer",
+          "start": "g723",
+          "end": "g728",
+          "en": "Mice have an evil inclination, as their nature is bad."
+        },
+        {
+          "cat": "question",
+          "start": "g729",
+          "end": "g730",
+          "en": "What is the indication of this?"
+        },
+        {
+          "cat": "answer",
+          "start": "g731",
+          "end": "g735",
+          "en": "Rava says they gnaw even at cloaks, which provide them no nourishment."
+        }
+      ]
+    },
+    "13b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "03393502",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g6",
+          "en": "Rav Pappa says the ancient habit of gnawing even on the handle of a hoe is a sign of mice's nature."
+        },
+        {
+          "cat": "statement",
+          "start": "g7",
+          "end": "g77",
+          "en": "A baraita lists five things that cause one to forget Torah study and five that restore it."
+        },
+        {
+          "cat": "proof",
+          "start": "g78",
+          "end": "g113",
+          "en": "The Gemara supports the baraita's olive oil and wine claims by citing Rabbi Yoḥanan and Rava."
+        },
+        {
+          "cat": "statement",
+          "start": "g114",
+          "end": "g132",
+          "en": "Dipping a finger in salt restores learning; Rabbi Yehuda says one finger and Rabbi Yosei says two."
+        },
+        {
+          "cat": "answer",
+          "start": "g133",
+          "end": "g134",
+          "en": "A mnemonic for the dispute: the ring finger, kemitza."
+        },
+        {
+          "cat": "statement",
+          "start": "g135",
+          "end": "g202",
+          "en": "A baraita lists ten things that are detrimental to Torah study, such as passing between camels or women."
+        },
+        {
+          "cat": "statement",
+          "start": "g203",
+          "end": "g237",
+          "en": "A baraita sets the rules for how people stand and seat themselves when the Nasi, deputy Nasi, or Ḥakham enters."
+        },
+        {
+          "cat": "statement",
+          "start": "g238",
+          "end": "g285",
+          "en": "A baraita rules on how sons of Torah scholars sit before their fathers, depending on whether they can hear and study."
+        },
+        {
+          "cat": "statement",
+          "start": "g286",
+          "end": "g304",
+          "en": "Rabbi Elazar son of Rabbi Tzadok adds that at a wedding party such youths are seated next to their fathers."
+        },
+        {
+          "cat": "statement",
+          "start": "g305",
+          "end": "g314",
+          "en": "Rav Pappa limits the return to one's place to a man who left for minor bodily functions."
+        },
+        {
+          "cat": "proof",
+          "start": "g315",
+          "end": "g333",
+          "en": "Rav Pappa cites Rav Yehuda's teaching in Rav's name: one should train oneself to relieve oneself morning and evening."
+        },
+        {
+          "cat": "statement",
+          "start": "g334",
+          "end": "g358",
+          "en": "Rava says that in weak times one may return even after major bodily functions, and repeats the rule about wedding parties."
+        },
+        {
+          "cat": "statement",
+          "start": "g359",
+          "end": "g409",
+          "en": "Rabbi Yoḥanan says the baraita was taught in the days of Rabban Shimon ben Gamliel, who sought to distinguish himself."
+        },
+        {
+          "cat": "statement",
+          "start": "g410",
+          "end": "g434",
+          "en": "When Rabbi Meir and Rabbi Natan returned, they found the new deference rules had been instituted in their absence."
+        },
+        {
+          "cat": "statement",
+          "start": "g435",
+          "end": "g488",
+          "en": "Rabbi Meir proposes that they test Rabban Shimon by asking him to teach tractate Okatzin, which he does not know."
+        },
+        {
+          "cat": "statement",
+          "start": "g489",
+          "end": "g511",
+          "en": "Rabbi Ya'akov ben Korshei overhears the plan and warns it may humiliate Rabban Shimon, so he studies Okatzin quietly."
+        },
+        {
+          "cat": "statement",
+          "start": "g512",
+          "end": "g541",
+          "en": "Rabban Shimon suspects a plot, studies Okatzin, and then teaches it, saying he would have been humiliated otherwise."
+        },
+        {
+          "cat": "statement",
+          "start": "g542",
+          "end": "g562",
+          "en": "Rabban Shimon has Rabbi Meir and Rabbi Natan expelled from the study hall as punishment."
+        },
+        {
+          "cat": "question",
+          "start": "g563",
+          "end": "g568",
+          "en": "Rabbi Yosei asks the Sages how the Torah embodied in preeminent scholars is outside while the Sages are inside."
+        },
+        {
+          "cat": "statement",
+          "start": "g569",
+          "end": "g640",
+          "en": "Rabban Shimon agrees to readmit them with penalties, and the Rabbis later recall Rabbi Natan's dream and appeasement."
+        }
+      ]
+    },
+    "14a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "da1a4653",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g4",
+          "en": "The passage continues the baraita: a substitute animal would not be sacrificed, citing the rule about the Sages' view."
+        },
+        {
+          "cat": "question",
+          "start": "g5",
+          "end": "g14",
+          "en": "Rabbi Yehuda HaNasi's son asks who the Sages are whose water we drink but whose names we do not mention."
+        },
+        {
+          "cat": "answer",
+          "start": "g15",
+          "end": "g24",
+          "en": "Rabbi Yehuda HaNasi replies that they sought to abolish his honor and the honor of his father's house."
+        },
+        {
+          "cat": "proof",
+          "start": "g25",
+          "end": "g37",
+          "en": "The son cites Ecclesiastes 9:6 to argue that since they are long dead, their names may be mentioned."
+        },
+        {
+          "cat": "proof",
+          "start": "g38",
+          "end": "g46",
+          "en": "Rabbi Yehuda HaNasi counters with Psalms 9:7: though enemies die, the desolation they caused remains."
+        },
+        {
+          "cat": "answer",
+          "start": "g47",
+          "end": "g58",
+          "en": "Rabban Shimon says the rule applies where their actions were effective, and these Sages' actions were not."
+        },
+        {
+          "cat": "statement",
+          "start": "g59",
+          "end": "g86",
+          "en": "Rabbi Yehuda HaNasi teaches the Sages' view in Rabbi Meir's name, and Rava notes his humility in not citing Rabbi Meir directly."
+        },
+        {
+          "cat": "statement",
+          "start": "g87",
+          "end": "g103",
+          "en": "Rabbi Yoḥanan says Rabban Shimon ben Gamliel and the Rabbis disagreed on whether Sinai or uprooter of mountains is preferable."
+        },
+        {
+          "cat": "statement",
+          "start": "g104",
+          "end": "g151",
+          "en": "Rav Yosef, the Sinai type, and Rabba, the mountain-uprooter, exchanged messages, with Rabba reigning before Rav Yosef."
+        },
+        {
+          "cat": "statement",
+          "start": "g152",
+          "end": "g185",
+          "en": "Abaye, Rava, Rabbi Zeira and Rabba bar Mattana study together, and Abaye's statement is the one not refuted, so he leads."
+        },
+        {
+          "cat": "question",
+          "start": "g186",
+          "end": "g196",
+          "en": "A dilemma is raised: which of Rabbi Zeira and Rabba bar Rav Mattana is preferable?"
+        },
+        {
+          "cat": "statement",
+          "start": "g197",
+          "end": "g206",
+          "en": "Rabbi Zeira is incisive and raises difficulties, while Rabba bar Rav Mattana is moderate and reaches conclusions."
+        },
+        {
+          "cat": "answer",
+          "start": "g207",
+          "end": "g208",
+          "en": "The Gemara concludes: the dilemma stands unresolved."
+        },
+        {
+          "cat": "statement",
+          "start": "g209",
+          "end": "g216",
+          "en": "The colophon concludes the chapter beginning Kohen Mashiaḥ and the tractate of Horayot."
+        }
+      ]
+    }
+  }
+}

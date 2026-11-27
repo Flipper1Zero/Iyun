@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="What this site stores, where, and how to delete it. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/privacy.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Privacy · Iyun" />
+    <meta
+      property="og:description"
+      content="What this site stores, where, and how to delete it. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/privacy.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Privacy · Iyun" />
+    <meta
+      name="twitter:description"
+      content="What this site stores, where, and how to delete it. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="pages.css" />
+  </head>
+  <body class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="page-head">
+      <a class="brand" href="index.html">Iyun</a>
+      <nav aria-label="Site">
+        <a href="index.html" data-i18n="nav.library">Library</a
+        ><a href="gemara.html" data-i18n="nav.daf">Daf</a
+        ><a href="notes.html" data-i18n="nav.notes">Notes</a
+        ><a href="chavruta.html" data-i18n="nav.chavruta">Chavruta</a
+        ><a href="about.html" data-i18n="nav.about">About</a
+        ><button
+          class="lang-toggle"
+          data-lang-toggle
+          type="button"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+      </nav>
+    </header>
+    <main id="main" class="page-main">
+      <h1>Privacy</h1>
+      <p class="small">
+        Plain-language summary of what this independent study site stores. It describes how the
+        software behaves; it is not legal advice.
+      </p>
+      <div class="notice">
+        <strong>Short version:</strong> reading needs no account. Your notes, bookmarks and settings
+        stay in your browser unless you create an account, and then they are stored on the server so
+        they sync between your devices. The site has no advertising and does not load third-party
+        trackers or fonts.
+      </div>
+
+      <h2 id="local">Without an account</h2>
+      <ul>
+        <li>
+          <strong>In your browser (localStorage):</strong> your notes, bookmarks, text marks,
+          punctuation, preferences (theme, size, language), the last place you read, and the
+          commentator you chose. Clear your site data to remove it.
+        </li>
+        <li>
+          <strong>Offline cache:</strong> pages and the texts you open are kept by a service worker
+          so they work offline. Clear site data to remove them.
+        </li>
+        <li><strong>No cookies</strong> are set when you only read.</li>
+        <li>Audio files you load in Sync stay on your device; they are never uploaded.</li>
+      </ul>
+
+      <h2 id="account">With an account</h2>
+      <p>If you sign up, the server stores:</p>
+      <ul>
+        <li>
+          your name, email address and a salted password hash (PBKDF2-SHA256, 100,000 iterations);
+          the password itself is never stored;
+        </li>
+        <li>
+          a session: a random token in an HttpOnly, Secure, SameSite=Lax cookie for 30 days (only
+          its hash is stored on the server);
+        </li>
+        <li>
+          your synced study data (notes, marks, bookmarks, tool data) as small key/value items, each
+          up to 150 KB;
+        </li>
+        <li>
+          groups you create or join, their membership and the messages posted in them (visible to
+          group members only);
+        </li>
+        <li>source sheets you publish (public, see below) and reports made about sheets;</li>
+        <li>
+          a short-lived count of recent sign-in attempts per IP address to slow down password
+          guessing (rows are deleted after about a minute).
+        </li>
+      </ul>
+      <p>
+        <strong>Live following and presence</strong> are delivered in real time and are not stored;
+        whether you are online is visible to members of your groups while you have the site open.
+      </p>
+      <p>
+        <strong>Source sheets are public.</strong> Anyone with the link can read a published sheet
+        and see the display name of its author. Do not put private information in a sheet. You can
+        delete your sheets at any time.
+      </p>
+
+      <h2 id="hosting">Hosting and third parties</h2>
+      <ul>
+        <li>
+          The site is served by Cloudflare. As with any host, Cloudflare processes request metadata
+          such as IP address to deliver and protect the site, under its own privacy policy. The
+          operator may enable Cloudflare’s cookieless web analytics for the domain; it is not part
+          of this site’s code.
+        </li>
+        <li>
+          This site loads no advertising, social widgets, analytics scripts or fonts from other
+          companies. Links to other sites (Sefaria, Wikisource, GitHub) are ordinary links that you
+          choose to follow.
+        </li>
+        <li>
+          If an optional AI question feature is switched on by the operator, the passage and your
+          question are sent to the AI provider the operator configured to produce an answer. It is
+          off unless signed in and configured.
+        </li>
+      </ul>
+
+      <h2 id="delete">Deleting your data</h2>
+      <ul>
+        <li>
+          To remove everything stored in your browser, clear this site’s data in your browser
+          settings.
+        </li>
+        <li>
+          To remove your account and everything stored on the server (profile, synced data, group
+          memberships, your messages, groups you own, your sheets), sign in and use the button
+          below. This cannot be undone.
+        </li>
+      </ul>
+      <div class="card" id="deleteBox" hidden>
+        <h3>Delete my account</h3>
+        <p class="small" id="deleteWho"></p>
+        <label for="deletePw">Confirm with your password</label>
+        <input id="deletePw" type="password" autocomplete="current-password" />
+        <p>
+          <button class="btn danger" id="deleteBtn" type="button">
+            Delete my account and data
+          </button>
+          <span id="deleteMsg" role="status" class="small"></span>
+        </p>
+      </div>
+      <p class="small" id="deleteHint">
+        Sign in from the home page to see the account deletion option here.
+      </p>
+
+      <h2 id="changes">Changes and contact</h2>
+      <p>
+        If this changes, the date below will change with it. Questions or concerns:
+        <a href="https://github.com/Flipper1Zero/Iyun/issues" rel="noopener">open an issue</a>
+        (public) on the project repository.
+      </p>
+      <p class="small">Last updated: 9 November 2026.</p>
+    </main>
+    <footer class="page-foot">
+      Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open sources. ·
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="cloud.js"></script>
+    <script>
+      (function () {
+        var C = window.IYUN_CLOUD;
+        if (!C) return;
+        C.ready.then(function (c) {
+          if (!c.available || !c.user) return;
+          document.getElementById('deleteBox').hidden = false;
+          document.getElementById('deleteHint').hidden = true;
+          document.getElementById('deleteWho').textContent = 'Signed in as ' + c.user.name + '.';
+          document.getElementById('deleteBtn').addEventListener('click', function () {
+            var msg = document.getElementById('deleteMsg'),
+              pw = document.getElementById('deletePw').value;
+            if (!pw) {
+              msg.textContent = 'Enter your password to confirm.';
+              return;
+            }
+            if (!confirm('Permanently delete your account and all data stored on the server?'))
+              return;
+            c.request('account', { method: 'DELETE', body: JSON.stringify({ password: pw }) })
+              .then(function () {
+                Object.keys(localStorage)
+                  .filter(function (k) {
+                    return k.indexOf('iyun.') === 0;
+                  })
+                  .forEach(function (k) {
+                    localStorage.removeItem(k);
+                  });
+                msg.textContent = 'Your account and server data were deleted.';
+                setTimeout(function () {
+                  location.href = 'index.html';
+                }, 1400);
+              })
+              .catch(function (e) {
+                msg.textContent = e.message;
+              });
+          });
+        });
+      })();
+    </script>
+    <script src="pwa.js"></script>
+  </body>
+</html>

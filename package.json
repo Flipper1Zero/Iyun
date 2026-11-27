@@ -1,0 +1,40 @@
+{
+  "name": "iyun",
+  "private": true,
+  "description": "Iyun: a free, open-source Torah study site (Hebrew texts, commentary, Vilna daf layout, notes, chavruta).",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flipper1Zero/Iyun.git"
+  },
+  "scripts": {
+    "build:texts": "node scripts/build-texts.mjs",
+    "build:dapim": "node scripts/build-dapim.mjs",
+    "build:titles": "node scripts/build-titles.mjs",
+    "build:review-index": "node scripts/build-annotation-index.mjs",
+    "annotations:signoff": "node scripts/review-signoff.mjs",
+    "build:calendar": "node scripts/build-calendar.mjs",
+    "build:icons": "python3 scripts/make-icons.py",
+    "meta": "node scripts/apply-meta.mjs",
+    "meta:check": "node scripts/apply-meta.mjs --check",
+    "build:site": "node scripts/build-site.mjs",
+    "build": "npm run build:texts && npm run build:dapim && npm run build:titles && npm run build:review-index && node scripts/build-calendar.mjs --snapshot && npm run verify && npm run verify:annotations && npm run build:site",
+    "verify": "node scripts/verify-library.mjs",
+    "verify:annotations": "node scripts/validate-annotations.mjs",
+    "annotations:worklist": "node scripts/annotation-worklist.mjs",
+    "annotations:cues": "node scripts/argument-cue-report.mjs",
+    "annotations:draft": "node scripts/draft-annotations.mjs",
+    "annotations:import": "node scripts/import-annotation.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "test:a11y": "node scripts/a11y.mjs",
+    "test:api": "node scripts/api-test.mjs",
+    "start": "node server.js",
+    "dev:worker": "wrangler dev",
+    "upload": "node scripts/upload-site.mjs",
+    "deploy": "npm run build && wrangler deploy && npm run upload"
+  },
+  "devDependencies": {
+    "axe-core": "^4.10.2",
+    "wrangler": "^4"
+  }
+}

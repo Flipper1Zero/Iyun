@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My notes · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="All the notes you have written while studying, searchable, exportable and shareable as a source sheet."
+    />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/notes.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="My notes · Iyun" />
+    <meta
+      property="og:description"
+      content="All the notes you have written while studying, searchable, exportable and shareable as a source sheet."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/notes.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="My notes · Iyun" />
+    <meta
+      name="twitter:description"
+      content="All the notes you have written while studying, searchable, exportable and shareable as a source sheet."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="pages.css" />
+  </head>
+  <body class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="page-head">
+      <a class="brand" href="index.html">Iyun</a>
+      <nav aria-label="Site">
+        <a href="index.html" data-i18n="nav.library">Library</a
+        ><a href="gemara.html" data-i18n="nav.daf">Daf</a
+        ><a href="notes.html" aria-current="page" data-i18n="nav.notes">Notes</a
+        ><a href="chavruta.html" data-i18n="nav.chavruta">Chavruta</a
+        ><a href="about.html" data-i18n="nav.about">About</a
+        ><button
+          class="lang-toggle"
+          data-lang-toggle
+          type="button"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+      </nav>
+    </header>
+    <main id="main" class="page-main" style="max-width: 980px">
+      <h1 data-i18n="notes.title">My notes</h1>
+      <p class="muted">
+        Everything you have written while studying, in one place. Notes live in this browser, work
+        offline, and sync across your devices when you are signed in.
+      </p>
+
+      <section aria-labelledby="notesH">
+        <div class="row">
+          <div class="grow">
+            <label for="q" class="muted" data-i18n="notes.search">Search notes</label
+            ><input
+              id="q"
+              type="search"
+              placeholder="Search by text or source…"
+              autocomplete="off"
+            />
+          </div>
+          <button class="btn secondary" id="exportJson" type="button" data-i18n="notes.export">
+            Export
+          </button>
+          <button class="btn secondary" id="exportMd" type="button">Export Markdown</button>
+          <label class="btn secondary" style="margin: 0; cursor: pointer"
+            ><span data-i18n="notes.import">Import</span
+            ><input id="importFile" type="file" accept="application/json,.json" hidden
+          /></label>
+        </div>
+        <p id="count" class="small" role="status" aria-live="polite"></p>
+        <div id="list"></div>
+        <p id="empty" class="muted" hidden data-i18n="notes.empty">
+          No notes yet. Write one in the reader and it will appear here.
+        </p>
+        <div class="row" style="margin-top: 8px">
+          <button class="btn secondary" id="addSelected" type="button">
+            Add selected notes to my sheet draft
+          </button>
+        </div>
+      </section>
+
+      <h2 id="sheet">Source sheet</h2>
+      <p class="muted">
+        Collect passages (use the <strong>Sheet</strong> button in the reader) and your notes,
+        arrange them, and publish a public link anyone can read. Sheets are public: do not include
+        private information.
+      </p>
+      <div class="card">
+        <label for="sheetTitle">Title</label>
+        <input
+          id="sheetTitle"
+          type="text"
+          maxlength="120"
+          placeholder="For example: The first mishnah of Berakhot"
+        />
+        <div id="blocks" style="margin-top: 12px"></div>
+        <div class="row" style="margin-top: 10px">
+          <button class="btn secondary" id="addText" type="button">Add a text block</button>
+          <button class="btn secondary" id="clearDraft" type="button">Clear draft</button>
+          <button class="btn" id="publish" type="button" data-i18n="notes.share">
+            Publish as a source sheet
+          </button>
+        </div>
+        <p id="publishMsg" class="small" role="status" aria-live="polite"></p>
+      </div>
+
+      <h2>My published sheets</h2>
+      <div id="mySheets"><p class="muted small">Sign in to publish and manage sheets.</p></div>
+    </main>
+    <footer class="page-foot">
+      Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open sources. ·
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="library.js"></script>
+    <script src="i18n.js"></script>
+    <script src="cloud.js"></script>
+    <script src="notes.js"></script>
+    <script src="pwa.js"></script>
+  </body>
+</html>

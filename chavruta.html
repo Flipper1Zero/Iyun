@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Chavruta · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="Study with a partner or group: private invite-code groups, live messages, presence and following a member through a text. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/chavruta.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Chavruta · Iyun" />
+    <meta
+      property="og:description"
+      content="Study with a partner or group: private invite-code groups, live messages, presence and following a member through a text. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/chavruta.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chavruta · Iyun" />
+    <meta
+      name="twitter:description"
+      content="Study with a partner or group: private invite-code groups, live messages, presence and following a member through a text. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="pages.css" />
+    <style>
+      .chav {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr);
+        gap: 18px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 24px 18px 70px;
+      }
+      @media (max-width: 800px) {
+        .chav {
+          grid-template-columns: 1fr;
+        }
+      }
+      .room-item {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background: #0b1450cc;
+        border: 1px solid var(--pg-line);
+        color: #fff;
+        border-radius: 10px;
+        padding: 10px 12px;
+        margin: 8px 0;
+        cursor: pointer;
+        font: inherit;
+      }
+      .room-item[aria-current='true'] {
+        border-color: #8fc4ff;
+        background: #12207a;
+      }
+      .room-item small {
+        display: block;
+        color: var(--pg-muted);
+      }
+      .badge {
+        display: inline-block;
+        min-width: 18px;
+        text-align: center;
+        background: #e5484d;
+        color: #fff;
+        border-radius: 9px;
+        font-size: 11px;
+        padding: 0 5px;
+        margin-left: 6px;
+      }
+      .dot {
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: #59627f;
+        margin-right: 6px;
+      }
+      .dot.on {
+        background: #2fd06b;
+        box-shadow: 0 0 6px #2fd06b;
+      }
+      #log {
+        height: min(52vh, 480px);
+        overflow: auto;
+        border: 1px solid var(--pg-line);
+        border-radius: 10px;
+        padding: 10px 12px;
+        background: #050a31cc;
+      }
+      .msg {
+        margin: 8px 0;
+        max-width: 86%;
+      }
+      .msg.mine {
+        margin-left: auto;
+        text-align: right;
+      }
+      .msg .who {
+        font-size: 12px;
+        color: var(--pg-muted);
+      }
+      .msg .bubble {
+        display: inline-block;
+        background: #12207a;
+        border-radius: 12px;
+        padding: 7px 12px;
+        white-space: pre-wrap;
+        text-align: left;
+        word-break: break-word;
+      }
+      .msg.mine .bubble {
+        background: #0d5bb5;
+      }
+      .msg .ref {
+        font-size: 11px;
+        color: #8fc4ff;
+        margin-right: 6px;
+      }
+      .banner {
+        border: 1px solid #2fd06b88;
+        background: #0a3a2a99;
+        border-radius: 10px;
+        padding: 10px 14px;
+        margin: 10px 0;
+      }
+      .members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 14px;
+        margin: 6px 0 12px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="page-head">
+      <a class="brand" href="index.html">Iyun</a>
+      <nav aria-label="Site">
+        <a href="index.html" data-i18n="nav.library">Library</a
+        ><a href="gemara.html" data-i18n="nav.daf">Daf</a
+        ><a href="notes.html" data-i18n="nav.notes">Notes</a
+        ><a href="chavruta.html" aria-current="page" data-i18n="nav.chavruta">Chavruta</a
+        ><a href="about.html" data-i18n="nav.about">About</a
+        ><button
+          class="lang-toggle"
+          data-lang-toggle
+          type="button"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="gate" class="page-main" hidden>
+        <h1 data-i18n="chav.title">Chavruta</h1>
+        <p class="muted" id="gateMsg">
+          Study with a partner or a group: private groups, live messages, and following someone
+          through a text.
+        </p>
+        <form id="authForm" class="card" hidden>
+          <h3 id="authTitle">Sign in</h3>
+          <div id="nameRow" hidden>
+            <label for="aName">Name</label><input id="aName" type="text" autocomplete="name" />
+          </div>
+          <label for="aEmail">Email</label
+          ><input id="aEmail" type="email" autocomplete="email" required />
+          <label for="aPw">Password (8+ characters)</label
+          ><input id="aPw" type="password" autocomplete="current-password" required minlength="8" />
+          <p>
+            <button class="btn" type="submit" id="aSubmit">Sign in</button>
+            <button class="btn secondary" type="button" id="aSwitch">Create an account</button>
+          </p>
+          <p id="aMsg" class="small" role="status"></p>
+        </form>
+      </div>
+      <div id="app" class="chav" hidden>
+        <aside aria-label="Groups">
+          <h2 style="margin-top: 0" data-i18n="chav.title">Chavruta</h2>
+          <div class="card">
+            <label for="newName">Create a group</label>
+            <div class="row">
+              <input
+                class="grow"
+                id="newName"
+                type="text"
+                maxlength="80"
+                placeholder="Group name"
+              /><button class="btn" id="createBtn" type="button">Create</button>
+            </div>
+            <label for="joinCode">Join with an invite code</label>
+            <div class="row">
+              <input class="grow" id="joinCode" type="text" placeholder="Invite code" /><button
+                class="btn secondary"
+                id="joinBtn"
+                type="button"
+              >
+                Join
+              </button>
+            </div>
+            <p id="sideMsg" class="small" role="status"></p>
+          </div>
+          <div id="rooms"></div>
+        </aside>
+        <section aria-label="Conversation">
+          <div id="empty" class="card">
+            <p class="muted">
+              Create a group or join one with an invite code to start. Members see each other’s
+              messages instantly, and who is online.
+            </p>
+          </div>
+          <div id="room" hidden>
+            <div class="row">
+              <h2 id="roomName" class="grow" style="margin: 0"></h2>
+              <button class="btn secondary" id="inviteBtn" type="button">Copy invite link</button
+              ><button class="btn secondary" id="renameBtn" type="button" hidden>Rename</button
+              ><button class="btn danger" id="leaveBtn" type="button">Leave</button>
+            </div>
+            <p class="small muted" id="inviteCode"></p>
+            <div class="members" id="members" aria-label="Members"></div>
+            <div class="card">
+              <h3 style="margin-top: 0">Live</h3>
+              <p class="small muted">
+                Use this group for Live, then in any reader tap <strong>● Live</strong> to follow a
+                member or lead the group through the text. Your choice is per tab.
+              </p>
+              <div class="row" role="radiogroup" aria-label="Live mode">
+                <label><input type="radio" name="mode" value="off" /> Off</label>
+                <label><input type="radio" name="mode" value="follow" /> Follow the group</label>
+                <label><input type="radio" name="mode" value="lead" /> Lead the group</label>
+              </div>
+              <div id="liveBanner" class="banner" hidden role="status" aria-live="polite"></div>
+            </div>
+            <label for="filterRef" class="muted">Show messages about</label>
+            <input
+              id="filterRef"
+              type="text"
+              placeholder="All passages (or type one, for example Shabbat 2a)"
+            />
+            <div id="log" role="log" aria-live="polite" aria-label="Messages" tabindex="0"></div>
+            <form id="composer" class="row" style="margin-top: 10px">
+              <input
+                class="grow"
+                id="refInput"
+                type="text"
+                maxlength="160"
+                placeholder="About (optional)"
+                aria-label="Passage this message is about"
+              />
+              <textarea
+                class="grow"
+                id="msgInput"
+                rows="2"
+                maxlength="4000"
+                placeholder="Write a message…"
+                data-i18n-ph="chav.placeholder"
+                aria-label="Message"
+                required
+              ></textarea>
+              <button class="btn" type="submit" data-i18n="chav.send">Send</button>
+            </form>
+            <p id="roomMsg" class="small" role="status"></p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-foot">
+      Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open sources. ·
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="library.js"></script>
+    <script src="i18n.js"></script>
+    <script src="cloud.js"></script>
+    <script src="chavruta.js"></script>
+    <script src="pwa.js"></script>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+/* Library panel and a few top bar tweaks for the readers (book.html and gemara.html). */
+/* The full-screen library panel that opens from the reader menu */
+.reader-library[hidden] {
+  display: none !important;
+}
+.reader-library {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow: auto;
+  background: radial-gradient(ellipse 68% 55% at 55% 55%, #111e7f, #07124e 65%, #04092d);
+  color: #dce4ff;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.reader-library::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(#b9d3ff55 1px, transparent 1px);
+  background-size: 35px 42px;
+  opacity: 0.3;
+}
+.reader-library-head {
+  height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 15px;
+  background: #060d36ec;
+  border-bottom: 1px solid #ffffff22;
+}
+.reader-library-head button,
+.reader-library-search {
+  border: 0;
+  background: none;
+  color: #d5dffc;
+  cursor: pointer;
+}
+.reader-library-close {
+  font-size: 27px;
+}
+.reader-library-search {
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: auto;
+}
+.reader-library-tabs {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  overflow-x: auto;
+  flex: 1;
+}
+.reader-library-tabs button {
+  flex: none;
+  font-size: 13px;
+  border-bottom: 2px solid transparent;
+}
+.reader-library-tabs button.active {
+  border-color: #fff;
+  color: #fff;
+}
+.reader-library-body {
+  position: relative;
+  max-width: 1120px;
+  min-height: calc(100vh - 55px);
+  margin: 40px auto;
+  padding: 0 35px;
+}
+.reader-library-groups {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.reader-library-group {
+  min-width: 125px;
+  max-width: 185px;
+  flex: 1;
+}
+.reader-library-group h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  color: #abb9dc;
+  margin: 10px 0 20px;
+}
+.reader-library-group button {
+  display: block;
+  width: 100%;
+  min-height: 36px;
+  margin: 7px 0;
+  border: 1px solid #ffffff44;
+  border-radius: 3px;
+  background: #ffffff0a;
+  color: #dce4ff;
+  font:
+    12px 'Open Sans',
+    sans-serif;
+  padding: 7px 8px;
+  cursor: pointer;
+}
+.reader-library-group button:hover {
+  background: #ffffff2a;
+}
+.reader-library-subtabs {
+  text-align: center;
+  margin: 10px 0 30px;
+}
+.reader-library-subtabs button {
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: none;
+  color: #aebbe3;
+  padding: 7px 18px;
+  cursor: pointer;
+}
+.reader-library-subtabs button.active {
+  border-color: white;
+  color: white;
+}
+.reader-library-detail {
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+}
+.reader-library-detail-back {
+  border: 0;
+  background: none;
+  color: #a9beff;
+  font-size: 13px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.reader-library-edition {
+  color: #b3bee3;
+  font-size: 12px;
+  letter-spacing: 0.13em;
+}
+.reader-library-flourish {
+  font-size: 24px;
+  color: #9aa7ce;
+  margin: 8px;
+}
+.reader-library-detail h1 {
+  font-weight: 400;
+  font-size: 29px;
+  margin: 8px;
+}
+.reader-library-sections {
+  margin: 35px auto;
+}
+.reader-library-section {
+  margin: 20px 0 32px;
+}
+.reader-library-section h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 14px;
+  color: #dfe6ff;
+}
+.reader-library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 8px;
+}
+.reader-library-grid a {
+  border: 1px solid #ffffff42;
+  background: #ffffff0d;
+  border-radius: 2px;
+  padding: 8px 4px;
+  color: #dce4ff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.reader-library-grid a:hover {
+  background: #ffffff2b;
+}
+.reader-library-open {
+  overflow: hidden;
+}
+.topbar #readerMenuToggle {
+  border: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+.topbar .logo#readerMenuToggle {
+  display: inline-flex;
+}
+.topbar .home-logo#readerMenuToggle {
+  font-size: 20px;
+  transform: none;
+}
+@media (max-width: 700px) {
+  .reader-library-body {
+    padding: 0 15px;
+  }
+  .reader-library-tabs {
+    gap: 9px;
+  }
+  .reader-library-tabs button {
+    font-size: 11px;
+  }
+}
+/* On the daf page the top bar matches the compact public reader. Secondary actions stay in the bottom tray. */
+.topbar .reader-account,
+.topbar .reader-divider {
+  font:
+    12px 'Open Sans',
+    sans-serif;
+  color: #0669bd;
+  text-decoration: none;
+}
+.topbar .reader-globe {
+  border: 0;
+  background: none;
+  color: #7a8596;
+  font-size: 24px;
+  cursor: pointer;
+}
+.topbar .wordmark {
+  pointer-events: auto;
+  text-decoration: none;
+}
+.topbar #bookmarkBtn,
+.topbar #shareDaf,
+.topbar #controlToggle {
+  display: none;
+}
+.topbar #searchBtn {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+/* Floating buttons */
+.golem-fab {
+  position: fixed;
+  z-index: 25;
+  left: 15px;
+  top: 44%;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #0788e8;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0002;
+}
+.fab-annotate {
+  display: none !important;
+}
+/* Page rail and search overlay */
+.page-rail {
+  position: fixed !important;
+  top: 45% !important;
+  right: 14px !important;
+  left: auto !important;
+  transform: translateY(-50%);
+  z-index: 20;
+}
+.rail-chev {
+  border: 0 !important;
+  background: none !important;
+  font-size: 12px !important;
+}
+.rail-daf {
+  font-size: 13px !important;
+}
+.search-overlay {
+  background: #fff !important;
+  padding-top: 15vh !important;
+}
+.search-box {
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  width: min(900px, 90vw) !important;
+}
+.search-top input {
+  text-align: center;
+  font-size: 24px !important;
+}
+.search-results {
+  max-height: 65vh !important;
+}
+/* Phone layout */
+@media (max-width: 700px) {
+  .topbar .reader-account,
+  .topbar .reader-divider {
+    display: none;
+  }
+  .golem-fab {
+    top: auto;
+    bottom: 70px;
+  }
+  .page-rail {
+    display: none !important;
+  }
+}
+.golem-fab {
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Review · Iyun</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="Progress on reviewing the machine-assisted Shakla v'Tarya drafts, and how to help check them. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/review.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Review the drafts · Iyun" />
+    <meta
+      property="og:description"
+      content="Progress on reviewing the machine-assisted Shakla v'Tarya drafts, and how to help check them. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/review.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Review the drafts · Iyun" />
+    <meta
+      name="twitter:description"
+      content="Progress on reviewing the machine-assisted Shakla v'Tarya drafts, and how to help check them. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="stylesheet" href="review.css" />
+  </head>
+  <body class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="page-head">
+      <a class="brand" href="index.html">Iyun</a>
+      <nav aria-label="Site">
+        <a href="index.html" data-i18n="nav.library">Library</a
+        ><a href="gemara.html" data-i18n="nav.daf">Daf</a
+        ><a href="notes.html" data-i18n="nav.notes">Notes</a
+        ><a href="chavruta.html" data-i18n="nav.chavruta">Chavruta</a
+        ><a href="about.html" data-i18n="nav.about">About</a
+        ><button
+          class="lang-toggle"
+          data-lang-toggle
+          type="button"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+      </nav>
+    </header>
+    <main id="main" class="page-main review-main">
+      <h1>Review the drafts</h1>
+      <p class="lead">
+        Iyun marks the argument structure of the Talmud (Shakla v’Tarya) in six roles: statement,
+        proof, attack, defense, question and answer. Almost all of it is an
+        <strong>machine-assisted draft</strong>. It becomes trustworthy only when a person who knows
+        the text checks it. This page shows how far along that is and how to help.
+      </p>
+
+      <section class="review-summary" aria-labelledby="progress-h">
+        <h2 id="progress-h">Progress</h2>
+        <div
+          class="review-bar"
+          id="overallBar"
+          role="img"
+          aria-label="Overall review progress"
+        ></div>
+        <p id="overallText" class="small">Loading…</p>
+      </section>
+
+      <section aria-labelledby="how-h">
+        <h2 id="how-h">How to review a daf</h2>
+        <ol>
+          <li>
+            Pick a tractate below and open a <span class="chip draft">draft</span> daf. The reader
+            shows the colored ranges and a “Draft” label.
+          </li>
+          <li>
+            Read the Hebrew. For each range, check that it starts and ends in the right place and
+            that the role (statement, proof, attack, defense, question, answer) and the short
+            explanation are right. Correct anything wrong in the reader’s markup tools.
+          </li>
+          <li>
+            When you are satisfied, fill in the form below to download a sign-off file, and send it
+            to the maintainers (open a pull request that runs
+            <code>npm run annotations:signoff -- your-file.json</code>, or attach the file to an
+            issue).
+          </li>
+        </ol>
+        <p class="small">
+          <strong>Only sign off a daf you actually checked.</strong> A sign-off records your name
+          and the date next to that daf in the public data.
+        </p>
+      </section>
+
+      <section aria-labelledby="list-h">
+        <h2 id="list-h">Tractates</h2>
+        <div class="review-legend small">
+          <span class="chip reviewed">reviewed</span><span class="chip draft">draft</span
+          ><span class="chip missing">not yet drafted</span>
+        </div>
+        <div id="tractates" class="review-list"></div>
+        <div id="dafList" class="review-dapim" hidden></div>
+      </section>
+
+      <section aria-labelledby="so-h">
+        <h2 id="so-h">Create a sign-off</h2>
+        <form id="signoff" class="review-form">
+          <label>Tractate <input id="soTractate" required placeholder="e.g. Yoma" /></label>
+          <label
+            >Daf <input id="soDaf" required placeholder="e.g. 77a" pattern="[0-9]+[ab]"
+          /></label>
+          <label>Your name <input id="soName" required minlength="2" autocomplete="name" /></label>
+          <label class="check"
+            ><input id="soConfirm" type="checkbox" required /> I checked every range, role and
+            explanation on this daf against the Hebrew.</label
+          >
+          <button class="btn" type="submit">Download sign-off file</button>
+        </form>
+        <p class="small" id="soMsg" role="status"></p>
+      </section>
+    </main>
+    <footer class="page-foot">
+      Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open sources. ·
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="pwa.js"></script>
+    <script src="review.js"></script>
+  </body>
+</html>

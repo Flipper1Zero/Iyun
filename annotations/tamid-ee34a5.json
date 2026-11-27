@@ -1,0 +1,2374 @@
+{
+  "schema": 1,
+  "tractate": "Tamid",
+  "dapim": {
+    "25b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "162b722f",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m4",
+          "en": "Priests keep watch in three places in the Temple out of honor for the Temple."
+        },
+        {
+          "cat": "statement",
+          "start": "m5",
+          "end": "m14",
+          "en": "Names the chambers of Avtinas, the Spark and the Hearth as watch posts, including their two-sided placement."
+        },
+        {
+          "cat": "statement",
+          "start": "m15",
+          "end": "m19",
+          "en": "Chambers of Avtinas and the Spark have upper stories where young priests keep watch."
+        },
+        {
+          "cat": "statement",
+          "start": "m20",
+          "end": "m24",
+          "en": "The Hearth chamber has no upper story; its ceiling is cupola-shaped and it is a large hall."
+        },
+        {
+          "cat": "statement",
+          "start": "m25",
+          "end": "m29",
+          "en": "The hall is surrounded by rows of stone that serve as benches."
+        },
+        {
+          "cat": "statement",
+          "start": "m30",
+          "end": "m37",
+          "en": "Elders of the patrilineal family sleep there and hold the Temple courtyard keys."
+        },
+        {
+          "cat": "statement",
+          "start": "m38",
+          "end": "m45",
+          "en": "Young priests sleep on the floor with their garments, not on the benches."
+        },
+        {
+          "cat": "statement",
+          "start": "m46",
+          "end": "m49",
+          "en": "They do not sleep in the sacred vestments."
+        },
+        {
+          "cat": "statement",
+          "start": "m50",
+          "end": "m55",
+          "en": "They remove and fold the vestments and place them under their heads."
+        },
+        {
+          "cat": "statement",
+          "start": "m56",
+          "end": "m57",
+          "en": "They cover themselves with their own non-sacred garments."
+        },
+        {
+          "cat": "statement",
+          "start": "m58",
+          "end": "m61",
+          "en": "Case: a priest suffers a seminal emission and becomes unfit for service."
+        },
+        {
+          "cat": "statement",
+          "start": "m62",
+          "end": "m64",
+          "en": "That priest leaves the Hearth chamber and walks away."
+        }
+      ]
+    },
+    "26a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "c83f8eef",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g16",
+          "en": "The priest walks under the arch with lamps lit on both sides until reaching the Chamber of Immersion, where a fire burns."
+        },
+        {
+          "cat": "statement",
+          "start": "g17",
+          "end": "g29",
+          "en": "A bathroom of honor exists; a closed door tells the next user that someone is inside."
+        },
+        {
+          "cat": "statement",
+          "start": "g30",
+          "end": "g34",
+          "en": "An open door signals that no one is inside, so one may enter."
+        },
+        {
+          "cat": "statement",
+          "start": "g35",
+          "end": "g39",
+          "en": "The priest descends, immerses, ascends, dries off and warms himself."
+        },
+        {
+          "cat": "statement",
+          "start": "g40",
+          "end": "g46",
+          "en": "He warms himself opposite the fire, then returns to sit with his fellow priests."
+        },
+        {
+          "cat": "statement",
+          "start": "g47",
+          "end": "g54",
+          "en": "He waits in the Hearth chamber until dawn, when the gates open, then leaves."
+        },
+        {
+          "cat": "statement",
+          "start": "g55",
+          "end": "g66",
+          "en": "Whoever wants to remove the ashes from the altar rises early and immerses before the appointed priest arrives."
+        },
+        {
+          "cat": "question",
+          "start": "g67",
+          "end": "g71",
+          "en": "At what time does the appointed priest arrive?"
+        },
+        {
+          "cat": "answer",
+          "start": "g72",
+          "end": "g86",
+          "en": "His arrival times vary; he may come at the rooster's call or shortly before or after it."
+        },
+        {
+          "cat": "statement",
+          "start": "g87",
+          "end": "g93",
+          "en": "The appointed priest arrives, knocks, and the priests inside open the gate for him."
+        },
+        {
+          "cat": "statement",
+          "start": "g94",
+          "end": "g98",
+          "en": "He announces that whoever has immersed may come forward to take part in the lottery."
+        },
+        {
+          "cat": "statement",
+          "start": "g99",
+          "end": "g104",
+          "en": "They conduct the lottery, and whoever wins the lot gains the right to the task."
+        },
+        {
+          "cat": "question",
+          "start": "g105",
+          "end": "g106",
+          "en": "From where is this rule derived?"
+        },
+        {
+          "cat": "answer",
+          "start": "g107",
+          "end": "g110",
+          "en": "Abaye says it is derived from a verse."
+        },
+        {
+          "cat": "proof",
+          "start": "g111",
+          "end": "g130",
+          "en": "Numbers 3:38 is quoted, describing Moses, Aaron and his sons keeping the Sanctuary watch."
+        },
+        {
+          "cat": "statement",
+          "start": "g131",
+          "end": "g139",
+          "en": "The verse shows that a watch in general is required of priests and Levites."
+        },
+        {
+          "cat": "attack",
+          "start": "g140",
+          "end": "g159",
+          "en": "The Mishna teaches separate watch places for priests and Levites, but the verse writes them together."
+        },
+        {
+          "cat": "defense",
+          "start": "g160",
+          "end": "g183",
+          "en": "The verse is read as Moses keeping watch in one place, Aaron in one place, and his sons in two others."
+        },
+        {
+          "cat": "question",
+          "start": "g184",
+          "end": "g192",
+          "en": "How do we know the verse should be read this way, with separate watches written separately?"
+        },
+        {
+          "cat": "attack",
+          "start": "g193",
+          "end": "g210",
+          "en": "Perhaps all the priests watch in one shared separate place, but that cannot be, since Moses's place is singular."
+        },
+        {
+          "cat": "statement",
+          "start": "g211",
+          "end": "g215",
+          "en": "Rav Ashi says the halakha is derived from the end of the verse."
+        },
+        {
+          "cat": "proof",
+          "start": "g216",
+          "end": "g221",
+          "en": "Numbers 3:38 is quoted again, using three forms of the root for watch, indicating three separate watches."
+        }
+      ]
+    },
+    "26b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "f0147349",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g3",
+          "en": "The mishna names the Chamber of Avtinas and the Chamber of the Spark."
+        },
+        {
+          "cat": "question",
+          "start": "g4",
+          "end": "g14",
+          "en": "Were these chambers actual upper stories, or merely tall halls built on pillars that resembled upper stories?"
+        },
+        {
+          "cat": "proof",
+          "start": "g15",
+          "end": "g36",
+          "en": "A mishna about the Gate of the Spark describes an upper story where priests watched from above and Levites from below."
+        },
+        {
+          "cat": "question",
+          "start": "g37",
+          "end": "g41",
+          "en": "From where is it derived that priests and Levites kept watch on different stories?"
+        },
+        {
+          "cat": "proof",
+          "start": "g42",
+          "end": "g50",
+          "en": "Numbers 18:2 is cited, stating that the Levites accompany Aaron in his service."
+        },
+        {
+          "cat": "question",
+          "start": "g51",
+          "end": "g59",
+          "en": "Does the verse refer to the priests' watch or to the Levites' own service of bearing vessels?"
+        },
+        {
+          "cat": "proof",
+          "start": "g60",
+          "end": "g66",
+          "en": "Numbers 18:4 is cited, saying the Levites keep watch over the vessels and the service."
+        },
+        {
+          "cat": "answer",
+          "start": "g67",
+          "end": "g74",
+          "en": "The watch-keeping in Numbers 18:4 already covers their own service, so the earlier verse must refer to the priests' watch."
+        },
+        {
+          "cat": "question",
+          "start": "g75",
+          "end": "g86",
+          "en": "How then is the earlier verse to be understood, and how exactly?"
+        },
+        {
+          "cat": "answer",
+          "start": "g87",
+          "end": "g91",
+          "en": "Priests keep watch from above and Levites accompany them from below."
+        },
+        {
+          "cat": "statement",
+          "start": "g92",
+          "end": "g97",
+          "en": "The Chamber of the Hearth had a cupola-shaped ceiling and was a large hall."
+        },
+        {
+          "cat": "question",
+          "start": "g98",
+          "end": "g103",
+          "en": "Was there only one watchman stationed in the Chamber of the Hearth?"
+        },
+        {
+          "cat": "attack",
+          "start": "g104",
+          "end": "g115",
+          "en": "A mishna says the Chamber of the Hearth had two gates, one opening to the rampart and one to the courtyard, implying two watchmen."
+        },
+        {
+          "cat": "answer",
+          "start": "g116",
+          "end": "g128",
+          "en": "Rabbi Yehuda explains that the courtyard gate had a small wicket through which priests could look into the courtyard."
+        },
+        {
+          "cat": "answer",
+          "start": "g129",
+          "end": "g143",
+          "en": "Abaye says the two gates stood opposite each other, so one watchman could oversee both."
+        },
+        {
+          "cat": "statement",
+          "start": "g144",
+          "end": "g148",
+          "en": "The Chamber of the Hearth was surrounded by rows of stone serving as benches."
+        },
+        {
+          "cat": "question",
+          "start": "g149",
+          "end": "g150",
+          "en": "What exactly were these rows of stone?"
+        },
+        {
+          "cat": "answer",
+          "start": "g151",
+          "end": "g155",
+          "en": "They were chiseled stones forming steps by which priests climbed to another row to lie down."
+        },
+        {
+          "cat": "question",
+          "start": "g156",
+          "end": "g160",
+          "en": "Would the stones have been split during construction, given the prohibition on iron tools in building the Temple?"
+        },
+        {
+          "cat": "proof",
+          "start": "g161",
+          "end": "g169",
+          "en": "1 Kings 6:7 is cited, stating no iron tool was heard while the Temple was built."
+        },
+        {
+          "cat": "answer",
+          "start": "g170",
+          "end": "g178",
+          "en": "Abaye says the stones were cut outside the Temple area and brought in from the start, small and large."
+        },
+        {
+          "cat": "proof",
+          "start": "g179",
+          "end": "g185",
+          "en": "1 Kings 7:10 is cited, describing stones of ten and eight cubits used in the foundation."
+        },
+        {
+          "cat": "statement",
+          "start": "g186",
+          "end": "g190",
+          "en": "The elders of the patrilineal family serving the next day would sleep there on the rows of stone."
+        },
+        {
+          "cat": "question",
+          "start": "g191",
+          "end": "g193",
+          "en": "Why did they sleep on the stones instead of bringing beds into the chamber?"
+        },
+        {
+          "cat": "answer",
+          "start": "g194",
+          "end": "g202",
+          "en": "Abaye says bringing beds into the Temple is not proper conduct."
+        },
+        {
+          "cat": "statement",
+          "start": "g203",
+          "end": "g207",
+          "en": "The young priests each slept with his garment on the ground."
+        },
+        {
+          "cat": "question",
+          "start": "g208",
+          "end": "g215",
+          "en": "Why does the mishna call the younger priests here by one term and call them rovim in the earlier passage?"
+        }
+      ]
+    },
+    "27a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "04b64b89",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g1",
+          "en": "Restates the question of why the young priests are called pirhei kehuna here but rovim there."
+        },
+        {
+          "cat": "answer",
+          "start": "g2",
+          "end": "g19",
+          "en": "Priests not yet eligible for service are called rovim; those ready to serve in the Hearth chamber are called pirhei kehuna."
+        },
+        {
+          "cat": "proof",
+          "start": "g20",
+          "end": "g33",
+          "en": "Middot 1:1 is cited: priests keep watch in three places, Avtinas, the Spark and the Hearth."
+        },
+        {
+          "cat": "statement",
+          "start": "g34",
+          "end": "g67",
+          "en": "Levites keep watch in twenty-one places around the Temple Mount and courtyard, plus three inner chambers."
+        },
+        {
+          "cat": "question",
+          "start": "g68",
+          "end": "g68",
+          "en": "From where are these Levite watch places derived?"
+        },
+        {
+          "cat": "answer",
+          "start": "g69",
+          "end": "g76",
+          "en": "Rav Yehuda of Sura, or a baraita, teaches the derivation from Chronicles."
+        },
+        {
+          "cat": "proof",
+          "start": "g77",
+          "end": "g100",
+          "en": "1 Chronicles 26:17-18 is cited, listing the Levite gatekeepers and their watch posts."
+        },
+        {
+          "cat": "attack",
+          "start": "g101",
+          "end": "g104",
+          "en": "The Sages object that the listed watches total twenty-four, not twenty-one, so this cannot be the source."
+        },
+        {
+          "cat": "answer",
+          "start": "g105",
+          "end": "g110",
+          "en": "Abaye says the verse repeats two for the Asuppim, which always have only two watchmen."
+        },
+        {
+          "cat": "attack",
+          "start": "g111",
+          "end": "g127",
+          "en": "Even so, twenty-two watches remain; the Parbar watch had one guard, and the second Levite only accompanied him."
+        },
+        {
+          "cat": "question",
+          "start": "g128",
+          "end": "g129",
+          "en": "What is the meaning of the term laParbar in the verse?"
+        },
+        {
+          "cat": "answer",
+          "start": "g130",
+          "end": "g137",
+          "en": "Rabba bar Rav Sheila says it contracts two Aramaic words meaning toward the outside."
+        },
+        {
+          "cat": "answer",
+          "start": "g138",
+          "end": "g147",
+          "en": "Alternatively, there are twenty-four watches in all: three of the priests and twenty-one of the Levites."
+        },
+        {
+          "cat": "question",
+          "start": "g148",
+          "end": "g152",
+          "en": "But the verse writes that all twenty-four watches are kept by Levites."
+        },
+        {
+          "cat": "answer",
+          "start": "g153",
+          "end": "g158",
+          "en": "This follows Rabbi Yehoshua ben Levi, who holds that priests are sometimes called Levites in the Bible."
+        },
+        {
+          "cat": "statement",
+          "start": "g159",
+          "end": "g165",
+          "en": "Rabbi Yehoshua ben Levi says twenty-four places in Scripture call priests Levites, and this verse is one."
+        },
+        {
+          "cat": "proof",
+          "start": "g166",
+          "end": "g173",
+          "en": "Ezekiel 44:15 is cited, calling the sons of Zadok the priests the Levites."
+        },
+        {
+          "cat": "statement",
+          "start": "g174",
+          "end": "g194",
+          "en": "Mishna: five watches at the Temple Mount gates, four at its corners within the wall; five at courtyard gates, four outside its wall."
+        },
+        {
+          "cat": "question",
+          "start": "g195",
+          "end": "g205",
+          "en": "What distinguishes the Temple Mount watches kept inside the wall from the courtyard watches kept outside it?"
+        },
+        {
+          "cat": "answer",
+          "start": "g206",
+          "end": "g235",
+          "en": "Sitting is allowed on the Temple Mount but not in the courtyard, so watches there are placed where the watchman may sit."
+        },
+        {
+          "cat": "question",
+          "start": "g236",
+          "end": "g247",
+          "en": "But was it only five gates that were built into the courtyard walls?"
+        },
+        {
+          "cat": "attack",
+          "start": "g248",
+          "end": "g258",
+          "en": "A mishna says there were seven courtyard gates: three north, three south, and one east."
+        },
+        {
+          "cat": "answer",
+          "start": "g259",
+          "end": "g265",
+          "en": "Abaye says two of the gates, leading to the Spark and Hearth chambers, needed no Levite watch since priests kept watch there."
+        },
+        {
+          "cat": "answer",
+          "start": "g266",
+          "end": "g270",
+          "en": "Rava says the number of gates is a dispute among tanna'im, as a baraita teaches."
+        },
+        {
+          "cat": "statement",
+          "start": "g271",
+          "end": "g286",
+          "en": "The baraita: no fewer than thirteen treasurers and seven trustees; Rabbi Natan says thirteen treasurers for thirteen gates."
+        },
+        {
+          "cat": "answer",
+          "start": "g287",
+          "end": "g309",
+          "en": "Removing the five Mount gates leaves eight courtyard gates, so tanna'im disagree on whether there were eight, seven or five."
+        },
+        {
+          "cat": "statement",
+          "start": "g310",
+          "end": "g315",
+          "en": "The mishna teaches that priests did not sleep dressed in sacred vestments."
+        },
+        {
+          "cat": "statement",
+          "start": "g316",
+          "end": "g328",
+          "en": "The Gemara infers that only sleeping is forbidden in the vestments, so walking in them is permitted and they may be used."
+        },
+        {
+          "cat": "attack",
+          "start": "g329",
+          "end": "g335",
+          "en": "The Sages reject that inference: walking in the vestments is also not permitted."
+        },
+        {
+          "cat": "answer",
+          "start": "g336",
+          "end": "g357",
+          "en": "The mishna mentions sleeping only because it wishes to teach the clause about folding and placing the vestments, so the opening clause is also about sleeping."
+        },
+        {
+          "cat": "attack",
+          "start": "g358",
+          "end": "g374",
+          "en": "The mishna's words about placing vestments under the head would then suggest benefit from them, so the Gemara reads it as beside the head."
+        },
+        {
+          "cat": "proof",
+          "start": "g375",
+          "end": "g389",
+          "en": "Rav Pappa infers from this reading that phylacteries may be placed beside the head during sleep."
+        },
+        {
+          "cat": "defense",
+          "start": "g390",
+          "end": "g406",
+          "en": "Beside the head is the reasonable reading, since beneath the head would violate the prohibition on mixed wool and linen."
+        }
+      ]
+    },
+    "27b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d7aff7f1",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g10",
+          "en": "On one view the High Priest's belt differs from an ordinary priest's belt, which is all linen."
+        },
+        {
+          "cat": "statement",
+          "start": "g11",
+          "end": "g20",
+          "en": "On the other view the ordinary priest's belt is the same as the High Priest's, so it contains mixed kinds."
+        },
+        {
+          "cat": "question",
+          "start": "g21",
+          "end": "g23",
+          "en": "If so, what can be said to resolve the difficulty?"
+        },
+        {
+          "cat": "answer",
+          "start": "g24",
+          "end": "g35",
+          "en": "Perhaps mixed kinds are prohibited only when worn or placed on oneself, but spreading them beneath is permitted."
+        },
+        {
+          "cat": "attack",
+          "start": "g36",
+          "end": "g58",
+          "en": "A baraita forbids spreading mixed kinds beneath oneself, lest a fiber wrap around the flesh."
+        },
+        {
+          "cat": "attack",
+          "start": "g59",
+          "end": "g86",
+          "en": "Even with a separating layer it is forbidden, as shown by a baraita about ten mattresses over a mixed garment."
+        },
+        {
+          "cat": "statement",
+          "start": "g87",
+          "end": "g92",
+          "en": "The mishna must therefore permit the vestments only beside the head, not beneath it."
+        },
+        {
+          "cat": "answer",
+          "start": "g93",
+          "end": "g99",
+          "en": "Alternatively, the mishna refers to vestments that contain no mixed kinds."
+        },
+        {
+          "cat": "statement",
+          "start": "g100",
+          "end": "g106",
+          "en": "Rav Ashi says priestly vestments, especially the belt, are stiff, so lying on them is permitted."
+        },
+        {
+          "cat": "proof",
+          "start": "g107",
+          "end": "g117",
+          "en": "Rav Huna, son of Rav Yehoshua, is cited: stiff felt from Neresh is permitted because it gives no warmth and is not a garment."
+        },
+        {
+          "cat": "proof",
+          "start": "g118",
+          "end": "g140",
+          "en": "A baraita permits wearing priestly vestments within the Temple but not leaving to the country; so benefit from them is permitted."
+        },
+        {
+          "cat": "question",
+          "start": "g141",
+          "end": "g142",
+          "en": "Is it not permitted to wear the vestments in the rest of the country outside the Temple?"
+        },
+        {
+          "cat": "attack",
+          "start": "g143",
+          "end": "g158",
+          "en": "A baraita about Gerizim and Shimon HaTzaddik shows him wearing priestly vestments outside the Temple."
+        },
+        {
+          "cat": "answer",
+          "start": "g159",
+          "end": "g168",
+          "en": "Either he wore garments fit to be priestly vestments, or he wore consecrated ones, permitted due to the need of the hour."
+        },
+        {
+          "cat": "proof",
+          "start": "g169",
+          "end": "g176",
+          "en": "Psalms 119:126 is cited to justify violating the halakha for the sake of Heaven in times of great need."
+        },
+        {
+          "cat": "statement",
+          "start": "g177",
+          "end": "g181",
+          "en": "Mishna: a priest with a seminal emission leaves the Chamber of the Hearth and goes through the passage beneath the Temple."
+        },
+        {
+          "cat": "proof",
+          "start": "g182",
+          "end": "g195",
+          "en": "This mishna supports Rabbi Yohanan, who holds the tunnels were not sanctified and an impure man is sent outside two camps."
+        },
+        {
+          "cat": "statement",
+          "start": "g196",
+          "end": "g200",
+          "en": "Mishna: lamps burn on both sides of the passage, and there is a bathroom of honor in the Chamber of Immersion."
+        },
+        {
+          "cat": "statement",
+          "start": "g201",
+          "end": "g214",
+          "en": "Rav Safra sits in the bathroom when Rabbi Abba arrives and coughs; Rav Safra tells him to enter."
+        },
+        {
+          "cat": "attack",
+          "start": "g215",
+          "end": "g228",
+          "en": "Rabbi Abba rebukes Rav Safra for behaving like a man of Seir, the land of the Edomites, by letting him enter."
+        },
+        {
+          "cat": "proof",
+          "start": "g229",
+          "end": "g235",
+          "en": "The mishna teaches that a closed door means someone is inside, so one must wait for him to leave."
+        },
+        {
+          "cat": "question",
+          "start": "g236",
+          "end": "g240",
+          "en": "Does this mean one should not have entered at all?"
+        },
+        {
+          "cat": "answer",
+          "start": "g241",
+          "end": "g263",
+          "en": "Rav Safra feared Rabbi Abba might be in danger, since holding back feces or urine causes illness, as a baraita teaches."
+        },
+        {
+          "cat": "statement",
+          "start": "g264",
+          "end": "g273",
+          "en": "Rav and Rav Huna each instruct their sons on relieving themselves in the dark or before dawn."
+        },
+        {
+          "cat": "statement",
+          "start": "g274",
+          "end": "g287",
+          "en": "Relieve yourself when the streets are empty, and behave modestly: sit before uncovering and cover before standing."
+        },
+        {
+          "cat": "statement",
+          "start": "g288",
+          "end": "g299",
+          "en": "When drinking water, pour out a little to rinse the cup before passing it to a student."
+        },
+        {
+          "cat": "proof",
+          "start": "g300",
+          "end": "g331",
+          "en": "A baraita forbids giving the remainder of one's water to a student without first pouring some out; a student died of thirst after refusing it."
+        },
+        {
+          "cat": "statement",
+          "start": "g332",
+          "end": "g341",
+          "en": "The Sages rule that one must not give water to a student without first pouring some out."
+        },
+        {
+          "cat": "statement",
+          "start": "g342",
+          "end": "g354",
+          "en": "Rav Ashi says a student who pours out in his teacher's presence is not guilty of disrespect."
+        },
+        {
+          "cat": "statement",
+          "start": "g355",
+          "end": "g367",
+          "en": "Rules on spitting in a teacher's presence: do not do so, except when eating gourd or porridge, which is dangerous to hold back."
+        },
+        {
+          "cat": "statement",
+          "start": "g368",
+          "end": "g389",
+          "en": "Mishna: the Temple Mount officer goes around each watch post with torches to ensure the watchmen are awake."
+        }
+      ]
+    },
+    "28a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "bc8f07bb",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g12",
+          "en": "Mishna: the watchman is greeted; silence shows he is asleep, and the Temple Mount officer may strike him and burn his garment."
+        },
+        {
+          "cat": "statement",
+          "start": "g13",
+          "end": "g27",
+          "en": "Bystanders hear the noise and explain that a Levite is being beaten and his clothing burned for sleeping on watch."
+        },
+        {
+          "cat": "statement",
+          "start": "g28",
+          "end": "g42",
+          "en": "Rabbi Eliezer ben Yaakov reports that his maternal uncle was found sleeping on watch and his garment was burned."
+        },
+        {
+          "cat": "statement",
+          "start": "g43",
+          "end": "g70",
+          "en": "Rabbi Yohanan praises early generations who judged even unavoidable sleep, and all the more so deliberate offenses."
+        },
+        {
+          "cat": "statement",
+          "start": "g71",
+          "end": "g99",
+          "en": "A baraita of Rabbi Yehuda HaNasi: love admonition, because where the wise rebuke, blessing and goodness enter the world."
+        },
+        {
+          "cat": "proof",
+          "start": "g100",
+          "end": "g109",
+          "en": "Proverbs 24:25 is cited: to those who admonish there shall be delight and a good blessing."
+        },
+        {
+          "cat": "statement",
+          "start": "g110",
+          "end": "g114",
+          "en": "Another view holds that one should hold fast to exceptional faithfulness in dealings."
+        },
+        {
+          "cat": "proof",
+          "start": "g115",
+          "end": "g124",
+          "en": "Psalms 101:6 is cited: my eyes are upon the faithful of the land."
+        },
+        {
+          "cat": "statement",
+          "start": "g125",
+          "end": "g145",
+          "en": "Rabbi Shmuel bar Nahmani, citing Rabbi Yonatan, says one who rebukes for Heaven's sake merits a portion with God."
+        },
+        {
+          "cat": "proof",
+          "start": "g146",
+          "end": "g151",
+          "en": "Proverbs 28:23 is cited: one who rebukes a man shall find favor."
+        },
+        {
+          "cat": "statement",
+          "start": "g152",
+          "end": "g160",
+          "en": "Such a rebuker is also drawn under a cord of divine kindness."
+        },
+        {
+          "cat": "proof",
+          "start": "g161",
+          "end": "g167",
+          "en": "Proverbs 28:23 is cited again: he who rebukes finds more favor than one who flatters with the tongue."
+        },
+        {
+          "cat": "statement",
+          "start": "g168",
+          "end": "g178",
+          "en": "Mishna quoted: one who finds the bathroom door closed waits, and whoever wants to remove the ashes rises early to immerse."
+        },
+        {
+          "cat": "attack",
+          "start": "g179",
+          "end": "g207",
+          "en": "The mishna seems to contradict itself: it implies the ash removal is decided by readiness, yet later by a lottery."
+        },
+        {
+          "cat": "answer",
+          "start": "g208",
+          "end": "g217",
+          "en": "Abaye: the first clause describes the procedure before the lottery ordinance, the second clause after it."
+        },
+        {
+          "cat": "proof",
+          "start": "g218",
+          "end": "g247",
+          "en": "An earlier mishna is cited: originally whoever wished removed the ashes, with a race to the altar ramp and a finger lottery for ties."
+        },
+        {
+          "cat": "statement",
+          "start": "g248",
+          "end": "g257",
+          "en": "Explanation of the finger lottery: one or two fingers may be shown, but never the thumb, which could enable manipulation."
+        },
+        {
+          "cat": "statement",
+          "start": "g258",
+          "end": "g286",
+          "en": "Two priests raced and one shoved the other, breaking his leg; the court then instituted that ash removal be done only by lottery."
+        },
+        {
+          "cat": "answer",
+          "start": "g287",
+          "end": "g294",
+          "en": "Rava: both clauses describe the procedure after the ordinance, and the mishna teaches that those who wish to participate rise early."
+        },
+        {
+          "cat": "statement",
+          "start": "g295",
+          "end": "g305",
+          "en": "Rava's reading: whoever wants to participate in the lottery rises early and immerses before the appointed priest arrives."
+        },
+        {
+          "cat": "statement",
+          "start": "g306",
+          "end": "g324",
+          "en": "Mishna: the appointed priest opens the wicket from the Chamber of the Hearth, and the priests enter with two torches."
+        },
+        {
+          "cat": "statement",
+          "start": "g325",
+          "end": "g337",
+          "en": "The priests split into two groups, walking the portico from east and from west, inspecting the vessels."
+        },
+        {
+          "cat": "statement",
+          "start": "g338",
+          "end": "g345",
+          "en": "They inspect each vessel until they reach the chamber of the preparer of the griddle-cake offering."
+        },
+        {
+          "cat": "statement",
+          "start": "g346",
+          "end": "g357",
+          "en": "Both groups declare that all is well and the vessels are in place, and they set the preparer to his task."
+        },
+        {
+          "cat": "statement",
+          "start": "g358",
+          "end": "g366",
+          "en": "The priest who won the lottery removes the ashes, while the others remind him of the requirements."
+        },
+        {
+          "cat": "statement",
+          "start": "g367",
+          "end": "g377",
+          "en": "Reminder not to touch any vessel until hands and feet are sanctified from the Basin."
+        },
+        {
+          "cat": "statement",
+          "start": "g378",
+          "end": "g387",
+          "en": "The coal pan is placed in the corner between the ramp and the altar, on the western side of the ramp."
+        },
+        {
+          "cat": "statement",
+          "start": "g388",
+          "end": "g402",
+          "en": "No one enters with the ash-removing priest, and he walks by the light of the altar's fire unseen by others."
+        }
+      ]
+    },
+    "28b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "048b340e",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g23",
+          "en": "Priests could not hear the offerer; they knew he had purified hands and feet from the sound of the basin pulleys."
+        },
+        {
+          "cat": "statement",
+          "start": "g24",
+          "end": "g39",
+          "en": "The offerer takes the coal pan, ascends the altar, clears the coals and descends the ramp."
+        },
+        {
+          "cat": "statement",
+          "start": "g40",
+          "end": "g69",
+          "en": "He walks to the floor, turns north and deposits the coals at a set spot near the ramp."
+        },
+        {
+          "cat": "question",
+          "start": "g70",
+          "end": "g73",
+          "en": "Were there porticoes in the Temple courtyard at all?"
+        },
+        {
+          "cat": "attack",
+          "start": "g74",
+          "end": "g80",
+          "en": "A baraita is brought against the view that porticoes existed, naming R. Eliezer ben Yaakov as its source."
+        },
+        {
+          "cat": "proof",
+          "start": "g81",
+          "end": "g99",
+          "en": "The baraita cites a verse forbidding a tree beside the altar as its proof."
+        },
+        {
+          "cat": "answer",
+          "start": "g100",
+          "end": "g115",
+          "en": "The verse is explained as forbidding both idolatrous trees and any wood placed beside the altar."
+        },
+        {
+          "cat": "defense",
+          "start": "g116",
+          "end": "g120",
+          "en": "Rav Hisda upholds the mishna by limiting the prohibition to wooden porticoes, while stone ones are allowed."
+        },
+        {
+          "cat": "statement",
+          "start": "g121",
+          "end": "g124",
+          "en": "The mishna states that the inspectors kept checking the vessels until reaching the griddle-cake preparer's chamber."
+        },
+        {
+          "cat": "question",
+          "start": "g125",
+          "end": "g128",
+          "en": "Does this mean the griddle-cake offering was brought before the other rites of the service?"
+        },
+        {
+          "cat": "attack",
+          "start": "g129",
+          "end": "g136",
+          "en": "A baraita teaches that nothing may be offered on the altar before the morning daily offering."
+        },
+        {
+          "cat": "proof",
+          "start": "g137",
+          "end": "g142",
+          "en": "The baraita supports this with a verse about the burnt offering placed in order before the peace offerings."
+        },
+        {
+          "cat": "defense",
+          "start": "g143",
+          "end": "g148",
+          "en": "Rabba answers that the verse means the burnt offering comes first, so the griddle cakes follow it."
+        },
+        {
+          "cat": "defense",
+          "start": "g149",
+          "end": "g153",
+          "en": "Rav Yehuda explains that the griddle cakes were not burned early, but used to heat water for the cakes."
+        },
+        {
+          "cat": "statement",
+          "start": "g154",
+          "end": "g157",
+          "en": "The Gemara closes the chapter, marking the end of the section on the three places."
+        },
+        {
+          "cat": "statement",
+          "start": "g158",
+          "end": "g178",
+          "en": "Mishnah: the brothers of the ash-remover hurry to purify themselves and climb with shovels and forks."
+        },
+        {
+          "cat": "statement",
+          "start": "g179",
+          "end": "g197",
+          "en": "Unconsumed limbs and fats from the night are cleared to the altar sides, or stacked on the ramp."
+        },
+        {
+          "cat": "statement",
+          "start": "g198",
+          "end": "g223",
+          "en": "The ashes are heaped in the altar's center, removed outside the city, but not on festivals."
+        }
+      ]
+    },
+    "29a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "650a3d9c",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g5",
+          "en": "The priest who removed the ashes was never lazy about clearing them from the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g6",
+          "end": "g11",
+          "en": "Priests began raising logs onto the altar to build the wood arrangement for the offerings."
+        },
+        {
+          "cat": "question",
+          "start": "g12",
+          "end": "g16",
+          "en": "Are all types of wood fit for the arrangement?"
+        },
+        {
+          "cat": "answer",
+          "start": "g17",
+          "end": "g23",
+          "en": "Yes, all wood is fit except the vine and the olive tree."
+        },
+        {
+          "cat": "statement",
+          "start": "g24",
+          "end": "g38",
+          "en": "In practice they used branches of fig, nut and pine wood for the arrangement."
+        },
+        {
+          "cat": "statement",
+          "start": "g39",
+          "end": "g60",
+          "en": "The large arrangement was built on the altar's east side, with gaps for kindling to spread the fire."
+        },
+        {
+          "cat": "statement",
+          "start": "g61",
+          "end": "g69",
+          "en": "From the available logs they selected fine fig wood, then built the second arrangement for incense."
+        },
+        {
+          "cat": "statement",
+          "start": "g70",
+          "end": "g80",
+          "en": "The incense arrangement was placed near the southwest corner, four cubits north of it."
+        },
+        {
+          "cat": "statement",
+          "start": "g81",
+          "end": "g116",
+          "en": "It held enough wood for five se'a of coals, eight on Shabbat, and leftover limbs returned to the large pile."
+        },
+        {
+          "cat": "statement",
+          "start": "g117",
+          "end": "g128",
+          "en": "Rava holds that the mishna's ash-heap and gold-cup descriptions are exaggerations, not literal facts."
+        },
+        {
+          "cat": "statement",
+          "start": "g129",
+          "end": "g147",
+          "en": "R. Ami says the Torah, the prophets and the Sages all sometimes used exaggerated language."
+        },
+        {
+          "cat": "proof",
+          "start": "g148",
+          "end": "g156",
+          "en": "He cites the verse describing cities fortified up to heaven as an example of exaggeration in the Torah."
+        },
+        {
+          "cat": "attack",
+          "start": "g157",
+          "end": "g157",
+          "en": "Objection: the cities cannot literally have been fortified up to heaven."
+        },
+        {
+          "cat": "answer",
+          "start": "g158",
+          "end": "g163",
+          "en": "Reply: this is exaggeration, as the Sages also spoke in such figurative language."
+        },
+        {
+          "cat": "proof",
+          "start": "g164",
+          "end": "g172",
+          "en": "Recalls the earlier examples of the ash heap and the gold cup as Sages' exaggerations."
+        },
+        {
+          "cat": "statement",
+          "start": "g173",
+          "end": "g177",
+          "en": "The prophets too used exaggerated language, as the Sages stated."
+        },
+        {
+          "cat": "proof",
+          "start": "g178",
+          "end": "g190",
+          "en": "Cites Solomon's coronation verse, where the earth splitting from the pipe sound is an exaggeration."
+        },
+        {
+          "cat": "statement",
+          "start": "g191",
+          "end": "g208",
+          "en": "Shmuel says the Sages used exaggeration in three cases: the ash heap, the vine, and the Curtain."
+        },
+        {
+          "cat": "attack",
+          "start": "g209",
+          "end": "g217",
+          "en": "Shmuel's teaching excludes Rava's view, citing the mishna that the lamb was given water in a gold cup."
+        },
+        {
+          "cat": "statement",
+          "start": "g218",
+          "end": "g220",
+          "en": "Rava says the gold cup description is an exaggeration."
+        },
+        {
+          "cat": "answer",
+          "start": "g221",
+          "end": "g231",
+          "en": "Shmuel replies that the golden cup was literal, since the Temple is a place of wealth without poverty."
+        },
+        {
+          "cat": "statement",
+          "start": "g232",
+          "end": "g234",
+          "en": "The ash heap is the first of the three cases that Shmuel lists as exaggerations."
+        },
+        {
+          "cat": "proof",
+          "start": "g235",
+          "end": "g243",
+          "en": "A baraita describes the gold vine at the Sanctuary entrance, supporting the vine as the second case."
+        },
+        {
+          "cat": "statement",
+          "start": "g244",
+          "end": "g251",
+          "en": "The vine hung on posts, and each donor could add a gold leaf to it."
+        }
+      ]
+    },
+    "29b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "0ee253c8",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g19",
+          "en": "A cluster of grapes was hung on the vine; R. Elazar recounts an incident of three hundred priests moving it."
+        },
+        {
+          "cat": "proof",
+          "start": "g20",
+          "end": "g29",
+          "en": "The Gemara cites a mishna describing the Curtain, as Rabban Shimon ben Gamliel relates in Rabbi Shimon's name."
+        },
+        {
+          "cat": "statement",
+          "start": "g30",
+          "end": "g65",
+          "en": "The mishna describes the Curtain's thickness, strands, dimensions, cost, and the priests who immersed it each year."
+        },
+        {
+          "cat": "statement",
+          "start": "g66",
+          "end": "g78",
+          "en": "The mishna teaches that wood from olive and vine trees is excluded from the arrangement of wood."
+        },
+        {
+          "cat": "question",
+          "start": "g79",
+          "end": "g80",
+          "en": "What is the reason that olive and vine wood is unfit?"
+        },
+        {
+          "cat": "answer",
+          "start": "g81",
+          "end": "g88",
+          "en": "Rav Pappa says the knots in these branches make the wood burn poorly and smoke excessively."
+        },
+        {
+          "cat": "answer",
+          "start": "g89",
+          "end": "g94",
+          "en": "Rav Aha bar Yaakov adds that using these trees would harm the settlement of Eretz Yisrael."
+        },
+        {
+          "cat": "attack",
+          "start": "g95",
+          "end": "g98",
+          "en": "An objection is raised from a baraita on the Leviticus verse about wood for the altar fire."
+        },
+        {
+          "cat": "proof",
+          "start": "g99",
+          "end": "g116",
+          "en": "The verse requires wood that burns completely, meaning smooth branches without internal knots."
+        },
+        {
+          "cat": "question",
+          "start": "g117",
+          "end": "g118",
+          "en": "Are all trees' wood fit for the arrangement?"
+        },
+        {
+          "cat": "answer",
+          "start": "g119",
+          "end": "g129",
+          "en": "Yes, all wood is fit except olive and vine; priests used fig, nut and pine branches."
+        },
+        {
+          "cat": "statement",
+          "start": "g130",
+          "end": "g141",
+          "en": "The priests customarily used young branches of fig, nut, and pine wood for the arrangement."
+        },
+        {
+          "cat": "statement",
+          "start": "g142",
+          "end": "g155",
+          "en": "R. Eliezer adds that hackberry, oak, palm, carob and sycamore wood are also unfit."
+        },
+        {
+          "cat": "answer",
+          "start": "g156",
+          "end": "g185",
+          "en": "Explains the disagreement: Eliezer and the first tanna differ over wood knotted on the outside."
+        },
+        {
+          "cat": "attack",
+          "start": "g186",
+          "end": "g200",
+          "en": "If olive and vine are excluded for the land's sake, the palm should be excluded too, since it is praised."
+        },
+        {
+          "cat": "answer",
+          "start": "g201",
+          "end": "g224",
+          "en": "Rav Aha replies that the mishna speaks of fig trees that bear no fruit, and so with the palm."
+        },
+        {
+          "cat": "question",
+          "start": "g225",
+          "end": "g230",
+          "en": "Is there really a fig tree that does not bear fruit?"
+        },
+        {
+          "cat": "answer",
+          "start": "g231",
+          "end": "g237",
+          "en": "Yes, growers graft white figs, an inferior variety, which is how fruitless fig trees arise."
+        }
+      ]
+    },
+    "30a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "1da91d76",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g23",
+          "en": "Growers plant the tree on a sea-deposit spot; its wood is strong and heavy but bears no fruit."
+        },
+        {
+          "cat": "statement",
+          "start": "g24",
+          "end": "g28",
+          "en": "The mishna says the priest assembled the large wood arrangement, with its opening on the eastern side."
+        },
+        {
+          "cat": "question",
+          "start": "g29",
+          "end": "g30",
+          "en": "What is the reason the arrangement had an opening?"
+        },
+        {
+          "cat": "answer",
+          "start": "g31",
+          "end": "g49",
+          "en": "Rav Huna and Rav Hisda differ: to let wind fan the flames, or to light kindling from there."
+        },
+        {
+          "cat": "attack",
+          "start": "g50",
+          "end": "g60",
+          "en": "An objection from the mishna: kindling was lit from the gap, so the opening was not used for the wind."
+        },
+        {
+          "cat": "answer",
+          "start": "g61",
+          "end": "g65",
+          "en": "Reply: the opening served lighting, and the priests also built many spaces inside the arrangement."
+        },
+        {
+          "cat": "statement",
+          "start": "g66",
+          "end": "g70",
+          "en": "The chapter closes and the next mishna begins, opening with the brothers of the priest who removed ashes."
+        },
+        {
+          "cat": "statement",
+          "start": "g71",
+          "end": "g80",
+          "en": "The overseer invites the priests to draw lots for slaughtering, sprinkling and the altar and Candelabrum ashes."
+        },
+        {
+          "cat": "statement",
+          "start": "g81",
+          "end": "g109",
+          "en": "The mishna lists the limbs and offerings distributed among the priests who carry them up to the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g110",
+          "end": "g113",
+          "en": "The lottery is drawn, and the priest who wins it gains the right to slaughter the offering."
+        },
+        {
+          "cat": "statement",
+          "start": "g114",
+          "end": "g140",
+          "en": "The overseer asks observers whether daylight has come; Matya ben Shmuel gives a different wording."
+        },
+        {
+          "cat": "statement",
+          "start": "g141",
+          "end": "g176",
+          "en": "The overseer sends for a lamb from the Chamber of the Lambs and describes the four chambers there."
+        },
+        {
+          "cat": "statement",
+          "start": "g177",
+          "end": "g191",
+          "en": "The priests take out silver and gold service vessels and give the daily lamb water in a cup."
+        }
+      ]
+    },
+    "30b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "26a4ae35",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g9",
+          "en": "The lamb, already examined at dusk, is checked again by torchlight before slaughter."
+        },
+        {
+          "cat": "statement",
+          "start": "g10",
+          "end": "g50",
+          "en": "Mishna: the priests who clear the ashes carry four vessels, including the basket, jug and two keys."
+        },
+        {
+          "cat": "statement",
+          "start": "g51",
+          "end": "g65",
+          "en": "Mishna: the priest comes to the northern wicket of the gate, while the southern one stays closed."
+        },
+        {
+          "cat": "statement",
+          "start": "g66",
+          "end": "g70",
+          "en": "The southern wicket is fixed as closed, and no one enters through it."
+        },
+        {
+          "cat": "proof",
+          "start": "g71",
+          "end": "g99",
+          "en": "The closed wicket is supported by Ezekiel's verse that the gate shall stay shut because God entered through it."
+        },
+        {
+          "cat": "statement",
+          "start": "g100",
+          "end": "g131",
+          "en": "The priest opens the wicket and the large gate, and the slaughterer waits until he hears it open."
+        },
+        {
+          "cat": "statement",
+          "start": "g132",
+          "end": "g187",
+          "en": "Mishna: from Jericho people could hear the gate opening, the shovel instrument, the Levites' song and other sounds."
+        },
+        {
+          "cat": "statement",
+          "start": "g188",
+          "end": "g197",
+          "en": "Some say that from Jericho one could even hear the High Priest pronouncing God's name on Yom Kippur."
+        },
+        {
+          "cat": "statement",
+          "start": "g198",
+          "end": "g204",
+          "en": "From Jericho people could also smell the incense being prepared in the Temple."
+        },
+        {
+          "cat": "proof",
+          "start": "g205",
+          "end": "g218",
+          "en": "Rabbi Elazar ben Diglai's goats near Mikhvar sneezed from the incense smell, supporting the claim about scent carrying."
+        },
+        {
+          "cat": "statement",
+          "start": "g219",
+          "end": "g265",
+          "en": "Mishna: the priest who won the lottery takes the lamb to the slaughterhouse with its hooks and marble tables."
+        },
+        {
+          "cat": "statement",
+          "start": "g266",
+          "end": "g287",
+          "en": "Mishna: the priest who clears ashes from the inner altar gathers them into a basket and carries it out."
+        },
+        {
+          "cat": "statement",
+          "start": "g288",
+          "end": "g316",
+          "en": "Mishna: the priest clearing the Candelabrum checks the lamps, relights them, and removes the ashes."
+        },
+        {
+          "cat": "statement",
+          "start": "g317",
+          "end": "g336",
+          "en": "A three-stepped stone stands before the Candelabrum, and the ashes from both clearings are poured by the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g337",
+          "end": "g341",
+          "en": "The chapter closes and the overseer addresses the priests to begin the next mishna on binding the lamb."
+        },
+        {
+          "cat": "statement",
+          "start": "g342",
+          "end": "g367",
+          "en": "Mishna: the lamb is tied by pairing each hind leg with its foreleg, with its head to the south and face to the west."
+        },
+        {
+          "cat": "statement",
+          "start": "g368",
+          "end": "g390",
+          "en": "Mishna: twenty-four rings are set north of the altar, and the morning and afternoon lambs are slaughtered at specific corners."
+        },
+        {
+          "cat": "statement",
+          "start": "g391",
+          "end": "g414",
+          "en": "Mishna: the priest sprinkles the blood on the altar corners, then pours the remainder at the southern base."
+        }
+      ]
+    },
+    "31a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "616d898f",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g11",
+          "en": "The priest does not break the hind leg when flaying; he punctures it at the knee and hangs the lamb on hooks."
+        },
+        {
+          "cat": "statement",
+          "start": "g12",
+          "end": "g42",
+          "en": "He flays from the top down, gives the head and the lower legs to the priests, and drains the heart's blood."
+        },
+        {
+          "cat": "statement",
+          "start": "g43",
+          "end": "g65",
+          "en": "He removes the forelegs and the right hind leg for the priests, then opens the midsection to expose the innards."
+        },
+        {
+          "cat": "statement",
+          "start": "g66",
+          "end": "g103",
+          "en": "He places the fats on the head, and the innards are rinsed, the stomach in the courtyard and the rest on the tables."
+        },
+        {
+          "cat": "statement",
+          "start": "g104",
+          "end": "g125",
+          "en": "He separates the lung, lobe and liver, leaves them attached to their places, and gives the breast to a priest."
+        },
+        {
+          "cat": "statement",
+          "start": "g126",
+          "end": "g152",
+          "en": "He cuts the right flank, leaving the spine and two narrow ribs attached, and gives it to a priest."
+        },
+        {
+          "cat": "statement",
+          "start": "g153",
+          "end": "g173",
+          "en": "He gives the cud to a priest, with the windpipe, heart and lung still hanging from it."
+        },
+        {
+          "cat": "statement",
+          "start": "g174",
+          "end": "g198",
+          "en": "He cuts the left flank, leaving two narrow ribs above and below, and repeats this on the right flank."
+        },
+        {
+          "cat": "statement",
+          "start": "g199",
+          "end": "g248",
+          "en": "He gives the left flank with the spine, the haunch with the tail and kidneys, and the last leg, so nine priests stand in line."
+        }
+      ]
+    },
+    "31b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "0795615e",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g87",
+          "en": "The first six priests hold the head, legs, forelegs, haunch, breast, flanks and innards in set positions."
+        },
+        {
+          "cat": "statement",
+          "start": "g88",
+          "end": "g108",
+          "en": "Priests seven to nine carry the meal offering, griddle cakes and wine, then recite the Shema in the Chamber of Hewn Stone."
+        },
+        {
+          "cat": "proof",
+          "start": "g109",
+          "end": "g115",
+          "en": "A baraita supports the binding of the lamb with a comparison to the binding of Isaac."
+        },
+        {
+          "cat": "statement",
+          "start": "g116",
+          "end": "g120",
+          "en": "The mishna teaches that the lamb is not tied by fastening all four of its legs together."
+        },
+        {
+          "cat": "question",
+          "start": "g121",
+          "end": "g122",
+          "en": "What is the reason the lamb is not tied this way?"
+        },
+        {
+          "cat": "answer",
+          "start": "g123",
+          "end": "g137",
+          "en": "Rav Huna and Rav Hisda differ: tying is degrading to sacred items, or it imitates the nations' practices."
+        },
+        {
+          "cat": "question",
+          "start": "g138",
+          "end": "g141",
+          "en": "What is the practical difference between these two reasons?"
+        },
+        {
+          "cat": "answer",
+          "start": "g142",
+          "end": "g147",
+          "en": "The difference shows when the lamb is tied with silk or with a gold thread, which imitates the nations but is not degrading."
+        },
+        {
+          "cat": "proof",
+          "start": "g148",
+          "end": "g163",
+          "en": "The Gemara cites a Shekalim mishna that the Temple had thirteen tables, as support for the marble tables."
+        },
+        {
+          "cat": "statement",
+          "start": "g164",
+          "end": "g184",
+          "en": "Two more tables stood west of the ramp, one of marble for the limbs and one of silver for the service vessels."
+        },
+        {
+          "cat": "statement",
+          "start": "g185",
+          "end": "g207",
+          "en": "Two tables inside the Entrance Hall, one of silver for fresh shewbread and one of gold for old shewbread."
+        },
+        {
+          "cat": "statement",
+          "start": "g208",
+          "end": "g219",
+          "en": "The old shewbread is never moved from gold to silver, since one does not demote in matters of sanctity."
+        },
+        {
+          "cat": "question",
+          "start": "g220",
+          "end": "g231",
+          "en": "Since the Temple is a place of wealth, why were any tables made of marble rather than all silver or gold?"
+        },
+        {
+          "cat": "answer",
+          "start": "g232",
+          "end": "g248",
+          "en": "Gold and silver heat in the sun and spoil the limbs, so marble is used because metal scalds."
+        },
+        {
+          "cat": "statement",
+          "start": "g249",
+          "end": "g256",
+          "en": "The morning daily offering is slaughtered at the northwest corner of the altar, on the second ring."
+        },
+        {
+          "cat": "question",
+          "start": "g257",
+          "end": "g259",
+          "en": "From where are these matters derived?"
+        },
+        {
+          "cat": "proof",
+          "start": "g260",
+          "end": "g271",
+          "en": "Rav Hisda cites the verse about the two daily lambs, meaning the lamb is slaughtered opposite the daylight."
+        },
+        {
+          "cat": "proof",
+          "start": "g272",
+          "end": "g284",
+          "en": "A baraita teaches the same principle from the phrase two by day."
+        },
+        {
+          "cat": "question",
+          "start": "g285",
+          "end": "g288",
+          "en": "Does this mean opposite the light of day, or only that two lambs are offered each day?"
+        },
+        {
+          "cat": "answer",
+          "start": "g289",
+          "end": "g308",
+          "en": "The verse about one lamb in the morning and one in the afternoon states the daily obligation explicitly."
+        },
+        {
+          "cat": "answer",
+          "start": "g309",
+          "end": "g315",
+          "en": "Therefore the phrase two by day means the lamb is slaughtered opposite the daylight."
+        },
+        {
+          "cat": "question",
+          "start": "g316",
+          "end": "g317",
+          "en": "How so, how is this principle applied to the morning and afternoon offerings?"
+        },
+        {
+          "cat": "statement",
+          "start": "g318",
+          "end": "g341",
+          "en": "Morning offering at the northwest corner's second ring, afternoon at the northeast, each opposite the sun."
+        },
+        {
+          "cat": "statement",
+          "start": "g342",
+          "end": "g351",
+          "en": "Alexander of Macedon asked the Elders of the Negev about ten matters, starting with the position of the sun."
+        }
+      ]
+    },
+    "32a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "e113c7ca",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g6",
+          "en": "Alexander asks whether the distance from heaven to earth is greater than the distance from east to west."
+        },
+        {
+          "cat": "answer",
+          "start": "g7",
+          "end": "g10",
+          "en": "The Elders reply that the distance from east to west is greater."
+        },
+        {
+          "cat": "proof",
+          "start": "g11",
+          "end": "g29",
+          "en": "Evidence: the sun can be looked at in the east and west but not in mid-sky, so mid-sky is nearer."
+        },
+        {
+          "cat": "statement",
+          "start": "g30",
+          "end": "g35",
+          "en": "The Sages hold that both distances are equal."
+        },
+        {
+          "cat": "proof",
+          "start": "g36",
+          "end": "g47",
+          "en": "Psalm 103 compares God's kindness and removal of sins to the height of heaven and the distance from east to west."
+        },
+        {
+          "cat": "proof",
+          "start": "g48",
+          "end": "g56",
+          "en": "If one distance were greater, the verse would have written only that one, so both must be equal."
+        },
+        {
+          "cat": "question",
+          "start": "g57",
+          "end": "g61",
+          "en": "Why, then, does no one look at the sun in mid-sky?"
+        },
+        {
+          "cat": "answer",
+          "start": "g62",
+          "end": "g72",
+          "en": "Because the sun there is exposed with nothing covering it, while in east or west it is partly screened."
+        },
+        {
+          "cat": "question",
+          "start": "g73",
+          "end": "g80",
+          "en": "Alexander asks whether the heavens or the earth were created first."
+        },
+        {
+          "cat": "answer",
+          "start": "g81",
+          "end": "g83",
+          "en": "The Elders say the heavens were created first."
+        },
+        {
+          "cat": "proof",
+          "start": "g84",
+          "end": "g94",
+          "en": "Genesis 1:1 says God created the heaven and the earth, which supports the heavens being first."
+        },
+        {
+          "cat": "question",
+          "start": "g95",
+          "end": "g103",
+          "en": "Alexander asks whether light or darkness was created first."
+        },
+        {
+          "cat": "answer",
+          "start": "g104",
+          "end": "g106",
+          "en": "The Elders say the matter has no solution, as the verses do not indicate an answer."
+        },
+        {
+          "cat": "question",
+          "start": "g107",
+          "end": "g110",
+          "en": "The Gemara asks why they did not say darkness was created first."
+        },
+        {
+          "cat": "proof",
+          "start": "g111",
+          "end": "g129",
+          "en": "Genesis 1:2 describes darkness before God said let there be light, supporting darkness first."
+        },
+        {
+          "cat": "answer",
+          "start": "g130",
+          "end": "g141",
+          "en": "The Elders avoided answering so Alexander would not ask about forbidden matters of Creation."
+        },
+        {
+          "cat": "question",
+          "start": "g142",
+          "end": "g148",
+          "en": "If so, why did they answer the question about heaven but not the one about darkness?"
+        },
+        {
+          "cat": "answer",
+          "start": "g149",
+          "end": "g174",
+          "en": "At first they took his question as incidental; once he repeated the question, they withheld an answer."
+        },
+        {
+          "cat": "question",
+          "start": "g175",
+          "end": "g181",
+          "en": "Alexander asks who is truly worthy of being called wise."
+        },
+        {
+          "cat": "answer",
+          "start": "g182",
+          "end": "g188",
+          "en": "The wise person is one who sees and anticipates the consequences of his behavior."
+        },
+        {
+          "cat": "question",
+          "start": "g189",
+          "end": "g195",
+          "en": "Alexander asks who is truly worthy of being called mighty."
+        },
+        {
+          "cat": "answer",
+          "start": "g196",
+          "end": "g201",
+          "en": "The mighty person is one who masters his own desire."
+        },
+        {
+          "cat": "question",
+          "start": "g202",
+          "end": "g207",
+          "en": "Alexander asks who is truly worthy of being called wealthy."
+        },
+        {
+          "cat": "answer",
+          "start": "g208",
+          "end": "g209",
+          "en": "The wealthy person is one who is content with his own portion."
+        },
+        {
+          "cat": "question",
+          "start": "g210",
+          "end": "g213",
+          "en": "Alexander asks what a man must do to ensure that he will live."
+        },
+        {
+          "cat": "answer",
+          "start": "g214",
+          "end": "g219",
+          "en": "He must figuratively kill himself by living moderately."
+        },
+        {
+          "cat": "question",
+          "start": "g220",
+          "end": "g223",
+          "en": "Alexander asks what a man must do to ensure that he will die."
+        },
+        {
+          "cat": "answer",
+          "start": "g224",
+          "end": "g226",
+          "en": "He must keep himself alive by leading an extravagant and indulgent life."
+        },
+        {
+          "cat": "question",
+          "start": "g227",
+          "end": "g234",
+          "en": "Alexander asks what a man must do to be accepted by people."
+        },
+        {
+          "cat": "answer",
+          "start": "g235",
+          "end": "g238",
+          "en": "They say he must hate the king and the authorities and avoid those in power."
+        },
+        {
+          "cat": "statement",
+          "start": "g239",
+          "end": "g251",
+          "en": "Alexander rejects their answer; one must love the king and authorities and use connections to benefit people."
+        },
+        {
+          "cat": "question",
+          "start": "g252",
+          "end": "g265",
+          "en": "Alexander asks whether it is better to live at sea or on dry land."
+        },
+        {
+          "cat": "answer",
+          "start": "g266",
+          "end": "g275",
+          "en": "They say dry land is better, since seafarers' minds stay unsettled until they reach land."
+        },
+        {
+          "cat": "question",
+          "start": "g276",
+          "end": "g281",
+          "en": "Alexander asks who among them is wiser than the others."
+        },
+        {
+          "cat": "answer",
+          "start": "g282",
+          "end": "g294",
+          "en": "They say all are equal in wisdom, since they solve every question he poses together."
+        },
+        {
+          "cat": "question",
+          "start": "g295",
+          "end": "g301",
+          "en": "Alexander asks what the substance of their stance against him is."
+        },
+        {
+          "cat": "answer",
+          "start": "g302",
+          "end": "g304",
+          "en": "They reply that his dominance is inconsequential, since even the Satan sometimes wins over people."
+        },
+        {
+          "cat": "statement",
+          "start": "g305",
+          "end": "g309",
+          "en": "Alexander declares that he will execute them by the edict of kings for their insolence."
+        },
+        {
+          "cat": "answer",
+          "start": "g310",
+          "end": "g320",
+          "en": "They reply that the authority belongs to the king, but a king should not be made to lie."
+        },
+        {
+          "cat": "statement",
+          "start": "g321",
+          "end": "g331",
+          "en": "Alexander dresses them in purple garments and places golden chains upon their necks."
+        },
+        {
+          "cat": "question",
+          "start": "g332",
+          "end": "g337",
+          "en": "Alexander says he wants to wage war in Africa and asks for their advice."
+        },
+        {
+          "cat": "answer",
+          "start": "g338",
+          "end": "g345",
+          "en": "They say he cannot go, since the Mountains of Darkness block the passes."
+        },
+        {
+          "cat": "question",
+          "start": "g346",
+          "end": "g358",
+          "en": "Alexander says he cannot refrain from going and asks how to cross the Mountains of Darkness."
+        },
+        {
+          "cat": "answer",
+          "start": "g359",
+          "end": "g378",
+          "en": "Bring Libyan donkeys that walk in darkness and coils of rope to mark the path back."
+        },
+        {
+          "cat": "statement",
+          "start": "g379",
+          "end": "g390",
+          "en": "Alexander follows this advice and comes to a town whose entire population is women."
+        },
+        {
+          "cat": "statement",
+          "start": "g391",
+          "end": "g405",
+          "en": "The women warn that fighting them would bring shame, since people would say a king was killed by women."
+        },
+        {
+          "cat": "statement",
+          "start": "g406",
+          "end": "g416",
+          "en": "Alexander asks for bread, and they bring him bread of gold served on a golden table."
+        }
+      ]
+    },
+    "32b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "aa454c41",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g6",
+          "en": "Alexander asks the women whether people eat bread made of gold."
+        },
+        {
+          "cat": "answer",
+          "start": "g7",
+          "end": "g28",
+          "en": "The women reply that he came for wealth, not bread, since he had bread at home."
+        },
+        {
+          "cat": "statement",
+          "start": "g29",
+          "end": "g41",
+          "en": "Alexander's inscription on the town gate says he learned sense from women in Africa."
+        },
+        {
+          "cat": "statement",
+          "start": "g42",
+          "end": "g67",
+          "en": "Eating bread by a spring, Alexander smells a fragrance and concludes the spring flows from the Garden of Eden."
+        },
+        {
+          "cat": "statement",
+          "start": "g68",
+          "end": "g80",
+          "en": "Some say he washed his face in the spring; others say he followed it up to the Garden of Eden."
+        },
+        {
+          "cat": "statement",
+          "start": "g81",
+          "end": "g87",
+          "en": "Alexander calls out at the Garden's gate, asking for it to be opened for him."
+        },
+        {
+          "cat": "proof",
+          "start": "g88",
+          "end": "g97",
+          "en": "The Garden's sentry cites Psalm 118 that only the righteous may enter the Lord's gate."
+        },
+        {
+          "cat": "statement",
+          "start": "g98",
+          "end": "g111",
+          "en": "Alexander argues he is a king and asks for something from inside; they give him one eyeball."
+        },
+        {
+          "cat": "statement",
+          "start": "g112",
+          "end": "g122",
+          "en": "He weighs all his gold and silver against the eyeball, yet it outweighs them all."
+        },
+        {
+          "cat": "question",
+          "start": "g123",
+          "end": "g127",
+          "en": "Alexander asks the Sages what this is and why the eyeball outweighs everything."
+        },
+        {
+          "cat": "answer",
+          "start": "g128",
+          "end": "g135",
+          "en": "It is the eye of a mortal, which is never satisfied."
+        },
+        {
+          "cat": "question",
+          "start": "g136",
+          "end": "g140",
+          "en": "Alexander asks from where they know this is the reason."
+        },
+        {
+          "cat": "answer",
+          "start": "g141",
+          "end": "g146",
+          "en": "Covering the eye with a little dirt immediately balances the scale."
+        },
+        {
+          "cat": "proof",
+          "start": "g147",
+          "end": "g155",
+          "en": "Proverbs 27:20 says the eyes of man are never satisfied, supporting the Sages' explanation."
+        },
+        {
+          "cat": "statement",
+          "start": "g156",
+          "end": "g166",
+          "en": "The school of Eliyahu taught that Gehenna is above the heavens, or beyond the Mountains of Darkness."
+        },
+        {
+          "cat": "statement",
+          "start": "g167",
+          "end": "g175",
+          "en": "R. Hiyya taught that the Divine Presence faces anyone who studies Torah at night."
+        },
+        {
+          "cat": "proof",
+          "start": "g176",
+          "end": "g191",
+          "en": "Lamentations 2:19 is cited to support the Divine Presence facing one who studies at night."
+        },
+        {
+          "cat": "statement",
+          "start": "g192",
+          "end": "g200",
+          "en": "R. Elazar ben Azarya taught that Torah scholars increase peace in the world."
+        },
+        {
+          "cat": "proof",
+          "start": "g201",
+          "end": "g211",
+          "en": "Isaiah 54:13 is cited to support that scholars build and increase peace."
+        },
+        {
+          "cat": "statement",
+          "start": "g212",
+          "end": "g249",
+          "en": "Mishna 5:1: after laying the limbs, the priests recite Shema with a single blessing and three people's blessings."
+        },
+        {
+          "cat": "statement",
+          "start": "g250",
+          "end": "g272",
+          "en": "Mishna 5:2: only new incense priests join the incense lottery, and those who won the ramp-limbs lottery take them up."
+        },
+        {
+          "cat": "statement",
+          "start": "g273",
+          "end": "g284",
+          "en": "R. Eliezer ben Yaakov holds that the priest who carries limbs up the ramp is the one who places them on the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g285",
+          "end": "g306",
+          "en": "Mishna 5:3: priests who lost the lottery are undressed by attendants, and the vestments are stored by type in compartments."
+        },
+        {
+          "cat": "statement",
+          "start": "g307",
+          "end": "g326",
+          "en": "Mishna 5:4: the priest who won the incense lottery takes the spoon, which holds three kav."
+        }
+      ]
+    },
+    "33a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "3d717d01",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g10",
+          "en": "The incense vessel was filled to overflow, with a cover and cloth to keep its fragrance in."
+        },
+        {
+          "cat": "statement",
+          "start": "g11",
+          "end": "g40",
+          "en": "Mishna 5:5: the priest carries silver and gold coal pans from the outer altar and spills about one kav of coals."
+        },
+        {
+          "cat": "statement",
+          "start": "g41",
+          "end": "g86",
+          "en": "On Shabbat a large pesakhter is overturned over coals, and it serves three purposes, including removing ashes from the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g87",
+          "end": "g107",
+          "en": "Mishna 5:6: a priest throws the shovel between the Entrance Hall and the altar, so its sound drowns out speech in Jerusalem."
+        },
+        {
+          "cat": "statement",
+          "start": "g108",
+          "end": "g147",
+          "en": "The shovel's sound serves three purposes: it summons priests and Levites to their service and sets impure priests apart."
+        },
+        {
+          "cat": "statement",
+          "start": "g148",
+          "end": "g177",
+          "en": "Mishna 6:1: the priests begin ascending the Entrance Hall stairs, and the ash-removers clear the Sanctuary vessels."
+        },
+        {
+          "cat": "statement",
+          "start": "g178",
+          "end": "g215",
+          "en": "The Candelabrum priest checks the lamps, leaves one burning for the afternoon, and takes the jug of ashes out."
+        },
+        {
+          "cat": "statement",
+          "start": "g216",
+          "end": "g230",
+          "en": "Mishna 6:2: the priest spreads the coals from the coal pan evenly on the inner altar, then leaves."
+        },
+        {
+          "cat": "statement",
+          "start": "g231",
+          "end": "g259",
+          "en": "Mishna 6:3: the incense priest gives the spoon's incense to an assistant and is taught to scatter it carefully."
+        },
+        {
+          "cat": "statement",
+          "start": "g260",
+          "end": "g281",
+          "en": "The incense is burned only after the appointed priest tells him to, addressing the High Priest with respect."
+        },
+        {
+          "cat": "proof",
+          "start": "g282",
+          "end": "g286",
+          "en": "No one may stand between the Entrance Hall and the outer altar during incense, derived from Leviticus 16:17."
+        },
+        {
+          "cat": "statement",
+          "start": "g287",
+          "end": "g290",
+          "en": "The chapter closes and the next mishna begins, on ascending the stairs of the Entrance Hall."
+        }
+      ]
+    },
+    "33b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d8410377",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g36",
+          "en": "Mishna 7:1: the High Priest enters the Sanctuary held by three priests, and the appointed priest lifts the curtain for his exit."
+        },
+        {
+          "cat": "statement",
+          "start": "g37",
+          "end": "g66",
+          "en": "Mishna 7:2: five priests stand on the stairs holding the five vessels used in the morning service."
+        },
+        {
+          "cat": "statement",
+          "start": "g67",
+          "end": "g88",
+          "en": "The priests bless the people with one blessing in the Temple, and the name of God is pronounced as written."
+        },
+        {
+          "cat": "statement",
+          "start": "g89",
+          "end": "g109",
+          "en": "Outside the Temple priests lift their hands to their shoulders, but in the Temple they raise them above their heads."
+        },
+        {
+          "cat": "statement",
+          "start": "g110",
+          "end": "g121",
+          "en": "R. Yehuda holds that even the High Priest raises his hands above the frontplate when blessing the people."
+        },
+        {
+          "cat": "proof",
+          "start": "g122",
+          "end": "g132",
+          "en": "Leviticus 9:22 says Aaron lifted his hands and blessed the people, supporting R. Yehuda's view."
+        },
+        {
+          "cat": "statement",
+          "start": "g133",
+          "end": "g183",
+          "en": "Mishna 7:3: the High Priest burns the limbs at the altar, the deputy supports him, and the limbs are handed to him."
+        },
+        {
+          "cat": "statement",
+          "start": "g184",
+          "end": "g211",
+          "en": "The High Priest circles the altar starting from the southeast corner and then pours the wine libation at the southwest."
+        },
+        {
+          "cat": "statement",
+          "start": "g212",
+          "end": "g229",
+          "en": "The deputy waves the cloths as signal, and two priests sound the trumpet blasts to alert the Levites."
+        },
+        {
+          "cat": "statement",
+          "start": "g230",
+          "end": "g275",
+          "en": "The Levites sing the psalm in three sections with a tekia and prostration after each; a closing prayer for rebuilding follows."
+        },
+        {
+          "cat": "statement",
+          "start": "g276",
+          "end": "g377",
+          "en": "Mishna 7:4: the psalm the Levites sing on each day of the week, from Psalm 24 on Sunday to Psalm 92 on Shabbat."
+        },
+        {
+          "cat": "statement",
+          "start": "g378",
+          "end": "g386",
+          "en": "The chapter closes with the case of the High Priest, and the tractate of Tamid concludes."
+        }
+      ]
+    }
+  }
+}

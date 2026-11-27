@@ -1,0 +1,23 @@
+{
+  // One Worker: /api/* is the API (D1 + Durable Objects); everything else is served from the R2 bucket SITE,
+  // which scripts/upload-site.mjs fills from dist/ (built by scripts/build-site.mjs).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "orbitdodge-mercava",
+  "main": "worker/index.js",
+  "compatibility_date": "2025-09-01",
+  "r2_buckets": [{ "binding": "SITE", "bucket_name": "orbitdodge-mercava-site" }],
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "orbitdodge-mercava",
+      "database_id": "ac760699-df2e-44e0-93fe-f8f3d2576447",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "durable_objects": { "bindings": [{ "name": "HUB", "class_name": "Hub" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Hub"] }],
+  // The reference deployment serves the apex hostname from this Worker. Replace the pattern with your own domain
+  // (or remove "routes" to use the workers.dev address). Names above are legacy names of the live deployment.
+  "routes": [{ "pattern": "orbitdodge.com", "custom_domain": true }],
+}

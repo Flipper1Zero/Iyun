@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Book Reader · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="Read a text in Hebrew with a phrase-by-phrase translation where one exists, commentary, find, citations and notes. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/book.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Book reader · Iyun" />
+    <meta
+      property="og:description"
+      content="Read a text in Hebrew with a phrase-by-phrase translation where one exists, commentary, find, citations and notes. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/book.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Book reader · Iyun" />
+    <meta
+      name="twitter:description"
+      content="Read a text in Hebrew with a phrase-by-phrase translation where one exists, commentary, find, citations and notes. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="book.css" />
+    <link rel="stylesheet" href="cosmos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="reader-library.css" />
+    <link rel="stylesheet" href="book-layout.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#bookText">Skip to the text</a>
+    <header class="topbar">
+      <button
+        class="home-logo"
+        id="readerMenuToggle"
+        type="button"
+        aria-label="Open book browser"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <a class="wordmark" href="index.html">Iyun</a>
+      <nav aria-label="Site">
+        <a href="index.html" data-i18n="nav.library">Library</a>
+        <a href="gemara.html" data-i18n="nav.daf">Daf</a>
+        <a href="notes.html" data-i18n="nav.notes">Notes</a>
+        <a href="index.html#signin" data-account-link data-cloud-only data-i18n="nav.signin"
+          >Sign in</a
+        >
+        <button
+          id="langToggle"
+          class="lang-toggle"
+          type="button"
+          title="עברית / English"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+        <button id="bookmark" title="Bookmark this section" aria-label="Bookmark this section">
+          ♧
+        </button>
+        <button id="settingsToggle" title="Control Center" aria-label="Control Center">⚙</button>
+      </nav>
+    </header>
+    <div class="book-shell">
+      <aside class="sections" id="sectionsPane" aria-label="Sections">
+        <h2 id="sideTitle">Book</h2>
+        <div id="sectionsList"></div>
+      </aside>
+      <main class="reading-area">
+        <div class="book-nav">
+          <button
+            id="sectionsToggle"
+            class="sections-toggle"
+            type="button"
+            aria-label="Show sections"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+          <button id="prev" aria-label="Previous section">‹</button>
+          <span id="reference" aria-live="polite">Loading…</span>
+          <button id="next" aria-label="Next section">›</button>
+        </div>
+        <div class="reader-tools" role="toolbar" aria-label="Reader tools">
+          <button id="findToggle" type="button" title="Find in this section ( / )">
+            <span aria-hidden="true">⌕</span> <span data-i18n="tool.find">Find</span>
+          </button>
+          <button
+            id="commentToggle"
+            type="button"
+            title="Commentary ( c )"
+            aria-expanded="false"
+            aria-controls="commentPanel"
+            hidden
+          >
+            <span aria-hidden="true">❡</span> <span data-i18n="tool.commentary">Commentary</span>
+          </button>
+          <button id="citeBtn" type="button" title="Copy a citation of the selected line ( y )">
+            <span aria-hidden="true">❝</span> <span data-i18n="tool.cite">Cite</span>
+          </button>
+          <button id="shareBtn" type="button" title="Share a link to the selected line">
+            <span aria-hidden="true">↗</span> <span data-i18n="tool.share">Share</span>
+          </button>
+          <button
+            id="sheetBtn"
+            type="button"
+            title="Add the selected line to your source sheet draft"
+          >
+            <span aria-hidden="true">＋</span> <span data-i18n="tool.sheet">Sheet</span>
+          </button>
+          <button
+            id="liveChip"
+            type="button"
+            title="Live: follow or lead a group through the text"
+            hidden
+          >
+            ● Live: off
+          </button>
+          <button id="printBtn" type="button" title="Print this section">
+            <span aria-hidden="true">⎙</span> <span data-i18n="tool.print">Print</span>
+          </button>
+          <button
+            id="helpBtn"
+            type="button"
+            title="Keyboard shortcuts ( ? )"
+            aria-label="Keyboard shortcuts"
+          >
+            ?
+          </button>
+        </div>
+        <div id="findBar" class="find-bar" role="search" hidden>
+          <input
+            id="findInput"
+            type="search"
+            placeholder="Find in this section (Hebrew or English)"
+            aria-label="Find in this section"
+            autocomplete="off"
+          />
+          <span id="findCount" aria-live="polite"></span>
+          <button id="findPrev" type="button" aria-label="Previous match">↑</button>
+          <button id="findNext" type="button" aria-label="Next match">↓</button>
+          <button id="findClose" type="button" aria-label="Close find">×</button>
+        </div>
+        <article class="book-page">
+          <h1 id="bookTitle">Loading text…</h1>
+          <div id="bookText" class="book-text" dir="rtl" lang="he" tabindex="-1"></div>
+          <p class="attribution">
+            Text from the open
+            <a href="https://github.com/Sefaria/Sefaria-Export" target="_blank" rel="noopener"
+              >Sefaria-Export</a
+            >
+            dataset, built into this site (no live service is used). The version and license of each
+            text are listed under Source; see <a href="about.html#credits">credits</a>. Check the
+            license before reusing.
+          </p>
+        </article>
+      </main>
+      <aside class="controls" id="controls" aria-label="Control Center">
+        <h2>Control Center</h2>
+        <label>Hebrew size <input type="range" id="size" min="22" max="48" value="31" /></label>
+        <label><input type="checkbox" id="vowels" checked /> Nikud</label>
+        <label><input type="checkbox" id="translation" checked /> Translation</label>
+        <label
+          >Theme
+          <select id="theme">
+            <option value="day">Day</option>
+            <option value="sepia">Sepia</option>
+            <option value="night">Night</option>
+          </select></label
+        >
+        <h3>Notes</h3>
+        <textarea
+          id="notes"
+          rows="8"
+          placeholder="Notes for this section…"
+          aria-label="Notes for this section"
+        ></textarea>
+        <p><a href="notes.html">All my notes</a></p>
+        <h3>Source</h3>
+        <p id="sourceInfo">Loading source information…</p>
+      </aside>
+    </div>
+    <aside class="comment-panel" id="commentPanel" aria-label="Commentary" hidden>
+      <header>
+        <h2>Commentary</h2>
+        <button id="commentClose" type="button" aria-label="Close commentary">×</button>
+      </header>
+      <label class="comment-pick"
+        >Commentator
+        <select id="commentSelect"></select
+      ></label>
+      <div id="commentBody" aria-live="polite"></div>
+    </aside>
+    <div class="translation-strip" role="group" aria-label="Phrase translation">
+      <button id="phrasePrev" aria-label="Previous phrase">‹</button>
+      <div id="phraseText" aria-live="polite"></div>
+      <button id="phraseNext" aria-label="Next phrase">›</button>
+    </div>
+    <button class="apps-fab" id="appsToggle" aria-label="Apps" aria-expanded="false">▦</button>
+    <div class="apps-drawer" id="appsDrawer" hidden>
+      <header>
+        <h2>Apps</h2>
+        <button id="appsClose" aria-label="Close apps">×</button>
+      </header>
+      <div id="appsList"></div>
+    </div>
+    <div class="tool-panel" id="toolPanel" hidden>
+      <header>
+        <h2 id="toolTitle">Tool</h2>
+        <button id="toolClose" aria-label="Close tool">×</button>
+      </header>
+      <div id="toolBody"></div>
+    </div>
+    <div
+      id="helpDialog"
+      class="help-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Keyboard shortcuts"
+      hidden
+    >
+      <div class="help-card">
+        <h2>Keyboard shortcuts</h2>
+        <dl>
+          <dt>← →</dt>
+          <dd>Previous / next line</dd>
+          <dt>[ ]</dt>
+          <dd>Previous / next section</dd>
+          <dt>/</dt>
+          <dd>Find in this section</dd>
+          <dt>c</dt>
+          <dd>Commentary</dd>
+          <dt>y</dt>
+          <dd>Copy citation of the selected line</dd>
+          <dt>n</dt>
+          <dd>Write a note</dd>
+          <dt>?</dt>
+          <dd>This help</dd>
+          <dt>Esc</dt>
+          <dd>Close panels</dd>
+        </dl>
+        <button id="helpClose" type="button">Close</button>
+      </div>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <footer class="site-footer">
+      <span
+        >Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open
+        sources.</span
+      >
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <script src="catalog.js"></script>
+    <script src="catalog-directories.js"></script>
+    <script src="library.js"></script>
+    <script src="i18n.js"></script>
+    <script src="reader-library.js"></script>
+    <script src="cloud.js"></script>
+    <script src="book.js"></script>
+    <script src="book-layout.js"></script>
+    <script src="reader-extras.js"></script>
+    <script src="pwa.js"></script>
+  </body>
+</html>

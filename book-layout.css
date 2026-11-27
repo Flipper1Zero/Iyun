@@ -1,0 +1,218 @@
+/* Styles for book.html when a book is shown in print format: paper page, Hebrew title, numbered rows with the English next to the Hebrew, commentary underneath. */
+body[data-format] .translation-strip {
+  display: none;
+}
+body[data-format] .reading-area {
+  padding: 18px 18px 90px;
+}
+body[data-format] .book-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 34px clamp(16px, 5vw, 64px) 30px;
+  background: #fffdf7;
+  border: 1px solid #e4dccb;
+  border-radius: 3px;
+  box-shadow: 0 2px 16px #0000001a;
+  display: flex;
+  flex-direction: column;
+  min-height: 72vh;
+}
+/* Paper color per theme */
+body[data-theme='sepia'][data-format] .book-page {
+  background: #f1e6cf;
+  border-color: #d8c8a2;
+}
+body[data-theme='night'][data-format] .book-page {
+  background: #15171c;
+  border-color: #2a2d34;
+  color: #e6e3da;
+}
+/* Hebrew and English title block */
+body[data-format] #bookTitle {
+  margin: 0 0 6px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body[data-format] .bk-title-he {
+  display: block;
+  font:
+    700 clamp(30px, 5vw, 46px) / 1.2 'Frank Ruhl Libre',
+    serif;
+}
+body[data-format] .bk-title-en {
+  display: block;
+  margin-top: 4px;
+  font:
+    13px 'Open Sans',
+    sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #65572a;
+}
+body[data-format] #bookTitle::after {
+  content: '❧';
+  display: block;
+  margin: 12px auto 6px;
+  color: #7d6419;
+  font-size: 22px;
+}
+body[data-format] #bookText {
+  font-family: 'Frank Ruhl Libre', serif;
+  line-height: 1.7;
+  text-align: right;
+}
+/* One numbered row: Hebrew on one side, English on the other */
+.bk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6px 44px;
+  padding: 16px 10px;
+  border-bottom: 1px solid #00000012;
+  direction: rtl;
+}
+.bk-he {
+  grid-column: 1;
+}
+.bk-en {
+  grid-column: 2;
+  direction: ltr;
+  text-align: left;
+  font:
+    17px/1.65 'Frank Ruhl Libre',
+    Georgia,
+    serif;
+  color: #3b3a36;
+  align-self: start;
+}
+body[data-theme='night'] .bk-en {
+  color: #c9c6bd;
+}
+.bk-row.no-en .bk-he,
+body.bk-no-en .bk-he {
+  grid-column: 1/-1;
+}
+body.bk-no-en .bk-en {
+  display: none;
+}
+.bk-row.active {
+  background: #fff3c4aa;
+  box-shadow: inset -3px 0 0 #c9a227;
+}
+body[data-theme='night'] .bk-row.active {
+  background: #3a3318aa;
+}
+.bk-row .verse {
+  display: inline;
+  cursor: pointer;
+}
+.bk-row .verse-num {
+  display: inline-block;
+  min-width: 1.6em;
+  margin-inline-start: 0.4em;
+  font:
+    700 0.5em 'Frank Ruhl Libre',
+    serif;
+  color: #755f1c;
+  vertical-align: 0.45em;
+}
+/* Commentary under the rows */
+.bk-extra {
+  grid-column: 1/-1;
+  direction: rtl;
+}
+.bk-comm {
+  margin-top: 10px;
+  padding: 8px 0 0;
+  border-top: 1px dotted #0003;
+  position: relative;
+}
+.bk-comm .bk-label {
+  display: inline-block;
+  font:
+    11px 'Open Sans',
+    sans-serif;
+  letter-spacing: 0.1em;
+  color: #65572a;
+  margin-bottom: 2px;
+}
+.bk-comm p {
+  margin: 3px 0 7px;
+  color: #2c2b27;
+}
+body[data-theme='night'] .bk-comm p {
+  color: #d8d5cb;
+}
+.bk-comm.tg p {
+  font:
+    500 20px/1.65 'Frank Ruhl Libre',
+    serif;
+  color: #44413a;
+}
+body[data-theme='night'] .bk-comm.tg p {
+  color: #c4c0b4;
+}
+.bk-comm.rashi p {
+  font:
+    17px/1.7 'Noto Rashi Hebrew',
+    'Frank Ruhl Libre',
+    serif;
+  text-align: justify;
+}
+.bk-comm.rashi p b {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
+}
+body[data-format] .attribution {
+  margin-top: auto;
+  padding-top: 26px;
+  font-size: 12px;
+  color: #5c5a4e;
+  text-align: center;
+}
+/* Phone layout */
+@media (max-width: 760px) {
+  body[data-format] .reading-area {
+    padding: 10px 8px 90px;
+  }
+  body[data-format] .book-page {
+    padding: 22px 14px;
+  }
+  .bk-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 14px 4px;
+  }
+  .bk-he,
+  .bk-en {
+    grid-column: 1;
+  }
+  .bk-en {
+    font-size: 16px;
+    border-top: 1px dashed #0002;
+    padding-top: 6px;
+  }
+}
+/* Printing */
+@media print {
+  body[data-format] .book-page {
+    box-shadow: none;
+    border: 0;
+    background: #fff;
+  }
+  .bk-row.active {
+    background: none;
+    box-shadow: none;
+  }
+}
+body[data-theme='night'] .bk-title-en,
+body[data-theme='night'] .bk-comm .bk-label,
+body[data-theme='night'] .bk-row .verse-num {
+  color: #d9bf6a;
+}
+body[data-theme='night'][data-format] .attribution {
+  color: #aaa89c;
+}
+body[data-theme='night'][data-format] #bookTitle::after {
+  color: #d9bf6a;
+}

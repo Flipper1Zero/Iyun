@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Markup · Torah study</title>
+    <!--meta:start-->
+    <meta
+      name="description"
+      content="Color-code words in Bereishit with semantic palettes and see the structure of the passage. Free and open-source."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#050a31" />
+    <link rel="canonical" href="https://orbitdodge.com/markup.html" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Iyun" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iyun · Torah study" />
+    <meta property="og:title" content="Markup · Iyun" />
+    <meta
+      property="og:description"
+      content="Color-code words in Bereishit with semantic palettes and see the structure of the passage. Free and open-source."
+    />
+    <meta property="og:url" content="https://orbitdodge.com/markup.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Torah study: an open book under a star on a night sky" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Markup · Iyun" />
+    <meta
+      name="twitter:description"
+      content="Color-code words in Bereishit with semantic palettes and see the structure of the passage. Free and open-source."
+    />
+    <meta name="twitter:image" content="https://orbitdodge.com/icons/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Torah study: an open book under a star on a night sky"
+    />
+    <!--meta:end-->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#reader">Skip to the text</a>
+    <header class="topbar">
+      <a class="logo" href="index.html" aria-label="Iyun">
+        <svg class="logo-mark" viewBox="0 0 28 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <line x1="3" y1="4" x2="3" y2="20" />
+            <line x1="9" y1="4" x2="9" y2="20" />
+            <line x1="15" y1="4" x2="15" y2="20" />
+            <line x1="20" y1="4" x2="26" y2="20" />
+          </g>
+        </svg>
+      </a>
+      <div class="wordmark">Iyun</div>
+      <div class="top-right">
+        <nav class="apps">
+          <a href="markup.html" class="current" aria-current="page">Markup</a>
+          <a href="gemara.html" data-i18n="nav.daf">Daf</a>
+          <a href="notes.html" data-i18n="nav.notes">Notes</a>
+          <a href="index.html#signin" data-account-link data-cloud-only data-i18n="nav.signin"
+            >Sign in</a
+          >
+        </nav>
+        <button
+          class="icon-btn lang-toggle"
+          data-lang-toggle
+          type="button"
+          title="עברית / English"
+          aria-label="Switch interface language"
+        >
+          עב
+        </button>
+        <button
+          class="icon-btn"
+          id="controlToggle"
+          aria-expanded="true"
+          aria-controls="controlCenter"
+          title="Control Center"
+        >
+          ⚙
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- Reading surface -->
+      <main class="reader" id="reader">
+        <div class="page" id="page">
+          <h1 class="page-heading" id="pageHeading"></h1>
+          <div class="text" id="text" dir="rtl"></div>
+          <p class="page-foot">Bereishit 1 · a Markup prototype</p>
+        </div>
+      </main>
+
+      <!-- Control Center -->
+      <aside class="control" id="controlCenter" aria-label="Control Center">
+        <section class="ctl-block">
+          <h2 class="ctl-title">Palette</h2>
+          <div class="palette-picker" id="palettePicker"></div>
+          <p class="palette-sub" id="paletteSub"></p>
+        </section>
+
+        <section class="ctl-block">
+          <h2 class="ctl-title">Marker</h2>
+          <div class="swatches" id="swatches"></div>
+          <button class="eraser" id="eraser" aria-pressed="false">
+            <span class="eraser-ico">⌫</span> Eraser
+          </button>
+          <p class="hint">Click a color, then click words. Keys 1–6 pick a color; 0 = eraser.</p>
+        </section>
+
+        <section class="ctl-block">
+          <h2 class="ctl-title">Visualize</h2>
+          <div class="segmented" id="vizModes" role="tablist">
+            <button data-mode="highlight" role="tab">Highlight</button>
+            <button data-mode="underline" role="tab">Underline</button>
+            <button data-mode="color" role="tab">Color</button>
+            <button data-mode="map" role="tab">Map</button>
+          </div>
+        </section>
+
+        <section class="ctl-block">
+          <h2 class="ctl-title">Reading</h2>
+          <label class="row">
+            <span>Hebrew size</span>
+            <input type="range" id="fontSize" min="22" max="56" step="1" value="34" />
+          </label>
+          <label class="row switch-row">
+            <span>Nikud (vowels)</span>
+            <input type="checkbox" id="nikud" checked />
+          </label>
+          <label class="row switch-row">
+            <span>Translation</span>
+            <input type="checkbox" id="translation" />
+          </label>
+          <label class="row switch-row">
+            <span>Verse numbers</span>
+            <input type="checkbox" id="verseNums" checked />
+          </label>
+          <label class="row">
+            <span>Theme</span>
+            <select id="theme">
+              <option value="light">Day</option>
+              <option value="sepia">Sepia</option>
+              <option value="night">Night</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="ctl-block" id="mapBlock" hidden>
+          <h2 class="ctl-title">Structure map</h2>
+          <div class="map" id="map"></div>
+        </section>
+
+        <section class="ctl-block ctl-actions">
+          <button class="ghost-btn" id="clearBtn">Clear this palette</button>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="site-footer">
+      <span
+        >Iyun is free, open-source software (GPL-3.0). Texts from Sefaria and other open
+        sources.</span
+      >
+      <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> · <a href="review.html">Review</a>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="cloud.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script src="pwa.js"></script>
+  </body>
+</html>

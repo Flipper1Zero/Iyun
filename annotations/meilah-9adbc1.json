@@ -1,0 +1,3760 @@
+{
+  "schema": 1,
+  "tractate": "Meilah",
+  "dapim": {
+    "2a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "290272ad",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m12",
+          "en": "Mishna example: slaughter in the south or blood collected in the south still leaves the offering subject to misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "m13",
+          "end": "m27",
+          "en": "Same rule applies to altered timing, and to slaughter with improper intent or outside the designated area."
+        },
+        {
+          "cat": "statement",
+          "start": "m28",
+          "end": "m39",
+          "en": "Rabbi Yehoshua's principle: no misuse liability for an offering that once had a period of fitness for priests."
+        },
+        {
+          "cat": "statement",
+          "start": "m40",
+          "end": "m48",
+          "en": "Offerings that never had a fit period for priests remain consecrated, so benefit from them incurs misuse liability."
+        },
+        {
+          "cat": "question",
+          "start": "m49",
+          "end": "m55",
+          "en": "Which offerings had a period of fitness for priests?"
+        },
+        {
+          "cat": "answer",
+          "start": "m56",
+          "end": "m58",
+          "en": "Examples: meat left overnight, ritual impurity, or leaving the courtyard, all after consumption was permitted."
+        },
+        {
+          "cat": "question",
+          "start": "m59",
+          "end": "m66",
+          "en": "Which offerings never had a period of fitness for priests?"
+        },
+        {
+          "cat": "answer",
+          "start": "m67",
+          "end": "m76",
+          "en": "Examples: improper intent or wrong time or place, or collection by unfit people, all before consumption was permitted."
+        },
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g6",
+          "en": "The Gemara notes the Mishna teaches misuse liability for most sacred offerings slaughtered in the south."
+        },
+        {
+          "cat": "question",
+          "start": "g7",
+          "end": "g13",
+          "en": "The Gemara asks why this needs stating, since southern slaughter seems not to remove misuse status."
+        },
+        {
+          "cat": "answer",
+          "start": "g14",
+          "end": "g17",
+          "en": "The case had to be stated, because one might otherwise reason from a ruling already given."
+        },
+        {
+          "cat": "proof",
+          "start": "g18",
+          "end": "g27",
+          "en": "Ulla cites Rabbi Yohanan that dead offerings are excluded from misuse by Torah law."
+        },
+        {
+          "cat": "attack",
+          "start": "g28",
+          "end": "g35",
+          "en": "By analogy, a most sacred offering slaughtered in the south is like a strangled animal and so exempt."
+        },
+        {
+          "cat": "defense",
+          "start": "g36",
+          "end": "g41",
+          "en": "The Mishna teaches that dead offerings were never fit at all, so the analogy fails."
+        },
+        {
+          "cat": "defense",
+          "start": "g42",
+          "end": "g53",
+          "en": "Southern slaughter is unfit for most sacred offerings but still fit for lesser offerings, so it differs from death."
+        },
+        {
+          "cat": "question",
+          "start": "g54",
+          "end": "g58",
+          "en": "Why did the Mishna need to list all of these different cases?"
+        },
+        {
+          "cat": "answer",
+          "start": "g59",
+          "end": "g73",
+          "en": "Had the Mishna taught only south slaughter with northern collection, one might exclude the reverse case."
+        },
+        {
+          "cat": "answer",
+          "start": "g74",
+          "end": "g86",
+          "en": "Northern slaughter with southern collection would seem exempt since collection is the weightier rite, so the case is needed."
+        },
+        {
+          "cat": "answer",
+          "start": "g87",
+          "end": "g94",
+          "en": "Had only night slaughter with day collection been taught, one might think daytime is a valid time for sacrifice."
+        },
+        {
+          "cat": "answer",
+          "start": "g95",
+          "end": "g110",
+          "en": "Day slaughter with night sprinkling would be exempt since night is not a valid time, so the case is taught separately."
+        },
+        {
+          "cat": "answer",
+          "start": "g111",
+          "end": "g122",
+          "en": "Had only night slaughter with day sprinkling been taught, one might think day collection keeps misuse liability."
+        },
+        {
+          "cat": "answer",
+          "start": "g123",
+          "end": "g140",
+          "en": "Day slaughter with night sprinkling is like a strangled animal, so it has no misuse liability, and the Mishna needed to say so."
+        },
+        {
+          "cat": "statement",
+          "start": "g141",
+          "end": "g146",
+          "en": "The Mishna teaches the case of slaughter outside its time and outside its place."
+        },
+        {
+          "cat": "question",
+          "start": "g147",
+          "end": "g148",
+          "en": "For what purpose are such offerings fit?"
+        },
+        {
+          "cat": "answer",
+          "start": "g149",
+          "end": "g151",
+          "en": "They are fit because their sprinkling makes them subject to piggul, so they keep their consecrated status."
+        }
+      ]
+    },
+    "2b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "1a5570db",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g5",
+          "en": "A dilemma: if disqualified offerings already ascended the altar, must they come back down?"
+        },
+        {
+          "cat": "statement",
+          "start": "g6",
+          "end": "g10",
+          "en": "Rabba holds that offerings which ascended the altar must descend."
+        },
+        {
+          "cat": "statement",
+          "start": "g11",
+          "end": "g17",
+          "en": "Rav Yosef holds that offerings which ascended the altar do not descend."
+        },
+        {
+          "cat": "statement",
+          "start": "g18",
+          "end": "g28",
+          "en": "On Rabbi Yehuda's view the dilemma need not be asked, since both Sages agree the offerings descend."
+        },
+        {
+          "cat": "statement",
+          "start": "g29",
+          "end": "g35",
+          "en": "The Sages disagree only on Rabbi Shimon's view, and Rav Yosef follows Rabbi Shimon's straightforward reading."
+        },
+        {
+          "cat": "attack",
+          "start": "g36",
+          "end": "g44",
+          "en": "Rabba objects that Rabbi Shimon's ruling is limited to particular cases and not general."
+        },
+        {
+          "cat": "proof",
+          "start": "g45",
+          "end": "g53",
+          "en": "The cases Rabbi Shimon addresses are those where blood was placed above or below the red line incorrectly."
+        },
+        {
+          "cat": "statement",
+          "start": "g54",
+          "end": "g58",
+          "en": "Rabbi Shimon speaks only of offerings slaughtered properly in the north and collected in the north."
+        },
+        {
+          "cat": "statement",
+          "start": "g59",
+          "end": "g66",
+          "en": "Offerings slaughtered in the south count as strangled, so Rabbi Shimon would agree they descend."
+        },
+        {
+          "cat": "attack",
+          "start": "g67",
+          "end": "g73",
+          "en": "The Mishna teaches misuse liability for offerings slaughtered in the south, which seems to conflict with Rabba."
+        },
+        {
+          "cat": "attack",
+          "start": "g74",
+          "end": "g80",
+          "en": "The Mishna fits Rav Yosef's view, but for Rabba the liability seems difficult to explain."
+        },
+        {
+          "cat": "question",
+          "start": "g81",
+          "end": "g83",
+          "en": "What does the Mishna's phrase about liability for misuse mean?"
+        },
+        {
+          "cat": "answer",
+          "start": "g84",
+          "end": "g84",
+          "en": "It means liability by rabbinic law."
+        },
+        {
+          "cat": "question",
+          "start": "g85",
+          "end": "g86",
+          "en": "What practical difference is there between Torah and rabbinic misuse?"
+        },
+        {
+          "cat": "answer",
+          "start": "g87",
+          "end": "g94",
+          "en": "Torah misuse requires paying the additional one-fifth, while rabbinic misuse does not."
+        },
+        {
+          "cat": "question",
+          "start": "g95",
+          "end": "g98",
+          "en": "Is there such a thing as rabbinic misuse of consecrated property?"
+        },
+        {
+          "cat": "answer",
+          "start": "g99",
+          "end": "g100",
+          "en": "Yes, as Ulla taught."
+        },
+        {
+          "cat": "proof",
+          "start": "g101",
+          "end": "g110",
+          "en": "Ulla teaches that Rabbi Yohanan said dead offerings are excluded from Torah misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g111",
+          "end": "g120",
+          "en": "Since they are excluded only by Torah law, they fall under rabbinic misuse, and so do offerings slaughtered in the south."
+        },
+        {
+          "cat": "question",
+          "start": "g121",
+          "end": "g127",
+          "en": "If the Mishna already taught this, why does Ulla need to repeat it?"
+        },
+        {
+          "cat": "answer",
+          "start": "g128",
+          "end": "g140",
+          "en": "Ulla's statement was needed, since people would not distance themselves from southern offerings, which look properly sacrificed."
+        },
+        {
+          "cat": "answer",
+          "start": "g141",
+          "end": "g151",
+          "en": "Dead offerings are different, since people distance themselves from them, so one might exclude them from rabbinic misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g152",
+          "end": "g154",
+          "en": "Ulla teaches that dead offerings are also subject to rabbinic misuse."
+        },
+        {
+          "cat": "proof",
+          "start": "g155",
+          "end": "g171",
+          "en": "A mishna teaches that a dead sin offering used for benefit incurs misuse liability, which suggests the point was already taught."
+        },
+        {
+          "cat": "attack",
+          "start": "g172",
+          "end": "g173",
+          "en": "Might one think the mishna's rule already covers Ulla's point, making his statement unnecessary?"
+        }
+      ]
+    },
+    "3a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "0a403d5b",
+      "ranges": [
+        {
+          "cat": "answer",
+          "start": "g0",
+          "end": "g19",
+          "en": "A dead sin offering is treated differently, since people shun it once it can no longer atone, so the Sages needed no decree."
+        },
+        {
+          "cat": "statement",
+          "start": "g20",
+          "end": "g20",
+          "en": "Ulla teaches that other dead most sacred animals still fall under misuse by rabbinic decree."
+        },
+        {
+          "cat": "question",
+          "start": "g21",
+          "end": "g26",
+          "en": "Is a dead sin offering subject to the laws of misuse at all?"
+        },
+        {
+          "cat": "proof",
+          "start": "g27",
+          "end": "g37",
+          "en": "A baraita teaches that sin offerings left to die, and money going to the Dead Sea, may not be benefited from but do not incur misuse."
+        },
+        {
+          "cat": "answer",
+          "start": "g38",
+          "end": "g49",
+          "en": "Those offerings are shunned even while alive, so no decree was needed, unlike a sin offering that was fit during its lifetime."
+        },
+        {
+          "cat": "attack",
+          "start": "g50",
+          "end": "g59",
+          "en": "Rav Yosef raises an objection against Rabba by combining several sources."
+        },
+        {
+          "cat": "proof",
+          "start": "g60",
+          "end": "g67",
+          "en": "A mishna on bird offerings disqualified by pinching or wrong sprinkling says they do not impart impurity to garments, yet misuse applies."
+        },
+        {
+          "cat": "proof",
+          "start": "g68",
+          "end": "g77",
+          "en": "The mishna excludes a bird sin offering performed correctly below the red line, which is permitted to priests."
+        },
+        {
+          "cat": "proof",
+          "start": "g78",
+          "end": "g97",
+          "en": "Another mishna distinguishes birds disqualified inside the sacred area, which do not impart impurity, from those disqualified outside it, which do."
+        },
+        {
+          "cat": "proof",
+          "start": "g98",
+          "end": "g106",
+          "en": "A third mishna states that offerings disqualified inside the sacred area do not descend once they ascend the altar."
+        },
+        {
+          "cat": "attack",
+          "start": "g107",
+          "end": "g109",
+          "en": "Rav Yosef concludes that this refutes Rabba's view."
+        },
+        {
+          "cat": "proof",
+          "start": "g110",
+          "end": "g127",
+          "en": "Rabbi Elazar holds the disputed case is obvious, citing a burnt offering of a private altar brought into the courtyard."
+        }
+      ]
+    },
+    "3b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "b5c01b43",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g3",
+          "en": "Once the partitions admit the offering, it has the status of a burnt offering in the Temple in all respects."
+        },
+        {
+          "cat": "question",
+          "start": "g4",
+          "end": "g13",
+          "en": "Rabbi Elazar asks about a private-altar burnt offering disqualified by southern slaughter whose limbs ascended the altar: must they descend?"
+        },
+        {
+          "cat": "proof",
+          "start": "g14",
+          "end": "g25",
+          "en": "Since Rabbi Elazar asked only one of the two cases, the other must be obvious to him, which would settle whether he follows Rabba or Rav Yosef."
+        },
+        {
+          "cat": "attack",
+          "start": "g26",
+          "end": "g30",
+          "en": "The inference is rejected: Rabbi Elazar may have been unsure of that case too, and he raised one question based on the other."
+        },
+        {
+          "cat": "defense",
+          "start": "g31",
+          "end": "g46",
+          "en": "Even following Rabba, his view applies only when the offering was consecrated for the Temple courtyard, not for a private altar."
+        },
+        {
+          "cat": "attack",
+          "start": "g47",
+          "end": "g64",
+          "en": "Alternatively, even Rav Yosef's view may apply only to offerings consecrated properly, so the question remains open and stands unresolved."
+        },
+        {
+          "cat": "statement",
+          "start": "g65",
+          "end": "g83",
+          "en": "Rav Giddel reports Rav's ruling: piggul intent in sprinkling does not remove sacred meat from misuse, nor bring lesser offerings into misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g84",
+          "end": "g89",
+          "en": "Abaye sat and taught this ruling of Rav Giddel."
+        },
+        {
+          "cat": "attack",
+          "start": "g90",
+          "end": "g93",
+          "en": "Rav Pappa raises an objection to Abaye."
+        },
+        {
+          "cat": "proof",
+          "start": "g94",
+          "end": "g104",
+          "en": "A mishna on the thanks offering states that slaughter outside the wall keeps the loaves unsanctified."
+        },
+        {
+          "cat": "proof",
+          "start": "g105",
+          "end": "g126",
+          "en": "The mishna continues: loaves are sanctified when the thanks offering was disqualified by piggul intent or by being outside its area."
+        },
+        {
+          "cat": "attack",
+          "start": "g127",
+          "end": "g132",
+          "en": "The objection: this shows piggul in slaughter brings lesser offerings into misuse, contradicting Rav's ruling."
+        },
+        {
+          "cat": "statement",
+          "start": "g133",
+          "end": "g136",
+          "en": "Abaye was silent and could not answer, so he brought the difficulty to Rabbi Abba."
+        },
+        {
+          "cat": "answer",
+          "start": "g137",
+          "end": "g141",
+          "en": "Rabbi Abba answers that the mishna concerns piggul intent in slaughter, while Rav's ruling concerns piggul intent in sprinkling."
+        },
+        {
+          "cat": "attack",
+          "start": "g142",
+          "end": "g146",
+          "en": "Rav Ashi challenges Rava, asking whether this explanation conflicts with another ruling."
+        },
+        {
+          "cat": "proof",
+          "start": "g147",
+          "end": "g157",
+          "en": "Ulla teaches that a piggul handful brought to the altar has its piggul status lapse once it is burned."
+        },
+        {
+          "cat": "attack",
+          "start": "g158",
+          "end": "g160",
+          "en": "Since removing the handful is equivalent to slaughter in animal offerings, the same should apply: slaughter alone with piggul intent would make it piggul."
+        },
+        {
+          "cat": "defense",
+          "start": "g161",
+          "end": "g166",
+          "en": "Rava replies that Ulla meant a prohibited act brings the offering toward piggul, but full piggul requires improper intent at the rite equivalent to sprinkling."
+        }
+      ]
+    },
+    "4a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "90acf083",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g10",
+          "en": "Ulla's teaching about a handful making the rest piggul seems to imply that slaughter alone with piggul intent also suffices."
+        },
+        {
+          "cat": "answer",
+          "start": "g11",
+          "end": "g16",
+          "en": "Ulla's point is not that intent alone makes it piggul, but that a prohibited act starts the process, and full piggul needs improper intent at the rite."
+        },
+        {
+          "cat": "attack",
+          "start": "g17",
+          "end": "g21",
+          "en": "Ravina challenges Rav Ashi by citing Ilfa's view."
+        },
+        {
+          "cat": "proof",
+          "start": "g22",
+          "end": "g26",
+          "en": "Ilfa holds that the dispute over piggul versus disqualification applies to intents in two different rites."
+        },
+        {
+          "cat": "statement",
+          "start": "g27",
+          "end": "g38",
+          "en": "Ilfa's example: one slaughters the first organ with piggul intent beyond its time, then the second organ with intent outside its place."
+        },
+        {
+          "cat": "statement",
+          "start": "g39",
+          "end": "g46",
+          "en": "When both intents fall in one rite, everyone including Rabbi Yehuda agrees it is a mixture of intents and the offering is not piggul."
+        },
+        {
+          "cat": "answer",
+          "start": "g47",
+          "end": "g57",
+          "en": "Rav Giddel agrees: piggul is revealed only at sprinkling, so one rite means not piggul, while two rites follow the dispute."
+        },
+        {
+          "cat": "attack",
+          "start": "g58",
+          "end": "g64",
+          "en": "If so, the thanks offering case should also become piggul only after sprinkling, and so Rav Giddel's view seems inconsistent with the loaves ruling."
+        },
+        {
+          "cat": "answer",
+          "start": "g65",
+          "end": "g69",
+          "en": "Sanctified here means only that the loaves can be disqualified and need burning, not that misuse applies."
+        },
+        {
+          "cat": "proof",
+          "start": "g70",
+          "end": "g82",
+          "en": "A baraita states that a piggul offering always incurs misuse liability, which might support Rav Giddel."
+        },
+        {
+          "cat": "attack",
+          "start": "g83",
+          "end": "g92",
+          "en": "The baraita cannot be proof, since if its blood was not yet sprinkled the offering would be subject to misuse anyway."
+        },
+        {
+          "cat": "defense",
+          "start": "g93",
+          "end": "g99",
+          "en": "The baraita may concern sprinkled blood, but it refers to a burnt offering, which is always subject to misuse, so it does not prove the point."
+        },
+        {
+          "cat": "attack",
+          "start": "g100",
+          "end": "g105",
+          "en": "If the baraita concerns a burnt offering, the ruling is obvious, since it wholly belongs to God."
+        }
+      ]
+    },
+    "4b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "152701c5",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g10",
+          "en": "The latter clause of a baraita holds that an offering whose blood was left overnight remains subject to misuse even after later sprinkling."
+        },
+        {
+          "cat": "answer",
+          "start": "g11",
+          "end": "g15",
+          "en": "If the baraita concerns a sin offering, its ruling makes sense: overnight blood keeps it subject to misuse."
+        },
+        {
+          "cat": "attack",
+          "start": "g16",
+          "end": "g20",
+          "en": "If it concerns a burnt offering, the ruling would be superfluous, since burnt offerings are always subject to misuse."
+        },
+        {
+          "cat": "proof",
+          "start": "g21",
+          "end": "g34",
+          "en": "The latter clause supports Rav Giddel, so perhaps the first clause also supports him."
+        },
+        {
+          "cat": "attack",
+          "start": "g35",
+          "end": "g39",
+          "en": "That is rejected: the latter clause is not certain to support Rav Giddel, since sprinkling after piggul may differ from overnight blood."
+        },
+        {
+          "cat": "answer",
+          "start": "g40",
+          "end": "g60",
+          "en": "The difference: overnight blood is a failure of action, which sprinkling cannot cure, whereas piggul is only a matter of intent, which sprinkling may cure."
+        },
+        {
+          "cat": "proof",
+          "start": "g61",
+          "end": "g69",
+          "en": "A baraita states that a piggul most-sacred offering incurs misuse liability, which might support Rav Giddel."
+        },
+        {
+          "cat": "attack",
+          "start": "g70",
+          "end": "g79",
+          "en": "No proof: the baraita may refer to a case where the blood was not yet sprinkled."
+        },
+        {
+          "cat": "question",
+          "start": "g80",
+          "end": "g95",
+          "en": "If the blood was sprinkled, is the offering exempt from misuse, and then why does the latter clause mention lesser offerings?"
+        },
+        {
+          "cat": "answer",
+          "start": "g96",
+          "end": "g111",
+          "en": "The baraita should have drawn the distinction within most-sacred offerings; that the latter clause supports Rav Giddel still holds."
+        },
+        {
+          "cat": "proof",
+          "start": "g112",
+          "end": "g120",
+          "en": "If the latter clause supports Rav Giddel, the first clause may as well."
+        },
+        {
+          "cat": "answer",
+          "start": "g121",
+          "end": "g128",
+          "en": "Not necessarily: lesser offerings are a clear case, while most-sacred offerings depend on the sprinkling."
+        },
+        {
+          "cat": "statement",
+          "start": "g129",
+          "end": "g150",
+          "en": "Rabbi Yehoshua's principle: no misuse liability for an offering that had a period of fitness for priests, and liability for one that never had it."
+        },
+        {
+          "cat": "question",
+          "start": "g151",
+          "end": "g156",
+          "en": "Which offering had a period of fitness for priests?"
+        },
+        {
+          "cat": "answer",
+          "start": "g157",
+          "end": "g159",
+          "en": "One whose meat remained overnight, became impure, or left the courtyard after being sacrificed properly."
+        },
+        {
+          "cat": "question",
+          "start": "g160",
+          "end": "g166",
+          "en": "Which offering never had a period of fitness for priests?"
+        },
+        {
+          "cat": "answer",
+          "start": "g167",
+          "end": "g176",
+          "en": "One slaughtered with improper intent or outside its time or place, or whose blood was collected and sprinkled by unfit people."
+        },
+        {
+          "cat": "statement",
+          "start": "g177",
+          "end": "g189",
+          "en": "Bar Kappara tells bar Pedat to study the question he will ask him tomorrow in the study hall."
+        },
+        {
+          "cat": "question",
+          "start": "g190",
+          "end": "g194",
+          "en": "Does Rabbi Yehoshua's fitness refer to the fitness of slaughter, as it was taught in the study hall?"
+        }
+      ]
+    },
+    "5a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9eeac402",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g7",
+          "en": "Is the phrase fitness referring to fitness of sprinkling or fitness of eating the meat?"
+        },
+        {
+          "cat": "statement",
+          "start": "g8",
+          "end": "g18",
+          "en": "Hizkiyya holds the phrase refers to fitness of slaughter, while Rabbi Yohanan holds it refers to fitness of eating."
+        },
+        {
+          "cat": "attack",
+          "start": "g19",
+          "end": "g28",
+          "en": "Rabbi Zeira objects that the mishna does not precisely match either Hizkiyya or Rabbi Yohanan."
+        },
+        {
+          "cat": "proof",
+          "start": "g29",
+          "end": "g39",
+          "en": "The mishna's examples, such as meat left overnight after blood was properly sprinkled, show the offering is not liable despite the blood still being unsprinkled."
+        },
+        {
+          "cat": "statement",
+          "start": "g40",
+          "end": "g43",
+          "en": "So we learn that the phrase refers to fitness of sprinkling."
+        },
+        {
+          "cat": "attack",
+          "start": "g44",
+          "end": "g54",
+          "en": "Rejected: the mishna concerns meat left overnight after the blood was sprinkled, so the phrase refers to fitness of eating."
+        },
+        {
+          "cat": "proof",
+          "start": "g55",
+          "end": "g73",
+          "en": "The mishna lists unfit offerings: wrong intent, wrong place or time, or blood collected and sprinkled by unfit people."
+        },
+        {
+          "cat": "question",
+          "start": "g74",
+          "end": "g83",
+          "en": "What circumstances does the mishna mean by collection and sprinkling by unfit people, since disqualification would need only one act?"
+        },
+        {
+          "cat": "answer",
+          "start": "g84",
+          "end": "g92",
+          "en": "Rather, the mishna concerns collection by unfit people with sprinkling by fit people, since this alone leaves the offering liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g93",
+          "end": "g96",
+          "en": "So we learn that the phrase refers to fitness of sprinkling, as the offering is exempt before the blood is actually sprinkled."
+        },
+        {
+          "cat": "attack",
+          "start": "g97",
+          "end": "g108",
+          "en": "Rav Yosef objects: this reading conflicts with a mishna on laundering garments that concerns unfit collection and sprinkling in either order."
+        },
+        {
+          "cat": "proof",
+          "start": "g109",
+          "end": "g127",
+          "en": "A disqualified sin offering's blood needs no laundering whether or not it had a period of fitness."
+        },
+        {
+          "cat": "question",
+          "start": "g128",
+          "end": "g135",
+          "en": "Which sin offering had a period of fitness and was later disqualified?"
+        },
+        {
+          "cat": "answer",
+          "start": "g136",
+          "end": "g139",
+          "en": "One left overnight, rendered impure, or that left the courtyard."
+        },
+        {
+          "cat": "question",
+          "start": "g140",
+          "end": "g145",
+          "en": "Which sin offering never had a period of fitness?"
+        },
+        {
+          "cat": "answer",
+          "start": "g146",
+          "end": "g155",
+          "en": "One slaughtered outside its place or time, or whose blood was collected by unfit people and sprinkled."
+        },
+        {
+          "cat": "question",
+          "start": "g156",
+          "end": "g158",
+          "en": "What are the circumstances of this mishna's case?"
+        },
+        {
+          "cat": "attack",
+          "start": "g159",
+          "end": "g174",
+          "en": "If the blood was collected and sprinkled by unfit people, it needs no laundering, so the reverse would need laundering, which is an untenable inference."
+        },
+        {
+          "cat": "answer",
+          "start": "g175",
+          "end": "g188",
+          "en": "A verse on laundering blood of a sin offering applies only to unsprinkled blood, so the mishna's wording is not exact."
+        }
+      ]
+    },
+    "5b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "74974dd8",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g5",
+          "en": "Rav Asi asserts the mishna is not meant exactly, so its wording cannot be relied on."
+        },
+        {
+          "cat": "question",
+          "start": "g6",
+          "end": "g10",
+          "en": "Rav Asi asks why the tanna would teach two mishnayot imprecisely."
+        },
+        {
+          "cat": "answer",
+          "start": "g11",
+          "end": "g15",
+          "en": "Rather, only one mishna is imprecise, so the other is precise and its wording is meaningful."
+        },
+        {
+          "cat": "statement",
+          "start": "g16",
+          "end": "g30",
+          "en": "The Zevachim mishna teaches that an unfit priest collecting blood renders the remainder leftovers."
+        },
+        {
+          "cat": "question",
+          "start": "g31",
+          "end": "g32",
+          "en": "Asks the reason why the sprinkling of a fit priest counts for nothing."
+        },
+        {
+          "cat": "answer",
+          "start": "g33",
+          "end": "g34",
+          "en": "Because the blood has become leftovers, so a later sprinkling has no effect."
+        },
+        {
+          "cat": "attack",
+          "start": "g35",
+          "end": "g44",
+          "en": "Reish Lakish's question to Rabbi Yohanan is cited as a challenge to the claim that unfit sprinkling creates leftovers."
+        },
+        {
+          "cat": "answer",
+          "start": "g45",
+          "end": "g58",
+          "en": "Rabbi Yohanan replies that only sprinkling with piggul intent, beyond time or place, renders the remainder leftovers."
+        },
+        {
+          "cat": "attack",
+          "start": "g59",
+          "end": "g62",
+          "en": "Objection: Rabbi Yohanan's wording implies an unfit priest's sprinkling does not render leftovers, contradicting Rav Asi."
+        },
+        {
+          "cat": "defense",
+          "start": "g63",
+          "end": "g65",
+          "en": "Rejects that inference: even an unfit priest's sprinkling renders the blood leftovers."
+        },
+        {
+          "cat": "attack",
+          "start": "g66",
+          "end": "g69",
+          "en": "Objection from a broader formulation of Rabbi Yohanan's ruling that seems to limit leftovers to those two cases."
+        },
+        {
+          "cat": "answer",
+          "start": "g70",
+          "end": "g89",
+          "en": "Explains Rabbi Yohanan's ruling as limited to community offerings, so an impure priest still renders leftovers."
+        },
+        {
+          "cat": "statement",
+          "start": "g90",
+          "end": "g97",
+          "en": "Other invalid sprinklings, such as a blemished priest's, do not render the blood leftovers in community offerings."
+        },
+        {
+          "cat": "proof",
+          "start": "g98",
+          "end": "g102",
+          "en": "Brings a baraita stating that piggul offerings remain subject to misuse, to test the reading of the mishna."
+        },
+        {
+          "cat": "attack",
+          "start": "g103",
+          "end": "g110",
+          "en": "Suggests the baraita refers to collecting blood with piggul intent, implying proper collection removes misuse."
+        },
+        {
+          "cat": "defense",
+          "start": "g111",
+          "end": "g112",
+          "en": "Rejects the inference: the baraita may concern a piggul offering whose blood was already sprinkled."
+        },
+        {
+          "cat": "question",
+          "start": "g113",
+          "end": "g117",
+          "en": "Asks what the baraita teaches if it is not about collection."
+        },
+        {
+          "cat": "answer",
+          "start": "g118",
+          "end": "g135",
+          "en": "The baraita teaches Rav Giddel's view that piggul sprinkling keeps an offering subject to misuse."
+        }
+      ]
+    },
+    "6a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "09b735f6",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g13",
+          "en": "Brings a baraita of Rabbi Shimon distinguishing notar cases that are liable for misuse from those that are not."
+        },
+        {
+          "cat": "statement",
+          "start": "g14",
+          "end": "g22",
+          "en": "The baraita explains that consumption before sprinkling creates liability, while consumption after sprinkling does not."
+        },
+        {
+          "cat": "proof",
+          "start": "g23",
+          "end": "g35",
+          "en": "Infers from the baraita that merely collecting the blood, without sprinkling, does not remove misuse liability."
+        },
+        {
+          "cat": "statement",
+          "start": "g36",
+          "end": "g38",
+          "en": "Concludes that fitness for eating the meat, not fitness for sprinkling, is the criterion in the mishna."
+        },
+        {
+          "cat": "defense",
+          "start": "g39",
+          "end": "g47",
+          "en": "Rejects the inference: the baraita concerns blood collected shortly before sunset, when sprinkling was impossible."
+        },
+        {
+          "cat": "attack",
+          "start": "g48",
+          "end": "g55",
+          "en": "Objects that by the same logic a case with time to sprinkle would not be liable, which seems wrong."
+        },
+        {
+          "cat": "question",
+          "start": "g56",
+          "end": "g65",
+          "en": "Asks why Rabbi Shimon taught this distinction rather than a more precise one about collection before or after sunset."
+        },
+        {
+          "cat": "answer",
+          "start": "g66",
+          "end": "g74",
+          "en": "Answers that Rabbi Shimon's point is before fitness for sprinkling liability applies, and after fitness it does not."
+        },
+        {
+          "cat": "proof",
+          "start": "g75",
+          "end": "g87",
+          "en": "Brings a second baraita about piggul offerings, where misuse liability depends on whether sprinkling occurred."
+        },
+        {
+          "cat": "statement",
+          "start": "g88",
+          "end": "g95",
+          "en": "The second baraita explains that eating before sprinkling creates liability, while eating after sprinkling does not."
+        },
+        {
+          "cat": "proof",
+          "start": "g96",
+          "end": "g112",
+          "en": "Infers from the piggul baraita that the fitness of eating the meat, not sprinkling, governs the mishna."
+        },
+        {
+          "cat": "statement",
+          "start": "g113",
+          "end": "g115",
+          "en": "Concludes that the baraita teaches that fitness for consumption is the criterion."
+        },
+        {
+          "cat": "defense",
+          "start": "g116",
+          "end": "g125",
+          "en": "Rejects the inference: the baraita refers to blood collected too late in the day to be sprinkled."
+        },
+        {
+          "cat": "attack",
+          "start": "g126",
+          "end": "g129",
+          "en": "Objects: if so, when there was time to sprinkle, the offering would be removed from misuse, which seems problematic."
+        },
+        {
+          "cat": "question",
+          "start": "g130",
+          "end": "g140",
+          "en": "Asks why the baraita states a distinction after sprinkling rather than a more precise one about collection timing."
+        },
+        {
+          "cat": "answer",
+          "start": "g141",
+          "end": "g148",
+          "en": "Answers that Rabbi Shimon indeed means before fitness for sprinkling creates liability, and after it does not."
+        },
+        {
+          "cat": "proof",
+          "start": "g149",
+          "end": "g160",
+          "en": "Brings a further baraita on piggul in offerings of the most sacred order and infers that eating fitness governs misuse."
+        },
+        {
+          "cat": "defense",
+          "start": "g161",
+          "end": "g164",
+          "en": "Rejects this proof: the baraita may refer to a case where the priest did not yet sprinkle the blood."
+        },
+        {
+          "cat": "attack",
+          "start": "g165",
+          "end": "g172",
+          "en": "Objects that if sprinkling was done, the baraita's contrast with lesser sanctity offerings would be unexplained."
+        },
+        {
+          "cat": "question",
+          "start": "g173",
+          "end": "g187",
+          "en": "Asks why the baraita contrasts sacred and lesser offerings rather than teaching the before and after sprinkling distinction."
+        },
+        {
+          "cat": "answer",
+          "start": "g188",
+          "end": "g210",
+          "en": "Explains the baraita's wording: proper sprinkling brings an offering into misuse liability, while improper sprinkling can remove it."
+        }
+      ]
+    },
+    "6b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "53ab5456",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m18",
+          "en": "The mishna states Rabbi Eliezer's view that sprinkling does not permit meat that left the courtyard, so misuse applies."
+        },
+        {
+          "cat": "statement",
+          "start": "m19",
+          "end": "m29",
+          "en": "Rabbi Akiva's view: sprinkling is effective despite the meat leaving the courtyard, so misuse does not apply."
+        },
+        {
+          "cat": "proof",
+          "start": "m30",
+          "end": "m45",
+          "en": "Rabbi Akiva cites the case of a substitute sin offering whose status shows how sprinkling affects a second animal."
+        },
+        {
+          "cat": "proof",
+          "start": "m46",
+          "end": "m71",
+          "en": "Draws an a fortiori inference from that case to the meat of an offering that left the courtyard and returned."
+        },
+        {
+          "cat": "statement",
+          "start": "m72",
+          "end": "m78",
+          "en": "The mishna extends the dispute to sacrificial portions of lesser offerings that left the courtyard before sprinkling."
+        },
+        {
+          "cat": "statement",
+          "start": "m79",
+          "end": "m102",
+          "en": "States the two sages' views on lesser offerings: Eliezer denies misuse liability, while Akiva affirms it."
+        },
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g3",
+          "en": "Asks why the mishna needs both disagreements when they seem to rest on the same principle."
+        },
+        {
+          "cat": "answer",
+          "start": "g4",
+          "end": "g75",
+          "en": "Answers that both cases are needed, since each alone would imply a different limit on the effect of improper sprinkling."
+        },
+        {
+          "cat": "statement",
+          "start": "g76",
+          "end": "g91",
+          "en": "Rabbi Yohanan explains Rabbi Akiva's view: sprinkling is effective only if part of the meat remained inside the courtyard."
+        },
+        {
+          "cat": "statement",
+          "start": "g92",
+          "end": "g102",
+          "en": "Rav Asi reports that his Babylonian colleagues had already taught him the same version of this view."
+        }
+      ]
+    },
+    "7a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "990fe0bd",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g4",
+          "en": "A teaching holds that intent to consume lost or burned portions after their time renders an offering piggul."
+        },
+        {
+          "cat": "attack",
+          "start": "g5",
+          "end": "g13",
+          "en": "Objects that lost and burned portions no longer exist, so the teaching seems to contradict Rabbi Yohanan's view."
+        },
+        {
+          "cat": "question",
+          "start": "g14",
+          "end": "g29",
+          "en": "Asks whether Rav Asi really held this, recalling his dilemma about intent regarding blood poured out the next day."
+        },
+        {
+          "cat": "proof",
+          "start": "g30",
+          "end": "g46",
+          "en": "Rabbi Zeira cites a rule from Hullin that non-edible residue combines with meat for impurity, to resolve the dilemma."
+        },
+        {
+          "cat": "answer",
+          "start": "g47",
+          "end": "g56",
+          "en": "Explains the contradiction: intent regarding blood that will be lost is ineffective, just like a fully departed offering."
+        },
+        {
+          "cat": "attack",
+          "start": "g57",
+          "end": "g63",
+          "en": "Objects that the baraita's wording on lost and burned portions seems to allow intent even for destroyed portions."
+        },
+        {
+          "cat": "answer",
+          "start": "g64",
+          "end": "g72",
+          "en": "Rava emends the baraita to refer only to portions that are about to be lost or burned but still exist."
+        },
+        {
+          "cat": "statement",
+          "start": "g73",
+          "end": "g90",
+          "en": "Rav Pappa explains Rabbi Akiva's view: sprinkling helps only when the meat left and the blood remained inside."
+        },
+        {
+          "cat": "proof",
+          "start": "g91",
+          "end": "g113",
+          "en": "Cites a baraita that supports Rav Pappa: if blood left the courtyard, a later sprinkling does nothing."
+        },
+        {
+          "cat": "proof",
+          "start": "g114",
+          "end": "g119",
+          "en": "Rabbi Akiva supports his view with the case of a substitute sin offering, where the first sprinkling exempts the second."
+        },
+        {
+          "cat": "statement",
+          "start": "g120",
+          "end": "g135",
+          "en": "Rabbi Elazar limits Rabbi Akiva's view to offerings slaughtered at the same time, not one after the other."
+        },
+        {
+          "cat": "statement",
+          "start": "g136",
+          "end": "g139",
+          "en": "Introduces a report from Rabbi Shimon about an encounter in the village of Pani concerning Rabbi Akiva's view."
+        },
+        {
+          "cat": "question",
+          "start": "g140",
+          "end": "g154",
+          "en": "An old man asks Rabbi Shimon whether Rabbi Akiva really held that sprinkling helps meat that left the courtyard."
+        },
+        {
+          "cat": "answer",
+          "start": "g155",
+          "end": "g157",
+          "en": "Rabbi Shimon confirms that Rabbi Akiva held this view."
+        },
+        {
+          "cat": "attack",
+          "start": "g158",
+          "end": "g172",
+          "en": "Rabbi Shimon's Galilean colleagues object that sprinkling cannot make acceptable what is already unfit."
+        },
+        {
+          "cat": "answer",
+          "start": "g173",
+          "end": "g184",
+          "en": "Rabbi Akiva replies that sprinkling does take effect even on unfit meat, asking whether his student does not agree."
+        },
+        {
+          "cat": "proof",
+          "start": "g185",
+          "end": "g199",
+          "en": "Rabbi Akiva's example of the substitute sin offering shows that both offerings remain subject to misuse liability."
+        },
+        {
+          "cat": "statement",
+          "start": "g200",
+          "end": "g206",
+          "en": "Concludes that if both animals were slaughtered and their blood set in cups, both remain subject to misuse."
+        }
+      ]
+    },
+    "7b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "09111a82",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g36",
+          "en": "Argues from the case of two sin offerings that sprinkling one exempts the other's meat, and by a fortiori, the meat that left the courtyard."
+        },
+        {
+          "cat": "statement",
+          "start": "g37",
+          "end": "g56",
+          "en": "Reish Lakish reports that Rav Oshaya said Rabbi Akiva's reply to his student was deceptive, and explains why."
+        },
+        {
+          "cat": "attack",
+          "start": "g57",
+          "end": "g68",
+          "en": "Objects that whether the offerings were slaughtered together or one after the other makes no difference, since the other is unfit either way."
+        },
+        {
+          "cat": "defense",
+          "start": "g69",
+          "end": "g78",
+          "en": "Rabbi Yohanan replies that Reish Lakish himself accepts the distinction between offerings slaughtered together and separately."
+        },
+        {
+          "cat": "proof",
+          "start": "g79",
+          "end": "g100",
+          "en": "Presents a case of two guilt offerings where the sacrificial portions were raised before sprinkling, and draws a conclusion."
+        },
+        {
+          "cat": "attack",
+          "start": "g101",
+          "end": "g109",
+          "en": "Objects: if the two offerings form one entity, why must the portions raised before sprinkling descend?"
+        },
+        {
+          "cat": "proof",
+          "start": "g110",
+          "end": "g124",
+          "en": "Cites Ulla's teaching that lesser portions raised before sprinkling are not brought down, supporting the objection."
+        },
+        {
+          "cat": "attack",
+          "start": "g125",
+          "end": "g131",
+          "en": "Reish Lakish is silent, so Rabbi Yohanan refutes his opinion decisively by raising the difficulty."
+        },
+        {
+          "cat": "statement",
+          "start": "g132",
+          "end": "g143",
+          "en": "The mishna opens by stating that sprinkling of most sacred offerings has both lenient and stringent aspects, and lesser offerings only stringent."
+        },
+        {
+          "cat": "statement",
+          "start": "g144",
+          "end": "g172",
+          "en": "Explains the most sacred offerings: before sprinkling the portions and meat are subject to misuse, and after it only the portions."
+        },
+        {
+          "cat": "statement",
+          "start": "g173",
+          "end": "g217",
+          "en": "Explains lesser offerings: after sprinkling, the portions are subject to misuse and all prohibitions apply to both, so all aspects are stringent."
+        },
+        {
+          "cat": "question",
+          "start": "g218",
+          "end": "g232",
+          "en": "Asks why the priest may not eat the meat after sprinkling if it is his property, since the mishna only says no misuse."
+        },
+        {
+          "cat": "answer",
+          "start": "g233",
+          "end": "g242",
+          "en": "Answers that the mishna's wording mirrors the first clause, so no prohibition on eating is implied."
+        },
+        {
+          "cat": "statement",
+          "start": "g243",
+          "end": "g274",
+          "en": "Quotes the latter clause about lesser offerings and reads it as the Gemara's basis for the same inference."
+        },
+        {
+          "cat": "question",
+          "start": "g275",
+          "end": "g285",
+          "en": "Asks the same question about the meat of lesser offerings: why is it prohibited to the owners if it is their property?"
+        },
+        {
+          "cat": "answer",
+          "start": "g286",
+          "end": "g298",
+          "en": "Rabbi Hanina explains that the prohibition applies to meat removed before sprinkling, and that Rabbi Akiva's view covers leaving the courtyard for burning."
+        }
+      ]
+    },
+    "8a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "05bcac9d",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g6",
+          "en": "Even Rabbi Akiva concedes that sprinkling the blood of a bird offering does not make its meat permitted for eating; this closes the chapter."
+        },
+        {
+          "cat": "statement",
+          "start": "g7",
+          "end": "g33",
+          "en": "The mishna teaches that a bird sin offering is subject to misuse liability from consecration, but not after its blood is sprinkled."
+        },
+        {
+          "cat": "proof",
+          "start": "g34",
+          "end": "g46",
+          "en": "Infers from the mishna's wording that the bird offering can be disqualified, yet cannot render other items impure."
+        },
+        {
+          "cat": "question",
+          "start": "g47",
+          "end": "g50",
+          "en": "Asks whose opinion the mishna expresses."
+        },
+        {
+          "cat": "answer",
+          "start": "g51",
+          "end": "g56",
+          "en": "Answers that it is the Rabbis' view, citing a baraita in which Abba Shaul speaks of one who immersed that day."
+        }
+      ]
+    },
+    "8b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "033b9868",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g24",
+          "en": "Rabbi Meir holds that one who immersed that day renders sacred food impure, while the Rabbis hold he only disqualifies it."
+        },
+        {
+          "cat": "defense",
+          "start": "g25",
+          "end": "g36",
+          "en": "Rava rejects the inference that the mishna follows the Rabbis, arguing it fits Abba Shaul and Rabbi Meir as well."
+        },
+        {
+          "cat": "statement",
+          "start": "g37",
+          "end": "g49",
+          "en": "Rava explains that Rabbinic law gives one who immersed that day a lower level of impurity for consecrated food."
+        },
+        {
+          "cat": "question",
+          "start": "g50",
+          "end": "g64",
+          "en": "Asks why there is a prohibition on the sin offering's meat after sprinkling, if it is the priests' property."
+        },
+        {
+          "cat": "answer",
+          "start": "g65",
+          "end": "g77",
+          "en": "Rabbi Hanina explains that the mishna concerns meat removed from its eating place, following Rabbi Akiva's view."
+        },
+        {
+          "cat": "statement",
+          "start": "g78",
+          "end": "g91",
+          "en": "Rav Huna reports Rav's view that failing to squeeze out a bird sin offering's blood after sprinkling does not invalidate it."
+        },
+        {
+          "cat": "statement",
+          "start": "g92",
+          "end": "g105",
+          "en": "Rav Adda bar Ahava reports Rav's contrary view: failure to squeeze out the blood invalidates the offering."
+        },
+        {
+          "cat": "proof",
+          "start": "g106",
+          "end": "g130",
+          "en": "Cites the verse about squeezing out the remaining blood, which supports the view that squeezing is essential."
+        },
+        {
+          "cat": "question",
+          "start": "g131",
+          "end": "g135",
+          "en": "Asks what the verse means on Rav Huna's view, if squeezing is not essential."
+        },
+        {
+          "cat": "answer",
+          "start": "g136",
+          "end": "g148",
+          "en": "Explains through a baraita of the school of Rabbi Yishmael that the verse requires squeezing only if blood remains."
+        },
+        {
+          "cat": "attack",
+          "start": "g149",
+          "end": "g171",
+          "en": "Objects by analogy to the meal offering: if remainder suffices there, the same should hold here, even if none is left."
+        }
+      ]
+    },
+    "9a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "e22bebae",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g15",
+          "en": "Cites a baraita on the meal offering's verse, showing that some of its flour, oil and frankincense must remain."
+        },
+        {
+          "cat": "answer",
+          "start": "g16",
+          "end": "g22",
+          "en": "Explains that the meal offering is unique because the word leftover is repeated, so this rule does not apply to a bird sin offering."
+        },
+        {
+          "cat": "attack",
+          "start": "g23",
+          "end": "g54",
+          "en": "Shmuel's father objects from a mishna on bird offerings, reading squeezing out the blood as a requirement for validity."
+        },
+        {
+          "cat": "answer",
+          "start": "g55",
+          "end": "g62",
+          "en": "Resolves his own objection: the mishna's clauses address different cases, so squeezing matters only for the burnt offering."
+        },
+        {
+          "cat": "statement",
+          "start": "g63",
+          "end": "g70",
+          "en": "Returns to the baraita of the school of Rabbi Yishmael: remaining blood must be squeezed out, but no remainder need be ensured."
+        },
+        {
+          "cat": "attack",
+          "start": "g71",
+          "end": "g91",
+          "en": "Objects that the same school elsewhere holds failure to squeeze out the blood invalidates the offering, contradicting the baraita."
+        },
+        {
+          "cat": "statement",
+          "start": "g92",
+          "end": "g119",
+          "en": "The mishna states that a bird burnt offering is subject to misuse until its ashes are taken to the ash heap, with karet liability after squeezing."
+        },
+        {
+          "cat": "statement",
+          "start": "g120",
+          "end": "g149",
+          "en": "The mishna states the rules for burnt bulls and goats, including misuse liability on the flesh until it is fully scorched."
+        },
+        {
+          "cat": "statement",
+          "start": "g150",
+          "end": "g179",
+          "en": "The mishna states that a burnt offering carries misuse liability for its flesh but not its hides, until removal to the ash heap."
+        },
+        {
+          "cat": "statement",
+          "start": "g180",
+          "end": "g213",
+          "en": "The mishna states that sin, guilt and communal peace offerings carry misuse liability only for their portions on the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g214",
+          "end": "g244",
+          "en": "The mishna states that the Shavuot loaves are subject to misuse until their blood is sprinkled, after which they are permitted."
+        },
+        {
+          "cat": "statement",
+          "start": "g245",
+          "end": "g261",
+          "en": "The mishna states the shewbread's consecration and rules on its crust and arrangement on the Table."
+        },
+        {
+          "cat": "statement",
+          "start": "g262",
+          "end": "g272",
+          "en": "The mishna states that the bowls of frankincense carry karet liability but no misuse once sacrificed."
+        },
+        {
+          "cat": "statement",
+          "start": "g273",
+          "end": "g285",
+          "en": "The mishna states that meal offerings are subject to misuse from consecration and are disqualified by the usual factors."
+        },
+        {
+          "cat": "statement",
+          "start": "g286",
+          "end": "g303",
+          "en": "The mishna states that after the handful is sacrificed, misuse liability applies to the handful until it reaches the ash heap."
+        },
+        {
+          "cat": "statement",
+          "start": "g304",
+          "end": "g320",
+          "en": "Reports the dispute between Rav and Rabbi Yohanan on whether one who benefits from the ash on the altar commits misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g321",
+          "end": "g334",
+          "en": "Clarifies that both agree on misuse before the ashes are removed; the dispute concerns the period after removal."
+        },
+        {
+          "cat": "statement",
+          "start": "g335",
+          "end": "g345",
+          "en": "Presents the two positions: Rav says the mitzva is complete, while Rabbi Yohanan says the ash stays consecrated."
+        },
+        {
+          "cat": "proof",
+          "start": "g346",
+          "end": "g361",
+          "en": "Rabbi Yohanan derives his view from the verse on the priestly garments used to carry the ashes outside the camp."
+        },
+        {
+          "cat": "attack",
+          "start": "g362",
+          "end": "g370",
+          "en": "Cites the mishna's wording about liability until the ash heap, which seems to contradict Rav's view."
+        },
+        {
+          "cat": "answer",
+          "start": "g371",
+          "end": "g377",
+          "en": "Answers that Rav can read the mishna as referring to the time the ash is fit to be carried out, after the shovelful is removed."
+        }
+      ]
+    },
+    "9b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "3e397fc2",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g20",
+          "en": "Objects to Rav's explanation from a mishna: a dislodged ember is not restored, implying an ember on the altar must be restored."
+        },
+        {
+          "cat": "answer",
+          "start": "g21",
+          "end": "g35",
+          "en": "Answers that an ember has substance and so remains fit for the altar, unlike ash, which Rav's view can accommodate."
+        },
+        {
+          "cat": "attack",
+          "start": "g36",
+          "end": "g64",
+          "en": "Another Sage raises the objection in reverse, arguing that the mishna implies ash without substance carries no misuse liability."
+        },
+        {
+          "cat": "answer",
+          "start": "g65",
+          "end": "g90",
+          "en": "Answers that Rabbi Yohanan can say the same about ash, and that the mishna names an ember to teach that even it is not restored."
+        },
+        {
+          "cat": "statement",
+          "start": "g91",
+          "end": "g116",
+          "en": "Reports the dispute between Rav and Levi on where the value of misused meat goes: communal gift offerings or an entirely burnt item."
+        },
+        {
+          "cat": "proof",
+          "start": "g117",
+          "end": "g134",
+          "en": "Cites a baraita that follows Levi, requiring that the money buy something wholly consumed on the altar, namely incense."
+        },
+        {
+          "cat": "proof",
+          "start": "g135",
+          "end": "g166",
+          "en": "Cites a baraita that follows Rav, requiring different handling of misuse money for sin and guilt offerings."
+        },
+        {
+          "cat": "statement",
+          "start": "g167",
+          "end": "g196",
+          "en": "The baraita continues with the general rule that misuse money for altar offerings buys altar items, and communal offerings go to gifts."
+        },
+        {
+          "cat": "attack",
+          "start": "g197",
+          "end": "g223",
+          "en": "Objects that the baraita contradicts itself: the sin offering clause says cast into the Dead Sea, while the summary says buy altar items."
+        },
+        {
+          "cat": "answer",
+          "start": "g224",
+          "end": "g233",
+          "en": "Answers that the first clause follows Rabbi Shimon, who holds that a sin offering whose owners atoned by another animal must die."
+        }
+      ]
+    },
+    "10a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "b472630c",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g16",
+          "en": "Reports Abaye's reading of the baraita: its first clause follows Rabbi Shimon and its latter clause follows the Rabbis."
+        },
+        {
+          "cat": "statement",
+          "start": "g17",
+          "end": "g35",
+          "en": "Rava holds that all agree there is no misuse liability when meat became impure before sprinkling or portions were already on the altar."
+        },
+        {
+          "cat": "question",
+          "start": "g36",
+          "end": "g38",
+          "en": "Asks whether this ruling is obvious, since the one who benefited caused no loss to Temple property."
+        },
+        {
+          "cat": "answer",
+          "start": "g39",
+          "end": "g58",
+          "en": "Answers that Rava needed to state it, lest one think the burning of impure meat or turning of portions counts as service."
+        },
+        {
+          "cat": "statement",
+          "start": "g59",
+          "end": "g85",
+          "en": "Rava explains the baraita: money goes to gift offerings if the benefit was learned after atonement, since one may not set money aside to be lost."
+        },
+        {
+          "cat": "statement",
+          "start": "g86",
+          "end": "g99",
+          "en": "The mishna lists meal offerings and incense consumed wholly on the altar, for which misuse liability applies from declared consecration."
+        },
+        {
+          "cat": "statement",
+          "start": "g100",
+          "end": "g117",
+          "en": "Those items carry no piggul liability, though they are liable for notar and impurity once placed in a service vessel."
+        },
+        {
+          "cat": "statement",
+          "start": "g118",
+          "end": "g133",
+          "en": "States the principle: items with permitting factors carry no piggul liability until those factors are sacrificed."
+        },
+        {
+          "cat": "statement",
+          "start": "g134",
+          "end": "g148",
+          "en": "Items without permitting factors, such as the handful and frankincense, carry notar and impurity liability but no piggul liability."
+        }
+      ]
+    },
+    "10b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d2af821f",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g1",
+          "en": "Asks the source for the claim that notar and impurity liability apply to both kinds of sacred items."
+        },
+        {
+          "cat": "statement",
+          "start": "g2",
+          "end": "g13",
+          "en": "The baraita first suggests liability for impure eating applies only to items with permitting factors, a view it will test."
+        },
+        {
+          "cat": "proof",
+          "start": "g14",
+          "end": "g79",
+          "en": "Argues by a fortiori inference from piggul, then cites the verse on approaching sacred items to limit liability."
+        },
+        {
+          "cat": "question",
+          "start": "g80",
+          "end": "g89",
+          "en": "Rabbi Elazar asks whether anyone who merely touches an item is liable, and how the verse can be understood."
+        },
+        {
+          "cat": "answer",
+          "start": "g90",
+          "end": "g109",
+          "en": "Explains the verse as referring to items fit to be sacrificed, so liability waits for permitting factors or service vessel consecration."
+        },
+        {
+          "cat": "statement",
+          "start": "g110",
+          "end": "g139",
+          "en": "Closes the chapter and opens the mishna on the five sin offerings left to die and their status for misuse."
+        }
+      ]
+    },
+    "11a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "1631a060",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g15",
+          "en": "The mishna states that a found sin offering whose year passed renders exchanges substitutes and carries misuse liability."
+        },
+        {
+          "cat": "question",
+          "start": "g16",
+          "end": "g26",
+          "en": "Asks what distinguishes the first clause's three cases, which ignore atonement, from the latter clause's two cases."
+        },
+        {
+          "cat": "answer",
+          "start": "g27",
+          "end": "g33",
+          "en": "Answers that the first three cases are absolute, while the latter two depend on whether atonement came from another offering."
+        },
+        {
+          "cat": "question",
+          "start": "g34",
+          "end": "g38",
+          "en": "Asks why the same halakha appears in tractate Temura and is repeated here."
+        },
+        {
+          "cat": "answer",
+          "start": "g39",
+          "end": "g46",
+          "en": "Answers that Temura teaches it for substitution, while Me'ila teaches it for misuse liability."
+        },
+        {
+          "cat": "statement",
+          "start": "g47",
+          "end": "g94",
+          "en": "The mishna on a nazirite's undesignated money, and the rules for the money of a deceased nazirite's offerings."
+        },
+        {
+          "cat": "attack",
+          "start": "g95",
+          "end": "g119",
+          "en": "Reish Lakish objects that the tanna should teach the same rule for a pair of birds with undesignated money."
+        },
+        {
+          "cat": "answer",
+          "start": "g120",
+          "end": "g137",
+          "en": "Rava responds that the cases differ: the Torah requires a peace offering for the nazirite, but not doves that are unfit."
+        },
+        {
+          "cat": "statement",
+          "start": "g138",
+          "end": "g179",
+          "en": "The mishna of Rabbi Shimon on blood and libations, and the baraita on when blood emerging into the Kidron still carries liability."
+        },
+        {
+          "cat": "question",
+          "start": "g180",
+          "end": "g183",
+          "en": "Asks the reason of the Rabbis who hold blood carries no misuse liability despite its consecrated origin."
+        },
+        {
+          "cat": "proof",
+          "start": "g184",
+          "end": "g234",
+          "en": "Ulla and Rabbi Yohanan derive the rule from verses on atonement, arguing blood's status is unchanged before and after atonement."
+        },
+        {
+          "cat": "attack",
+          "start": "g235",
+          "end": "g247",
+          "en": "Proposes the opposite inference: if blood is misuse-liable before atonement, it should remain so after."
+        },
+        {
+          "cat": "defense",
+          "start": "g248",
+          "end": "g258",
+          "en": "Rejects that suggestion: nothing whose mitzva has been performed should still carry misuse liability, though the Gemara questions why not."
+        }
+      ]
+    },
+    "11b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "fdebdbd5",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g7",
+          "en": "Objects that the removal of ash from the altar is a case whose mitzva is done yet still carries misuse liability."
+        },
+        {
+          "cat": "answer",
+          "start": "g8",
+          "end": "g26",
+          "en": "Answers that ash removal cannot be a model, since two verses that come as one teach nothing beyond themselves."
+        },
+        {
+          "cat": "attack",
+          "start": "g27",
+          "end": "g42",
+          "en": "Objects: if the scapegoat limbs are not misusable, the two verses do not come as one, so the answer fails."
+        },
+        {
+          "cat": "answer",
+          "start": "g43",
+          "end": "g60",
+          "en": "Answers that the ash removal and the High Priest's vestments are two verses that come as one, so the principle still holds."
+        },
+        {
+          "cat": "attack",
+          "start": "g61",
+          "end": "g85",
+          "en": "Objects that Rabbi Dosa holds the vestments are reusable and not interred, so the same difficulty returns."
+        },
+        {
+          "cat": "answer",
+          "start": "g86",
+          "end": "g95",
+          "en": "Answers that ash removal and the broken-neck heifer are two verses that come as one, both misusable after the mitzva."
+        },
+        {
+          "cat": "attack",
+          "start": "g96",
+          "end": "g105",
+          "en": "Challenges the reply: it works only if two verses that come as one do not teach a common aspect."
+        },
+        {
+          "cat": "answer",
+          "start": "g106",
+          "end": "g127",
+          "en": "Explains that exclusions in both verses, the broken neck and next to the altar, limit misuse after the mitzva to those cases."
+        },
+        {
+          "cat": "attack",
+          "start": "g128",
+          "end": "g139",
+          "en": "Suggests the mishna may not follow Rabbi Elazar bar Rabbi Tzadok, a suggestion that the Gemara then tests."
+        },
+        {
+          "cat": "statement",
+          "start": "g140",
+          "end": "g186",
+          "en": "A baraita of Rabbi Elazar bar Rabbi Tzadok: congealed libation wine from the drainpipes is burned in sanctity."
+        },
+        {
+          "cat": "question",
+          "start": "g187",
+          "end": "g189",
+          "en": "Asks from where the baraita derives the rule that burning must be in sanctity, since the verse speaks of pouring."
+        },
+        {
+          "cat": "proof",
+          "start": "g190",
+          "end": "g210",
+          "en": "Ravina derives it by a verbal analogy between sanctity in libations and in leftover offerings."
+        },
+        {
+          "cat": "attack",
+          "start": "g211",
+          "end": "g218",
+          "en": "Notes the baraita seems to hold that libations keep sanctity after descending, contradicting the mishna."
+        },
+        {
+          "cat": "answer",
+          "start": "g219",
+          "end": "g227",
+          "en": "Reconciles by saying the mishna refers to libations that never reached the bottom of the drainpipes."
+        },
+        {
+          "cat": "statement",
+          "start": "g228",
+          "end": "g238",
+          "en": "Offers an alternative version of the discussion, asserting the mishna follows Rabbi Elazar bar Rabbi Tzadok."
+        },
+        {
+          "cat": "defense",
+          "start": "g239",
+          "end": "g246",
+          "en": "Rejects that version: Rabbi Elazar concedes no Torah-level misuse, and the verse is only a support."
+        },
+        {
+          "cat": "statement",
+          "start": "g247",
+          "end": "g272",
+          "en": "The mishna on ash of the inner altar, Candelabrum wicks, and doves too young or too old, with their misuse rules."
+        },
+        {
+          "cat": "question",
+          "start": "g273",
+          "end": "g273",
+          "en": "The Gemara begins to ask why the inner altar ash is not misusable once moved, opening the next question."
+        }
+      ]
+    },
+    "12a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "77743f8a",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g12",
+          "en": "Asks from where the inner altar's ashes are also subject to misuse, given the external altar's ash verse."
+        },
+        {
+          "cat": "proof",
+          "start": "g13",
+          "end": "g32",
+          "en": "Rabbi Elazar derives the inner altar's ash placement from the verse about the crop placed in the place of the ashes."
+        },
+        {
+          "cat": "attack",
+          "start": "g33",
+          "end": "g41",
+          "en": "Objects that both verses may refer to the external altar, leaving no source for the inner altar's ashes."
+        },
+        {
+          "cat": "answer",
+          "start": "g42",
+          "end": "g53",
+          "en": "Answers that the extra phrase in the verse teaches that the inner altar's ashes are placed there too."
+        },
+        {
+          "cat": "question",
+          "start": "g54",
+          "end": "g57",
+          "en": "Asks from where the Candelabrum's ashes are also placed east of the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g58",
+          "end": "g97",
+          "en": "The mishna records Rabbi Shimon's dispute over doves too young or pigeons too old, and explains his reasoning."
+        },
+        {
+          "cat": "question",
+          "start": "g98",
+          "end": "g103",
+          "en": "Asks why young doves differ from an animal not yet of age, which may be consecrated and tithed."
+        },
+        {
+          "cat": "answer",
+          "start": "g104",
+          "end": "g124",
+          "en": "Answers that an animal can be consecrated because it is redeemable, but birds with blemishes cannot be redeemed."
+        },
+        {
+          "cat": "statement",
+          "start": "g125",
+          "end": "g135",
+          "en": "Ulla reports Rabbi Yohanan's view that sacrificial animals that died are excluded from misuse by Torah law."
+        },
+        {
+          "cat": "attack",
+          "start": "g136",
+          "end": "g154",
+          "en": "Rav Hisda objects: who would accept this, since the sanctity inherent in them has nowhere to go."
+        },
+        {
+          "cat": "defense",
+          "start": "g155",
+          "end": "g176",
+          "en": "Ulla replies that the mishna's pigeons present the same difficulty, so Rav Hisda's objection applies to the mishna too."
+        },
+        {
+          "cat": "answer",
+          "start": "g177",
+          "end": "g196",
+          "en": "Rav Hisda concedes the rabbinic prohibition but raises a new difficulty about items that become misusable later."
+        },
+        {
+          "cat": "question",
+          "start": "g197",
+          "end": "g219",
+          "en": "Asks whether blood is such a case: not misusable at first, but misusable after it emerges via the Kidron canal."
+        },
+        {
+          "cat": "answer",
+          "start": "g220",
+          "end": "g225",
+          "en": "The Sages reply that this is no proof, since blood is misusable from the start."
+        }
+      ]
+    },
+    "12b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "8e6f9b0f",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g23",
+          "en": "Rav holds that one who lets blood from a sacrificial animal may not benefit and is liable for misuse of that blood."
+        },
+        {
+          "cat": "attack",
+          "start": "g24",
+          "end": "g34",
+          "en": "Rav Hamnuna objects from the milk and dove eggs of consecrated animals, which are not misusable, so products seem to lack the status."
+        },
+        {
+          "cat": "defense",
+          "start": "g35",
+          "end": "g51",
+          "en": "Rav answers that blood is distinct because the animal cannot exist without it, while milk is not so essential."
+        },
+        {
+          "cat": "attack",
+          "start": "g52",
+          "end": "g64",
+          "en": "Rav Mesharshiyya objects from a baraita on dung of the most sacred offerings, which is not misusable either."
+        },
+        {
+          "cat": "question",
+          "start": "g65",
+          "end": "g71",
+          "en": "Asks why dung is not misusable, since like blood the animal cannot exist without it."
+        },
+        {
+          "cat": "answer",
+          "start": "g72",
+          "end": "g87",
+          "en": "Answers that dung is food passing out of the body and replaced from outside, unlike blood, which is part of the body."
+        },
+        {
+          "cat": "proof",
+          "start": "g88",
+          "end": "g111",
+          "en": "Notes that the baraita's ruling that the money goes to the treasury supports Rabbi Elazar's principle."
+        },
+        {
+          "cat": "statement",
+          "start": "g112",
+          "end": "g136",
+          "en": "The mishna states that milk and eggs of consecrated animals are not misusable, and explains this for altar animals only."
+        },
+        {
+          "cat": "question",
+          "start": "g137",
+          "end": "g147",
+          "en": "Asks whether an animal consecrated for its sale value would have misusable milk or eggs, since it is not meant for the altar."
+        },
+        {
+          "cat": "answer",
+          "start": "g148",
+          "end": "g180",
+          "en": "Rav Pappa answers that the mishna is incomplete: only an animal consecrated for the altar's inherent sanctity is exempt."
+        },
+        {
+          "cat": "statement",
+          "start": "g181",
+          "end": "g184",
+          "en": "The mishna begins its next clause: any consecrated item fit for sacrifice on the altar."
+        }
+      ]
+    },
+    "13a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9ff6670d",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g34",
+          "en": "The mishna sets out categories of consecrated items and gives examples of cisterns, dovecotes and trees full of their contents."
+        },
+        {
+          "cat": "statement",
+          "start": "g35",
+          "end": "g64",
+          "en": "If the container was consecrated empty and later filled, misuse applies to the container but not to its later contents."
+        },
+        {
+          "cat": "statement",
+          "start": "g65",
+          "end": "g96",
+          "en": "Rabbi Yosei disagrees on growths of consecrated fields; the mishna then rules on offspring and suckling from consecrated animals."
+        },
+        {
+          "cat": "statement",
+          "start": "g97",
+          "end": "g106",
+          "en": "Laborers may not eat consecrated figs they work with, and a cow threshing consecrated produce may not eat the vetch."
+        },
+        {
+          "cat": "question",
+          "start": "g107",
+          "end": "g115",
+          "en": "Asks from where the rules that a tithed or consecrated mother's offspring may not suckle are derived."
+        },
+        {
+          "cat": "proof",
+          "start": "g116",
+          "end": "g140",
+          "en": "Rav Ahadvoi derives the rules by verbal analogy to the firstborn offering, showing the milk is also forbidden."
+        },
+        {
+          "cat": "question",
+          "start": "g141",
+          "end": "g146",
+          "en": "Asks the reason for the cow ruling, since the verse on laborers in the vineyard does not cover Temple produce."
+        },
+        {
+          "cat": "proof",
+          "start": "g147",
+          "end": "g166",
+          "en": "Rav Ahadvoi cites the verse not to muzzle a threshing ox, which applies only to a non-sacred field."
+        },
+        {
+          "cat": "statement",
+          "start": "g167",
+          "end": "g171",
+          "en": "Describes a case: threshing one's non-sacred kalilin in a consecrated field makes one liable for misuse."
+        },
+        {
+          "cat": "attack",
+          "start": "g172",
+          "end": "g174",
+          "en": "Objects that misuse requires the consecrated item to be detached from the ground, while the field is the ground itself."
+        },
+        {
+          "cat": "answer",
+          "start": "g175",
+          "end": "g180",
+          "en": "Ravina answers that the field's dust benefits the kalilin, so the detached dust is what is misused when threshing."
+        }
+      ]
+    },
+    "13b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d3e0d99e",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m15",
+          "en": "Roots of a non-sacred tree entering consecrated land, and vice versa, may not be used initially, but no misuse liability applies."
+        },
+        {
+          "cat": "statement",
+          "start": "m16",
+          "end": "m31",
+          "en": "Spring water flowing from non-sacred land into consecrated land is restricted, but usable once it emerges outside the consecrated field."
+        },
+        {
+          "cat": "statement",
+          "start": "m32",
+          "end": "m43",
+          "en": "Water drawn into a golden jug is not consecrated until poured into the service flask, which makes misuse liable."
+        },
+        {
+          "cat": "statement",
+          "start": "m44",
+          "end": "m48",
+          "en": "Willow branches are forbidden before placement at the altar, but permitted afterward since their mitzva is fulfilled."
+        },
+        {
+          "cat": "statement",
+          "start": "m49",
+          "end": "m58",
+          "en": "Rabbi Elazar ben Rabbi Tzadok reports that the elders used willow branches for lulavim even before placement."
+        },
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g8",
+          "en": "Reish Lakish explains the mishna: no misuse liability for water in excess of three log, but liability for three log."
+        },
+        {
+          "cat": "attack",
+          "start": "g9",
+          "end": "g26",
+          "en": "The Gemara objects that the mishna's latter clause implies liability applies even to three log, contradicting Reish Lakish."
+        },
+        {
+          "cat": "defense",
+          "start": "g27",
+          "end": "g35",
+          "en": "Reish Lakish replies that the qualification applies only to the latter clause, so his view stands."
+        },
+        {
+          "cat": "statement",
+          "start": "g36",
+          "end": "g40",
+          "en": "Rabbi Yohanan holds that one is liable for misuse of all the water, with no fixed measure."
+        },
+        {
+          "cat": "question",
+          "start": "g41",
+          "end": "g46",
+          "en": "The Gemara asks whether Reish Lakish really holds that the water libation has a fixed measure."
+        },
+        {
+          "cat": "attack",
+          "start": "g47",
+          "end": "g55",
+          "en": "The Gemara cites a mishna on pouring Sukkot water outside the Temple to challenge the fixed-measure view."
+        },
+        {
+          "cat": "statement",
+          "start": "g56",
+          "end": "g73",
+          "en": "Rabbi Yohanan relays Rabbi Elazar's derivation from Rabbi Akiva that water and wine libations are two distinct obligations."
+        },
+        {
+          "cat": "statement",
+          "start": "g74",
+          "end": "g85",
+          "en": "Reish Lakish argues that since wine has a three-log measure, water should too."
+        },
+        {
+          "cat": "attack",
+          "start": "g86",
+          "end": "g92",
+          "en": "The Gemara infers from this argument that Reish Lakish holds water has no measure, which seems to conflict with his stated view."
+        },
+        {
+          "cat": "defense",
+          "start": "g93",
+          "end": "g96",
+          "en": "The Gemara answers that Reish Lakish spoke according to Rabbi Menahem Yodafa's explanation, so he does hold a measure."
+        },
+        {
+          "cat": "statement",
+          "start": "g97",
+          "end": "g115",
+          "en": "The Gemara cites a mishna on a nest atop a consecrated tree, and the liability for a consecrated tree's produce."
+        }
+      ]
+    },
+    "14a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "42a6b28e",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g11",
+          "en": "Idol object broken by itself: Rabbi Yohanan forbids its benefit, while Reish Lakish permits it."
+        },
+        {
+          "cat": "statement",
+          "start": "g12",
+          "end": "g19",
+          "en": "Rabbi Yohanan's reasoning: a gentile did not nullify the idol, so breakage alone does not remove its status."
+        },
+        {
+          "cat": "statement",
+          "start": "g20",
+          "end": "g31",
+          "en": "Reish Lakish's reasoning: the owner would have nullified it on seeing it broken, since the idol could not save itself."
+        },
+        {
+          "cat": "attack",
+          "start": "g32",
+          "end": "g36",
+          "en": "Reish Lakish raises a proof against Rabbi Yohanan from the mishna about the nest atop the tree."
+        },
+        {
+          "cat": "proof",
+          "start": "g37",
+          "end": "g48",
+          "en": "The mishna cited: a consecrated tree's nest is forbidden initially, and the nest is dislodged by striking it with a pole."
+        },
+        {
+          "cat": "attack",
+          "start": "g49",
+          "end": "g55",
+          "en": "Reish Lakish reads the mishna as permitting branches that broke off the worshipped tree itself, contrary to Rabbi Yohanan."
+        },
+        {
+          "cat": "defense",
+          "start": "g56",
+          "end": "g59",
+          "en": "Rabbi Yohanan answers that the mishna refers to a bird bringing branches from elsewhere, so there is no proof."
+        },
+        {
+          "cat": "attack",
+          "start": "g60",
+          "end": "g68",
+          "en": "Reish Lakish rejects that answer: then why is the consecrated nest forbidden initially if built from outside material?"
+        },
+        {
+          "cat": "defense",
+          "start": "g69",
+          "end": "g73",
+          "en": "The Gemara resolves that the mishna concerns branches from the same tree, and growths after consecration."
+        },
+        {
+          "cat": "proof",
+          "start": "g74",
+          "end": "g80",
+          "en": "The Gemara supports this reading as reasonable, since the tanna would hold growths of consecrated property are not misusable."
+        },
+        {
+          "cat": "attack",
+          "start": "g81",
+          "end": "g89",
+          "en": "If the branches came from elsewhere, one would not need a pole to remove the nest, so the objection returns."
+        },
+        {
+          "cat": "defense",
+          "start": "g90",
+          "end": "g101",
+          "en": "Rabbi Abbahu reports Rabbi Yohanan's answer: the nest is dislodged to remove the chicks, which are hard to take without climbing."
+        },
+        {
+          "cat": "statement",
+          "start": "g102",
+          "end": "g115",
+          "en": "Rabbi Yaakov rules that flying chicks are permitted in both cases, while eggs are forbidden in both."
+        },
+        {
+          "cat": "statement",
+          "start": "g116",
+          "end": "g124",
+          "en": "Rav Ashi adds that young chicks still dependent on their mother are treated like eggs and forbidden."
+        },
+        {
+          "cat": "statement",
+          "start": "g125",
+          "end": "g136",
+          "en": "Mishna: Temple treasurers buying logs are liable for the wood but not for sawdust or fallen leaves."
+        },
+        {
+          "cat": "statement",
+          "start": "g137",
+          "end": "g142",
+          "en": "Shmuel teaches that Temple structures are built from non-sacred materials and consecrated only after completion."
+        },
+        {
+          "cat": "question",
+          "start": "g143",
+          "end": "g153",
+          "en": "Why are materials not consecrated immediately, given that money donated for maintenance is already sanctified?"
+        },
+        {
+          "cat": "answer",
+          "start": "g154",
+          "end": "g158",
+          "en": "The treasurer designates that the donor's sanctity applies to the finished structure, so the money is freed for wages."
+        }
+      ]
+    },
+    "14b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d2034f34",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g34",
+          "en": "Objection from a mishna on Shekalim: leftover incense was desacralized via wages, which suggests transferring its sanctity to the structure was not used."
+        },
+        {
+          "cat": "defense",
+          "start": "g35",
+          "end": "g38",
+          "en": "Reply: the mishna concerns a time when no construction exists equal in value to the leftover incense."
+        },
+        {
+          "cat": "attack",
+          "start": "g39",
+          "end": "g48",
+          "en": "Shmuel's ruling that a consecrated item redeemed for a tiny sum is valid seems to conflict with the proposed procedure."
+        },
+        {
+          "cat": "defense",
+          "start": "g49",
+          "end": "g54",
+          "en": "Reply: Shmuel's ruling applies only after the fact, not as an ab initio practice for treasurers."
+        },
+        {
+          "cat": "statement",
+          "start": "g55",
+          "end": "g78",
+          "en": "Rav Pappa's reason for building with non-sacred materials: artisans might sit on consecrated stones, misusing sacred property."
+        },
+        {
+          "cat": "attack",
+          "start": "g79",
+          "end": "g108",
+          "en": "Objection from the mishna on logs bought by treasurers: why are they liable for wood if the same reasoning would apply to non-sacred logs?"
+        },
+        {
+          "cat": "defense",
+          "start": "g109",
+          "end": "g126",
+          "en": "Rav Pappa replies that the mishna concerns logs acquired for same-day use, so no one would sit on them; the chapter ends."
+        }
+      ]
+    },
+    "15a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "963735ed",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m30",
+          "en": "Mishna: altar-offering items and maintenance items combine to reach the misuse measure, and altar items alone combine for piggul, notar and impurity."
+        },
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g28",
+          "en": "The Gemara asks why the mishna needs its first clause, if the latter clause already joins altar and maintenance items despite their different sanctity."
+        },
+        {
+          "cat": "answer",
+          "start": "g29",
+          "end": "g48",
+          "en": "The first clause is needed because piggul, notar and impurity apply only to altar items, so the tanna separates the two clauses."
+        },
+        {
+          "cat": "statement",
+          "start": "g49",
+          "end": "g62",
+          "en": "Rabbi Yannai holds that misuse liability by Torah law applies only to maintenance items and burnt offerings."
+        },
+        {
+          "cat": "proof",
+          "start": "g63",
+          "end": "g89",
+          "en": "Rabbi Yannai's basis is the verse on misuse in sacred items of the Lord, read as limited to items uniquely for the Lord."
+        },
+        {
+          "cat": "attack",
+          "start": "g90",
+          "end": "g105",
+          "en": "Objection: a mishna makes altar items join for misuse, and another makes disqualified most-sacred offerings liable, both apparently rabbinic only."
+        },
+        {
+          "cat": "attack",
+          "start": "g106",
+          "end": "g140",
+          "en": "Objection from a mishna on a blemished sin offering and a baraita on the fat, suggesting Torah liability for altar items."
+        },
+        {
+          "cat": "attack",
+          "start": "g141",
+          "end": "g144",
+          "en": "Objection: the tanna cites a verse as the source for the halakha, which seems to make it Torah law."
+        },
+        {
+          "cat": "defense",
+          "start": "g145",
+          "end": "g147",
+          "en": "Reply: the verse is merely a support, not the actual source of the halakha."
+        },
+        {
+          "cat": "attack",
+          "start": "g148",
+          "end": "g158",
+          "en": "Objection from Ulla quoting Rabbi Yohanan: dead sacrificial animals lose misuse liability by Torah law."
+        },
+        {
+          "cat": "question",
+          "start": "g159",
+          "end": "g172",
+          "en": "The Gemara asks what Rabbi Yohanan's case is, testing whether he means maintenance items or altar items."
+        },
+        {
+          "cat": "attack",
+          "start": "g173",
+          "end": "g180",
+          "en": "If the case is maintenance items, even dead ones would remain liable, as with a garbage heap consecrated to maintenance."
+        },
+        {
+          "cat": "question",
+          "start": "g181",
+          "end": "g188",
+          "en": "So must the case be altar items, and does Rabbi Yannai hold they are subject to misuse by Torah law?"
+        },
+        {
+          "cat": "statement",
+          "start": "g189",
+          "end": "g196",
+          "en": "The school of Rabbi Yannai is reported to hold that the earlier formulation of his view was rejected."
+        },
+        {
+          "cat": "proof",
+          "start": "g197",
+          "end": "g207",
+          "en": "The verse on misuse in sacred items teaches only maintenance items; altar items are derived from other verses."
+        }
+      ]
+    },
+    "15b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "ba1202f8",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m19",
+          "en": "Mishna: five items of a burnt offering and its accompaniments combine for misuse and piggul, and six items of a thanks offering combine."
+        },
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g11",
+          "en": "Rav Huna's version of the mishna reads in the world rather than in the burnt offering."
+        },
+        {
+          "cat": "attack",
+          "start": "g12",
+          "end": "g28",
+          "en": "Rava objects that the mishna lists six items for the thanks offering, so the world version cannot be right."
+        },
+        {
+          "cat": "defense",
+          "start": "g29",
+          "end": "g30",
+          "en": "Rav Huna replies that the mishna should be taught as referring to the burnt offering."
+        },
+        {
+          "cat": "proof",
+          "start": "g31",
+          "end": "g49",
+          "en": "A baraita already teaches that burnt-offering flesh and sacrificial portions combine for the olive-bulk rules."
+        },
+        {
+          "cat": "statement",
+          "start": "g50",
+          "end": "g52",
+          "en": "The baraita distinguishes: this applies to burnt offerings but not to peace offerings."
+        },
+        {
+          "cat": "attack",
+          "start": "g53",
+          "end": "g87",
+          "en": "Objection: peace offerings should be liable for piggul, notar and impurity too, as the mishna on piggul implies for all offerings."
+        },
+        {
+          "cat": "defense",
+          "start": "g88",
+          "end": "g106",
+          "en": "Reply: the baraita concerns joining for sprinkling the blood, and only then for the eating prohibitions."
+        },
+        {
+          "cat": "statement",
+          "start": "g107",
+          "end": "g158",
+          "en": "The baraita is attributed to Rabbi Yehoshua: fat and meat combine for burnt offerings, but not for other offerings."
+        },
+        {
+          "cat": "question",
+          "start": "g159",
+          "end": "g161",
+          "en": "What is the relevance of a meal offering, which does not require blood sprinkling, to this baraita?"
+        },
+        {
+          "cat": "answer",
+          "start": "g162",
+          "end": "g166",
+          "en": "Rav Pappa explains it refers to the meal offering of libations accompanying animal offerings."
+        },
+        {
+          "cat": "statement",
+          "start": "g167",
+          "end": "g197",
+          "en": "Mishna: terumah, tithe-terumah, demai terumah, challah and first fruits combine for the additional fifth and prohibition, and piggul and notar combine."
+        },
+        {
+          "cat": "question",
+          "start": "g198",
+          "end": "g201",
+          "en": "What is the reason that all of these foods are called terumah?"
+        },
+        {
+          "cat": "proof",
+          "start": "g202",
+          "end": "g230",
+          "en": "Verses show challah and first fruits are called terumah, so the other items need no explanation."
+        },
+        {
+          "cat": "statement",
+          "start": "g231",
+          "end": "g245",
+          "en": "Mishna on carcasses and repugnant creatures combining; Rav's statement on it opens here."
+        }
+      ]
+    },
+    "16a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "e2e5d07a",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g19",
+          "en": "Carcasses combine only for impurity according to the plain reading, while Levi holds kosher and non-kosher carcasses combine for eating as well."
+        },
+        {
+          "cat": "statement",
+          "start": "g20",
+          "end": "g34",
+          "en": "Rav Asi holds kosher and non-kosher carcasses are distinct, and the Gemara debates whether he disagrees with Rav about impurity."
+        },
+        {
+          "cat": "attack",
+          "start": "g35",
+          "end": "g51",
+          "en": "A baraita says half an olive-bulk of a dead cow and of a live camel do not combine, implying dead ones would combine, which challenges Rav Asi."
+        },
+        {
+          "cat": "defense",
+          "start": "g52",
+          "end": "g66",
+          "en": "Reply: the baraita should be read as implying live animals combine, following Rabbi Yehuda that a limb of a live animal is forbidden."
+        },
+        {
+          "cat": "attack",
+          "start": "g67",
+          "end": "g121",
+          "en": "Objection: if dead carcasses do not combine, why choose the extreme case, and another baraita implies dead carcasses do combine."
+        },
+        {
+          "cat": "defense",
+          "start": "g122",
+          "end": "g132",
+          "en": "Reply: that tanna holds one prohibition takes effect even over an existing prohibition, while Rav Asi does not, so no conflict."
+        }
+      ]
+    },
+    "16b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "d71542ce",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g14",
+          "en": "Rav holds one is flogged for eating an olive-bulk of creeping animals, because the Torah uses the word eating for them."
+        },
+        {
+          "cat": "attack",
+          "start": "g15",
+          "end": "g65",
+          "en": "A baraita quoted before Rabbi Yohanan, reading the verse on impurity, implies a lentil-bulk of creeping animals is liable, challenging Rav."
+        },
+        {
+          "cat": "defense",
+          "start": "g66",
+          "end": "g71",
+          "en": "Reply: the baraita concerns dead creeping animals, which impart impurity by a lentil-bulk, while Rav speaks of live ones."
+        },
+        {
+          "cat": "attack",
+          "start": "g72",
+          "end": "g90",
+          "en": "Abaye objects that Rav is citing the mishna, which makes carcasses combine into an olive-bulk, so Rav's ruling conflicts with the baraita."
+        },
+        {
+          "cat": "defense",
+          "start": "g91",
+          "end": "g105",
+          "en": "Rav Yosef replies that the inference about the mishna is Abaye's own, and Rav stated an independent halakha."
+        },
+        {
+          "cat": "attack",
+          "start": "g106",
+          "end": "g127",
+          "en": "An objection from a mishna on limbs of impure bodies: Rabbi Yohanan's distinction between impurity and flogging is challenged."
+        },
+        {
+          "cat": "defense",
+          "start": "g128",
+          "end": "g132",
+          "en": "Rava resolves the conflict: Rabbi Yohanan's lentil-bulk rule applies only to the eight creeping animals the verse singles out."
+        },
+        {
+          "cat": "attack",
+          "start": "g133",
+          "end": "g147",
+          "en": "Rav Adda bar Ahava objects that if creeping animals differ by type, the same distinction should apply between kosher and non-kosher animals."
+        }
+      ]
+    },
+    "17a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "7306e68b",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g13",
+          "en": "Rava explains that the juxtaposition of kosher and non-kosher animals to creeping animals concerns the general prohibition, not measures."
+        },
+        {
+          "cat": "statement",
+          "start": "g14",
+          "end": "g42",
+          "en": "Mishna: blood and flesh of a creeping animal combine for impurity, and Rabbi Yehoshua sets a principle on when items join by impurity and measure."
+        },
+        {
+          "cat": "statement",
+          "start": "g43",
+          "end": "g48",
+          "en": "Rav Zeira holds blood and flesh combine only when they come from the same creeping animal."
+        },
+        {
+          "cat": "proof",
+          "start": "g49",
+          "end": "g72",
+          "en": "Rabbi Yosei bar Rabbi Hanina rejects this with a baraita: the plural hatemeim shows that such items join even from different animals."
+        },
+        {
+          "cat": "defense",
+          "start": "g73",
+          "end": "g81",
+          "en": "Rav Yosef reconciles the two: the baraita concerns half-measures from a whole animal, while Rav Zeira concerns parts of one."
+        },
+        {
+          "cat": "proof",
+          "start": "g82",
+          "end": "g98",
+          "en": "A baraita on blood spilled on a slope shows that whether one is impure depends on whether the blood is from a whole body or part."
+        },
+        {
+          "cat": "attack",
+          "start": "g99",
+          "end": "g123",
+          "en": "Objection: the reading of part of it conflicts with Rabbi Hanina's report of Rabbi Yehuda HaNasi, so the distinction must be drawn differently."
+        },
+        {
+          "cat": "question",
+          "start": "g124",
+          "end": "g140",
+          "en": "Rabbi Matya ben Harash asks Rabbi Shimon ben Yohai in Rome from where the blood of creeping animals is impure."
+        },
+        {
+          "cat": "answer",
+          "start": "g141",
+          "end": "g149",
+          "en": "Rabbi Shimon ben Yohai replies from a verse on the impure creeping animals in Leviticus 11:29."
+        },
+        {
+          "cat": "statement",
+          "start": "g150",
+          "end": "g167",
+          "en": "His students praise him, but Rabbi Matya says the source is a tradition from Rabbi Elazar bar Rabbi Yosei."
+        },
+        {
+          "cat": "answer",
+          "start": "g168",
+          "end": "g183",
+          "en": "Background: the government decreed Jews not to keep Shabbat, circumcise, or refrain from intercourse during menstruation."
+        },
+        {
+          "cat": "statement",
+          "start": "g184",
+          "end": "g278",
+          "en": "Rabbi Reuven ben Isterobeli deceives the gentiles into nullifying the three decrees, and once discovered they reinstate them."
+        }
+      ]
+    },
+    "17b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "0723d54b",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g18",
+          "en": "Proposal that Rabbi Shimon ben Yohai go to Rome, with Rabbi Elazar bar Rabbi Yosei accompanying him."
+        },
+        {
+          "cat": "attack",
+          "start": "g19",
+          "end": "g46",
+          "en": "Rabbi Yosei objects that the Sages would not ask a father to hand over his son, and Rabbi Shimon responds that he will go and needs a companion."
+        },
+        {
+          "cat": "statement",
+          "start": "g47",
+          "end": "g66",
+          "en": "Rabbi Yosei decides to go in place of his son, fearing Rabbi Shimon's temper with his quick-witted son, who is punished anyway."
+        },
+        {
+          "cat": "answer",
+          "start": "g67",
+          "end": "g73",
+          "en": "Explanation of the punishment: a question about the blood of creeping animals was raised while they walked the road."
+        },
+        {
+          "cat": "question",
+          "start": "g74",
+          "end": "g78",
+          "en": "From where is the blood of a creeping animal impure?"
+        },
+        {
+          "cat": "answer",
+          "start": "g79",
+          "end": "g92",
+          "en": "Rabbi Elazar answers that the source is Leviticus 11:29, the impure creeping animals."
+        },
+        {
+          "cat": "statement",
+          "start": "g93",
+          "end": "g108",
+          "en": "Rabbi Shimon says the answer shows Elazar is a scholar, but a student may not rule before his teacher, so he curses him."
+        },
+        {
+          "cat": "statement",
+          "start": "g109",
+          "end": "g175",
+          "en": "A demon possesses the emperor's daughter, is expelled by Rabbi Shimon, and the emperor's decrees are torn up after a reward."
+        },
+        {
+          "cat": "proof",
+          "start": "g176",
+          "end": "g191",
+          "en": "Rabbi Elazar's own testimony about seeing Yom Kippur blood on the Curtain in Rome supports the account of the story."
+        },
+        {
+          "cat": "statement",
+          "start": "g192",
+          "end": "g215",
+          "en": "Mishna: piggul and notar do not join for impurity, and carcass flesh of different kinds does not join even for the lenient impurity."
+        },
+        {
+          "cat": "statement",
+          "start": "g216",
+          "end": "g231",
+          "en": "Shmuel holds the non-joining applies only to rabbinic hand impurity, while piggul and notar do join for eating."
+        },
+        {
+          "cat": "proof",
+          "start": "g232",
+          "end": "g254",
+          "en": "A baraita on Rabbi Eliezer's reading of Exodus 29:34 shows that any disqualified sacred food carries an eating prohibition."
+        },
+        {
+          "cat": "statement",
+          "start": "g255",
+          "end": "g306",
+          "en": "Mishna listing the measures by which impure foods and liquids join for teruma disqualification and other Torah measures."
+        },
+        {
+          "cat": "statement",
+          "start": "g307",
+          "end": "g320",
+          "en": "A baraita gives Rabbi Shimon's reason that food of second-degree impurity can make food of first-degree impure."
+        },
+        {
+          "cat": "attack",
+          "start": "g321",
+          "end": "g324",
+          "en": "Objection: second-degree food cannot make food impure at first degree, so the reason is not possible."
+        },
+        {
+          "cat": "defense",
+          "start": "g325",
+          "end": "g344",
+          "en": "Rava and Rav Ashi explain Rabbi Shimon: the second-degree food is impure only through first-degree food, so they share a source."
+        }
+      ]
+    },
+    "18a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "65b65f35",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m11",
+          "en": "Mishna: orla fruit and diverse kinds join to reach the mixture measure, while Rabbi Shimon says they do not join."
+        },
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g14",
+          "en": "The Gemara asks why Rabbi Shimon needs joining at all, since a baraita says he holds any amount is flogged."
+        },
+        {
+          "cat": "statement",
+          "start": "g15",
+          "end": "g26",
+          "en": "Mishna: garment, sack, hide and mat join together to reach the measure for impurity."
+        },
+        {
+          "cat": "question",
+          "start": "g27",
+          "end": "g29",
+          "en": "Rabbi Shimon is asked what the reason is for the joining."
+        },
+        {
+          "cat": "answer",
+          "start": "g30",
+          "end": "g34",
+          "en": "Reason: each of these materials can become impure through a zav's seat."
+        },
+        {
+          "cat": "statement",
+          "start": "g35",
+          "end": "g48",
+          "en": "A baraita: if one cut pieces from each material and sewed a garment, its minimum measure depends on whether it is for lying, sitting or holding."
+        },
+        {
+          "cat": "question",
+          "start": "g49",
+          "end": "g50",
+          "en": "What is the reason the holding garment is a garment?"
+        },
+        {
+          "cat": "answer",
+          "start": "g51",
+          "end": "g64",
+          "en": "Reish Lakish cites Rabbi Yannai: it serves to protect the hands of a weaver, and fig cutters use it similarly."
+        },
+        {
+          "cat": "statement",
+          "start": "g65",
+          "end": "g68",
+          "en": "Chapter-closing formula that names the next chapter on the sacrifices of the altar."
+        },
+        {
+          "cat": "statement",
+          "start": "g69",
+          "end": "g133",
+          "en": "Mishna: benefit worth a peruta from consecrated property creates misuse liability, with Rabbi Akiva and the Sages differing on damage, with examples."
+        },
+        {
+          "cat": "statement",
+          "start": "g134",
+          "end": "g137",
+          "en": "A baraita states that Rabbi Akiva concedes to the Sages where the item can be damaged."
+        },
+        {
+          "cat": "question",
+          "start": "g138",
+          "end": "g144",
+          "en": "If they agree, where exactly do Rabbi Akiva and the Sages disagree?"
+        },
+        {
+          "cat": "answer",
+          "start": "g145",
+          "end": "g149",
+          "en": "Rava: they disagree about middle garments and fine malmala cloth, which are not depreciated by each use."
+        },
+        {
+          "cat": "statement",
+          "start": "g150",
+          "end": "g160",
+          "en": "A baraita: the misuse law applies equally to a common person, a king and the anointed High Priest."
+        },
+        {
+          "cat": "proof",
+          "start": "g161",
+          "end": "g192",
+          "en": "Verses using the word ma'al for deviation show that misuse is a general term that covers all such unfaithfulness."
+        }
+      ]
+    },
+    "18b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "420c50e5",
+      "ranges": [
+        {
+          "cat": "proof",
+          "start": "g0",
+          "end": "g3",
+          "en": "A verse on the people going astray after the gods, read as a parallel for deviating from an item's intended use."
+        },
+        {
+          "cat": "question",
+          "start": "g4",
+          "end": "g16",
+          "en": "A baraita raises possible readings: liability without damage, liability for benefit without damage, items attached to ground, and agents."
+        },
+        {
+          "cat": "proof",
+          "start": "g17",
+          "end": "g72",
+          "en": "Verbal analogy from the word sin in teruma and in misuse, deriving that misuse requires damage and benefit together, on detached items and by agents."
+        },
+        {
+          "cat": "question",
+          "start": "g73",
+          "end": "g100",
+          "en": "If the analogy only covers consumption, how is benefit from an item that cannot be damaged a misuse, and how do combined acts add up?"
+        },
+        {
+          "cat": "answer",
+          "start": "g101",
+          "end": "g107",
+          "en": "The verse on misuse using the inclusive word anyone teaches liability in any case, even split consumption."
+        },
+        {
+          "cat": "statement",
+          "start": "g108",
+          "end": "g126",
+          "en": "Hypothetical analogy from teruma: the Torah does not join two separate eating acts, but the inclusive verse of misuse does."
+        },
+        {
+          "cat": "question",
+          "start": "g127",
+          "end": "g135",
+          "en": "From where is it derived that eating part of an olive-bulk today and the rest tomorrow combine for misuse?"
+        },
+        {
+          "cat": "answer",
+          "start": "g136",
+          "end": "g138",
+          "en": "Again the verse on misuse, with its inclusive language, teaches that such acts combine in any case."
+        },
+        {
+          "cat": "statement",
+          "start": "g139",
+          "end": "g146",
+          "en": "Hypothetical analogy from teruma: damage and benefit occur together, so misuse should follow the same rule."
+        },
+        {
+          "cat": "question",
+          "start": "g147",
+          "end": "g156",
+          "en": "From where is it derived that consumption by one person and another combine, even across three years?"
+        },
+        {
+          "cat": "answer",
+          "start": "g157",
+          "end": "g161",
+          "en": "The inclusive verse of misuse, meaning in any case, teaches that they combine."
+        },
+        {
+          "cat": "statement",
+          "start": "g162",
+          "end": "g166",
+          "en": "The baraita continues with a further analogy from teruma, which is cut off at this point."
+        }
+      ]
+    },
+    "19a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "6ae331a8",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g34",
+          "en": "A baraita on when liability begins for moving Temple funds to other sacred uses: Rabbi Shimon says at once, Rabbi Yehuda says only after the blood is sprinkled."
+        },
+        {
+          "cat": "proof",
+          "start": "g35",
+          "end": "g43",
+          "en": "The verse on misuse with its inclusive wording teaches liability in any case, as the baraita's source."
+        },
+        {
+          "cat": "question",
+          "start": "g44",
+          "end": "g58",
+          "en": "What else could one think, since the verse says anyone and the king and High Priest are plainly included?"
+        },
+        {
+          "cat": "answer",
+          "start": "g59",
+          "end": "g78",
+          "en": "The inclusion is needed lest the anointing oil verse exclude the king and High Priest as strangers to the oil."
+        },
+        {
+          "cat": "statement",
+          "start": "g79",
+          "end": "g136",
+          "en": "The Gemara summarizes the analogies: misuse is like the sota, like idol worship, and like teruma, each fixing a principle."
+        },
+        {
+          "cat": "attack",
+          "start": "g137",
+          "end": "g157",
+          "en": "Rav Kahana objects to Rav Zevid that gold can be damaged, as shown by the gold of Nun's daughter-in-law."
+        },
+        {
+          "cat": "defense",
+          "start": "g158",
+          "end": "g176",
+          "en": "Rav Zevid replies that the gold was thrown away carelessly, and gold itself does not suffer immediate damage."
+        },
+        {
+          "cat": "question",
+          "start": "g177",
+          "end": "g188",
+          "en": "If the sin offering rule applies to an unblemished animal, why is it subject to misuse only upon damage, as with a gold cup?"
+        },
+        {
+          "cat": "answer",
+          "start": "g189",
+          "end": "g193",
+          "en": "Rav Pappa: the case is a blemished animal, which the treasury sells, so removing wool lowers its price and causes damage."
+        }
+      ]
+    },
+    "19b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "6b27959e",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "m0",
+          "end": "m85",
+          "en": "Mishna: repeated misuse counts only for an animal and service vessels, while Rabbi Yehuda HaNasi says any non-redeemable consecrated item counts."
+        },
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g4",
+          "en": "Whose opinion is the mishna? The Gemara identifies it as Rabbi Nehemiah's."
+        },
+        {
+          "cat": "proof",
+          "start": "g5",
+          "end": "g18",
+          "en": "A baraita: repeated misuse applies only to an animal according to the first Tanna, and to service vessels according to Rabbi Nehemiah."
+        },
+        {
+          "cat": "answer",
+          "start": "g19",
+          "end": "g30",
+          "en": "The first Tanna reads the verse on the ram of the guilt offering as concerning animals only."
+        },
+        {
+          "cat": "proof",
+          "start": "g31",
+          "end": "g43",
+          "en": "Rabbi Nehemiah's a fortiori argument: if vessels sanctify other items, they themselves should be subject to repeated misuse."
+        },
+        {
+          "cat": "attack",
+          "start": "g44",
+          "end": "g54",
+          "en": "Objection: Rabbi Yehuda HaNasi's rule seems identical to the first Tanna's, so why is it presented as dissent?"
+        },
+        {
+          "cat": "defense",
+          "start": "g55",
+          "end": "g58",
+          "en": "Rava replies there is a difference regarding donated wood, which Rabbi Yehuda HaNasi treats as an offering."
+        },
+        {
+          "cat": "statement",
+          "start": "g59",
+          "end": "g77",
+          "en": "A baraita on a vow to bring wood: Rabbi Yehuda HaNasi holds wood is an offering requiring salt and waving."
+        },
+        {
+          "cat": "answer",
+          "start": "g78",
+          "end": "g92",
+          "en": "Rava and Rav Pappa draw implications of that view: donated wood needs more wood and a handful removed first."
+        },
+        {
+          "cat": "statement",
+          "start": "g93",
+          "end": "g105",
+          "en": "Rav Pappa notes a further difference for blemished consecrated animals that were slaughtered before redemption."
+        },
+        {
+          "cat": "proof",
+          "start": "g106",
+          "end": "g119",
+          "en": "A baraita: Rabbi Yehuda HaNasi says such animals must be buried, while the Sages say they are redeemed."
+        },
+        {
+          "cat": "statement",
+          "start": "g120",
+          "end": "g130",
+          "en": "Mishna: one who takes a consecrated stone or beam for his use is not liable for misuse."
+        }
+      ]
+    },
+    "20a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "4ed4d1ef",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g65",
+          "en": "Mishna: giving a consecrated item to another makes the giver liable, and consumption and benefit by different people combine to a peruta."
+        },
+        {
+          "cat": "question",
+          "start": "g66",
+          "end": "g69",
+          "en": "What is the difference between the one who keeps the item and the one who gives it, that only the giver is liable?"
+        },
+        {
+          "cat": "answer",
+          "start": "g70",
+          "end": "g75",
+          "en": "Shmuel: the case is a Temple treasurer who holds all consecrated property in his charge, so keeping it is not misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g76",
+          "end": "g81",
+          "en": "Mishna: one who builds a consecrated beam into his house is not liable until he lives beneath it and derives a peruta of benefit."
+        },
+        {
+          "cat": "question",
+          "start": "g82",
+          "end": "g89",
+          "en": "Why is the residence condition needed, since building the item into the house already involves misuse?"
+        },
+        {
+          "cat": "answer",
+          "start": "g90",
+          "end": "g101",
+          "en": "Rav: the case is placing the beam on a window, where mere placement is not a change, so misuse starts only with residence."
+        },
+        {
+          "cat": "proof",
+          "start": "g102",
+          "end": "g110",
+          "en": "The Gemara proposes a baraita's rule on prostrating before a house as support for Rav's view."
+        },
+        {
+          "cat": "attack",
+          "start": "g111",
+          "end": "g121",
+          "en": "Rav Aha son of Rav Ika rejects the support: the beam is liable on another principle, the visible benefit prohibition."
+        },
+        {
+          "cat": "proof",
+          "start": "g122",
+          "end": "g132",
+          "en": "Another baraita on residing in a consecrated house is proposed as support for Rav's view."
+        },
+        {
+          "cat": "defense",
+          "start": "g133",
+          "end": "g143",
+          "en": "Reish Lakish replies the baraita concerns a house built from items consecrated while detached, so Rav's view is not needed."
+        },
+        {
+          "cat": "attack",
+          "start": "g144",
+          "end": "g166",
+          "en": "Objection: why does the baraita teach a cave rather than a stone house built and then consecrated, which would be the clearer case?"
+        },
+        {
+          "cat": "answer",
+          "start": "g167",
+          "end": "g174",
+          "en": "The tanna chose the cave because it is conclusive, while a consecrated house is not always exempt."
+        },
+        {
+          "cat": "statement",
+          "start": "g175",
+          "end": "g179",
+          "en": "Chapter-closing formula, naming the next chapter on the agent who performs his agency."
+        },
+        {
+          "cat": "statement",
+          "start": "g180",
+          "end": "g221",
+          "en": "Mishna: if an agent performs his agency properly the homeowner is liable; if not, the agent is liable, with examples on meat and liver."
+        }
+      ]
+    },
+    "20b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "23b182a5",
+      "ranges": [
+        {
+          "cat": "question",
+          "start": "g0",
+          "end": "g9",
+          "en": "Which tanna holds that any matter an agent would consult about counts as two separate items for misuse?"
+        },
+        {
+          "cat": "attack",
+          "start": "g10",
+          "end": "g21",
+          "en": "Rav Hisda rejects that answer: the mishna cannot follow Rabbi Akiva's view on vows about gourds versus vegetables."
+        },
+        {
+          "cat": "defense",
+          "start": "g22",
+          "end": "g40",
+          "en": "Abaye replies that even Rabbi Akiva would require consultation, so the agent who acted alone did not perform his agency."
+        },
+        {
+          "cat": "question",
+          "start": "g41",
+          "end": "g47",
+          "en": "Who is the tanna who disagrees with Rabbi Akiva in the Nedarim mishna?"
+        },
+        {
+          "cat": "proof",
+          "start": "g48",
+          "end": "g89",
+          "en": "A baraita on vows about meat: Rabban Shimon ben Gamliel permits head, feet, innards and birds, and treats innards as not meat."
+        },
+        {
+          "cat": "question",
+          "start": "g90",
+          "end": "g117",
+          "en": "Why does the first tanna count bird meat as meat, while fish is distinct, if an agent would also say he could not find animal meat?"
+        },
+        {
+          "cat": "answer",
+          "start": "g118",
+          "end": "g127",
+          "en": "Rav Pappa: the case is a day of bloodletting, when people avoid fish, so the agent would not consult about buying fish."
+        },
+        {
+          "cat": "question",
+          "start": "g128",
+          "end": "g142",
+          "en": "If so, bird meat would also be avoided after bloodletting, as Shmuel's statement suggests."
+        },
+        {
+          "cat": "proof",
+          "start": "g143",
+          "end": "g156",
+          "en": "A baraita: one does not let blood before eating fish, birds or salted meat, supporting the concern about bloodletting."
+        },
+        {
+          "cat": "answer",
+          "start": "g157",
+          "end": "g168",
+          "en": "Rav Pappa's second explanation: the case is a day when the eyes hurt, when people avoid fish, so no consultation occurs."
+        },
+        {
+          "cat": "proof",
+          "start": "g169",
+          "end": "g181",
+          "en": "The mishna's ruling is taken to show that an agent who adds to his agency remains an agent, making the owner liable too."
+        },
+        {
+          "cat": "attack",
+          "start": "g182",
+          "end": "g191",
+          "en": "Rav Sheshet objects that the inference is not necessary, since the agent may have said he acted partly on his own intent."
+        }
+      ]
+    },
+    "21a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9a1212c0",
+      "ranges": [
+        {
+          "cat": "answer",
+          "start": "g0",
+          "end": "g8",
+          "en": "Rav Sheshet explains the mishna's teaching: without it one might think the agent uproots the owner's agency by adding to instructions."
+        },
+        {
+          "cat": "statement",
+          "start": "g9",
+          "end": "g101",
+          "en": "Mishna: agents who fetch from the wrong place, minors or the mentally impaired sent to buy, and the owner's remedy of desacralizing the money."
+        },
+        {
+          "cat": "question",
+          "start": "g102",
+          "end": "g103",
+          "en": "What is the mishna teaching us by saying that unspoken matters in the heart are not significant?"
+        },
+        {
+          "cat": "answer",
+          "start": "g104",
+          "end": "g107",
+          "en": "Unspoken desires in the heart are not matters, so the owner is liable, not the agent."
+        },
+        {
+          "cat": "attack",
+          "start": "g108",
+          "end": "g120",
+          "en": "Objection: deaf-mutes, imbeciles and minors cannot be agents at all, so how can the owner be liable for their performance?"
+        },
+        {
+          "cat": "answer",
+          "start": "g121",
+          "end": "g126",
+          "en": "Rabbi Elazar: the Sages treat these people like a vat of olives, whose moisture is wanted by the owner, so their acts count as intended."
+        },
+        {
+          "cat": "proof",
+          "start": "g127",
+          "end": "g137",
+          "en": "A mishna on Teharot: olives become susceptible to impurity from the moisture that leaks into the vat, not the basket, as the owner intends it."
+        },
+        {
+          "cat": "proof",
+          "start": "g138",
+          "end": "g164",
+          "en": "Rabbi Yohanan cites a baraita on an eiruv placed on a monkey or elephant, showing agency performed by unfit agents is valid."
+        },
+        {
+          "cat": "statement",
+          "start": "g165",
+          "end": "g172",
+          "en": "Case: money sent with a competent person, where the agent did not remember that it was consecrated."
+        },
+        {
+          "cat": "attack",
+          "start": "g173",
+          "end": "g184",
+          "en": "A baraita contradicts: if the owner remembered and the agent did not, the agent is liable, and if both remembered, the storekeeper is."
+        },
+        {
+          "cat": "defense",
+          "start": "g185",
+          "end": "g191",
+          "en": "Rav Sheshet resolves the contradiction: the mishna concerns the case where both the agent and the owner remembered."
+        },
+        {
+          "cat": "statement",
+          "start": "g192",
+          "end": "g300",
+          "en": "Mishna on lamps and wicks, etrogim, and a gold dinar for a robe, with Rabbi Yehuda's dissent on liability."
+        }
+      ]
+    },
+    "21b": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "42020736",
+      "ranges": [
+        {
+          "cat": "statement",
+          "start": "g0",
+          "end": "g8",
+          "en": "Mishna's case: an agent bought a robe and a cloak for three sela each, and both are liable for misuse."
+        },
+        {
+          "cat": "statement",
+          "start": "g9",
+          "end": "g25",
+          "en": "Rabbi Yehuda rules the homeowner is not liable, since the agent brought a smaller, inferior robe than requested."
+        },
+        {
+          "cat": "proof",
+          "start": "g26",
+          "end": "g41",
+          "en": "The Gemara infers from the mishna the resolution that a partial performance of agency still transfers the part acquired."
+        },
+        {
+          "cat": "attack",
+          "start": "g42",
+          "end": "g43",
+          "en": "Some say this inference cannot be drawn from the mishna, because its case is dissimilar."
+        },
+        {
+          "cat": "question",
+          "start": "g44",
+          "end": "g45",
+          "en": "What exactly are the circumstances of the mishna being discussed?"
+        },
+        {
+          "cat": "answer",
+          "start": "g46",
+          "end": "g51",
+          "en": "The mishna's case is an agent who brought a robe worth six sela for three, so the homeowner received what he wanted."
+        },
+        {
+          "cat": "attack",
+          "start": "g52",
+          "end": "g72",
+          "en": "If so, the latter clause of Rabbi Yehuda would not make sense, since the homeowner did not receive exactly what he asked for."
+        },
+        {
+          "cat": "answer",
+          "start": "g73",
+          "end": "g82",
+          "en": "Rabbi Yehuda means the homeowner could have said that with the full dinar a finer robe worth two dinars could have been bought."
+        },
+        {
+          "cat": "proof",
+          "start": "g83",
+          "end": "g96",
+          "en": "The latter clause supports this reading, since it teaches that Rabbi Yehuda concedes the legume case where both are liable."
+        },
+        {
+          "cat": "question",
+          "start": "g97",
+          "end": "g109",
+          "en": "How can this be: if the place sells legumes at market rate and a seller discounts more for a larger payment, why is the legume case different?"
+        },
+        {
+          "cat": "answer",
+          "start": "g110",
+          "end": "g122",
+          "en": "Rav Pappa says it is a place where goods are sold by bundles, and the case of a single coin is different there."
+        },
+        {
+          "cat": "statement",
+          "start": "g123",
+          "end": "g136",
+          "en": "Mishna: one who deposits money with a money-changer may not use bundled coins; if he uses them, he is liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g137",
+          "end": "g145",
+          "en": "If the coins are unbundled, the depositor may use them, so if he spends them he is not liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g146",
+          "end": "g158",
+          "en": "A householder's agent may not use the money either way; so if he spends it, he is liable."
+        },
+        {
+          "cat": "statement",
+          "start": "g159",
+          "end": "g162",
+          "en": "The shopkeeper is treated like a householder according to Rabbi Meir."
+        },
+        {
+          "cat": "statement",
+          "start": "g163",
+          "end": "g183",
+          "en": "Rabbi Yehuda says a changer is like a shopkeeper: if a hekdesh coin fell into his pocket, he is liable once he removes the first coin."
+        },
+        {
+          "cat": "statement",
+          "start": "g184",
+          "end": "g195",
+          "en": "Rabbi Akiva's view, and the Sages say he is liable only after removing the whole pocket, which Rabbi Akiva concedes."
+        },
+        {
+          "cat": "statement",
+          "start": "g196",
+          "end": "g210",
+          "en": "Rabbi Akiva concedes that when he says one coin in this pocket is hekdesh, he is liable only after removing the whole pocket."
+        },
+        {
+          "cat": "question",
+          "start": "g211",
+          "end": "g223",
+          "en": "When Rav Dimi came, he said Resh Lakish asked Rabbi Yochanan what the difference is between the first clause and the latter clause."
+        },
+        {
+          "cat": "answer",
+          "start": "g224",
+          "end": "g233",
+          "en": "Rabbi Yochanan replied that the latter clause concerns one who says this pocket is not exempt from hekdesh."
+        },
+        {
+          "cat": "statement",
+          "start": "g234",
+          "end": "g241",
+          "en": "When Ravin came, he said that pockets of equal value are placed together, and he threw the coins at him."
+        },
+        {
+          "cat": "proof",
+          "start": "g242",
+          "end": "g252",
+          "en": "As we learned in a mishna: one who says one of two pockets is hekdesh, and the larger of them is hekdesh."
+        },
+        {
+          "cat": "answer",
+          "start": "g253",
+          "end": "g261",
+          "en": "Rav said to him that the latter clause concerns one who says this pocket is not exempt from hekdesh."
+        }
+      ]
+    },
+    "22a": {
+      "version": 1,
+      "status": "draft",
+      "source": "Machine-assisted draft of the Vilna text; awaiting editorial review",
+      "textHash": "9c7a185b",
+      "ranges": [
+        {
+          "cat": "attack",
+          "start": "g0",
+          "end": "g6",
+          "en": "Rav Pappa raises another contradiction, between the purse ruling here and a mishna about log measures."
+        },
+        {
+          "cat": "proof",
+          "start": "g7",
+          "end": "g11",
+          "en": "The Gemara cites the mishna about one who buys wine from Samaritans, the case that is the basis of the contradiction."
+        },
+        {
+          "cat": "statement",
+          "start": "g12",
+          "end": "g29",
+          "en": "The mishna's procedure: he declares two log to be future teruma and sets aside tithes, then drinks immediately, per Rabbi Meir."
+        },
+        {
+          "cat": "statement",
+          "start": "g30",
+          "end": "g37",
+          "en": "Rabbi Yehuda, Rabbi Yosei and Rabbi Shimon forbid this method, rejecting retroactive designation of the unknown portions."
+        },
+        {
+          "cat": "answer",
+          "start": "g38",
+          "end": "g47",
+          "en": "Rabbi Yochanan replies that the latter clause concerns one who says this purse is not exempt from consecration, meaning the last peruta."
+        },
+        {
+          "cat": "statement",
+          "start": "g48",
+          "end": "g56",
+          "en": "Closing formula marking the end of the chapter and of the tractate Me'ilah."
+        }
+      ]
+    }
+  }
+}
